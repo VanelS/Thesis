@@ -1,0 +1,549 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Aach and Church}{2001}]{Aach2001}
+J.~Aach and G.~M. Church.
+\newblock {Aligning gene expression time series with time warping algorithms}.
+\newblock {\em Bioinformatics}, 17(6):495--508, June 2001.
+
+\bibitem[\protect\citeauthoryear{Abonyi \bgroup \em et al.\egroup
+  }{2003}]{Abonyi2003}
+Janos Abonyi, Balazs Feil, Sandor Nemeth, and Peter Arva.
+\newblock {Fuzzy clustering based segmentation of time-series}.
+\newblock {\em Advances in Intelligent Data Analysis V}, pages 275--285, 2003.
+
+\bibitem[\protect\citeauthoryear{Aggarwal}{}]{aggarwal2008unifying}
+Charu~C Aggarwal.
+\newblock On unifying privacy and uncertain data models.
+\newblock In {\em Data Engineering, 2008. ICDE 2008. IEEE 24th International
+  Conference on}, pages 386--395. IEEE.
+
+\bibitem[\protect\citeauthoryear{Agrawal \bgroup \em et al.\egroup
+  }{1993}]{Agrawal1993}
+Rakesh Agrawal, Christos Faloutsos, and Arun~N. Swami.
+\newblock {Efficient Similarity Search In Sequence Databases}.
+\newblock In {\em FODO '93 Proceedings of the 4th International Conference on
+  Foundations of Data Organization and Algorithms}, pages 69--84.
+  Springer-Verlag, oct 1993.
+
+\bibitem[\protect\citeauthoryear{A{\ss}falg \bgroup \em et al.\egroup
+  }{}]{assfalg2009probabilistic}
+Johannes A{\ss}falg, Hans-Peter Kriegel, Peer Kr{\"o}ger, and Matthias Renz.
+\newblock Probabilistic similarity search for uncertain time series.
+\newblock In {\em SSDBM}, pages 435--443. Springer.
+
+\bibitem[\protect\citeauthoryear{Bagnall \bgroup \em et al.\egroup
+  }{a}]{Bagnall}
+Anthony Bagnall, Eamonn Keogh, Jason Lines, Aaron Bostrom, and James Large.
+\newblock {Time Series Classification Website}.
+\newblock \url{http://timeseriesclassification.com}.
+
+\bibitem[\protect\citeauthoryear{Bagnall \bgroup \em et al.\egroup
+  }{b}]{bagnall2016great}
+Anthony Bagnall, Jason Lines, Aaron Bostrom, James Large, and Eamonn Keogh.
+\newblock The great time series classification bake off: a review and
+  experimental evaluation of recent algorithmic advances.
+\newblock pages 1--55.
+
+\bibitem[\protect\citeauthoryear{Batista \bgroup \em et al.\egroup
+  }{}]{batista2014cid}
+Gustavo~EAPA Batista, Eamonn~J Keogh, Oben~Moses Tataw, and Vinicius~MA
+  De~Souza.
+\newblock Cid: an efficient complexity-invariant distance for time series.
+\newblock 28(3):634--669.
+
+\bibitem[\protect\citeauthoryear{Begum and Keogh}{2014}]{Begum2014}
+Nurjahan Begum and Eamonn Keogh.
+\newblock {Rare time series motif discovery from unbounded streams}.
+\newblock {\em Proceedings of the VLDB Endowment}, 8(2):149--160, October 2014.
+
+\bibitem[\protect\citeauthoryear{Bhatia and Bhattacharyya}{}]{Bhatia1993}
+Rajendra Bhatia and Tirthankar Bhattacharyya.
+\newblock {A generalization of the Hoffman-Wielandt theorem}.
+\newblock 179:11--17.
+
+\bibitem[\protect\citeauthoryear{Camerra \bgroup \em et al.\egroup
+  }{}]{camerra2010isax}
+Alessandro Camerra, Themis Palpanas, Jin Shieh, and Eamonn Keogh.
+\newblock isax 2.0: Indexing and mining one billion time series.
+\newblock In {\em Data Mining (ICDM), 2010 IEEE 10th International Conference
+  on}, pages 58--67. IEEE.
+
+\bibitem[\protect\citeauthoryear{Candan \bgroup \em et al.\egroup
+  }{}]{candan2012sdtw}
+K~Sel{\c{c}}uk Candan, Rosaria Rossini, Xiaolan Wang, and Maria~Luisa Sapino.
+\newblock sdtw: computing dtw distances using locally relevant constraints
+  based on salient feature alignments.
+\newblock 5(11):1519--1530.
+
+\bibitem[\protect\citeauthoryear{Chan and Fu}{1999}]{Chan1999}
+Kin-Pong Chan and Ada Wai-Chee Fu.
+\newblock {Efficient time series matching by wavelets}.
+\newblock In {\em Proceedings 15th International Conference on Data Engineering
+  (Cat. No.99CB36337)}, pages 126--133. IEEE, 1999.
+
+\bibitem[\protect\citeauthoryear{Chen \bgroup \em et al.\egroup
+  }{2015}]{UCRArchive}
+Yanping Chen, Eamonn Keogh, Bing Hu, Nurjahan Begum, Anthony Bagnall, Abdullah
+  Mueen, and Gustavo Batista.
+\newblock The ucr time series classification archive.
+\newblock \url{http://www.cs.ucr.edu/~eamonn/time_series_data/}, July 2015.
+\newblock \url{www.cs.ucr.edu/~eamonn/time\_series\_data/}.
+
+\bibitem[\protect\citeauthoryear{Cheng \bgroup \em et al.\egroup
+  }{}]{cheng2003evaluating}
+Reynold Cheng, Dmitri~V Kalashnikov, and Sunil Prabhakar.
+\newblock Evaluating probabilistic queries over imprecise data.
+\newblock In {\em Proceedings of the 2003 ACM SIGMOD international conference
+  on Management of data}, pages 551--562. ACM.
+
+\bibitem[\protect\citeauthoryear{Chiu \bgroup \em et al.\egroup
+  }{}]{chiu2003probabilistic}
+Bill Chiu, Eamonn Keogh, and Stefano Lonardi.
+\newblock Probabilistic discovery of time series motifs.
+\newblock In {\em ninth ACM SIGKDD international conference on Knowledge
+  discovery and data mining}, pages 493--498. ACM.
+
+\bibitem[\protect\citeauthoryear{Chu \bgroup \em et al.\egroup
+  }{}]{chu2002iterative}
+Selina Chu, Eamonn~J Keogh, David~M Hart, Michael~J Pazzani, et~al.
+\newblock Iterative deepening dynamic time warping for time series.
+\newblock In {\em SDM}, pages 195--212. SIAM.
+
+\bibitem[\protect\citeauthoryear{Cu{\v{r}}{\'\i}n \bgroup \em et al.\egroup
+  }{}]{cuvrin2007meeting}
+Jan Cu{\v{r}}{\'\i}n, Pascal Fleury, Jan Kleindienst, and Robert Kessl.
+\newblock Meeting state recognition from visual and aural labels.
+\newblock In {\em International Workshop on Machine Learning for Multimodal
+  Interaction}, pages 24--25. Springer.
+
+\bibitem[\protect\citeauthoryear{Dallachiesa \bgroup \em et al.\egroup
+  }{}]{dallachiesa}
+Michele Dallachiesa, Besmira Nushi, Katsiaryna Mirylenka, and Themis Palpanas.
+\newblock Uncertain time-series similarity: return to the basics.
+\newblock 5(11):1662--1673.
+
+\bibitem[\protect\citeauthoryear{Dean and Ghemawat}{2010}]{Dean2010}
+Jeffrey Dean and Sanjay Ghemawat.
+\newblock {MapReduce}.
+\newblock {\em Communications of the ACM}, 53(1):72, jan 2010.
+
+\bibitem[\protect\citeauthoryear{Dietterich}{2002}]{Dietterich2002}
+Thomas~G. Dietterich.
+\newblock {Machine Learning for Sequential Data: A Review}.
+\newblock {\em Proceedings of the Joint IAPR International Workshop on
+  Structural, Syntactic, and Statistical Pattern Recognition}, pages 16--30,
+  August 2002.
+
+\bibitem[\protect\citeauthoryear{Ding \bgroup \em et al.\egroup
+  }{2008}]{Ding2008}
+Hui Ding, Goce Trajcevski, Peter Scheuermann, Xiaoyue Wang, and Eamonn Keogh.
+\newblock {Querying and mining of time series data}.
+\newblock {\em Proceedings of the VLDB Endowment}, 1(2):1542--1552, August
+  2008.
+
+\bibitem[\protect\citeauthoryear{Esling and Agon}{2012}]{Esling2012}
+Philippe Esling and Carlos Agon.
+\newblock {Time-series data mining}.
+\newblock {\em ACM Computing Surveys (CSUR)}, 45(1):1--34, 2012.
+
+\bibitem[\protect\citeauthoryear{Feo and Resende}{1995}]{feo1995greedy}
+Thomas~A Feo and Mauricio~GC Resende.
+\newblock Greedy randomized adaptive search procedures.
+\newblock {\em Journal of global optimization}, 6(2):109--133, 1995.
+
+\bibitem[\protect\citeauthoryear{Gao \bgroup \em et al.\egroup
+  }{}]{gao2016iterative}
+Yifeng Gao, Jessica Lin, and Huzefa Rangwala.
+\newblock Iterative grammar-based framework for discovering variable-length
+  time series motifs.
+\newblock In {\em Machine Learning and Applications (ICMLA), 2016 15th IEEE
+  International Conference on}, pages 7--12. IEEE.
+
+\bibitem[\protect\citeauthoryear{Ghalwash \bgroup \em et al.\egroup
+  }{}]{ghalwash2014utilizing}
+Mohamed~F Ghalwash, Vladan Radosavljevic, and Zoran Obradovic.
+\newblock Utilizing temporal patterns for estimating uncertainty in
+  interpretable early decision making.
+\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 402--411. ACM.
+
+\bibitem[\protect\citeauthoryear{Godsill}{}]{godsill2001relationship}
+Simon~J Godsill.
+\newblock On the relationship between {Markov} chain {Monte Carlo} methods for
+  model uncertainty.
+\newblock 10(2):230--248.
+
+\bibitem[\protect\citeauthoryear{Hamilton}{}]{Hamilton1989}
+Jd~Hamilton.
+\newblock A new approach to the economic analysis of nonstationary time series
+  and the business cycle.
+\newblock 57(2):357--384.
+
+\bibitem[\protect\citeauthoryear{Huang and Kinsner}{}]{HuangKinsner2002}
+B~Huang and W~Kinsner.
+\newblock {ECG} frame classification using dynamic time warping.
+\newblock 2:1105--1110.
+
+\bibitem[\protect\citeauthoryear{Hwang \bgroup \em et al.\egroup
+  }{}]{Hwang2014}
+Jun Hwang, Yusuke Kozawa, Toshiyuki Amagasa, and Hiroyuki Kitagawa.
+\newblock {GPU Acceleration of Similarity Search for Uncertain Time Series}.
+\newblock In {\em 2014 17th International Conference on Network-Based
+  Information Systems}, pages 627--632. IEEE.
+
+\bibitem[\protect\citeauthoryear{Ibarra and Kim}{}]{ibarra1975fast}
+Oscar~H Ibarra and Chul~E Kim.
+\newblock Fast approximation algorithms for the knapsack and sum of subset
+  problems.
+\newblock 22(4):463--468.
+
+\bibitem[\protect\citeauthoryear{Ibragimov and
+  Has'~minskii}{}]{ibragimov2013statistical}
+Ilʹdar~Abdulovi{\v{c}} Ibragimov and Rafail~Z Has'~minskii.
+\newblock {\em Statistical estimation: asymptotic theory}, volume~16.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\citeauthoryear{Itakura}{}]{itakura1975minimum}
+Fumitada Itakura.
+\newblock Minimum prediction residual principle applied to speech recognition.
+\newblock 23(1):67--72.
+
+\bibitem[\protect\citeauthoryear{Jeong \bgroup \em et al.\egroup
+  }{}]{jeong2011weighted}
+Young-Seon Jeong, Myong~K Jeong, and Olufemi~A Omitaomu.
+\newblock Weighted dynamic time warping for time series classification.
+\newblock 44(9):2231--2240.
+
+\bibitem[\protect\citeauthoryear{Kate}{}]{Kate2016}
+Rohit~J. Kate.
+\newblock Using dynamic time warping distances as features for improved time
+  series classification.
+\newblock 30(2):283--312.
+
+\bibitem[\protect\citeauthoryear{Keogh and Kasetty}{2003}]{KeoghBenchmarks}
+Eamonn Keogh and Shruti Kasetty.
+\newblock {On the Need for Time Series Data Mining Benchmarks: A Survey and
+  Empirical Demonstration}.
+\newblock {\em Data Mining and Knowledge Discovery}, 7(4):349--371, 2003.
+
+\bibitem[\protect\citeauthoryear{Keogh and Pazzani}{a}]{KeoghPazzani2001}
+E~J Keogh and M~J Pazzani.
+\newblock Derivative dynamic time warping.
+\newblock pages 1--11.
+
+\bibitem[\protect\citeauthoryear{Keogh and Pazzani}{b}]{keogh2000scaling}
+Eamonn~J Keogh and Michael~J Pazzani.
+\newblock Scaling up dynamic time warping for datamining applications.
+\newblock In {\em sixth ACM SIGKDD}, pages 285--289. ACM.
+
+\bibitem[\protect\citeauthoryear{Keogh and Ratanamahatana}{}]{Keogh2004}
+Eamonn Keogh and Chotirat~Ann Ratanamahatana.
+\newblock {Exact indexing of dynamic time warping}.
+\newblock 7(3):358--386.
+
+\bibitem[\protect\citeauthoryear{Keogh and Ratanamahatana}{2004}]{Keogh2004a}
+E~Keogh and A~Ratanamahatana.
+\newblock {Everything you know about dynamic time warping is wrong}.
+\newblock In {\em 3rd Workshop on Mining Temporal and Sequential Data, in
+  conjunction with 10th ACM SIGKDD Int. Conf. Knowledge Discovery and Data
+  Mining (KDD-2004), Seattle, WA}, 2004.
+
+\bibitem[\protect\citeauthoryear{Keogh \bgroup \em et al.\egroup
+  }{}]{keogh2001locally}
+Eamonn Keogh, Kaushik Chakrabarti, Michael Pazzani, and Sharad Mehrotra.
+\newblock Locally adaptive dimensionality reduction for indexing large time
+  series databases.
+\newblock 30(2):151--162.
+
+\bibitem[\protect\citeauthoryear{Keogh \bgroup \em et al.\egroup
+  }{2001}]{Keogh2001a}
+Eamonn Keogh, Kaushik Chakrabarti, Michael Pazzani, and Sharad Mehrotra.
+\newblock {Dimensionality Reduction for Fast Similarity Search in Large Time
+  Series Databases}.
+\newblock {\em Knowledge and Information Systems}, 3(January):263--286, 2001.
+
+\bibitem[\protect\citeauthoryear{Kuczera and Parent}{}]{kuczera1998monte}
+George Kuczera and Eric Parent.
+\newblock {Monte Carlo} assessment of parameter uncertainty in conceptual
+  catchment models: the metropolis algorithm.
+\newblock 211(1):69--85.
+
+\bibitem[\protect\citeauthoryear{Lin \bgroup \em et al.\egroup
+  }{2003}]{lin2003symbolic}
+Jessica Lin, Eamonn Keogh, Stefano Lonardi, and Bill Chiu.
+\newblock A symbolic representation of time series, with implications for
+  streaming algorithms.
+\newblock In {\em 8th ACM SIGMOD workshop on Research issues in data mining and
+  knowledge discovery}, pages 2--11, New York, New York, USA, 2003. ACM, ACM
+  Press.
+
+\bibitem[\protect\citeauthoryear{Lin \bgroup \em et al.\egroup
+  }{2007}]{Lin2007}
+Jessica Lin, Eamonn Keogh, Li~Wei, and Stefano Lonardi.
+\newblock {Experiencing SAX: a novel symbolic representation of time series}.
+\newblock {\em Data Mining and Knowledge Discovery}, 15(2):107--144, apr 2007.
+
+\bibitem[\protect\citeauthoryear{Lkhagva and Kawagoe}{2006}]{Lkhagva2006}
+B.~Lkhagva and K.~Kawagoe.
+\newblock {New Time Series Data Representation ESAX for Financial
+  Applications}.
+\newblock In {\em 22nd International Conference on Data Engineering Workshops
+  (ICDEW'06)}, pages x115--x115. IEEE, April 2006.
+
+\bibitem[\protect\citeauthoryear{Lkhagva \bgroup \em et al.\egroup
+  }{}]{lkhagva2006extended}
+Battuguldur Lkhagva, Yu~Suzuki, and Kyoji Kawagoe.
+\newblock Extended sax: Extension of symbolic aggregate approximation for
+  financial time series data representation.
+\newblock 7.
+
+\bibitem[\protect\citeauthoryear{Longin \bgroup \em et al.\egroup
+  }{}]{longin2005elastic}
+JL~Longin, M~Vasilis, W~Qiang, L~Rolf, AR~Chotirat, and EJ~Keogh.
+\newblock Elastic partial matching of time series.
+\newblock In {\em 9th European Conference On Principles And Practice Of
+  Knowledge Discovery In Databases, Porto, Portugal}.
+
+\bibitem[\protect\citeauthoryear{lss}{}]{lsst}
+{LSST time series catalog - XLDB Use Cases}.
+
+\bibitem[\protect\citeauthoryear{Malinowski \bgroup \em et al.\egroup
+  }{2013}]{Malinowski2013}
+Simon Malinowski, Thomas Guyet, Ren{\'{e}} Quiniou, and Romain Tavenard.
+\newblock {\em {1d-SAX: A Novel Symbolic Representation for Time Series}},
+  volume 8207 of {\em Lecture Notes in Computer Science}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
+
+\bibitem[\protect\citeauthoryear{Marszalek and
+  Burczynski}{}]{MarszaekBurczyski2014}
+A.~Marszalek and T.~Burczynski.
+\newblock Modeling and forecasting financial time series with ordered fuzzy
+  candlesticks.
+\newblock 273:144--155.
+
+\bibitem[\protect\citeauthoryear{Murthy and Sarangi}{}]{murthy2013generalized}
+Karin Murthy and Smruti~Ranjan Sarangi.
+\newblock Generalized notion of similarities between uncertain time series.
+\newblock US Patent 8,407,221.
+
+\bibitem[\protect\citeauthoryear{Myers \bgroup \em et al.\egroup
+  }{}]{MyersRabinerRosenberg1980}
+Cory Myers, Lawrence~R. Rabiner, and Aaron~E. Rosenberg.
+\newblock Performance tradeoffs in dynamic time warping algorithms for isolated
+  word recognition.
+\newblock 28(6):623--635.
+
+\bibitem[\protect\citeauthoryear{Orang and Shiri}{a}]{Orang2014}
+Mahsa Orang and Nematollaah Shiri.
+\newblock {An experimental evaluation of similarity measures for uncertain time
+  series}.
+\newblock In {\em Proceedings of the 18th International Database Engineering
+  {\&} Applications Symposium on - IDEAS '14}, pages 261--264. ACM Press.
+
+\bibitem[\protect\citeauthoryear{Orang and Shiri}{b}]{Orang2017}
+Mahsa Orang and Nematollaah Shiri.
+\newblock {Correlation analysis techniques for uncertain time series}.
+\newblock 50(1):79--116.
+
+\bibitem[\protect\citeauthoryear{Orang and Shiri}{c}]{Orang2015}
+Mahsa Orang and Nematollaah Shiri.
+\newblock {Improving performance of similarity measures for uncertain time
+  series using preprocessing techniques}.
+\newblock In {\em Proceedings of the 27th International Conference on
+  Scientific and Statistical Database Management - SSDBM '15}, pages 1--12. ACM
+  Press.
+
+\bibitem[\protect\citeauthoryear{Papadimitriou \bgroup \em et al.\egroup
+  }{}]{papadimitriou2007time}
+Spiros Papadimitriou, Feifei Li, George Kollios, and Philip~S Yu.
+\newblock Time series compressibility and privacy.
+\newblock In {\em Proceedings of the 33rd international conference on Very
+  large data bases}, pages 459--470. VLDB Endowment.
+
+\bibitem[\protect\citeauthoryear{Papapetrou \bgroup \em et al.\egroup
+  }{2011}]{Papapetrou2011}
+Panagiotis Papapetrou, Vassilis Athitsos, Michalis Potamias, George Kollios,
+  and Dimitrios Gunopulos.
+\newblock {Embedding-based subsequence matching in time-series databases}.
+\newblock {\em ACM Transactions on Database Systems}, 36(3):1--39, August 2011.
+
+\bibitem[\protect\citeauthoryear{Patra \bgroup \em et al.\egroup
+  }{}]{patra2015new}
+Bidyut~Kr Patra, Raimo Launonen, Ville Ollikainen, and Sukumar Nandi.
+\newblock A new similarity measure using bhattacharyya coefficient for
+  collaborative filtering in sparse data.
+\newblock 82:163--177.
+
+\bibitem[\protect\citeauthoryear{Petitjean \bgroup \em et al.\egroup
+  }{2011}]{Petitjean2011}
+Fran\c{c}ois Petitjean, Alain Ketterlin, and Pierre Gan\c{c}arski.
+\newblock {A global averaging method for dynamic time warping, with
+  applications to clustering}.
+\newblock {\em Pattern Recognition}, 44(3):678--693, March 2011.
+
+\bibitem[\protect\citeauthoryear{Petitjean \bgroup \em et al.\egroup
+  }{2014}]{Petitjean2014}
+Fran\c{c}ois~Francois Petitjean, Germain Forestier, Geoffrey~I. Webb, Ann~E.
+  Nicholson, Yanping Chen, and Eamonn Keogh.
+\newblock {Dynamic Time Warping Averaging of Time Series Allows Faster and More
+  Accurate Classification}.
+\newblock In {\em 2014 IEEE International Conference on Data Mining}, pages
+  470--479. IEEE, December 2014.
+
+\bibitem[\protect\citeauthoryear{Rakthanmanon \bgroup \em et al.\egroup
+  }{2012}]{Rakthanmanon2012}
+Thanawin Rakthanmanon, Bilson Campana, Abdullah Mueen, Gustavo Batista, Brandon
+  Westover, Qiang Zhu, Jesin Zakaria, and Eamonn Keogh.
+\newblock Searching and mining trillions of time series subsequences under
+  dynamic time warping.
+\newblock {\em Proceedings of the 18th ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}, pages 262--270, 2012.
+
+\bibitem[\protect\citeauthoryear{Rand}{}]{rand1971objective}
+William~M Rand.
+\newblock Objective criteria for the evaluation of clustering methods.
+\newblock 66(336):846--850.
+
+\bibitem[\protect\citeauthoryear{Ratanamahatana and
+  Keogh}{}]{RatanamahatanaKeogh2004}
+Chotirat~Ann Ratanamahatana and Eamonn Keogh.
+\newblock {\em Making Time-series Classification More Accurate Using Learned
+  Constraints}, pages 11--22.
+
+\bibitem[\protect\citeauthoryear{Rehfeld and Kurths}{}]{Rehfeld2014}
+K.~Rehfeld and J.~Kurths.
+\newblock {Similarity estimators for irregular and age-uncertain time series}.
+\newblock 10(1):107--122.
+
+\bibitem[\protect\citeauthoryear{Rizvandi \bgroup \em et al.\egroup
+  }{}]{Rizvandi2013}
+Nikzad~Babaii Rizvandi, Javid Taheri, Reza Moraveji, and Albert~Y. Zomaya.
+\newblock {A study on using uncertain time series matching algorithms for
+  MapReduce applications}.
+\newblock 25(12):1699--1718.
+
+\bibitem[\protect\citeauthoryear{SAC}{}]{SACR-FRM}
+{Projet SACR-FRM (Approches de la Sociologie, de la Biom{\'{e}}canique et de
+  l'Intelligence Artificielle...) | ANR - Agence Nationale de la Recherche}.
+
+\bibitem[\protect\citeauthoryear{Sakoe and Chiba}{1978}]{SakoeChiba1978}
+H~Sakoe and S~Chiba.
+\newblock Dynamic programming algorithm optimization for spoken word
+  recognition.
+\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  26(1):43--49, February 1978.
+
+\bibitem[\protect\citeauthoryear{Senin \bgroup \em et al.\egroup
+  }{}]{senin2014grammarviz}
+Pavel Senin, Jessica Lin, Xing Wang, Tim Oates, Sunil Gandhi, Arnold~P
+  Boedihardjo, Crystal Chen, Susan Frankenstein, and Manfred Lerner.
+\newblock Grammarviz 2.0: a tool for grammar-based pattern discovery in time
+  series.
+\newblock In {\em Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}, pages 468--472. Springer.
+
+\bibitem[\protect\citeauthoryear{Shannon}{2001}]{Shannon2001}
+C.~E. Shannon.
+\newblock {A mathematical theory of communication}.
+\newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review},
+  5(1):3, jan 2001.
+
+\bibitem[\protect\citeauthoryear{Siyou~Fotso \bgroup \em et al.\egroup
+  }{}]{Vanel}
+Vanel~Steve Siyou~Fotso, Engelbert Mephu~Nguifo, and Philippe Vaslin.
+\newblock Comparison of classification algorithms to fdtw.
+\newblock \url{http://fc.isima.fr/~siyou/fdtw}.
+
+\bibitem[\protect\citeauthoryear{Siyou~Fotso \bgroup \em et al.\egroup
+  }{2015}]{siyou2015}
+Vanel~Steve Siyou~Fotso, Engelbert Mephu~Nguifo, and Philippe Vaslin.
+\newblock {Symbolic representation of cyclic time series: application to
+  biomechanics}.
+\newblock In {\em ICML'15 Workshop on Constructive Machine Learning}, July
+  2015.
+
+\bibitem[\protect\citeauthoryear{Sun \bgroup \em et al.\egroup
+  }{2014}]{sun2014improvement}
+Youqiang Sun, Jiuyong Li, Jixue Liu, Bingyu Sun, and Christopher Chow.
+\newblock An improvement of symbolic aggregate approximation distance measure
+  for time series.
+\newblock {\em Neurocomputing}, 138:189--198, August 2014.
+
+\bibitem[\protect\citeauthoryear{Ulanova \bgroup \em et al.\egroup
+  }{}]{ulanova2015scalable}
+Liudmila Ulanova, Nurjahan Begum, and Eamonn Keogh.
+\newblock Scalable clustering of time series with u-shapelets.
+\newblock In {\em Proceedings of the 2015 SIAM International Conference on Data
+  Mining}, pages 900--908. SIAM.
+
+\bibitem[\protect\citeauthoryear{Vegter \bgroup \em et al.\egroup
+  }{2014}]{Vegter2014}
+Riemer J~K Vegter, Claudine~J Lamoth, Sonja de~Groot, Dirkjan H E~J Veeger, and
+  Lucas H~V van~der Woude.
+\newblock {Inter-individual differences in the initial 80~{m}inutes of motor
+  learning of handrim wheelchair propulsion.}
+\newblock {\em PloS one}, 9(2):e89729, January 2014.
+
+\bibitem[\protect\citeauthoryear{Wang \bgroup \em et al.\egroup }{a}]{Wang2015}
+Wei Wang, Guohua Liu, and Dingjia Liu.
+\newblock {Chebyshev Similarity Match between Uncertain Time Series}.
+\newblock 2015:1--13.
+
+\bibitem[\protect\citeauthoryear{Wang \bgroup \em et al.\egroup
+  }{b}]{wang2013experimental}
+Xiaoyue Wang, Abdullah Mueen, Hui Ding, Goce Trajcevski, Peter Scheuermann, and
+  Eamonn Keogh.
+\newblock Experimental comparison of representation methods and distance
+  measures for time series data.
+\newblock 26(2):275--309.
+
+\bibitem[\protect\citeauthoryear{Wu \bgroup \em et al.\egroup }{1996}]{Wu1996}
+Daniel Wu, Ambuj Singh, Divyakant Agrawal, Amr {El Abbadi}, and Terence~R.
+  Smith.
+\newblock {Efficient retrieval for browsing large image databases}.
+\newblock In {\em Proceedings of the fifth international conference on
+  Information and knowledge management - CIKM '96}, pages 11--18, New York, New
+  York, USA, nov 1996. ACM Press.
+
+\bibitem[\protect\citeauthoryear{Yeh \bgroup \em et al.\egroup
+  }{}]{yeh2009proud}
+Mi-Yen Yeh, Kun-Lung Wu, Philip~S Yu, and Ming-Syan Chen.
+\newblock Proud: a probabilistic approach to processing similarity queries over
+  uncertain data streams.
+\newblock In {\em Proceedings of the 12th International Conference on Extending
+  Database Technology: Advances in Database Technology}, pages 684--695. ACM.
+
+\bibitem[\protect\citeauthoryear{Yu \bgroup \em et al.\egroup
+  }{}]{YuYuHuLiuWu2011}
+Daren Yu, Xiao Yu, Qinghua Hu, Jinfu Liu, and Anqi Wu.
+\newblock Dynamic time warping constraint learning for large margin nearest
+  neighbor classification.
+\newblock 181(13):2787--2796.
+
+\bibitem[\protect\citeauthoryear{Zakaria \bgroup \em et al.\egroup
+  }{}]{zakaria2012clustering}
+Jesin Zakaria, Abdullah Mueen, and Eamonn Keogh.
+\newblock Clustering time series using unsupervised-shapelets.
+\newblock In {\em Data Mining (ICDM), 2012 IEEE 12th International Conference
+  on}, pages 785--794. IEEE.
+
+\bibitem[\protect\citeauthoryear{Zhang \bgroup \em et al.\egroup
+  }{a}]{zhang2016survey}
+XX~Zhang, Q~Liu, DM~Liu, and W~Xie.
+\newblock A survey on anonymity for privacy preserving data mining.
+\newblock In {\em Information Science and Electronic Engineering: Proceedings
+  of the 3rd International Conference of Electronic Engineering and Information
+  Science (ICEEIS 2016), 4-5 January, 2016, Harbin, China}, pages 343--346. CRC
+  Press.
+
+\bibitem[\protect\citeauthoryear{Zhang \bgroup \em et al.\egroup
+  }{b}]{ZhangTangDuan2015}
+Zheng Zhang, Ping Tang, and Rubing Duan.
+\newblock Dynamic time warping under pointwise shape context.
+\newblock 315:88--101.
+
+\bibitem[\protect\citeauthoryear{Zhao and Itti}{}]{zhao2016shapedtw}
+Jiaping Zhao and Laurent Itti.
+\newblock shapedtw: shape dynamic time warping.
+
+\end{thebibliography}

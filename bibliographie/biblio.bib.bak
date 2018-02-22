@@ -1,0 +1,1094 @@
+% Encoding: UTF-8
+
+@InProceedings{gao2016iterative,
+  author       = {Gao, Yifeng and Lin, Jessica and Rangwala, Huzefa},
+  title        = {Iterative Grammar-Based Framework for Discovering Variable-Length Time Series Motifs},
+  booktitle    = {Machine Learning and Applications (ICMLA), 2016 15th IEEE International Conference on},
+  pages        = {7--12},
+  organization = {IEEE},
+  date         = {2016},
+}
+
+@InProceedings{chiu2003probabilistic,
+  author       = {Chiu, Bill and Keogh, Eamonn and Lonardi, Stefano},
+  title        = {Probabilistic discovery of time series motifs},
+  booktitle    = {ninth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  pages        = {493--498},
+  organization = {ACM},
+  date         = {2003},
+}
+
+@InProceedings{senin2014grammarviz,
+  author       = {Senin, Pavel and Lin, Jessica and Wang, Xing and Oates, Tim and Gandhi, Sunil and Boedihardjo, Arnold P and Chen, Crystal and Frankenstein, Susan and Lerner, Manfred},
+  title        = {GrammarViz 2.0: a tool for grammar-based pattern discovery in time series},
+  booktitle    = {Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages        = {468--472},
+  organization = {Springer},
+  date         = {2014},
+}
+
+@Article{batista2014cid,
+  author       = {Batista, Gustavo EAPA and Keogh, Eamonn J and Tataw, Oben Moses and De Souza, Vinicius MA},
+  title        = {CID: an efficient complexity-invariant distance for time series},
+  volume       = {28},
+  number       = {3},
+  pages        = {634--669},
+  date         = {2014},
+  journaltitle = {Data Mining and Knowledge Discovery},
+  publisher    = {Springer},
+}
+
+@Article{zhao2016shapedtw,
+  author       = {Zhao, Jiaping and Itti, Laurent},
+  title        = {shapeDTW: shape Dynamic Time Warping},
+  date         = {2016},
+  journaltitle = {arXiv preprint arXiv:1606.01601},
+}
+
+@Article{Hamilton1989,
+  author       = {Hamilton, Jd},
+  title        = {A new approach to the economic analysis of nonstationary time series and the business cycle},
+  volume       = {57},
+  number       = {2},
+  pages        = {357--384},
+  date         = {1989},
+  journaltitle = {Econometrica: Journal of the Econometric Society},
+}
+
+@Article{HuangKinsner2002,
+  author       = {Huang, B and Kinsner, W},
+  title        = {{ECG} frame classification using dynamic time warping},
+  volume       = {2},
+  pages        = {1105--1110},
+  date         = {2002},
+  journaltitle = {Electrical and Computer Engineering,},
+}
+
+@Article{MarszaekBurczyski2014,
+  author       = {Marszalek, A. and Burczynski, T.},
+  title        = {Modeling and forecasting financial time series with ordered fuzzy candlesticks},
+  volume       = {273},
+  pages        = {144--155},
+  date         = {2014},
+  journaltitle = {Information Sciences},
+  publisher    = {Elsevier Inc.},
+}
+
+@Article{MyersRabinerRosenberg1980,
+  author       = {Myers, Cory and Rabiner, Lawrence R. and Rosenberg, Aaron E.},
+  title        = {Performance Tradeoffs in Dynamic Time Warping Algorithms for Isolated Word Recognition},
+  volume       = {28},
+  number       = {6},
+  pages        = {623--635},
+  date         = {1980},
+  journaltitle = {IEEE Transactions on Acoustics, Speech, and Signal Processing},
+}
+
+@Article{ZhangTangDuan2015,
+  author       = {Zhang, Zheng and Tang, Ping and Duan, Rubing},
+  title        = {Dynamic time warping under pointwise shape context},
+  volume       = {315},
+  pages        = {88--101},
+  date         = {2015},
+  journaltitle = {Information Sciences},
+  publisher    = {Elsevier Inc.},
+}
+
+@Misc{Bagnall,
+  author       = {Bagnall, Anthony and Keogh, Eamonn and Lines, Jason and Bostrom, Aaron and Large, James},
+  title        = {{Time Series Classification Website}},
+  howpublished = {\url{http://timeseriesclassification.com}},
+  abstract     = {This website is an ongoing project to develop a comprehensive repository for time series classification.},
+  date         = {2016-10},
+  urldate      = {15/10/2016},
+}
+
+@Article{Rakthanmanon2012,
+  author       = {Rakthanmanon, Thanawin and Campana, Bilson and Mueen, Abdullah and Batista, Gustavo and Westover, Brandon and Zhu, Qiang and Zakaria, Jesin and Keogh, Eamonn},
+  title        = {Searching and mining trillions of time series subsequences under dynamic time warping},
+  pages        = {262--270},
+  date         = {2012},
+  journaltitle = {18th ACM SIGKDD},
+}
+
+@Article{bagnall2016great,
+  author       = {Bagnall, Anthony and Lines, Jason and Bostrom, Aaron and Large, James and Keogh, Eamonn},
+  title        = {The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances},
+  pages        = {1--55},
+  date         = {2016},
+  journaltitle = {Data Mining and Knowledge Discovery},
+  publisher    = {Springer},
+}
+
+@Article{KeoghPazzani2001,
+  author       = {Keogh, E J and Pazzani, M J},
+  title        = {Derivative Dynamic Time Warping},
+  pages        = {1--11},
+  date         = {2001},
+  journaltitle = {1st SIAM International Conference on Data Mining},
+}
+
+@InBook{RatanamahatanaKeogh2004,
+  pages     = {11--22},
+  title     = {Making Time-series Classification More Accurate Using Learned Constraints},
+  author    = {Ratanamahatana, Chotirat Ann and Keogh, Eamonn},
+  booktitle = {SIAM International Conference on Data Mining},
+  date      = {2004},
+}
+
+@Article{YuYuHuLiuWu2011,
+  author       = {Yu, Daren and Yu, Xiao and Hu, Qinghua and Liu, Jinfu and Wu, Anqi},
+  title        = {Dynamic time warping constraint learning for large margin nearest neighbor classification},
+  volume       = {181},
+  number       = {13},
+  pages        = {2787--2796},
+  date         = {2011},
+  journaltitle = {Information Sciences},
+}
+
+@Article{candan2012sdtw,
+  author       = {Candan, K Sel{\c{c}}uk and Rossini, Rosaria and Wang, Xiaolan and Sapino, Maria Luisa},
+  title        = {sDTW: computing DTW distances using locally relevant constraints based on salient feature alignments},
+  volume       = {5},
+  number       = {11},
+  pages        = {1519--1530},
+  date         = {2012},
+  journaltitle = {VLDB Endowment},
+  publisher    = {VLDB Endowment},
+}
+
+@Article{jeong2011weighted,
+  author       = {Jeong, Young-Seon and Jeong, Myong K and Omitaomu, Olufemi A},
+  title        = {Weighted dynamic time warping for time series classification},
+  volume       = {44},
+  number       = {9},
+  pages        = {2231--2240},
+  date         = {2011},
+  journaltitle = {Pattern Recognition},
+  publisher    = {Elsevier},
+}
+
+@InProceedings{longin2005elastic,
+  author    = {Longin, JL and Vasilis, M and Qiang, W and Rolf, L and Chotirat, AR and Keogh, EJ},
+  title     = {Elastic partial matching of time series},
+  booktitle = {9th European Conference On Principles And Practice Of Knowledge Discovery In Databases, Porto, Portugal},
+  date      = {2005},
+}
+
+@Article{itakura1975minimum,
+  author       = {Itakura, Fumitada},
+  title        = {Minimum prediction residual principle applied to speech recognition},
+  volume       = {23},
+  number       = {1},
+  pages        = {67--72},
+  date         = {1975},
+  journaltitle = {IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  publisher    = {IEEE},
+}
+
+@InProceedings{keogh2000scaling,
+  author       = {Keogh, Eamonn J and Pazzani, Michael J},
+  title        = {Scaling up dynamic time warping for datamining applications},
+  booktitle    = {sixth ACM SIGKDD},
+  pages        = {285--289},
+  organization = {ACM},
+  date         = {2000},
+}
+
+@Article{wang2013experimental,
+  author       = {Wang, Xiaoyue and Mueen, Abdullah and Ding, Hui and Trajcevski, Goce and Scheuermann, Peter and Keogh, Eamonn},
+  title        = {Experimental comparison of representation methods and distance measures for time series data},
+  volume       = {26},
+  number       = {2},
+  pages        = {275--309},
+  date         = {2013},
+  journaltitle = {Data Mining and Knowledge Discovery},
+  publisher    = {Springer},
+}
+
+@Article{Keogh2004,
+  author       = {Keogh, Eamonn and Ratanamahatana, Chotirat Ann},
+  title        = {{Exact indexing of dynamic time warping}},
+  volume       = {7},
+  number       = {3},
+  pages        = {358--386},
+  issn         = {0219-1377},
+  date         = {2004-05},
+  doi          = {10.1007/s10115-004-0154-9},
+  journaltitle = {Knowledge and Information Systems},
+  keywords     = {Dynamic time warping,Indexing,Lower bounding,Time series},
+  publisher    = {Springer-Verlag New York, Inc.},
+}
+
+@InProceedings{chu2002iterative,
+  author       = {Chu, Selina and Keogh, Eamonn J and Hart, David M and Pazzani, Michael J and others},
+  title        = {Iterative Deepening Dynamic Time Warping for Time Series.},
+  booktitle    = {SDM},
+  pages        = {195--212},
+  organization = {SIAM},
+  date         = {2002},
+}
+
+@Article{ibarra1975fast,
+  author       = {Ibarra, Oscar H and Kim, Chul E},
+  title        = {Fast approximation algorithms for the knapsack and sum of subset problems},
+  volume       = {22},
+  number       = {4},
+  pages        = {463--468},
+  date         = {1975},
+  journaltitle = {Journal of the ACM (JACM)},
+  publisher    = {ACM},
+}
+
+@InProceedings{cuvrin2007meeting,
+  author       = {Cu{\v{r}}{\'\i}n, Jan and Fleury, Pascal and Kleindienst, Jan and Kessl, Robert},
+  title        = {Meeting state recognition from visual and aural labels},
+  booktitle    = {International Workshop on Machine Learning for Multimodal Interaction},
+  pages        = {24--25},
+  organization = {Springer},
+  date         = {2007},
+}
+
+@Article{lkhagva2006extended,
+  author       = {Lkhagva, Battuguldur and Suzuki, Yu and Kawagoe, Kyoji},
+  title        = {Extended SAX: Extension of symbolic aggregate approximation for financial time series data representation},
+  volume       = {7},
+  date         = {2006},
+  journaltitle = {DEWS2006 4A-i8},
+}
+
+@InProceedings{camerra2010isax,
+  author       = {Camerra, Alessandro and Palpanas, Themis and Shieh, Jin and Keogh, Eamonn},
+  title        = {iSAX 2.0: Indexing and mining one billion time series},
+  booktitle    = {Data Mining (ICDM), 2010 IEEE 10th International Conference on},
+  pages        = {58--67},
+  organization = {IEEE},
+  date         = {2010},
+}
+
+@Article{Kate2016,
+  author       = {Kate, Rohit J.},
+  title        = {Using dynamic time warping distances as features for improved time series classification},
+  volume       = {30},
+  number       = {2},
+  pages        = {283--312},
+  issn         = {1573-756X},
+  abstract     = {Dynamic time warping (DTW) has proven itself to be an exceptionally strong distance measure for time series. DTW in combination with one-nearest neighbor, one of the simplest machine learning methods, has been difficult to convincingly outperform on the time series classification task. In this paper, we present a simple technique for time series classification that exploits DTW's strength on this task. But instead of directly using DTW as a distance measure to find nearest neighbors, the technique uses DTW to create new features which are then given to a standard machine learning method. We experimentally show that our technique improves over one-nearest neighbor DTW on 31 out of 47 UCR time series benchmark datasets. In addition, this method can be easily extended to be used in combination with other methods. In particular, we show that when combined with the symbolic aggregate approximation (SAX) method, it improves over it on 37 out of 47 UCR datasets. Thus the proposed method also provides a mechanism to combine distance-based methods like DTW with feature-based methods like SAX. We also show that combining the proposed classifiers through ensembles further improves the performance on time series classification.},
+  date         = {2016},
+  doi          = {10.1007/s10618-015-0418-x},
+  journaltitle = {Data Mining and Knowledge Discovery},
+}
+
+@Misc{Vanel,
+  author       = {Siyou Fotso, Vanel Steve and Mephu Nguifo, Engelbert and Vaslin, Philippe},
+  title        = {Comparison of classification algorithms to FDTW},
+  howpublished = {\url{http://fc.isima.fr/~siyou/fdtw}},
+  abstract     = {Comparison  of classification algorithms to FDTW},
+  date         = {2016-10},
+  urldate      = {19/03/2017},
+}
+
+
+@misc{lsst,
+title = {{LSST time series catalog - XLDB Use Cases}},
+url = {http://xldb.org/use/index.php?title=LSST{\_}time{\_}series{\_}catalog},
+urldate = {2016-02-25}
+}
+
+@InProceedings{aggarwal2008unifying,
+  author       = {Aggarwal, Charu C},
+  title        = {On unifying privacy and uncertain data models},
+  booktitle    = {Data Engineering, 2008. ICDE 2008. IEEE 24th International Conference on},
+  pages        = {386--395},
+  organization = {IEEE},
+  date         = {2008},
+}
+
+@InProceedings{assfalg2009probabilistic,
+  author       = {A{\ss}falg, Johannes and Kriegel, Hans-Peter and Kr{\"o}ger, Peer and Renz, Matthias},
+  title        = {Probabilistic Similarity Search for Uncertain Time Series.},
+  booktitle    = {SSDBM},
+  pages        = {435--443},
+  organization = {Springer},
+  date         = {2009},
+}
+
+@Article{Bhatia1993,
+  author       = {Bhatia, Rajendra and Bhattacharyya, Tirthankar},
+  title        = {{A generalization of the Hoffman-Wielandt theorem}},
+  volume       = {179},
+  pages        = {11--17},
+  issn         = {0024-3795},
+  date         = {1993-01},
+  doi          = {10.1016/0024-3795(93)90318-I},
+  file         = {:C$backslash$:/Users/SIYOU Vanel/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Bhatia, Bhattacharyya - 1993 - A generalization of the Hoffman-Wielandt theorem.pdf},
+  journaltitle = {Linear Algebra and its Applications},
+  publisher    = {North-Holland},
+  url          = {http://www.sciencedirect.com/science/article/pii/002437959390318I},
+}
+
+@Misc{UCRArchive,
+  author       = {Chen, Yanping and Keogh, Eamonn and Hu, Bing and Begum, Nurjahan and Bagnall, Anthony and Mueen, Abdullah and Batista, Gustavo},
+  title        = {The UCR Time Series Classification Archive},
+  howpublished = {\url{http://www.cs.ucr.edu/~eamonn/time_series_data/}},
+  date         = {2015-07},
+}
+
+@InProceedings{cheng2003evaluating,
+  author       = {Cheng, Reynold and Kalashnikov, Dmitri V and Prabhakar, Sunil},
+  title        = {Evaluating probabilistic queries over imprecise data},
+  booktitle    = {Proceedings of the 2003 ACM SIGMOD international conference on Management of data},
+  pages        = {551--562},
+  organization = {ACM},
+  date         = {2003},
+}
+
+@Article{dallachiesa,
+  author       = {Dallachiesa, Michele and Nushi, Besmira and Mirylenka, Katsiaryna and Palpanas, Themis},
+  title        = {Uncertain time-series similarity: return to the basics},
+  volume       = {5},
+  number       = {11},
+  pages        = {1662--1673},
+  date         = {2012},
+  journaltitle = {Proceedings of the VLDB Endowment},
+  publisher    = {VLDB Endowment},
+}
+
+@InProceedings{ghalwash2014utilizing,
+  author       = {Ghalwash, Mohamed F and Radosavljevic, Vladan and Obradovic, Zoran},
+  title        = {Utilizing temporal patterns for estimating uncertainty in interpretable early decision making},
+  booktitle    = {Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining},
+  pages        = {402--411},
+  organization = {ACM},
+  date         = {2014},
+}
+
+@Article{godsill2001relationship,
+  author       = {Godsill, Simon J},
+  title        = {On the relationship between {Markov} chain {Monte Carlo} methods for model uncertainty},
+  volume       = {10},
+  number       = {2},
+  pages        = {230--248},
+  date         = {2001},
+  journaltitle = {Journal of computational and graphical statistics},
+  publisher    = {Taylor \& Francis},
+}
+
+@InProceedings{Hwang2014,
+  author    = {Hwang, Jun and Kozawa, Yusuke and Amagasa, Toshiyuki and Kitagawa, Hiroyuki},
+  title     = {{GPU Acceleration of Similarity Search for Uncertain Time Series}},
+  booktitle = {2014 17th International Conference on Network-Based Information Systems},
+  pages     = {627--632},
+  publisher = {IEEE},
+  date      = {2014-09},
+  doi       = {10.1109/NBiS.2014.89},
+  isbn      = {978-1-4799-4224-4},
+  url       = {http://ieeexplore.ieee.org/document/7024025/},
+}
+
+@Book{ibragimov2013statistical,
+  title     = {Statistical estimation: asymptotic theory},
+  publisher = {Springer Science \& Business Media},
+  author    = {Ibragimov, Ilʹdar Abdulovi{\v{c}} and Has' minskii, Rafail Z},
+  volume    = {16},
+  date      = {2013},
+}
+
+@Article{kuczera1998monte,
+  author       = {Kuczera, George and Parent, Eric},
+  title        = {{Monte Carlo} assessment of parameter uncertainty in conceptual catchment models: the Metropolis algorithm},
+  volume       = {211},
+  number       = {1},
+  pages        = {69--85},
+  date         = {1998},
+  journaltitle = {Journal of Hydrology},
+  publisher    = {Elsevier},
+}
+
+@Misc{murthy2013generalized,
+  author    = {Murthy, Karin and Sarangi, Smruti Ranjan},
+  title     = {Generalized notion of similarities between uncertain time series},
+  note      = {US Patent 8,407,221},
+  date      = {2013-03},
+  publisher = {Google Patents},
+}
+
+@InProceedings{papadimitriou2007time,
+  author       = {Papadimitriou, Spiros and Li, Feifei and Kollios, George and Yu, Philip S},
+  title        = {Time series compressibility and privacy},
+  booktitle    = {Proceedings of the 33rd international conference on Very large data bases},
+  pages        = {459--470},
+  organization = {VLDB Endowment},
+  date         = {2007},
+}
+
+@Article{Rehfeld2014,
+  author       = {Rehfeld, K. and Kurths, J.},
+  title        = {{Similarity estimators for irregular and age-uncertain time series}},
+  volume       = {10},
+  number       = {1},
+  pages        = {107--122},
+  issn         = {18149332},
+  abstract     = {Paleoclimate time series are often irregularly sampled and age uncertain, which is an important technical challenge to overcome for successful reconstruction of past climate variability and dynamics. Visual comparison and interpolation-based linear correlation approaches have been used to infer dependencies from such proxy time series. While the first is subjective, not measurable and not suitable for the comparison of many data sets at a time, the latter introduces interpolation bias, and both face difficulties if the underlying dependencies are nonlinear.$\backslash$n In this paper we investigate similarity estimators that could be suitable for the quantitative investigation of dependencies in irregular and age-uncertain time series. We compare the Gaussian-kernel-based cross-correlation (gXCF, Rehfeld et al., 2011) and mutual information (gMI, Rehfeld et al., 2013) against their interpolation-based counterparts and the new event synchronization function (ESF). We test the efficiency of the methods in estimating coupling strength and coupling lag numerically, using ensembles of synthetic stalagmites with short, autocorrelated, linear and nonlinearly coupled proxy time series, and in the application to real stalagmite time series.$\backslash$n In the linear test case, coupling strength increases are identified consistently for all estimators, while in the nonlinear test case the correlation-based approaches fail. The lag at which the time series are coupled is identified correctly as the maximum of the similarity functions in around 60–55{\%} (in the linear case) to 53–42{\%} (for the nonlinear processes) of the cases when the dating of the synthetic stalagmite is perfectly precise. If the age uncertainty increases beyond 5{\%} of the time series length, however, the true coupling lag is not identified more often than the others for which the similarity function was estimated. Age uncertainty contributes up to half of the uncertainty in the similarity estimation process. Time series irregularity contributes less, particularly for the adapted Gaussian-kernel-based estimators and the event synchronization function. The introduced link strength concept summarizes the hypothesis test results and balances the individual strengths of the estimators: while gXCF is particularly suitable for short and irregular time series, gMI and the ESF can identify nonlinear dependencies. ESF could, in particular, be suitable to study extreme event dynamics in paleoclimate records. Programs to analyze paleoclimatic time series for significant dependencies are included in a freely available software toolbox.},
+  date         = {2014},
+  doi          = {10.5194/cp-10-107-2014},
+  isbn         = {1814-9332},
+  journaltitle = {Climate of the Past},
+}
+
+@Article{Rizvandi2013,
+  author       = {Rizvandi, Nikzad Babaii and Taheri, Javid and Moraveji, Reza and Zomaya, Albert Y.},
+  title        = {{A study on using uncertain time series matching algorithms for MapReduce applications}},
+  volume       = {25},
+  number       = {12},
+  pages        = {1699--1718},
+  issn         = {15320626},
+  date         = {2013-08},
+  doi          = {10.1002/cpe.2895},
+  journaltitle = {Concurrency and Computation: Practice and Experience},
+}
+
+@InProceedings{ulanova2015scalable,
+  author       = {Ulanova, Liudmila and Begum, Nurjahan and Keogh, Eamonn},
+  title        = {Scalable clustering of time series with u-shapelets},
+  booktitle    = {Proceedings of the 2015 SIAM International Conference on Data Mining},
+  pages        = {900--908},
+  organization = {SIAM},
+  date         = {2015},
+}
+
+@Article{Wang2015,
+  author       = {Wang, Wei and Liu, Guohua and Liu, Dingjia},
+  title        = {{Chebyshev Similarity Match between Uncertain Time Series}},
+  volume       = {2015},
+  pages        = {1--13},
+  issn         = {1024-123X},
+  abstract     = {{\textless}p{\textgreater}In real application scenarios, the inherent impreciseness of sensor readings, the intentional perturbation of privacy-preserving transformations, and error-prone mining algorithms cause much uncertainty of time series data. The uncertainty brings serious challenges for the similarity measurement of time series. In this paper, we first propose a model of uncertain time series inspired by Chebyshev inequality. It estimates possible sample value range and central tendency range in terms of sample estimation interval and central tendency estimation interval, respectively, at each time slot. In comparison with traditional models adopting repeated measurements and random variable, Chebyshev model reduces overall computational cost and requires no prior knowledge. We convert Chebyshev uncertain time series into certain time series matrix; therefore noise reduction and dimensionality reduction are available for uncertain time series. Secondly, we propose a new similarity matching method based on Chebyshev model. It depends on overlaps between two sample estimation intervals and overlaps between central tendency estimation intervals from different uncertain time series. At the end of this paper, we conduct an extensive experiment and analyze the results by comparing with prior works.{\textless}/p{\textgreater}},
+  date         = {2015},
+  doi          = {10.1155/2015/105128},
+  journaltitle = {Mathematical Problems in Engineering},
+  publisher    = {Hindawi Publishing Corporation},
+  url          = {http://www.hindawi.com/journals/mpe/2015/105128/},
+}
+
+@InProceedings{yeh2009proud,
+  author       = {Yeh, Mi-Yen and Wu, Kun-Lung and Yu, Philip S and Chen, Ming-Syan},
+  title        = {PROUD: a probabilistic approach to processing similarity queries over uncertain data streams},
+  booktitle    = {Proceedings of the 12th International Conference on Extending Database Technology: Advances in Database Technology},
+  pages        = {684--695},
+  organization = {ACM},
+  date         = {2009},
+}
+
+@InProceedings{zakaria2012clustering,
+  author       = {Zakaria, Jesin and Mueen, Abdullah and Keogh, Eamonn},
+  title        = {Clustering time series using unsupervised-shapelets},
+  booktitle    = {Data Mining (ICDM), 2012 IEEE 12th International Conference on},
+  pages        = {785--794},
+  organization = {IEEE},
+  date         = {2012},
+}
+
+@InProceedings{zhang2016survey,
+  author       = {Zhang, XX and Liu, Q and Liu, DM and Xie, W},
+  title        = {A survey on anonymity for privacy preserving data mining},
+  booktitle    = {Information Science and Electronic Engineering: Proceedings of the 3rd International Conference of Electronic Engineering and Information Science (ICEEIS 2016), 4-5 January, 2016, Harbin, China},
+  pages        = {343--346},
+  organization = {CRC Press},
+  date         = {2016},
+}
+
+@article{feo1995greedy,
+  title={Greedy randomized adaptive search procedures},
+  author={Feo, Thomas A and Resende, Mauricio GC},
+  journal={Journal of global optimization},
+  volume={6},
+  number={2},
+  pages={109--133},
+  year={1995},
+  publisher={Springer}
+}
+
+%--------------------------------
+
+@Article{Vegter2014,
+  author    = {Vegter, Riemer J K and Lamoth, Claudine J and de Groot, Sonja and Veeger, Dirkjan H E J and van der Woude, Lucas H V},
+  title     = {{Inter-individual differences in the initial 80~{m}inutes of motor learning of handrim wheelchair propulsion.}},
+  journal   = {PloS one},
+  year      = {2014},
+  volume    = {9},
+  number    = {2},
+  pages     = {e89729},
+  month     = jan,
+  issn      = {1932-6203},
+  abstract  = {Handrim wheelchair propulsion is a cyclic skill that needs to be learned during rehabilitation. Yet it is unclear how inter-individual differences in motor learning impact wheelchair propulsion practice. Therefore we studied how early-identified motor learning styles in novice able-bodied participants impact the outcome of a low-intensity wheelchair-practice intervention. Over a 12-minute pre-test, 39 participants were split in two groups based on a relative 10\% increase in mechanical efficiency. Following the pretest the participants continued one of four different low-intensity wheelchair practice interventions, yet all performed in the same trial-setup with a total 80-minute dose at 1.11 m/s at 0.20 W/kg. Instead of focusing on the effect of the different interventions, we focused on differences in motor learning between participants over the intervention. Twenty-six participants started the pretest with a lower mechanical efficiency and a less optimal propulsion technique, but showed a fast improvement during the first 12 minutes and this effect continued over the 80 minutes of practice. Eventually these initially fast improvers benefitted more from the given practice indicated by a better propulsion technique (like reduced frequency and increased stroke angle) and a higher mechanical efficiency. The initially fast improvers also had a higher intra-individual variability in the pre and posttest, which possibly relates to the increased motor learning of the initially fast improvers. Further exploration of the common characteristics of different types of learners will help to better tailor rehabilitation to the needs of wheelchair-dependent persons and improve our understanding of cyclic motor learning processes.},
+  doi       = {10.1371/journal.pone.0089729},
+  editor    = {Bacurau, Reury F. P.},
+  file      = {:D$backslash$:/Mendeley Desktop/Vegter et al/PloS one/Vegter et al. - 2014 - Inter-individual differences in the initial 80 minutes of motor learning of handrim wheelchair propulsion.pdf},
+  keywords  = {Anatomy and physiology,Behavior,Biology,Biophysics,Cognitive psychology,Human performance,Learning,Medical physics,Medicine,Mental health,Motor systems,Neurological system,Physics,Physiotherapy and rehabilitation,Psychology,Research Article,Social and behavioral sciences,Sports and exercise medicine},
+  pmid      = {24586992},
+  publisher = {Public Library of Science},
+}
+
+@InProceedings{Lkhagva2006,
+  author    = {Lkhagva, B. and Kawagoe, K.},
+  title     = {{New Time Series Data Representation ESAX for Financial Applications}},
+  booktitle = {22nd International Conference on Data Engineering Workshops (ICDEW'06)},
+  year      = {2006},
+  pages     = {x115--x115},
+  month     = apr,
+  publisher = {IEEE},
+  abstract  = {Efficient and accurate similarity searching for a large amount of time series data set is an important but non-trivial problem. Many dimensionality reduction techniques have been proposed for effective representation of time series data in order to realize such similarity searching, including Singular Value Decomposition (SVD), the Discrete Fourier transform (DFT), the Adaptive Piecewise Constant Approximation (APCA), and the recently proposed Symbolic Aggregate Approximation (SAX).},
+  doi       = {10.1109/ICDEW.2006.99},
+  file      = {:D$backslash$:/Mendeley Desktop/Lkhagva, Kawagoe/22nd International Conference on Data Engineering Workshops (ICDEW'06)/Lkhagva, Kawagoe - 2006 - New Time Series Data Representation ESAX for Financial Applications.pdf},
+  isbn      = {0-7695-2571-7},
+  language  = {English},
+}
+
+@Article{Esling2012,
+  author   = {Esling, Philippe and Agon, Carlos},
+  title    = {{Time-series data mining}},
+  journal  = {ACM Computing Surveys (CSUR)},
+  year     = {2012},
+  volume   = {45},
+  number   = {1},
+  pages    = {1--34},
+  issn     = {03600300},
+  abstract = {In almost every scientific field, measurements are performed over time. These observations lead to a collection of organized data called time series. The purpose of time-series data mining is to try to extract all meaningful knowledge from the shape of data. Even if humans have a natural capacity to perform these tasks, it remains a complex problem for computers. In this article we intend to provide a survey of the techniques applied for time-series data mining. The first part is devoted to an overview of the tasks that have captured most of the interest of researchers. Considering that in most cases, time-series task relies on the same components for implementation, we divide the literature depending on these common aspects, namely representation techniques, distance measures, and indexing methods. The study of the relevant literature has been categorized for each individual aspects. Four types of robustness could then be formalized and any kind of distance could then be classified. Finally, the study submits various research trends and avenues that can be explored in the near future. We hope that this article can provide a broad and deep understanding of the time-series data mining research field.},
+  doi      = {10.1145/2379776.2379788},
+  file     = {:D$backslash$:/Mendeley Desktop/Esling, Agon/ACM Computing Surveys (CSUR)/Esling, Agon - 2012 - Time-series data mining.pdf},
+  keywords = {Distance measures,data indexing,data mining,query by content,sequence matching,similarity measures,stream analysis,temporal analysis,time series},
+}
+
+@Article{Abonyi2003,
+  author  = {Abonyi, Janos and Feil, Balazs and Nemeth, Sandor and Arva, Peter},
+  title   = {{Fuzzy clustering based segmentation of time-series}},
+  journal = {Advances in Intelligent Data Analysis V},
+  year    = {2003},
+  pages   = {275--285},
+  file    = {:D$backslash$:/Mendeley Desktop/Abonyi et al/Advances in Intelligent Data Analysis V/Abonyi et al. - 2003 - Fuzzy clustering based segmentation of time-series.pdf},
+}
+
+@InProceedings{Petitjean2014,
+  author    = {Petitjean, Fran\c{c}ois Francois and Forestier, Germain and Webb, Geoffrey I. and Nicholson, Ann E. and Chen, Yanping and Keogh, Eamonn},
+  title     = {{Dynamic Time Warping Averaging of Time Series Allows Faster and More Accurate Classification}},
+  booktitle = {2014 IEEE International Conference on Data Mining},
+  year      = {2014},
+  pages     = {470--479},
+  month     = dec,
+  publisher = {IEEE},
+  doi       = {10.1109/ICDM.2014.27},
+  file      = {:D$backslash$:/Mendeley Desktop/Petitjean et al/2014 IEEE International Conference on Data Mining/Petitjean et al. - 2014 - Dynamic Time Warping Averaging of Time Series Allows Faster and More Accurate Classification.pdf},
+  isbn      = {978-1-4799-4302-9},
+  issn      = {1550-4786},
+  keywords  = {Accuracy,Artificial neural networks,Classification algorithms,Dynamic Time Warping,Heuristic algorithms,Nearest Neighbor,Nearest centroid,Prototypes,Time series analysis,Time series averaging,Time series classification,Training,computational complexity,dynamic time warping averaging,nearest centroid classifiers,nearest neighbor algorithm,pattern classification,resource constrained devices,time complexity,time series,time series classification,warped time series averaging,wearable devices},
+  language  = {English},
+}
+
+@Article{Ding2008,
+  author    = {Ding, Hui and Trajcevski, Goce and Scheuermann, Peter and Wang, Xiaoyue and Keogh, Eamonn},
+  title     = {{Querying and mining of time series data}},
+  journal   = {Proceedings of the VLDB Endowment},
+  year      = {2008},
+  volume    = {1},
+  number    = {2},
+  pages     = {1542--1552},
+  month     = aug,
+  issn      = {21508097},
+  doi       = {10.14778/1454159.1454226},
+  file      = {:D$backslash$:/Mendeley Desktop/Ding et al/Proceedings of the VLDB Endowment/Ding et al. - 2008 - Querying and mining of time series data.pdf},
+  publisher = {VLDB Endowment},
+}
+
+@Article{Aach2001,
+  author   = {Aach, J. and Church, G. M.},
+  title    = {{Aligning gene expression time series with time warping algorithms}},
+  journal  = {Bioinformatics},
+  year     = {2001},
+  volume   = {17},
+  number   = {6},
+  pages    = {495--508},
+  month    = jun,
+  issn     = {1367-4803},
+  abstract = {Motivation: Increasingly, biological processes are being studied through time series of RNA expression data collected for large numbers of genes. Because common processes may unfold at varying rates in different experiments or individuals, methods are needed that will allow corresponding expression states in different time series to be mapped to one another. Results: We present implementations of time warping algorithms applicable to RNA and protein expression data and demonstrate their application to published yeast RNA expression time series. Programs executing two warping algorithms are described, a simple warping algorithm and an interpolative algorithm, along with programs that generate graphics that visually present alignment information. We show time warping to be superior to simple clustering at mapping corresponding time states. We document the impact of statistical measurement noise and sample size on the quality of time alignments, and present issues related to statistical assessment of alignment quality through alignment scores. We also discuss directions for algorithm improvement including development of multiple time series alignments and possible applications to causality searches and non-temporal processes ( concentration warping'). Availability: Academic implementations of alignment programs genewarp and genewarpi and the graphics generation programs grphwarp and grphwarpi are available as Win32 system DOS box executables on our web site along with documentation on their use. The publicly available data on which they were demonstrated may be found at http://genome-www.stanford.edu/cellcycle/. Postscript files generated by grphwarp and grphwarpi may be directly printed or viewed using GhostView software available at http://www.cs.wisc.edu/\~{}ghost/. Contact: church@arep.med.harvard.edu Supplementary information: http://arep.med.harvard.edu/timewarp/supplement.htm.},
+  doi      = {10.1093/bioinformatics/17.6.495},
+  file     = {:D$backslash$:/Mendeley Desktop/Aach, Church/Bioinformatics/Aach, Church - 2001 - Aligning gene expression time series with time warping algorithms.pdf},
+}
+
+@Article{Papapetrou2011,
+  author    = {Papapetrou, Panagiotis and Athitsos, Vassilis and Potamias, Michalis and Kollios, George and Gunopulos, Dimitrios},
+  title     = {{Embedding-based subsequence matching in time-series databases}},
+  journal   = {ACM Transactions on Database Systems},
+  year      = {2011},
+  volume    = {36},
+  number    = {3},
+  pages     = {1--39},
+  month     = aug,
+  issn      = {03625915},
+  doi       = {10.1145/2000824.2000827},
+  file      = {:D$backslash$:/Mendeley Desktop/Papapetrou et al/ACM Transactions on Database Systems/Papapetrou et al. - 2011 - Embedding-based subsequence matching in time-series databases.pdf},
+  keywords  = {Embedding methods,nearest neighbor retrieval,non-Euclidean spaces,nonmetric spaces,similarity matching},
+  publisher = {ACM},
+}
+
+@Article{Dietterich2002,
+  author    = {Dietterich, Thomas G.},
+  title     = {{Machine Learning for Sequential Data: A Review}},
+  journal   = {Proceedings of the Joint IAPR International Workshop on Structural, Syntactic, and Statistical Pattern Recognition},
+  year      = {2002},
+  pages     = {16--30},
+  month     = aug,
+  issn      = {87567016},
+  abstract  = {Abstract. Statistical learning problems in many fields involve sequential data. This paper formalizes the principal learning tasks and describes the methods that have been developed within the machine learning re- search community for addressing these problems. These methods include sliding window methods, recurrent sliding windows, hidden Markov mod- els, conditional random fields, and graph transformer networks. The pa- per also discusses some open research issues.},
+  doi       = {10.1146/annurev.cs.04.060190.001351},
+  file      = {:D$backslash$:/Mendeley Desktop/Unknown/Unknown/Unknown - 2002 - Structural, Syntactic, and Statistical Pattern Recognition.pdf},
+  isbn      = {1595930469},
+  publisher = {Springer-Verlag},
+}
+
+@Article{Begum2014,
+  author    = {Begum, Nurjahan and Keogh, Eamonn},
+  title     = {{Rare time series motif discovery from unbounded streams}},
+  journal   = {Proceedings of the VLDB Endowment},
+  year      = {2014},
+  volume    = {8},
+  number    = {2},
+  pages     = {149--160},
+  month     = oct,
+  issn      = {2150-8097},
+  file      = {:D$backslash$:/Mendeley Desktop/Unknown/Unknown/Unknown - Unknown - Rare Time Series Motif Discovery from Unbounded Streams.pdf},
+  keywords  = {motif discovery,streaming data,time series},
+  publisher = {VLDB Endowment},
+}
+
+@Article{Petitjean2011,
+  author    = {Petitjean, Fran\c{c}ois and Ketterlin, Alain and Gan\c{c}arski, Pierre},
+  title     = {{A global averaging method for dynamic time warping, with applications to clustering}},
+  journal   = {Pattern Recognition},
+  year      = {2011},
+  volume    = {44},
+  number    = {3},
+  pages     = {678--693},
+  month     = mar,
+  issn      = {00313203},
+  abstract  = {Mining sequential data is an old topic that has been revived in the last decade, due to the increasing availability of sequential datasets. Most works in this field are centred on the definition and use of a distance (or, at least, a similarity measure) between sequences of elements. A measure called dynamic time warping (DTW) seems to be currently the most relevant for a large panel of applications. This article is about the use of DTW in data mining algorithms, and focuses on the computation of an average of a set of sequences. Averaging is an essential tool for the analysis of data. For example, the K-means clustering algorithm repeatedly computes such an average, and needs to provide a description of the clusters it forms. Averaging is here a crucial step, which must be sound in order to make algorithms work accurately. When dealing with sequences, especially when sequences are compared with DTW, averaging is not a trivial task. Starting with existing techniques developed around DTW, the article suggests an analysis framework to classify averaging techniques. It then proceeds to study the two major questions lifted by the framework. First, we develop a global technique for averaging a set of sequences. This technique is original in that it avoids using iterative pairwise averaging. It is thus insensitive to ordering effects. Second, we describe a new strategy to reduce the length of the resulting average sequence. This has a favourable impact on performance, but also on the relevance of the results. Both aspects are evaluated on standard datasets, and the evaluation shows that they compare favourably with existing methods. The article ends by describing the use of averaging in clustering. The last section also introduces a new application domain, namely the analysis of satellite image time series, where data mining techniques provide an original approach. © 2010 Elsevier Ltd. All rights reserved.},
+  doi       = {10.1016/j.patcog.2010.09.013},
+  file      = {:D$backslash$:/Mendeley Desktop/Petitjean, Ketterlin, Ganc{c}arski/Pattern Recognition/Petitjean, Ketterlin, Ganc{c}arski - 2011 - A global averaging method for dynamic time warping, with applications to clustering.pdf},
+  isbn      = {0031-3203},
+  keywords  = {,DTW barycenter averaging,Distance-based clustering,Dynamic time warping,Global averaging,Satellite image time series,Sequence analysis,Time series averaging,Time series clustering},
+  publisher = {Elsevier Science Inc.},
+}
+
+@Article{sun2014improvement,
+  author       = {Sun, Youqiang and Li, Jiuyong and Liu, Jixue and Sun, Bingyu and Chow, Christopher},
+  title        = {An improvement of symbolic aggregate approximation distance measure for time series},
+  journal      = {Neurocomputing},
+  year         = {2014},
+  volume       = {138},
+  pages        = {189--198},
+  month        = aug,
+  issn         = {09252312},
+  date         = {2014},
+  doi          = {10.1016/j.neucom.2014.01.045},
+  file         = {:D$backslash$:/Mendeley Desktop/Sun et al/Neurocomputing/Sun et al. - 2014 - An improvement of symbolic aggregate approximation distance measure for time series.pdf},
+  journaltitle = {Neurocomputing},
+  keywords     = {Classification,Lower bound,Symbolic Aggregate approXimation,Time series,Trend distance},
+  publisher    = {Elsevier},
+}
+
+@Article{SakoeChiba1978,
+  author       = {Sakoe, H and Chiba, S},
+  title        = {Dynamic programming algorithm optimization for spoken word recognition},
+  journal      = {IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  year         = {1978},
+  volume       = {26},
+  number       = {1},
+  pages        = {43--49},
+  month        = feb,
+  issn         = {0096-3518},
+  date         = {1978},
+  doi          = {10.1109/TASSP.1978.1163055},
+  file         = {:D$backslash$:/Mendeley Desktop/Sakoe, Chiba/IEEE Transactions on Acoustics, Speech and Signal Processing/Sakoe, Chiba - 1978 - Dynamic Programming Algorithm Optimization for Spoken Word Recognition.pdf},
+  journaltitle = {IEEE Transactions on Acoustics, Speech and Signal Processing},
+  keywords     = {Acoustics,Constraint optimization,Dynamic programming,Feature extraction,Fluctuations,Heuristic algorithms,Pattern matching,Signal processing algorithms,Speech processing,Timing},
+  language     = {English},
+  publisher    = {IEEE},
+}
+
+@Article{rand1971objective,
+  author       = {Rand, William M},
+  title        = {Objective criteria for the evaluation of clustering methods},
+  volume       = {66},
+  number       = {336},
+  pages        = {846--850},
+  date         = {1971},
+  journaltitle = {Journal of the American Statistical association},
+  publisher    = {Taylor \& Francis Group},
+}
+
+@Article{patra2015new,
+  author       = {Patra, Bidyut Kr and Launonen, Raimo and Ollikainen, Ville and Nandi, Sukumar},
+  title        = {A new similarity measure using Bhattacharyya coefficient for collaborative filtering in sparse data},
+  volume       = {82},
+  pages        = {163--177},
+  date         = {2015},
+  journaltitle = {Knowledge-Based Systems},
+  publisher    = {Elsevier},
+}
+
+@Article{keogh2001locally,
+  author       = {Keogh, Eamonn and Chakrabarti, Kaushik and Pazzani, Michael and Mehrotra, Sharad},
+  title        = {Locally adaptive dimensionality reduction for indexing large time series databases},
+  volume       = {30},
+  number       = {2},
+  pages        = {151--162},
+  date         = {2001},
+  journaltitle = {ACM SIGMOD Record},
+  publisher    = {ACM},
+}
+
+@InProceedings{Orang2015,
+  author    = {Orang, Mahsa and Shiri, Nematollaah},
+  title     = {{Improving performance of similarity measures for uncertain time series using preprocessing techniques}},
+  booktitle = {Proceedings of the 27th International Conference on Scientific and Statistical Database Management - SSDBM '15},
+  pages     = {1--12},
+  publisher = {ACM Press},
+  date      = {2015},
+  doi       = {10.1145/2791347.2791385},
+  isbn      = {9781450337090},
+  location  = {New York, New York, USA},
+  url       = {http://dl.acm.org/citation.cfm?doid=2791347.2791385},
+}
+
+@Article{keogh2001dimensionality,
+  author       = {Keogh, Eamonn and Chakrabarti, Kaushik and Pazzani, Michael and Mehrotra, Sharad},
+  title        = {{Dimensionality Reduction for Fast Similarity Search in Large Time Series Databases}},
+  journal      = {Knowledge and Information Systems},
+  year         = {2001},
+  volume       = {3},
+  number       = {January},
+  pages        = {263--286},
+  issn         = {0219-1377},
+  abstract     = {The problem of similarity search in large time series databases has attracted much attention recently. It is a non-trivial problem because of the inherent high dimensionality of the data. The most promising solutions involve first performing dimensionality reduction on the data, and then indexing the reduced data with a spatial access method. Three major dimensionality reduction techniques have been proposed: Singular Value Decomposition (SVD), the Discrete Fourier transform (DFT), and more recently the Discrete Wavelet Transform (DWT). In this work we introduce a new dimensionality reduction technique which we call Piecewise Aggregate Approximation (PAA). We theoretically and empirically compare it to the other techniques and demonstrate its superiority. In addition to being competitive with or faster than the other methods, our approach has numerous other advantages. It is simple to understand and to implement, it allows more flexible distance measures, including weighted Euclidean queries, and the index can be built in linear time.},
+  date         = {2001},
+  doi          = {10.1007/PL00011669},
+  file         = {:D$backslash$:/Mendeley Desktop/Keogh et al/Knowledge and Information Systems/Keogh et al. - 2001 - Dimensionality Reduction for Fast Similarity Search in Large Time Series Databases.pdf},
+  isbn         = {1581133324},
+  journaltitle = {Knowledge and Information Systems},
+  keywords     = {data mining,dimensionality reduction,indexing and retrieval,time series},
+  pmid         = {324778},
+}
+
+@Article{Orang2017,
+  author       = {Orang, Mahsa and Shiri, Nematollaah},
+  title        = {{Correlation analysis techniques for uncertain time series}},
+  volume       = {50},
+  number       = {1},
+  pages        = {79--116},
+  issn         = {0219-1377},
+  date         = {2017-01},
+  doi          = {10.1007/s10115-016-0939-7},
+  journaltitle = {Knowledge and Information Systems},
+}
+
+@InProceedings{Orang2014,
+  author    = {Orang, Mahsa and Shiri, Nematollaah},
+  title     = {{An experimental evaluation of similarity measures for uncertain time series}},
+  booktitle = {Proceedings of the 18th International Database Engineering {\&} Applications Symposium on - IDEAS '14},
+  pages     = {261--264},
+  publisher = {ACM Press},
+  date      = {2014},
+  doi       = {10.1145/2628194.2628207},
+  isbn      = {9781450326278},
+  location  = {New York, New York, USA},
+  url       = {http://dl.acm.org/citation.cfm?doid=2628194.2628207},
+}
+
+@InProceedings{lin2003symbolic,
+  author       = {Lin, Jessica and Keogh, Eamonn and Lonardi, Stefano and Chiu, Bill},
+  title        = {A symbolic representation of time series, with implications for streaming algorithms},
+  booktitle    = {8th ACM SIGMOD workshop on Research issues in data mining and knowledge discovery},
+  year         = {2003},
+  pages        = {2--11},
+  address      = {New York, New York, USA},
+  organization = {ACM},
+  publisher    = {ACM Press},
+  date         = {2003},
+  doi          = {10.1145/882085.882086},
+  file         = {:D$backslash$:/Mendeley Desktop/Lin et al/Proceedings of the 8th ACM SIGMOD workshop on Research issues in data mining and knowledge discovery - DMKD '03/Lin et al. - 2003 - A symbolic representation of time series, with implications for streaming algorithms.pdf},
+  journal      = {Proceedings of the 8th ACM SIGMOD workshop on Research issues in data mining and knowledge discovery - DMKD '03},
+  keywords     = {data mining,data streams,discretize,symbolic,time series},
+}
+
+@inproceedings{Agrawal1993,
+author = {Agrawal, Rakesh and Faloutsos, Christos and Swami, Arun N.},
+booktitle = {FODO '93 Proceedings of the 4th International Conference on Foundations of Data Organization and Algorithms},
+isbn = {3-540-57301-1},
+month = {oct},
+pages = {69--84},
+publisher = {Springer-Verlag},
+title = {{Efficient Similarity Search In Sequence Databases}},
+url = {http://dl.acm.org/citation.cfm?id=645415.652239},
+year = {1993}
+}
+
+@inproceedings{Wu1996,
+address = {New York, New York, USA},
+author = {Wu, Daniel and Singh, Ambuj and Agrawal, Divyakant and {El Abbadi}, Amr and Smith, Terence R.},
+booktitle = {Proceedings of the fifth international conference on Information and knowledge management - CIKM '96},
+doi = {10.1145/238355.238365},
+isbn = {0897918738},
+month = {nov},
+pages = {11--18},
+publisher = {ACM Press},
+title = {{Efficient retrieval for browsing large image databases}},
+url = {http://dl.acm.org/citation.cfm?id=238355.238365},
+year = {1996}
+}
+
+@inproceedings{Chan1999,
+author = {Chan, Kin-Pong and Fu, Ada Wai-Chee},
+booktitle = {Proceedings 15th International Conference on Data Engineering (Cat. No.99CB36337)},
+doi = {10.1109/ICDE.1999.754915},
+isbn = {0-7695-0071-4},
+issn = {1063-6382},
+keywords = {Discrete Fourier transforms,Discrete transforms,Discrete wavelet transforms,Euclidean distance,Fourier transforms,Haar Wavelet Transform,Indexing,Karhunen-Loeve transforms,Multidimensional systems,Singular Value Decomposition,Singular value decomposition,Wavelet transforms,fast retrieval,nearest neighbor query,query processing,singular value decomposition,statistical databases,time series,time series databases,time series indexing,time series matching,wavelet transforms,wavelets},
+language = {English},
+pages = {126--133},
+publisher = {IEEE},
+title = {{Efficient time series matching by wavelets}},
+url = {http://ieeexplore.ieee.org/articleDetails.jsp?arnumber=754915},
+year = {1999}
+}
+
+
+@article{Keogh2001,
+abstract = {The problem of similarity search in large time series databases has attracted much attention recently. It is a non-trivial problem because of the inherent high dimensionality of the data. The most promising solutions involve first performing dimensionality reduction on the data, and then indexing the reduced data with a spatial access method. Three major dimensionality reduction techniques have been proposed: Singular Value Decomposition (SVD), the Discrete Fourier transform (DFT), and more recently the Discrete Wavelet Transform (DWT). In this work we introduce a new dimensionality reduction technique which we call Piecewise Aggregate Approximation (PAA). We theoretically and empirically compare it to the other techniques and demonstrate its superiority. In addition to being competitive with or faster than the other methods, our approach has numerous other advantages. It is simple to understand and to implement, it allows more flexible distance measures, including weighted Euclidean queries, and the index can be built in linear time.},
+author = {Keogh, Eamonn and Chakrabarti, Kaushik and Pazzani, Michael and Mehrotra, Sharad},
+doi = {10.1007/PL00011669},
+file = {:D$\backslash$:/Mendeley Desktop/Keogh et al/Knowledge and Information Systems/Keogh et al. - 2001 - Dimensionality Reduction for Fast Similarity Search in Large Time Series Databases.pdf:pdf},
+isbn = {1581133324},
+issn = {0219-1377},
+journal = {Knowledge and Information Systems},
+keywords = {data mining,dimensionality reduction,indexing and retrieval,time series},
+number = {January},
+pages = {263--286},
+pmid = {324778},
+title = {{Dimensionality Reduction for Fast Similarity Search in Large Time Series Databases}},
+volume = {3},
+year = {2001}
+}
+
+@misc{SACR-FRM,
+title = {{Projet SACR-FRM (Approches de la Sociologie, de la Biom{\'{e}}canique et de l'Intelligence Artificielle...) | ANR - Agence Nationale de la Recherche}},
+url = {http://www.agence-nationale-recherche.fr/?Projet=ANR-06-TECS-0020},
+urldate = {2016-02-26}
+}
+
+
+
+@article{Keogh2001,
+abstract = {The problem of similarity search in large time series databases has attracted much attention recently. It is a non-trivial problem because of the inherent high dimensionality of the data. The most promising solutions involve first performing dimensionality reduction on the data, and then indexing the reduced data with a spatial access method. Three major dimensionality reduction techniques have been proposed: Singular Value Decomposition (SVD), the Discrete Fourier transform (DFT), and more recently the Discrete Wavelet Transform (DWT). In this work we introduce a new dimensionality reduction technique which we call Piecewise Aggregate Approximation (PAA). We theoretically and empirically compare it to the other techniques and demonstrate its superiority. In addition to being competitive with or faster than the other methods, our approach has numerous other advantages. It is simple to understand and to implement, it allows more flexible distance measures, including weighted Euclidean queries, and the index can be built in linear time.},
+author = {Keogh, Eamonn and Chakrabarti, Kaushik and Pazzani, Michael and Mehrotra, Sharad},
+doi = {10.1007/PL00011669},
+file = {:D$\backslash$:/Mendeley Desktop/Keogh et al/Knowledge and Information Systems/Keogh et al. - 2001 - Dimensionality Reduction for Fast Similarity Search in Large Time Series Databases.pdf:pdf},
+isbn = {1581133324},
+issn = {0219-1377},
+journal = {Knowledge and Information Systems},
+keywords = {data mining,dimensionality reduction,indexing and retrieval,time series},
+number = {January},
+pages = {263--286},
+pmid = {324778},
+title = {{Dimensionality Reduction for Fast Similarity Search in Large Time Series Databases}},
+volume = {3},
+year = {2001}
+}
+
+
+
+
+
+@article{KeoghBenchmarks,
+author = {Keogh, Eamonn and Kasetty, Shruti},
+doi = {10.1023/A:1024988512476},
+issn = {1573-756X},
+journal = {Data Mining and Knowledge Discovery},
+language = {en},
+number = {4},
+pages = {349--371},
+publisher = {Kluwer Academic Publishers},
+title = {{On the Need for Time Series Data Mining Benchmarks: A Survey and Empirical Demonstration}},
+volume = {7},
+year = {2003}
+}
+
+@inproceedings{siyou2015,
+abstract = {The analysis of cyclic time series from biomechanics
+is based on the comparison of the properties
+of their cycles. The usual algorithms of
+classification of time series ignoring this particularity,
+we propose a symbolic representation
+of cyclic time series based on the properties of
+cycles, named SAX-P. The resulting character
+strings can be compared using the Dynamic Time
+Warping distance. The application of SAX-P to
+propulsive moments of three subjects (S1, S2,
+S3) moving in Manual Wheelchair highlight the
+asymmetry of their propulsion in a straight line.
+The symbolic representation SAX-P facilitates
+the reading of the cyclic time series and the interpretation
+of the results of their classification
+by clinicians.},
+author = {Siyou Fotso, Vanel Steve and Mephu Nguifo, Engelbert  and Vaslin, Philippe},
+keywords = {cyclic time series, symbolic representation, SAX, Biomechanics, Manual Wheelchair},
+title = {{Symbolic representation of cyclic time series: application to biomechanics}},
+booktitle = {ICML'15 Workshop on Constructive Machine Learning},
+month = {July},
+year = {2015}
+}
+
+
+@article{Lin2007,
+annote = {1. Ce qui m'int{\'{e}}resse dans cet article c'est qu'on met en exerge le fait que les s{\'{e}}ries temporelles centr{\'{e}} r{\'{e}}duite suive tr{\`{e}}s souvent une distribution gaussienne},
+author = {Lin, Jessica and Keogh, Eamonn and Wei, Li and Lonardi, Stefano},
+doi = {10.1007/s10618-007-0064-z},
+file = {:D$\backslash$:/Mendeley Desktop/Lin et al/Data Mining and Knowledge Discovery/Lin et al. - 2007 - Experiencing SAX a novel symbolic representation of time series.pdf:pdf},
+issn = {1384-5810},
+journal = {Data Mining and Knowledge Discovery},
+month = {apr},
+number = {2},
+pages = {107--144},
+title = {{Experiencing SAX: a novel symbolic representation of time series}},
+url = {http://link.springer.com/10.1007/s10618-007-0064-z},
+volume = {15},
+year = {2007}
+}
+
+@article{Shannon2001,
+author = {Shannon, C. E.},
+doi = {10.1145/584091.584093},
+issn = {15591662},
+journal = {ACM SIGMOBILE Mobile Computing and Communications Review},
+month = {jan},
+number = {1},
+pages = {3},
+publisher = {ACM},
+title = {{A mathematical theory of communication}},
+url = {http://dl.acm.org/citation.cfm?id=584091.584093},
+volume = {5},
+year = {2001}
+}
+
+
+@article{Dean2010,
+author = {Dean, Jeffrey and Ghemawat, Sanjay},
+doi = {10.1145/1629175.1629198},
+file = {:D$\backslash$:/Mendeley Desktop/Dean, Ghemawat/Communications of the ACM/Dean, Ghemawat - 2010 - MapReduce.pdf:pdf},
+issn = {00010782},
+journal = {Communications of the ACM},
+month = {jan},
+number = {1},
+pages = {72},
+publisher = {ACM},
+title = {{MapReduce}},
+url = {http://dl.acm.org/ft{\_}gateway.cfm?id=1629198{\&}type=html},
+volume = {53},
+year = {2010}
+}
+
+@inproceedings{Keogh2004,
+author = {Keogh, E and Ratanamahatana, A},
+booktitle = {3rd Workshop on Mining Temporal and Sequential Data, in conjunction with 10th ACM SIGKDD Int. Conf. Knowledge Discovery and Data Mining (KDD-2004), Seattle, WA},
+title = {{Everything you know about dynamic time warping is wrong}},
+year = {2004}
+}
+
+
+@article{Rakthanmanon2012,
+abstract = {Most time series data mining algorithms use similarity search as a core subroutine, and thus the time taken for similarity search is the bottleneck for virtually all time series data mining algorithms. The difficulty of scaling search to large datasets largely explains why most academic work on time series data mining has plateaued at considering a few millions of time series objects, while much of industry and science sits on billions of time series objects waiting to be explored. In this work we show that by using a combination of four novel ideas we can search and mine truly massive time series for the first time. We demonstrate the following extremely unintuitive fact; in large datasets we can exactly search under DTW much more quickly than the current state-of-the-art Euclidean distance search algorithms. We demonstrate our work on the largest set of time series experiments ever attempted. In particular, the largest dataset we consider is larger than the combined size of all of the time series datasets considered in all data mining papers ever published. We show that our ideas allow us to solve higher-level time series data mining problem such as motif discovery and clustering at scales that would otherwise be untenable. In addition to mining massive datasets, we will show that our ideas also have implications for real-time monitoring of data streams, allowing us to handle much faster arrival rates and/or use cheaper and lower powered devices than are currently possible.},
+author = {Rakthanmanon, Thanawin and Campana, Bilson and Mueen, Abdullah and Batista, Gustavo and Westover, Brandon and Zhu, Qiang and Zakaria, Jesin and Keogh, Eamonn},
+doi = {10.1145/2339530.2339576},
+file = {:D$\backslash$:/Mendeley Desktop/Rakthanmanon et al/Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining/Rakthanmanon et al. - 2012 - Searching and mining trillions of time series subsequences under dynamic time warpi.pdf:pdf},
+isbn = {9781450314626},
+issn = {10450823},
+journal = {Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+keywords = {lower bounds,similarity search,time series},
+pages = {262--270},
+title = {{Searching and mining trillions of time series subsequences under dynamic time warping}},
+year = {2012}
+}
+
+@article{Sun2014,
+author = {Sun, Youqiang and Li, Jiuyong and Liu, Jixue and Sun, Bingyu and Chow, Christopher},
+doi = {10.1016/j.neucom.2014.01.045},
+file = {:D$\backslash$:/Mendeley Desktop/Sun et al/Neurocomputing/Sun et al. - 2014 - An improvement of symbolic aggregate approximation distance measure for time series.pdf:pdf},
+issn = {09252312},
+journal = {Neurocomputing},
+keywords = {Classification,Lower bound,Symbolic Aggregate approXimation,Time series,Trend distance},
+month = {aug},
+pages = {189--198},
+publisher = {Elsevier},
+title = {{An improvement of symbolic aggregate approximation distance measure for time series}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0925231214002872},
+volume = {138},
+year = {2014}
+}
+
+@article{Lin2003,
+abstract = {The parallel explosions of interest in streaming data, and data mining of time series have had surprisingly little intersection. This is in spite of the fact that time series data are typically streaming data. The main reason for this apparent paradox is the fact that the vast majority of work on streaming data explicitly assumes that the data is discrete, whereas the vast majority of time series data is real valued.Many researchers have also considered transforming real valued time series into symbolic representations, nothing that such representations would potentially allow researchers to avail of the wealth of data structures and algorithms from the text processing and bioinformatics communities, in addition to allowing formerly "batch-only" problems to be tackled by the streaming community. While many symbolic representations of time series have been introduced over the past decades, they all suffer from three fatal flaws. Firstly, the dimensionality of the symbolic representation is the same as the original data, and virtually all data mining algorithms scale poorly with dimensionality. Secondly, although distance measures can be defined on the symbolic approaches, these distance measures have little correlation with distance measures defined on the original time series. Finally, most of these symbolic approaches require one to have access to all the data, before creating the symbolic representation. This last feature explicitly thwarts efforts to use the representations with streaming algorithms.In this work we introduce a new symbolic representation of time series. Our representation is unique in that it allows dimensionality/numerosity reduction, and it also allows distance measures to be defined on the symbolic approach that lower bound corresponding distance measures defined on the original series. As we shall demonstrate, this latter feature is particularly exciting because it allows one to run certain data mining algorithms on the efficiently manipulated symbolic representation, while producing identical results to the algorithms that operate on the original data. Finally, our representation allows the real valued data to be converted in a streaming fashion, with only an infinitesimal time and space overhead.We will demonstrate the utility of our representation on the classic data mining tasks of clustering, classification, query by content and anomaly detection.},
+author = {Lin, Jessica and Keogh, Eamonn and Lonardi, Stefano and Chiu, Bill},
+doi = {10.1145/882082.882086},
+file = {:D$\backslash$:/Mendeley Desktop/Lin et al/Proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery/Lin et al. - 2003 - A Symbolic Representation of Time Series, with Implications for Streaming Algorithms.pdf:pdf},
+journal = {Proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery},
+keywords = {data mining,data streams,discretize,symbolic,time series},
+pages = {2--11},
+title = {{A Symbolic Representation of Time Series, with Implications for Streaming Algorithms}},
+year = {2003}
+}
+
+@inproceedings{Lkhagva2006,
+abstract = {Efficient and accurate similarity searching for a large amount of time series data set is an important but non-trivial problem. Many dimensionality reduction techniques have been proposed for effective representation of time series data in order to realize such similarity searching, including Singular Value Decomposition (SVD), the Discrete Fourier transform (DFT), the Adaptive Piecewise Constant Approximation (APCA), and the recently proposed Symbolic Aggregate Approximation (SAX).},
+author = {Lkhagva, B. and Kawagoe, K.},
+booktitle = {22nd International Conference on Data Engineering Workshops (ICDEW'06)},
+doi = {10.1109/ICDEW.2006.99},
+file = {:D$\backslash$:/Mendeley Desktop/Lkhagva, Kawagoe/22nd International Conference on Data Engineering Workshops (ICDEW'06)/Lkhagva, Kawagoe - 2006 - New Time Series Data Representation ESAX for Financial Applications.pdf:pdf},
+isbn = {0-7695-2571-7},
+language = {English},
+month = {apr},
+pages = {x115--x115},
+publisher = {IEEE},
+title = {{New Time Series Data Representation ESAX for Financial Applications}},
+url = {http://www.computer.org/csdl/proceedings/icdew/\\2006/2571/00/2571x115-abs.html},
+year = {2006}
+}
+
+@misc{UCRArchive,
+title={The UCR Time Series Classification Archive},
+author={ Chen, Yanping and Keogh, Eamonn and Hu, Bing and Begum, Nurjahan and Bagnall, Anthony and Mueen, Abdullah and Batista, Gustavo},
+year={2015},
+month={July},
+note = {\url{www.cs.ucr.edu/~eamonn/time\_series\_data/}}
+}
+
+@book{Malinowski2013,
+abstract = {SAX (Symbolic Aggregate approXimation) is one of the main symbolization techniques for time series. A well-known limitation of SAX is that trends are not taken into account in the symbolization. This paper proposes 1d-SAX a method to represent a time series as a sequence of symbols that each contain information about the average and the trend of the series on a segment. We compare the efficiency of SAX and 1d-SAX in terms of goodness-of-fit, retrieval and classification performance for querying a time series database with an asymmetric scheme. The results show that 1d-SAX improves performance using equal quantity of information, especially when the compression rate increases.},
+address = {Berlin, Heidelberg},
+author = {Malinowski, Simon and Guyet, Thomas and Quiniou, Ren{\'{e}} and Tavenard, Romain},
+booktitle = {International Symposium on Intelligent Data Analysis},
+doi = {10.1007/978-3-642-41398-8},
+editor = {Tucker, Allan and H{\"{o}}ppner, Frank and Siebes, Arno and Swift, Stephen},
+file = {:D$\backslash$:/Mendeley Desktop/Malinowski et al/International Symposium on Intelligent Data Analysis/Malinowski et al. - 2013 - 1d-SAX A Novel Symbolic Representation for Time Series.pdf:pdf},
+isbn = {978-3-642-41397-1},
+keywords = {SAX,time series retrieval},
+language = {en},
+number = {12},
+pages = {273--284},
+publisher = {Springer Berlin Heidelberg},
+series = {Lecture Notes in Computer Science},
+title = {{1d-SAX: A Novel Symbolic Representation for Time Series}},
+url = {https://hal.inria.fr/halshs-00912512},
+volume = {8207},
+year = {2013}
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
