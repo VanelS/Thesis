@@ -308,6 +308,7 @@ It is therefore interesting for feature selection, but we still need a dissimila
 function to be able to discover u-shapelet. In the next paragraph, we 
 define a dissimilarity function that has the same properties as LoCo and that is
 robust to the presence of uncertainty.
+
 \section{Our Approach}
 \subsection{Dissimilarity function}
 
@@ -467,6 +468,7 @@ experiments. Indeed, key aperiodic trends are captured by one eigenvector,
 whereas key oscillatory trends manifest themselves in a pair of eigenvectors.  
 
 \subsection{Evaluation Metric}
+Different measures for time series clustering quality have been proposed, including Jaccard Score, Rand Index, Folkes and Mallow index, etc. However, because in our case we have ground truth class labels for the datasets, we can use this external information to evaluate the true clustering quality by using Rand Index. Moreover, Rand Index appears to be the most commonly used clustering quality measure \cite{zakaria2012clustering, ulanova2015scalable, zhang2016unsupervised}, and many of the other measures can be seen as minor variants of it\cite{halkidi2001clustering}.
 To appreciate the quality of the u-shapelets found, we use them for a clustering task. The quality of clustering is evaluated from the Rand Index \cite{rand1971objective} which is calculated as follows:
 
 Let Lc be the cluster labels returned by a clustering algorithm and Lt be the
@@ -481,7 +483,8 @@ Rand\,Index = (A+B)/(A+B+C+D)
 \end{eqnarray}    
 
 \subsection{Comparison with u-shapelet}
-Similarly to \cite{dallachiesa}, we tested our method on 17 datasets coming from UCR archive \cite{UCRArchive} representing a wide range of application domains. The training and testing sets have been joined to obtained bigger datasets. Table \ref{datasets} present detailed information about tested datasets.
+All measurements performed by a mechanical system have uncertainty. Indeed, the uncertainty principle is partly a statement about the limitations of mechanical systems ability to perform measurements on a system without disturbing it \cite{folland1997uncertainty}. So, similarly to \cite{dallachiesa}, we tested our method on 17 real world datasets coming from UCR archive \cite{UCRArchive} representing a wide range of application domains. The training and testing sets have been joined to obtained bigger datasets. Table \ref{datasets} present detailed information about tested datasets.
+
 
 
 
@@ -541,6 +544,25 @@ FaceAll            & 0.907             & \textbf{0.908}
 \label{ri}
 \end{table}
 
+\subsection{Comparison with k-Shape and USLM}
+
+k-Shape and USLM are two u-shapelets  based clustering algorithms for time series presented in \cite{zhang2016unsupervised}. In this section, we compare the Rand Index obtained by FOTS-UShapelet and the one obtained by k-Shape and USLM on 5 datasets(Table \ref{comparison_rand_index}). The results of k-Shape and USLM was previously reported in \cite{zhang2016unsupervised}. This comparison shows that in general, FOTS-UShapelet perform better than k-Shape and USLM.
+
+\begin{table}[h]
+\centering
+\caption{Comparison between k-Shape, USLM and FOTS-UShapelet}
+\label{comparison_rand_index}
+\begin{tabular}{llll}
+\textbf{\begin{tabular}[c]{@{}l@{}}Rand\\   Index\end{tabular}} & \textbf{k-Shape} & \textbf{USLM} & \textbf{FOTS-UShapelet} \\
+CBF                                                             & 0.74             & \textbf{1}    & 0.909                   \\
+ECG200                                                          & 0.70             & 0.76          & \textbf{0.866}          \\
+Fac.F.                                                          & 0.64             & 0.79          & \textbf{0.910}          \\
+Lig2                                                            & 0.65             & 0.80          & \textbf{0.911}          \\
+Lig.7                                                           & 0.74             & 0.79          & \textbf{0.910}          \\
+OSU L.                                                         & 0.66             & 0.82          & \textbf{0.905}         
+\end{tabular}
+\end{table}
+
 				
 \subsection{Discussion}
 
@@ -548,9 +570,15 @@ The use of the FOTS score associated with the SUShapelet algorithm makes it
 possible to discover different u-shapelets than those found by the Euclidean
 distance. The FOTS-SUSh improves the results of time series clustering because the FOTS score takes into account the intrinsic properties of the time series when searching for u-shapelets and is robust to the presence of uncertainty. This improvement is particularly significant when the FOTS score is used for the clustering of time series containing several small oscillations. Indeed, these oscillations are not captured by the Euclidean distance but are by the FOTS score whose calculation is based on the autocorrelation matrix. This observation is illustrated by the result obtained on  SwedishLeaf dataset.
 
-\subsubsection{Time complexity analysis} ED can be computed in $\mathcal{O}(n)$ and  FOTS score is computed in $\mathcal{O}(n^\omega),\:2\leq\omega\leq3$ due to the time complexity of the eigenvector decompositions \cite{pan1999complexity}. The computation of FOTS score is then more expensive than that of ED. However, its use remains relevant for u-shapelet research as they are often small.
+\subsubsection{Time complexity analysis} ED can be computed in $\mathcal{O}(n)$ and  FOTS score is computed in $\mathcal{O}(n^\omega),\:2\leq\omega\leq3$ due to the time complexity of the eigenvector decompositions \cite{pan1999complexity}. The computation of FOTS score is then more expensive than that of ED (Fig. \ref{temps_ED_FOTS}). However, its use remains relevant for u-shapelet research as they are often small.
 
 
+ \begin{figure}[h]
+  \centering
+   \includegraphics[scale=0.5]{images/temps_ED_FOTS}
+    \caption{Comparison between the execution time of the Euclidean distance and that of the FOTS score as a function of the length of the time series}
+  \label{temps_ED_FOTS}
+  \end{figure}
 
 \section{Conclusion and Future Work}
 The purpose of this work was to discover u-shapelets on uncertain time series. To answer this question, we have proposed a dissimilarity score (FOTS) adapted to the comparison of short time series, whose computation is based on the comparison of the eigenvector of the autocorrelation matrices of the time series. This score is robust to the presence of uncertainty, it is not very sensitive to transient changes, and it allows capturing complex relationships between time series such as oscillations and trends. The FOTS score was used with the Scalable Unsupervised Shapelet Discovery algorithm for clustering 17 literature datasets and showed an improvement in the quality of clustering evaluated using the Rand Index.  By combining the benefits of the u-shapelets algorithm, which reduces the adverse effects of uncertainty, and the benefits of the FOTS score, which is robust to the presence of uncertainty, this work is defining a framework for clustering uncertain time series. As a perspective to this work, we plan to use the FOTS score for fuzzy clustering of uncertain time series.

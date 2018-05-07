@@ -1,91 +1,101 @@
 \BOOKMARK [0][-]{chapter*.3}{Sommary}{}% 1
 \BOOKMARK [0][-]{section*.8}{Introduction}{}% 2
-\BOOKMARK [-1][-]{part.1}{I State of the Art}{}% 3
+\BOOKMARK [-1][-]{part.1}{I Background and related works}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Analysis of the wheelchair locomotion}{part.1}% 4
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.2}{The problem of locomotion manual wheelchair locomotion}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.3}{Tools to evaluate manual wheelchair locomotion}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.4}{Knowledge discovery on wheelchair time series}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.5}{Conclusion}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{Clustering of time series}{part.1}% 10
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{MAJOR TIME SERIES CLUSTERING APPROACHES}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.1}{ Literature Survey of Temporal- Proximity-Based Clustering Approach }{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.2}{ Literature Survey of Representation- Based Clustering Approach}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.3}{Literature Survey of Model-Based}{section.2.2}% 15
-\BOOKMARK [1][-]{section.2.3}{CONCLUSIONS}{chapter.2}% 16
-\BOOKMARK [-1][-]{part.2}{II Our contribution}{}% 17
-\BOOKMARK [0][-]{chapter.3}{Uncertain time series u-shapelet discovery}{part.2}% 18
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.1.1}{U-shapelets algorithm for clustering Uncertain Time Series }{section.3.1}% 20
-\BOOKMARK [2][-]{subsection.3.1.2}{Uncertainty and u-shapelets discovery issue}{section.3.1}% 21
-\BOOKMARK [2][-]{subsection.3.1.3}{Summary of contributions}{section.3.1}% 22
-\BOOKMARK [1][-]{section.3.2}{Background}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{Related work}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.2}{Review of u-shapelets}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.3}{Review on uncertain similarity functions}{section.3.2}% 26
-\BOOKMARK [1][-]{section.3.3}{Our Approach}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.1}{Dissimilarity function}{section.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.2}{Scalable u-shapelets Algorithm with FOTS score}{section.3.3}% 29
-\BOOKMARK [1][-]{section.3.4}{Experimental Evaluation}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.4.1}{Clustering with u-shapelets}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.2}{Evaluation Metric}{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.3}{Comparison with u-shapelet}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.4}{Discussion}{section.3.4}% 34
-\BOOKMARK [1][-]{section.3.5}{Conclusion and Future Work}{chapter.3}% 35
-\BOOKMARK [0][-]{chapter.4}{Preprocessing of time series}{part.2}% 36
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.1.1}{Why the use of PAA can improve alignment with Dynamic Time Warping}{section.4.1}% 38
-\BOOKMARK [2][-]{subsection.4.1.2}{The problem of choosing a suitable segment number for PAA}{section.4.1}% 39
-\BOOKMARK [2][-]{subsection.4.1.3}{Summary of Contributions}{section.4.1}% 40
-\BOOKMARK [1][-]{section.4.2}{Background and related work}{chapter.4}% 41
-\BOOKMARK [2][-]{subsection.4.2.1}{Dynamic Time Warping algorithm.}{section.4.2}% 42
-\BOOKMARK [2][-]{subsection.4.2.2}{Piecewise Dynamic Time Warping}{section.4.2}% 43
-\BOOKMARK [1][-]{section.4.3}{Heuristic}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.3.1}{Problem definition.}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.2}{ Greedy Randomized Adaptive Search Procedures}{section.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.3.3}{Parameter free heuristic}{section.4.3}% 47
-\BOOKMARK [1][-]{section.4.4}{Experiments and discussion}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.4.1}{Datasets}{section.4.4}% 49
-\BOOKMARK [2][-]{subsection.4.4.2}{Compression}{section.4.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.3}{Classification}{section.4.4}% 51
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 52
-\BOOKMARK [0][-]{chapter.5}{SAX-P}{part.2}% 53
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.2}{SAX-P}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.2.1}{Segmentation of cyclic time series}{section.5.2}% 56
-\BOOKMARK [2][-]{subsection.5.2.2}{From cycles to letters}{section.5.2}% 57
-\BOOKMARK [1][-]{section.5.3}{Application to manual wheelchair locomotion}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 59
-\BOOKMARK [0][-]{chapter.6}{Application to manual wheelchair locomotion}{part.2}% 60
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 61
-\BOOKMARK [1][-]{section.6.2}{Description of the dataset}{chapter.6}% 62
-\BOOKMARK [2][-]{subsection.6.2.1}{Torque sensor}{section.6.2}% 63
-\BOOKMARK [2][-]{subsection.6.2.2}{Characteristic properties of the data}{section.6.2}% 64
-\BOOKMARK [1][-]{section.6.3}{Analysis based on propulsion technique}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.4}{Analysis based on propulsion capabilities}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.5}{Propulsion technique versus propulsion capabilities}{chapter.6}% 67
-\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 68
-\BOOKMARK [0][-]{section.6.6}{Conclusion}{part.2}% 69
-\BOOKMARK [0][-]{appendix.A}{Hellinger Based Distance for Uncertain time series}{part.2}% 70
-\BOOKMARK [1][-]{section.A.1}{DUST}{appendix.A}% 71
-\BOOKMARK [1][-]{section.A.2}{Hellinger Based Distance}{appendix.A}% 72
-\BOOKMARK [0][-]{appendix.B}{An optimal approach to time series segmentation: Application to the supervised classification}{part.2}% 73
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 74
-\BOOKMARK [1][-]{section.B.2}{Granularity of time series segments}{appendix.B}% 75
-\BOOKMARK [2][-]{subsection.B.2.1}{Notations and definitions}{section.B.2}% 76
-\BOOKMARK [2][-]{subsection.B.2.2}{information theory and minimum number of segments}{section.B.2}% 77
-\BOOKMARK [2][-]{subsection.B.2.3}{Notations and definitions}{section.B.2}% 78
-\BOOKMARK [2][-]{subsection.B.2.4}{Minimize the squared error to choose the number of segments}{section.B.2}% 79
-\BOOKMARK [2][-]{subsection.B.2.5}{Dynamic Time Warping Algorithm and Comparison of Representations compact}{section.B.2}% 80
-\BOOKMARK [1][-]{section.B.3}{Results and Discussion}{appendix.B}% 81
-\BOOKMARK [2][-]{subsection.B.3.1}{Datasets}{section.B.3}% 82
-\BOOKMARK [2][-]{subsection.B.3.2}{Comparison of algorithm performance}{section.B.3}% 83
-\BOOKMARK [1][-]{section.B.4}{Conclusion}{appendix.B}% 84
-\BOOKMARK [0][-]{section.B.4}{Index}{part.2}% 85
-\BOOKMARK [0][-]{section.B.4}{Glossaire}{part.2}% 86
-\BOOKMARK [0][-]{section.B.4}{Liste des abreviations, des sigles et des symboles}{part.2}% 87
-\BOOKMARK [0][-]{appendix*.84}{References}{part.2}% 88
-\BOOKMARK [0][-]{appendix*.85}{Table des figures}{part.2}% 89
-\BOOKMARK [0][-]{appendix*.86}{Liste des tableaux}{part.2}% 90
-\BOOKMARK [0][-]{appendix*.87}{Table des matieres}{part.2}% 91
+\BOOKMARK [2][-]{subsection.1.3.1}{Crank Ergometers}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Roller Ergometers}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.3}{Treadmill}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.4}{Wheelchair simulators}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.5}{Wheelchair Field-Ergometer}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Knowledge discovery on wheelchair time series}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.5}{Conclusion}{chapter.1}% 14
+\BOOKMARK [0][-]{chapter.2}{Knowledge discovery on time series}{part.1}% 15
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.2}{Preprocessing of time series}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Denoising time series}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Reducing uncertainty}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Dimensionality reduction}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Similarity Measures}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.3.1}{Time-Series Invariances}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.2}{Categories of time series similarity function}{section.2.3}% 23
+\BOOKMARK [1][-]{section.2.4}{Datamining task on time series}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.5}{CONCLUSIONS}{chapter.2}% 25
+\BOOKMARK [-1][-]{part.2}{II Contributions}{}% 26
+\BOOKMARK [0][-]{chapter.3}{Preprocessing of time series}{part.2}% 27
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.1.1}{Why the use of PAA can improve alignment with Dynamic Time Warping}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.2}{The problem of choosing a suitable segment number for PAA}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.3}{Summary of Contributions}{section.3.1}% 31
+\BOOKMARK [1][-]{section.3.2}{Background and related works}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.2.1}{Dynamic Time Warping algorithm.}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.2}{Iterative Deepening Dynamic Time Warping}{section.3.2}% 34
+\BOOKMARK [1][-]{section.3.3}{GRASP based heuristic}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.1}{ Evaluation procedures for the compression quality}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.2}{Problem definition.}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.3}{Brute-force search.}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.4}{ Greedy Randomized Adaptive Search Procedures}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.5}{Parameter free heuristic.}{section.3.3}% 40
+\BOOKMARK [1][-]{section.3.4}{Experiment and results}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.4.1}{Case studies}{section.3.4}% 42
+\BOOKMARK [1][-]{section.3.5}{Conclusion and perspective}{chapter.3}% 43
+\BOOKMARK [0][-]{chapter.4}{Uncertain time series u-shapelet discovery}{part.2}% 44
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{U-shapelets algorithm for clustering Uncertain Time Series }{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.2}{Uncertainty and u-shapelets discovery issue}{section.4.1}% 47
+\BOOKMARK [2][-]{subsection.4.1.3}{Summary of contributions}{section.4.1}% 48
+\BOOKMARK [1][-]{section.4.2}{Background}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.2.1}{Related work}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.2}{Review of u-shapelets}{section.4.2}% 51
+\BOOKMARK [2][-]{subsection.4.2.3}{Review on uncertain similarity functions}{section.4.2}% 52
+\BOOKMARK [1][-]{section.4.3}{Our Approach}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.3.1}{Dissimilarity function}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.2}{Scalable u-shapelets Algorithm with FOTS score}{section.4.3}% 55
+\BOOKMARK [1][-]{section.4.4}{Experimental Evaluation}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.4.1}{Clustering with u-shapelets}{section.4.4}% 57
+\BOOKMARK [2][-]{subsection.4.4.2}{Evaluation Metric}{section.4.4}% 58
+\BOOKMARK [2][-]{subsection.4.4.3}{Comparison with u-shapelet}{section.4.4}% 59
+\BOOKMARK [2][-]{subsection.4.4.4}{Comparison with k-Shape and USLM}{section.4.4}% 60
+\BOOKMARK [2][-]{subsection.4.4.5}{Discussion}{section.4.4}% 61
+\BOOKMARK [1][-]{section.4.5}{Conclusion and Future Work}{chapter.4}% 62
+\BOOKMARK [0][-]{chapter.5}{SAX-P}{part.2}% 63
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.2}{SAX-P}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.2.1}{Segmentation of cyclic time series}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.2}{From cycles to letters}{section.5.2}% 67
+\BOOKMARK [1][-]{section.5.3}{Application to manual wheelchair locomotion}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 69
+\BOOKMARK [0][-]{chapter.6}{Application to manual wheelchair locomotion}{part.2}% 70
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.2}{Description of the dataset}{chapter.6}% 72
+\BOOKMARK [2][-]{subsection.6.2.1}{Torque sensor}{section.6.2}% 73
+\BOOKMARK [2][-]{subsection.6.2.2}{Characteristic properties of the data}{section.6.2}% 74
+\BOOKMARK [1][-]{section.6.3}{Analysis based on propulsion technique}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.4}{Analysis based on propulsion capabilities}{chapter.6}% 76
+\BOOKMARK [1][-]{section.6.5}{Propulsion technique versus propulsion capabilities}{chapter.6}% 77
+\BOOKMARK [1][-]{section.6.6}{Conclusion}{chapter.6}% 78
+\BOOKMARK [0][-]{section.6.6}{Conclusion}{part.2}% 79
+\BOOKMARK [0][-]{appendix.A}{Hellinger Based Distance for Uncertain time series}{part.2}% 80
+\BOOKMARK [1][-]{section.A.1}{DUST}{appendix.A}% 81
+\BOOKMARK [1][-]{section.A.2}{Hellinger Based Distance}{appendix.A}% 82
+\BOOKMARK [0][-]{appendix.B}{An optimal approach to time series segmentation: Application to the supervised classification}{part.2}% 83
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 84
+\BOOKMARK [1][-]{section.B.2}{Granularity of time series segments}{appendix.B}% 85
+\BOOKMARK [2][-]{subsection.B.2.1}{Notations and definitions}{section.B.2}% 86
+\BOOKMARK [2][-]{subsection.B.2.2}{information theory and minimum number of segments}{section.B.2}% 87
+\BOOKMARK [2][-]{subsection.B.2.3}{Notations and definitions}{section.B.2}% 88
+\BOOKMARK [2][-]{subsection.B.2.4}{Minimize the squared error to choose the number of segments}{section.B.2}% 89
+\BOOKMARK [2][-]{subsection.B.2.5}{Dynamic Time Warping Algorithm and Comparison of Representations compact}{section.B.2}% 90
+\BOOKMARK [1][-]{section.B.3}{Results and Discussion}{appendix.B}% 91
+\BOOKMARK [2][-]{subsection.B.3.1}{Datasets}{section.B.3}% 92
+\BOOKMARK [2][-]{subsection.B.3.2}{Comparison of algorithm performance}{section.B.3}% 93
+\BOOKMARK [1][-]{section.B.4}{Conclusion}{appendix.B}% 94
+\BOOKMARK [0][-]{section.B.4}{Index}{part.2}% 95
+\BOOKMARK [0][-]{section.B.4}{Glossaire}{part.2}% 96
+\BOOKMARK [0][-]{section.B.4}{Liste des abreviations, des sigles et des symboles}{part.2}% 97
+\BOOKMARK [0][-]{appendix*.141}{References}{part.2}% 98
+\BOOKMARK [0][-]{appendix*.142}{Table des figures}{part.2}% 99
+\BOOKMARK [0][-]{appendix*.143}{Liste des tableaux}{part.2}% 100
+\BOOKMARK [0][-]{appendix*.144}{Table des matieres}{part.2}% 101
