@@ -1,11 +1,12 @@
 \chapter[Preprocessing of time series]{Compression for a better classification with Dynamic Time Warping}
+\label{fdtw}
 
 \begin{abstract}
  Dynamic Time Warping (DTW) is a time series alignment algorithm that is often used because it
  considers that it exits small distortions between time series during their alignment.  However, DTW
  sometimes produces pathological alignments that occur when, during the comparison of two time series
  X and Y, one data point of the time series X is compared to a large subsequence of data points of Y.
- In this paper, we demonstrate that to compress time series using Piecewise Aggregate Approximation
+ In this chapter, we demonstrate that to compress time series using Piecewise Aggregate Approximation
  (PAA) is a simple strategy that greatly increases the quality of the alignment with DTW this is
  particularly true for synthetic data sets.      
  \end{abstract}
@@ -19,16 +20,14 @@ introduced in order to represent them in a more compact way. One of these transf
 Piecewise Aggregate Approximation (PAA) \cite{keogh2001dimensionality}, which consists in dividing a
 time series into several segments of fixed length and replacing the data points of each segment with
 their averages. Due to its simplicity and low computational time, PAA has been widely used as a
-basic primitive by other temporal data mining algorithms such as \cite{lin2003symbolic,
-sun2014improvement, lkhagva2006extended}, in order  
+basic primitive by other temporal data mining algorithms such as \cite{lin2003symbolic} \cite{sun2014improvement}  \cite{lkhagva2006extended}, in order to : 
 \begin{itemize}
-  \item To construct symbolic representations of time
-series; \cite{camerra2010isax, ulanova2015scalable}.
-  \item To construct an index for time series; \cite{zhao2016shapedtw,
-keogh2000scaling, Kate2016}. Indeed, PAA allows queries which are shorter than length for which the
+  \item construct symbolic representations of time
+series; \cite{camerra2010isax} \\ \cite{ulanova2015scalable}.
+  \item construct an index for time series; \cite{zhao2016shapedtw} \\ \cite{keogh2000scaling}  \cite{Kate2016}. Indeed, PAA allows queries which are shorter than length for which the
 index was built. This very desirable feature is impossible with Discrete Fourier Transform, Singular
 Value Decomposition and Discrete Wavelet Transform.
-\item To classify time series.
+\item classify time series.
 \end{itemize}
 
 
@@ -54,12 +53,12 @@ of datapoints of $Y$.  A pathological alignment causes a wrong comparison.
  Three categories of methods are used to avoid pathological alignments with DTW:
 
 \begin{itemize}
-  \item The first one adds constraints to DTW \cite{Ratanamahatana_Keogh_2004, Yu_Yu_Hu_Liu_Wu_2011, candan2012sdtw, sakoe1978dynamic, jeong2011weighted, salvador2007toward}.
+  \item The first one adds constraints to DTW \cite{Ratanamahatana_Keogh_2004} \cite{Yu_Yu_Hu_Liu_Wu_2011}  \cite{candan2012sdtw}  \cite{sakoe1978dynamic} \\ \cite{jeong2011weighted}  \cite{salvador2007toward}.
   The main idea here is to limit the length of the subsequence of a time series
   that can be compared to a single datapoint of another time series.
   
   \item The second one suggests skipping datapoints that
-  produce pathological alignment during the comparison of two time series \cite{longin2005elastic, itakura1975minimum, myers1980performance}.
+  produce pathological alignment during the comparison of two time series \cite{longin2005elastic} \\ \cite{itakura1975minimum}  \cite{myers1980performance}.
   \item The third one proposes to replace the datapoints of time
   series with a high-level abstraction that captures the local behavior of those
   time series. A high-level abstraction can be a histogram of values that
@@ -88,9 +87,9 @@ Indeed, its classification error directly depends on time series alignment, sinc
 parameters \cite{wang2013experimental}.
 
 
-\begin{figure}[h]
+\begin{figure}
 \center
-\includegraphics[scale = 0.4]{images/effets_de_n_sur_accuracy}
+\includegraphics[scale = 0.4]{effets_de_n_sur_accuracy}
 \caption{Relation between Accuracy and the number of segment on FISH dataset. The accuracy is computed from the algorithm one nearest neighbor (1NN) associated with PDTW. When the number of segments
 considered is very small, there is a loss of information and the accuracy is reduced. However, considering all the points in the time series, we also do not obtain maximum accuracy due to the presence of noise or singularities \cite{Keogh_Pazzani_2001}  in the data. }
 \label{relation_nb_acc}
@@ -110,7 +109,7 @@ our experiments.
 The rest of the paper is organized as follow: in Section
 \ref{sec:1} we recall the definitions and background; Section \ref{sec:3} explains our approach;
 Section \ref{sec:4} presents experimental results and comparisons to others methods; Section
-\ref{sec:5} offers conclusions and venues for future work.   
+\ref{sec:5} offers conclusions and venues for future work.   It is possible to consider the internal properties of time series to choose the compression ratio to use with them. However, this approach gives less good results (Appendix \ref{seg}).
 
 
 
@@ -127,14 +126,14 @@ $X=x_{1},\cdots,x_{n}$ is a sequence of numerical values representing the evolut
 \paragraph{Definition 2.}:
 A segment  $X_{i}$ of length  $l$ of the time series $X$ of length $n$
 $(l<n)$ is a sequence constituted by $l$ \hyphenation{conse-cutive} variables of $X$ starting at the position $i$ and ending at the position $i+l-1$.
-We have: $X_{i}=x_{i},x_{i+1},...,x_{i+l-1}$
+We have: $X_{i}=x_{i},x_{i+1},...,x_{i+l-1}$.
 
 
 \paragraph{Definition 3.}:
 The arithmetic average of the data points of a segment  $X_{i}$ of length
 $l$ is noted $\bar{X}_{i}$ and is defined by:
 \begin{eqnarray}
-\bar{X}_{i}=\frac{1}{l}\sum_{j=0}^{l-1}x_{i+j}
+\bar{X}_{i}=\frac{1}{l}\sum_{j=0}^{l-1}x_{i+j}.
 \end{eqnarray}
 
 
@@ -149,8 +148,8 @@ Let $T$ be the set of time series. The Piecewise Aggregate Approximation (PAA) i
 (X,N)\mapsto PAA(X,N) & = &
  \begin{cases}
  \begin{array}{c}
-\bar{X}_{1},\cdots,\bar{X}_{N}\:if\:N<|X|\\
-X\:otherwise
+\bar{X}_{1},\cdots,\bar{X}_{N}\:if\:N<|X|,\\
+X\:otherwise.
 \end{array}
 \end{cases}
 \end{array}
@@ -159,7 +158,7 @@ X\:otherwise
 
 \paragraph{Definition 5.}:
 Let $d\subseteq T$ be a subset of time series,
-$N\in\mathbb{N}^{*},\:PAAset(d,N)=\{PAA(X,N),\:\forall X\in d\}$
+$N\in\mathbb{N}^{*},\:PAAset(d,N)=\{PAA(X,N),\:\forall X\in d\}.$
 
 
 \subsection{Dynamic Time Warping algorithm.}
@@ -172,11 +171,11 @@ j)$ of the matrix corresponds to the squared distance $(x_{i}-y_{j})^{2}$ betwee
 and $y_{j}$. Then to find the best alignment between $X$ and $Y$, DTW constructs the path that minimizes the sum of squared distances. This path, noted
 $W = w_1, w_2, \ldots, w_k, \ldots, w_K,$ must respect the following constraints:
 \begin{itemize}
-  \item Boundary constraint: $w_1 = (1, 1)$ and  $w_K = (n, m)$
+  \item Boundary constraint: $w_1 = (1, 1)$ and  $w_K = (n, m)$;
   \item Monotonicity constraint: given $w_k = (i, j)$ and :  $w_{k + 1} =
-  (i',j')$ then : $i \leq i'$ and $j \leq j'$
+  (i',j')$ then : $i \leq i'$ and $j \leq j'$;
  \item Continuity constraint: given $w_k = (i, j)$ and :   $w_{k + 1} = (i', j')$
- then : $i' \leq i + 1$ and : $j' \leq j + 1$
+ then : $i' \leq i + 1$ and : $j' \leq j + 1$.
 \end{itemize}
 The warping path is computed by  an algorithm based on the dynamic
 programming paradigm that solves the following recurrence:
@@ -207,9 +206,9 @@ For determining the number of segments, IDDTW only considers values that are  po
 Figure \ref{iddtwPrinciple}): We disqualify a candidate if this probability is less than the user's specified error acceptance, the candidate is disqualified; otherwise, a finer aproximation is used and the test is re-applied to the next depth. This process continues until the full DTW is performed.
 
 
-\begin{figure}[h]
+\begin{figure}
 \center
-\includegraphics[scale=0.4]{images/iddtw}
+\includegraphics[scale=0.4]{iddtw}
 \caption{IDDTW operating principle. Depth represents approximation levels, A represents approximate distance and B is best\_so\_far \cite{chu2002iterative}. }
 
 \label{iddtwPrinciple}
@@ -363,7 +362,6 @@ time series is $n = 12$ and the number of candidates is $N_c = 4$, we are going 
 candidates 12, 9, 6, 3.
 
 \begin{center}
-
 \begin{tikzpicture}[shorten >=1pt,->]
 
 \node (1) at (1,1) {1};
@@ -384,11 +382,7 @@ candidates 12, 9, 6, 3.
 \draw[->,>=latex] (6) to[bend left] (3);
 
 \end{tikzpicture}
-
-
 \end{center}
-
-
 
 
 
@@ -398,7 +392,6 @@ In our example, we may suppose that we get the minimal value with the candidate 
 best candidate at this step.
 
 \begin{center}
-
 \begin{tikzpicture}[shorten >=1pt,->]
 
 \node (1) at (1,1) {1};
@@ -415,20 +408,14 @@ best candidate at this step.
 \node[draw,circle,fill=gray!30] (12) at (9.25,1) {12};
 
 \end{tikzpicture}
-
 \end{center}
-
-
-
 
 \paragraph{3.} We respectively look between the predecessor (i.e., 3 here) and successor (i.e., 9
 here) of the best candidate for a number of segments with a lower classification error : this number
 of segments corresponds to a local minimum.
 In our example, we are going to test values 4, 5, 7 and 8 to see if there is a local minimum.
 
-
 \begin{center}
-
 \begin{tikzpicture}[shorten >=1pt,->]
 
 \node (1) at (1,1) {1};
@@ -450,11 +437,7 @@ In our example, we are going to test values 4, 5, 7 and 8 to see if there is a l
 \draw[->,>=latex] (7) to[bend right] (8);
 
 \end{tikzpicture}
-
 \end{center}
-
-
-
 \paragraph{4.} We restart at step one while choosing
 different candidates during each iteration to ensure that we return a good
 local minimum. We fix the number of iterations to $k \leq \left\lfloor log(n)\right\rfloor $. At each iteration, the first candidate is $n-(number \_ of \_ iteration \,-\, 1)$.
@@ -468,16 +451,16 @@ candidates should we consider to reduce the number of tests? The first
 derivative of $nb$ function  vanishes when $N_{c}=\sqrt{2n}$ and its second derivative is
 positive; so the minimal number of tests is obtained when the number of candidates is : 
 $N_{c}=\sqrt{2n}$. At each
-iteration, the heuristic tests $nb(\sqrt{2n})=8\sqrt{n}$ number of segments. As we have $k$
+iteration, the heuristic tests $nb(\sqrt{2n})=\sqrt{8n}$ number of segments. As we have $k$
 iterations the number of candidates tested is: $|C|=\stackrel[i=0]{k-1}{\sum}{\textstyle
-8\sqrt{n-i}}$. The details of the heuristic are presented in Algorithm \ref{algo5}.
+k\sqrt{8n}}$. The details of the heuristic are presented in Algorithm \ref{algo5}.
 
 \paragraph{Time complexity: }
 We use the training set to find the number of segments that should be considered
 with PDTW. For that purpose, we applied $1NN$ on the training set that costs
 \begin{eqnarray}
 O(|d|^{2} \times \underset{N\in C}{\sum}{\displaystyle
-N^{2}}),\, |C|=\stackrel[i=0]{k-1}{\sum}{\textstyle 8\sqrt{n-i}}.
+N^{2}}),\, |C|= k\sqrt{8n},
 \end{eqnarray}
 
 
@@ -620,7 +603,7 @@ An immediate way to evaluate the quality of the segmentation is to compare the c
 segment number $N_1$ will be better than a segment number $N_2$ if it makes it possible to obtain a
 more compact representation with PAA. The compression ratio is given by:
 \[
-r=\frac{n-N}{n}
+r=\frac{n-N}{n},
 \]
 where $n$ is the length of the time series and $N$ is the number of segments considered with PAA. The closer $r$ is to 1 the better is the compression. 
 
@@ -635,11 +618,11 @@ PAA used with a suitable segment number allows compression of the time series of
 the \textbf{Coffee} dataset without loss of information. Although they are more compact, the obtained time series
 capture the main variations of the original time series (figure \ref{coffee}).
 
-\begin{figure}[h]
-\center
-\includegraphics[scale=0.23]{images/coffee_0_ts}\includegraphics[scale=0.23]{images/coffee_0_paa_88}
+\begin{figure}
 
-\includegraphics[scale=0.23]{images/coffee_1_ts}\includegraphics[scale=0.23]{images/coffee_1_paa_88}
+\includegraphics[scale=0.23]{coffee_0_ts}\includegraphics[scale=0.23]{coffee_0_paa_88}
+
+\includegraphics[scale=0.23]{coffee_1_ts}\includegraphics[scale=0.23]{coffee_1_paa_88}
 
 \caption{Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series, right:  representation using PAA with 88 segments}
 
@@ -692,13 +675,13 @@ $N^{\circ}$ & \textbf{Datasets}  & \textbf{DTW} & \textbf{IDDTW} & \textbf{N} &
 
 \tabletail{%
 \hline
-\multicolumn{7}{r}{\small\sl continued on next page}\\
+\multicolumn{7}{|r|}{\small\sl continued on next page}\\
 \hline}
 \tablelasttail{\hline}
 
 \bottomcaption{Classification errors associated with the number of segments \textbf{N} chosen by the
 heuristics IDDTW and FDTW. When two numbers of segments $N_1$ and $N_2$ are associated with the same
-classification error, the smallest is considered.}
+classification error, the smallest is considered}
 \label{error_trainingset}
 \small
 \begin{supertabular}{c|ll|ll|ll}
@@ -770,7 +753,7 @@ IDDTW tested all the values of $N$ that were equal to a power of two during the 
 \tablefirsthead{%
 \hline 
 
-\multicolumn{4}{c|}{\textbf{ \cite{Bagnall}}} & \multicolumn{6}{c}{\textbf{Our experiments}}\tabularnewline
+\multicolumn{4}{|c|}{\textbf{ \cite{Bagnall}}} & \multicolumn{6}{c|}{\textbf{Our experiments}}\tabularnewline
 \hline 
 $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} & \textbf{N(}$\ell$\textbf{)} & \textbf{IDDTW} & \textbf{N(}$\ell$\textbf{)} & \textbf{FDTW} & \textbf{N(}$\ell$\textbf{)}\tabularnewline
  & \textbf{Eucli } & \textbf{DTW} & \textbf{DTW (r)}  & \textbf{force } &  &  &  &  & \tabularnewline
@@ -779,11 +762,11 @@ $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} 
 \hline }
 \tablehead{%
 \hline
-\multicolumn{10}{l}{\small\sl continued from previous page}\\
+\multicolumn{10}{|l|}{\small\sl continued from previous page}\\
 \hline 
 
-\multicolumn{4}{c|}{\textbf{ \cite{Bagnall}}} &
-\multicolumn{6}{c}{\textbf{Our experiments}}\tabularnewline
+\multicolumn{4}{|c|}{\textbf{\cite{Bagnall}}} &
+\multicolumn{6}{c|}{\textbf{Our experiments}}\tabularnewline
 \hline 
 $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} & \textbf{N(}$\ell$\textbf{)} & \textbf{IDDTW} & \textbf{N(}$\ell$\textbf{)} & \textbf{FDTW} & \textbf{N(}$\ell$\textbf{)}\tabularnewline
  & \textbf{Eucli } & \textbf{DTW} & \textbf{DTW (r)}  & \textbf{force } &  &  &  &  & \tabularnewline
@@ -792,18 +775,18 @@ $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} 
 \hline }
 \tabletail{%
 \hline
-\multicolumn{10}{r}{\small\sl continued on next page}\\
+\multicolumn{10}{|r|}{\small\sl continued on next page}\\
 \hline}
 \tablelasttail{\hline}
 
 
 \bottomcaption{Comparison of generalization errors. In \textbf{italics}, the smallest generalization
 error. In \textbf{bold}, the smallest generalization error between IDDTW and FDTW. \textbf{N }is the number of segments selected
-and $\ell$ is the number of data points in a segment $(l = \lfloor\frac{n}{N}\rfloor)$. }
+and $\ell$ is the number of data points in a segment $(l = \lfloor\frac{n}{N}\rfloor)$ }
 
 \label{error}
 \small
-\begin{supertabular}{p{0.15cm}|p{1cm}ll|ll|ll|ll}
+\begin{supertabular}{|p{0.15cm}|p{1cm}ll|ll|ll|ll|}
 1 & 0.369 & 0.310 & 0.242 (6)  & 0.262 & 251(1) & \textbf{0.268} & 256(1) &
 \textbf{0.268} & 258(1)\tabularnewline 
 2 & 0.389 & 0.396 & 0.391 (3)  & 0.379 & 162(1) & 0.432 & 128(1) & \textbf{0.414}
@@ -924,9 +907,9 @@ series, and FDTW considers $\sqrt{n}$ candidates for each iteration.
 
 
 
-\begin{figure}[h]
+\begin{figure}
 \center
-\includegraphics[width=23pc,height=19pc]{images/nombre_de_candidats_testees}
+\includegraphics[width=23pc,height=19pc]{nombre_de_candidats_testees}
 \caption{Comparison of the number of tested values of the parameter number of segments with
 the FDTW and IDDTW. x-axis datasets are sorted according to
 the length of the time series. }
@@ -942,9 +925,9 @@ the fastest with an average execution time of 24 minutes. The execution time inc
 and IDDTW. This is observable from the datasets Lightning-2 whose time series have a length equal
 to 637 data points. Note: The experiments were conducted on a PC with an Intel Core i7 processor, 16GB of RAM and a Windows 7 64-bit operating system.
 
-\begin{figure}[h]
+\begin{figure}
 \center
-\includegraphics[width=18pc,height=14pc]{images/tempsDeCalcul2.jpg}
+\includegraphics[width=18pc,height=14pc]{tempsDeCalcul2.jpg}
 \caption{Comparison of the execution time of
 the Brute-force search algorithm, FDTW and IDDTW. }
 
@@ -987,7 +970,7 @@ from measurements made by accelerometers. As reported in \cite{Bagnall} the best
 on this dataset is 83.44\% with TSBF algorithm; FDTW outperforms this result and allows to obtain \textbf{91.87\%} of accuracy.
 
 
-\begin{figure}[h]
+\begin{figure}
 \center
 \includegraphics[scale=0.1]{images/c1}
 \includegraphics[scale=0.1]{images/c2}
@@ -1009,4 +992,26 @@ on this dataset is 83.44\% with TSBF algorithm; FDTW outperforms this result and
 
 \section{Conclusion and perspective}
 \label{sec:5}
-This paper deals with the problem of choosing an appropriate number of segments to compress time series with PAA in order to improve the alignment with DTW. In this aime, we proposed a parameter Free heuristic named FDTW, wich approximates the optimal number of segments to use. The experiments showed that FDTW increased the quality of alignment of time series especially on synthetic datasets where DTW associated with PAA performed better than any other variant of DTW on a classification task and was rank 3/37 behind two ensemble classification algorithms COTE and EE. This algorithm allows reducing the storage space and the processing time of time series while increasing the quality of the alignment of DTW. As a perspective, the problem we have dealt with in this paper could be modeled as a multi-objective optimization problem where one objective function would be compression and the other the classification of time series.
+This paper deals with the problem of choosing an appropriate number of segments to compress time series with PAA in order to improve the alignment with DTW. In this aime, we proposed a parameter Free heuristic named FDTW, wich approximates the optimal number of segments to use. The experiments showed that FDTW increased the quality of alignment of time series especially on synthetic datasets where DTW associated with PAA performed better than any other variant of DTW on a classification task and was rank 3/37 behind two ensemble classification algorithms COTE and EE. This algorithm allows reducing the storage space and the processing time of time series while increasing the quality of the alignment of DTW. As a perspective, the problem we have dealt with in this paper could be modeled as a multi-objective optimization problem where one objective function would be compression and the other the classification of time series. 
+
+
+In the next chapter, we will introduce a novel dissimilarity function adapted to the comparison of uncertain time series.
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|l|}
+
+\hline
+\rowcolor{LavenderBlush}
+Key points\\
+$\bullet$ We propose a heuristic for time series compression with Piecewise Aggregate\\ Approximation for classification purpose. \\
+\\
+$\bullet$ We show experimentally that in addition to reducing the length and processing\\ time of time series, compression can improve the classification of time series.\\ 
+\\
+Communications :\\
+$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter Free Piecewise Dynamic\\ Time Warping. ROADEF, France, Febuary 2017\\
+$-$  Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. PARAMETER FREE PIECEWISE\\ DYNAMIC TIME WARPING FOR TIME SERIES CLASSIFICATION. Time Series \\ workshop at International Conference on Machine Learning, Sydney, August 2017\\
+\hline
+\end{tabular}
+\end{table}

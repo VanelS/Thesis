@@ -1,49 +1,64 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces WAFT photograph \cite {langbein1993research}.\relax }}{9}{figure.caption.9}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Photograph of a wheelchair on a roller ergometer with mechanical braking by friction belt on a flywheel. (Rodgers et al., 1994).\relax }}{10}{figure.caption.10}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Photograph of an experiment on a conveyor belt (van der Woude et al., 2006)\relax }}{11}{figure.caption.11}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Photograph of an experiment on a simulator connected to a flywheel (Brattgard et al., 1970)\relax }}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Presentation of the different sensors of wheelchair field-ergometer\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Balance of forces applied to a manual wheelchair during its use; the analysis of the movement of the subject-chair system has been reduced to that of its center of gravity \relax }}{14}{figure.caption.14}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Balance of forces applied to a manual wheelchair during its use; the analysis of the movement of the subject-chair system has been reduced to that of its center of gravity \relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces WAFT photograph \cite {langbein1993research}.\relax }}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Photograph of a wheelchair on a roller ergometer with mechanical braking by friction belt on a flywheel. \cite {rodgers1994biomechanics}.\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Photograph of an experiment on a conveyor belt \cite {van2006manual}\relax }}{11}{figure.caption.10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Photograph of an experiment on a simulator connected to a flywheel (\cite {brattgaard1970energy})\relax }}{12}{figure.caption.11}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Presentation of the different sensors of wheelchair field-ergometer\relax }}{13}{figure.caption.12}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Balance of forces applied to a manual wheelchair during its use; the analysis of the movement of the subject-chair system has been reduced to that of its center of gravity \cite {Remy2005}\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Markers for kinematic analysis of manual wheelchair locomotion\cite {Sauret2010}\relax }}{15}{figure.caption.15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Relation between Accuracy and the number of segment on FISH dataset. The accuracy is computed from the algorithm one nearest neighbor (1NN) associated with PDTW. When the number of segments considered is very small, there is a loss of information and the accuracy is reduced. However, considering all the points in the time series, we also do not obtain maximum accuracy due to the presence of noise or singularities \cite {Keogh_Pazzani_2001} in the data. \relax }}{37}{figure.caption.48}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces IDDTW operating principle. Depth represents approximation levels, A represents approximate distance and B is best\_so\_far \cite {chu2002iterative}. \relax }}{40}{figure.caption.54}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series, right: representation using PAA with 88 segments\relax }}{48}{figure.caption.72}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison of the number of tested values of the parameter number of segments with the FDTW and IDDTW. x-axis datasets are sorted according to the length of the time series. \relax }}{53}{figure.caption.78}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of the execution time of the Brute-force search algorithm, FDTW and IDDTW. \relax }}{54}{figure.caption.79}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Critical difference diagram for FDTW and $36$ other classification algorithms on 6 simulated datasets. FDTW is ranked 3rd / 37 algorithms\relax }}{55}{figure.caption.81}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Eight types of time series corresponding to the vocabulary of 8 gestures.\relax }}{55}{figure.caption.82}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Relation between Accuracy and the number of segment on FISH dataset. The accuracy is computed from the algorithm one nearest neighbor (1NN) associated with PDTW. When the number of segments considered is very small, there is a loss of information and the accuracy is reduced. However, considering all the points in the time series, we also do not obtain maximum accuracy due to the presence of noise or singularities \cite {Keogh_Pazzani_2001} in the data. \relax }}{37}{figure.caption.50}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces IDDTW operating principle. Depth represents approximation levels, A represents approximate distance and B is best\_so\_far \cite {chu2002iterative}. \relax }}{40}{figure.caption.56}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series, right: representation using PAA with 88 segments\relax }}{48}{figure.caption.74}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison of the number of tested values of the parameter number of segments with the FDTW and IDDTW. x-axis datasets are sorted according to the length of the time series. \relax }}{53}{figure.caption.80}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of the execution time of the Brute-force search algorithm, FDTW and IDDTW. \relax }}{54}{figure.caption.81}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Critical difference diagram for FDTW and $36$ other classification algorithms on 6 simulated datasets. FDTW is ranked 3rd / 37 algorithms\relax }}{54}{figure.caption.83}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Eight types of time series corresponding to the vocabulary of 8 gestures.\relax }}{55}{figure.caption.84}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Multiset-based model of uncertain time series\relax }}{59}{figure.caption.85}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces PDF-based model of uncertain time series\relax }}{60}{figure.caption.87}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Geometric representation of loco similarity.\relax }}{66}{figure.caption.96}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison between the execution time of the Euclidean distance and that of the FOTS score as a function of the length of the time series\relax }}{72}{figure.caption.106}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of classification of time series using on the one hand the Euclidean distance, on the other hand the shapelet \cite {ulanova2015scalable}\relax }}{58}{figure.caption.87}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Multiset-based model of uncertain time series\relax }}{61}{figure.caption.89}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces PDF-based model of uncertain time series\relax }}{62}{figure.caption.91}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Geometric representation of loco similarity.\relax }}{67}{figure.caption.100}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The execution time of ED and FOTS score is a function of the length of time series. The computation time of ED is smaller than that of FOTS.\relax }}{73}{figure.caption.110}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Cyclic time series form manual wheelchair locomotion\relax }}{76}{figure.caption.108}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Properties of a cycle\relax }}{77}{figure.caption.109}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Piecewise aggregate approximation of a cyclic time series\relax }}{78}{figure.caption.110}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Symbolic Aggregate approXimation of a cyclic time series\relax }}{78}{figure.caption.111}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Extended Symbolic Aggregate approXimation of a cyclic time series\relax }}{79}{figure.caption.112}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Trend Symbolic Aggregate approXimation of a cyclic time series\relax }}{79}{figure.caption.113}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Properties of a cycle\relax }}{80}{figure.caption.114}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Threshold for the segmentation of cyclic time series\relax }}{80}{figure.caption.115}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Segmentation\relax }}{81}{figure.caption.116}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Some properties are computed on each cycle\relax }}{81}{figure.caption.117}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Classification of cycles based on properties\relax }}{82}{figure.caption.118}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Symbolic representation of cyclic time series\relax }}{84}{figure.caption.119}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Cyclic time series form manual wheelchair locomotion\relax }}{76}{figure.caption.113}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Properties of a cycle\relax }}{77}{figure.caption.114}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Piecewise aggregate approximation of a cyclic time series\relax }}{78}{figure.caption.115}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Symbolic Aggregate approXimation of a cyclic time series\relax }}{78}{figure.caption.116}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Extended Symbolic Aggregate approXimation of a cyclic time series\relax }}{79}{figure.caption.117}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Trend Symbolic Aggregate approXimation of a cyclic time series\relax }}{79}{figure.caption.118}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Properties of a cycle\relax }}{80}{figure.caption.119}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Threshold for the segmentation of cyclic time series\relax }}{80}{figure.caption.120}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Segmentation\relax }}{81}{figure.caption.121}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Some properties are computed on each cycle\relax }}{81}{figure.caption.122}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Classification of cycles based on properties\relax }}{82}{figure.caption.123}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Symbolic representation of cyclic time series\relax }}{84}{figure.caption.124}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces title\relax }}{86}{figure.caption.122}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Torsor sensor, brevet WO 1995001556 A1\relax }}{88}{figure.caption.128}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Example of Z moment from a wheel of a field-ergometer manual wheelchair\relax }}{89}{figure.caption.129}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Z moment of the left wheel of manuel wheelchair recorded during the locomotion of subject S02\relax }}{90}{figure.caption.131}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Time series recorded by torsor sensor are noisy\relax }}{91}{figure.caption.133}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Residus of Mz; they represents difference between the real value and the value measured by the sensor.\relax }}{92}{figure.caption.136}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Classification tree of manual wheelchair users\relax }}{101}{figure.caption.143}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces This tree shows that in our experiments, external information only cannot be enough to explain propulsion capabilities of manual wheelchair users\relax }}{102}{figure.caption.144}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Bhattacharyya\relax }}{90}{figure.caption.126}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Bhattacharyya\relax }}{108}{figure.caption.155}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces These figures show the average of two segments. In the first case (a) the data points of the segment are far from the average, in the second case (b) they are close to the average. Replace data points of a segment by their average introduces an error that the can be measured from the gap between the points and the average. \relax }}{94}{figure.caption.127}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{94}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{94}{subfigure.1.2}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces This figure shows the first 100 points of the first time series of the fordA dataset available in the UCR \cite {UCRArchive} database. Time series are normalized. The two horizontal lines delimit the interval corresponding to twice the standard deviation and minus two times the standard deviation of the points of the time series. We can observe that the points outside this range are at the ends of the time series.\relax }}{95}{figure.caption.131}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Two-to-two comparison of the classification errors of the algorithm 1-Nearest Neighbor (1-NN) using Euclidean distance with 1-NN using two variations of the temporal warping algorithm on data raw and compact data\relax }}{107}{figure.caption.140}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{107}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{107}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{107}{subfigure.3.3}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces These figures show the average of two segments. In the first case (a) the data points of the segment are far from the average, in the second case (b) they are close to the average. Replace data points of a segment by their average introduces an error that the can be measured from the gap between the points and the average. \relax }}{112}{figure.caption.156}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{112}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{112}{subfigure.1.2}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces This figure shows the first 100 points of the first time series of the fordA dataset available in the UCR \cite {UCRArchive} database. Time series are normalized. The two horizontal lines delimit the interval corresponding to twice the standard deviation and minus two times the standard deviation of the points of the time series. We can observe that the points outside this range are at the ends of the time series.\relax }}{113}{figure.caption.160}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Two-to-two comparison of the classification errors of the algorithm 1-Nearest Neighbor (1-NN) using Euclidean distance with 1-NN using two variations of the temporal warping algorithm on data raw and compact data\relax }}{120}{figure.caption.169}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{120}{subfigure.3.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Distribution of data around the mean\relax }}{125}{figure.caption.172}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Estimated probability density of data\relax }}{126}{figure.caption.174}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Estimated probability density of data for cauchy's law\relax }}{127}{figure.caption.178}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Estimated probability density of data for Student's law\relax }}{128}{figure.caption.180}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Estimated probability density of data for Logistic law\relax }}{128}{figure.caption.182}
+\addvspace {10\p@ }
+\babel@toc {english}{}

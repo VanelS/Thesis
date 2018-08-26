@@ -1,5 +1,5 @@
 \chapter{Hellinger Based Distance for Uncertain time series}
-
+\label{helinger}
 Deterministic Measures like traditional similarity measures, return a real number as
 the distance between two uncertain time series. 
 \section{DUST}
@@ -16,7 +16,7 @@ This similarity function is then used inside the dust dissimilarity function:
 \begin{eqnarray}
 dust(X_{i},Y_{i})=\sqrt{-log(\varphi(|X_{i}-Y_{i}|))+log(\varphi(0))}.
 \end{eqnarray}
-The distance between uncertain time series $X=<X_1, \ldots,X_n>$ and $Y=<Y_1, \ldots,Y_n>$ in DUST
+The distance between uncertain time series $X=<X_1, \ldots,X_n>$ and\\ $Y=<Y_1, \ldots,Y_n>$ in DUST
 is then defined as follows:
 \begin{eqnarray}
 DUST(X,Y)=\sqrt{\stackrel[i=1]{n}{\sum}dust(X_{i},Y_{i})^{^{2}}}.
@@ -33,9 +33,7 @@ To evaluate the similarity between two probability distributions, we can measure
 
 \begin{figure}
 \centering
-\includegraphics[bb=50bp 400bp 595bp 842bp,clip,
-scale=0.3]{images/Bhattacharyya_comparaison}
-
+\includegraphics[scale=0.4]{images/bhattacharyya}
 \caption{Bhattacharyya}
 \label{Bhattacharyya}
 
@@ -58,7 +56,7 @@ B(P,Q)=\int\sqrt{\frac{dP}{d\mu}}\sqrt{\frac{dQ}{d\mu}}d\mu.
 
 \begin{theorem}
 \label{hellinger}
-The Hellinger distance satisfy the triangle inequality \cite{ibragimov2013statistical}.
+The Hellinger distance satisfy the triangle inequality\\ \cite{ibragimov2013statistical}.
 \end{theorem}
 
 Based on Hellinger distance we define the HBD distance (Hellinger Based Distance) which measures the dissimilarity between two uncertain time series:
@@ -96,7 +94,7 @@ First, let us show that:
 \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})H(Y_{i},Z_{i})
 \label{eq1}
 \end{eqnarray}
-By squaring the two members of the inequality (\ref{eq1}) we obtain
+by squaring the two members of the inequality (\ref{eq1}) we obtain
 
 \begin{eqnarray}
 \left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} \right)
@@ -110,14 +108,14 @@ By squaring the two members of the inequality (\ref{eq1}) we obtain
 i.e.
 \left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} \right)
 \times
-\left( \stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}} \right)
+\left( \stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}} \right) \\
 -
 \left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})H(Y_{i},Z_{i}) \right)^2
 \geq
 0
 \label{eq2}
 \end{eqnarray}
-By developing and reducing the expression(\ref{eq2}), we obtain
+by developing and reducing the expression(\ref{eq2}), we obtain
 
 \begin{eqnarray}
 i.e.
@@ -140,13 +138,13 @@ H(X_{i},Z_{i})^2.
 \begin{eqnarray}
 i.e.
 \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^2+\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^2
-+ 2\stackrel[i=1]{n}{\sum}H(X_i, Y_i)H(Y_i, Z_i)\geq
++ 2\stackrel[i=1]{n}{\sum}H(X_i, Y_i)H(Y_i, Z_i) \\ \geq
 \stackrel[i=1]{n}{\sum}H(X_{i},Z_{i})^2.
 \end{eqnarray}
 
 according to inequality \ref{eq1}, we obtain
 \begin{eqnarray}
-\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^2+\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^2
+\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^2+\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^2 \\
 + 2\left( \sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} }\right)
 \times
 \left( \sqrt{\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}}} \right)

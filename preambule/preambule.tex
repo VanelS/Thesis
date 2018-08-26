@@ -8,6 +8,10 @@
 \usepackage{stackrel}
 \usepackage{lscape}
 \usepackage{longtable}
+\usepackage{color, colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{LavenderBlush}{rgb}{0.93,0.88,0.9}
+
 \usepackage[ruled, vlined, linesnumbered]{algorithm2e}
         \graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
 \usepackage[left=3.5cm,right=2.5cm,top=4cm,bottom=4cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissement
@@ -17,7 +21,7 @@
 %%%%%%%%%%%%%%%%%%%style front%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
        \fancypagestyle{front}{%
                \fancyhf{}%on vide les en-têtes
-               \fancyfoot[C]{page \thepage}%
+               \fancyfoot[C]{ \thepage}%
                \renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'en-tête
                \renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
                }
@@ -30,13 +34,13 @@
                \fancyhead[RO,LE]{\rightmark}%
                \fancyhead[LO,RE]{\leftmark}
                \fancyfoot[C]{}
-               \fancyfoot[RO,LE]{page \thepage}%
-               \fancyfoot[LO,RE]{Mon rapport}
+               \fancyfoot[RO,LE]{\thepage}%
+               \fancyfoot[LO,RE]{Ph.D. Thesis}
                }
 %%%%%%%%%%%%%%%%%%%%style back%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
        \fancypagestyle{back}{%
                \fancyhf{}%on vide les en-têtes
-               \fancyfoot[C]{page \thepage}%
+               \fancyfoot[C]{ \thepage}%
                \renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'en-tête
                \renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
                }
@@ -59,6 +63,7 @@
 %\usepackage{csquotes}% pour la gestion des guillemets français.
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%glossaire%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \usepackage{glossaries}
+ \usepackage{frcursive}
  \makeglossaries         
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%liste des abréviations%%%%%%%%%%%%%%               
 \usepackage[english]{nomencl}
@@ -75,7 +80,7 @@
 % }
 \newtheorem{definition}{Definition}
 \newtheorem{theorem}{Theorem}
-\onehalfspacing
+%\onehalfspacing
 
 \newenvironment{abstract}
 {

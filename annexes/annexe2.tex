@@ -1,10 +1,10 @@
-\chapter{An optimal approach to time series segmentation: Application to the supervised classification}
+\chapter{An optimal approach for time series segmentation: Application to the supervised classification}
+\label{seg}
 
 \section{Introduction}
-Time series databases are often extremely large. This is particularly the case of the Large Synoptic Survey Telescope (LSST) database which records data from of telescopes \cite {lsst}. She has billions of time series (10 Petabytes). The time series recorded in these databases are sometimes very long. Another example is the  SACR-FRM project that uses sensors to measure the efforts of a  manual wheelchair user at a frequency of 1000 Hz \cite{SACR-FRM}. Ten minutes recording time series of 600 000 measurements. Faced with this, several scientific works were carried out with the aim of reducing the storage space of time series and accelerating their treatment.  A widely used approach is to change the representation of time series to reduce their length. This technique was introduced by Agrawal et al. \cite{Agrawal1993}; he uses the discrete Fourier transform to obtain a compact representation of the time series.
- Other methods have also been used: the decomposition in eigenvalue \cite{Wu1996}, the  discrete wavelet transform \cite{Chan1999} and approximate aggregation by
- segments (PAA) \cite{keogh2001locally}. This last method has shown its effectiveness compared to previous three because it is easier to understand, to implement, but also faster and allows to build indexes in linear time. PAA suggests splitting the time series into segments of the same size, then replace each segment by the average of its points. This method generates a representation compact, able to have a few segments as possible to reduce space storage and time comparison time series.
- However, too compact a representation distorts the time series and causes a loss of information. How then to choose the right number of segments to consider? Our work is based on a simple observation: the use of the average arithmetic is relevant when the variance of the population is small as illustrated by the figure \ref{fig:average}.
+Time series databases are often huge. This is particularly the case of the Large Synoptic Survey Telescope (LSST) database which records data from of telescopes \cite {lsst}. It has billions of time series (10 Petabytes). The time series recorded in these databases are sometimes very long. Another example is the  SACR-FRM project that uses sensors to measure the efforts of a  manual wheelchair user at a frequency of 100 Hz \cite{SACR-FRM}. Ten minutes recording time series of 60 000 measurements. Faced with this, several scientific works were carried out with the aim of reducing the storage space of time series and accelerating their treatment.  A widely used approach is to change the representation of time series to reduce their length. This technique was introduced by Agrawal et al. \cite{Agrawal1993}; he uses the discrete Fourier transform to obtain a compact representation of the time series.
+ Other methods have also been used: the decomposition in eigenvalue \cite{Wu1996}, the  discrete wavelet transform \cite{Chan1999} and the piecewise approximate aggregation (PAA) \cite{keogh2001locally}. This last method has shown its effectiveness compared to previous three because it is easier to understand, to implement, but also faster and allows to build indexes in linear time. PAA suggests splitting the time series into segments of the same length, then replace each segment by the average of its points. This method generates a compact representation, able to have a few segments as possible to reduce space storage and processing time of time series.
+ However, a too compact representation distorts the time series and causes a loss of information. How then to choose the right number of segments to consider? Our work is based on a simple observation: the use of the arithmetic average is relevant when the variance of the population is small as illustrated by the figure \ref{fig:average}.
  
  
 
@@ -20,10 +20,10 @@ case (a) the data points of the segment are far from the average, in the second 
 
  
  
- We define here a minimal bound for the number of segments to be considered, and we propose an algorithm which allows choosing the number of segments which minimizes their mean squared error, this to reduce the length of the time series without altering the information they contain.
+ We define here a minimal bound for the number of segments to be considered, and we propose an algorithm which allows choosing the number of segments which minimizes their mean squared error, with the aim to reduce the length of the time series without altering the information they contain.
  
  
-  The rest of this chapter is organized as follows: the \ref{probleme} section presents a formal definition of our problem and an algorithm used to solve it; the section \ref{results} presents and comments on the results of the experiments and the section \ref{conclusion} concludes the paper and presents perspectives for this work.
+  The rest of this chapter is organized as follows: the \ref{problem} section presents a formal definition of our problem and an algorithm used to solve it; the section \ref{results} presents and comments the results of the experiments and the section \ref{conclusion} concludes the paper and presents perspectives for this work.
  
 
 \section{Granularity of time series segments}
@@ -42,12 +42,12 @@ We have: $ X_{i} = x_{i}, x_{i + 1}, ..., x_{i + l-1} $
 \paragraph{Definition 3:} The arithmetic mean of the data points of a segment $ X_{i} $ of size $ l $ is
 denoted $ \bar {X}_{i} $ and is defined by
 \[
-\bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}
+\bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}.
 \]
 
 
 
-\subsection{information theory and minimum number of segments}
+\subsection{Information theory and minimum number of segments}
 To mitigate the effects of noise during time series processing, Keogh and Kasetty \cite{KeoghBenchmarks} recommend that they are normalized. Normalizing the time series makes them compatible with a normal distribution \cite{Lin2007}. In this case, 95 \% of the points in the time series are between minus two times the standard deviation $ (\sigma) $ and twice the standard deviation of the points, and thus 5 \% of the points of the series are outside this range. These points correspond to the ends of the series as shown in the figure \ref{standard_deviation}.
 
 
@@ -72,7 +72,7 @@ We have: $ X_{i} = x_{i}, x_{i + 1}, ..., x_{i + l-1} $
 \paragraph{Definition 3:} The arithmetic mean of the data points of a segment $ X_{i} $ of size $ l $ is
 denoted $ \bar {X}_{i} $ and is defined by
 \[
-\bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}
+\bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}.
 \]
 
 
@@ -82,7 +82,7 @@ Also, information theory tells us that the amount of information relating to an 
 \cite{Shannon2001} . In other words, a very likely event ($ p \longrightarrow1 $) brings less information than an unlikely event ($ p \longrightarrow0 $). Therefore, a point outside the interval $ [- 2 \sigma, 2 \sigma] $ provides more information than a point in that range. Indeed, the probability that one point is in the range is $ 0.95$ while the probability that one point is out of range is $ 0.05 = \frac{1}{20} $ .
 
 
-If we choose a minimum number of $ (\alpha) $ segments less than 5 \% of the length of the time series, we run the risk of aggregating the points within the interval $ [- 2 \sigma, 2 \sigma] $ and those outside this range. This will have two consequences: on the one hand, to alter the information carried by these points. On the other hand, increase the variance of the segments obtained. Because we will aggregate the points at the ends and those near the average. So we chose to  consider 5\% of the number of points in the time series as the minimum number of segments. This allows us to define the following functions of $ \mathbb{N} \rightarrow \mathbb{N} $:
+If we choose a minimum number $ (\alpha) $ of segments less than 5 \% of the length of the time series, we risk to aggregate the data points within the interval $ [- 2 \sigma, 2 \sigma] $ and those outside this range. This will have two consequences: firstly, this aggregation will alter the information carried by data points. Secondly, this aggregation will increase the variance of the segments obtained. So we chose to  consider 5\% of the number of points in the time series as the minimum number of segments. This allows us to define the following functions of $ \mathbb{N} \rightarrow \mathbb{N} $:
 
 \[
 \alpha: n \mapsto \alpha(n) = \left \{
@@ -102,7 +102,7 @@ If we choose a minimum number of $ (\alpha) $ segments less than 5 \% of the len
 \frac{n}{2} \right \rfloor $ segments. The number of segments W that we will consider is greater than or equal to $ \alpha (| X |) $ and less than or equal to $ \beta (| X |) $. The next subsection explains how we choose the value of W.
 
 \subsection{Minimize the squared error to choose the number of segments}
-After dividing into segments, we replace each segment by the average of the points that constitute it. The variance between the points of each segment can be measured from the mean squared error. Our problem is therefore the following:
+After dividing into segments, we replace each segment by the average of the data points that constitute it. The variance between the points of each segment can be measured from the mean squared error. Our problem is therefore the following:
 \paragraph{} Let $ X = x_{0}, x_{1}, \cdots, x_{n} $ a time series of size $ n $, look for $ W \in \mathbb{N} $ such that $ \alpha(n) \leq W \leq \beta(n) $ and $ \frac{1}{n} \sum_{i = 1}^{^{W}} \sum_{j = (i-1) k}^{ik} (\bar{X}_{i} - X_{j})^{2} $ is minimal. Where $ \bar{X}_{i} $ is the arithmetic mean of a segment of length $ k $. 
 
 
@@ -117,8 +117,7 @@ propose an algorithm that proceeds as follows:
 $ X_{i} = x_{i}, x_{i + 1}, ..., x_{i + l-1}; $
 \item Calculate the mean of the quadratic errors;
 \end{enumerate}
-\item The value of W returned is the one that produces an average squared error
-minimum; 
+\item The value of W returned is the one that produces a minimum average squared error; 
 \end{enumerate}
 
 Algorithm \ref{algo1} details the previous principle.
@@ -240,10 +239,10 @@ mean squared is $ 19 \times O(n) = O(n) $.
 
 To exploit the compact representations of the time series, we must be able to compare them. The next subsection presents how to compare compact time series that we get.
 
-\subsection{Dynamic Time Warping Algorithm and Comparison of Representations compact}
+\subsection{Dynamic Time Warping Algorithm and comparison of compact representations}
 
 The dynamic time warping algorithm \cite{Keogh2004} allows to carry out a non-linear correspondence between two time series by minimizing the distance between the two. It proceeds as follows:
-Be two time series
+Let $X$ and $Y$ be two time series;
 
 \[
 X=x_{1},x_{2},\cdots,x_{n};
@@ -260,22 +259,21 @@ is the alignment between $ x_{i} $ and $ y_{j} $. To find the best alignment bet
 the path in the matrix that minimizes the sum of the square distances. This path is calculated by
 dynamic programming from the following recurrence:
 \[
-\gamma(i, j) = d (x_{i}, y_{j}) + min \{\gamma(i-1, j-1), \gamma(i-1, j), \gamma(i , j-1) \}
+\gamma(i, j) = d (x_{i}, y_{j}) + min \{\gamma(i-1, j-1), \gamma(i-1, j), \gamma(i , j-1) \},
 \]
 where $ d(x_{i}, y_{j}) $ is the square of the distance contained in the cell $ (i, j) $ and $ \gamma(i, j) $ is the
 cumulative distance at the position $ (i, j) $ which is calculated by the sum of the square of the distance to
 the position $ (i, j) $ and the minimum cumulative distance of its three adjacent cells.
 
 
-Approximate aggregation by segment provides distance-based distance measurement
-Euclidean to compare compact representations. However, we chose to use the dynamic time warping algorithm. For the following reasons:
+Piecewise aggregate approximation provides Euclidean-based distance measurement to compare compact representations. However, we chose to use the dynamic time warping algorithm. For the following reasons:
 \begin{enumerate}
 \item The dynamic time warping algorithm  is known to have the best performance for sequence alignment in several areas:
 in robotics, biometrics, music, climatology, aviation, in gesture recognition, cryptanalysis, astronomy, exploration
 space \cite{Rakthanmanon2012}.
-\item piecewise aggregate approximation of the time series leads to temporal deformation. Indeed,
-with two time series of size $ n $, we can apply our algorithm to the
- first time series, reduce it to $ N_{1} $ segments and reduce the second to $ N_{2} $
+\item Piecewise aggregate approximation of the time series leads to temporal deformation. Indeed,
+with two time series of length $ n $, we can apply our algorithm to the
+ first time series, then reduce it to $ N_{1} $ segments and reduce the second to $ N_{2} $
  segments with $ N_{1} <N_{2} $.
 \end{enumerate}
 
@@ -283,7 +281,7 @@ with two time series of size $ n $, we can apply our algorithm to the
 \section{Results and Discussion}
 \label{results} 
  First, we present the datasets used during the experiment.
- Then we evaluate the performance of the proposed method from the reduction of the
+ Then we evaluate the performances of the proposed methods in terms of  reduction of the
  length of time series and classification errors.
 
 \subsection{Datasets}
@@ -296,7 +294,7 @@ the table \ref{sets_of_data}.
  
 \LTcapwidth=\textwidth
 \begin{longtable}
-   {|p{0.05\linewidth}|p{0.2\linewidth}|p{0.2\linewidth}|p{0.2\linewidth}|p{0.2\linewidth}|}
+   {|p{0.05\linewidth}|p{0.4\linewidth}|p{0.1\linewidth}|p{0.15\linewidth}|p{0.15\linewidth}|}
    \hline
 	 \textbf{N} & \textbf{Name} &\textbf{Nb. of classes} &\textbf{Size of training set} &\textbf{Size of testing set}  \endfirsthead
    \hline
@@ -415,7 +413,7 @@ The full list is available here \cite{UCRArchive}}
 
 \subsection{Comparison of algorithm performance}
 % Visionner le code LaTeX du paragraphe 21
-The tables \ref{erreur_classification1} and \ref{erreur_classification} present the comparison
+The table \ref{erreur_classification} presents the comparison
 of the classification error of 1-Nearest Neighbor (1-NN) algorithms associated with Euclidean  distance (4), 1-NN, associated with the dynamic time warping algorithm using a constraint (a deformation window) (5), 1-NN associated with the algorithm of unconstrained dynamic time warping (DTW) applied to the raw data (6) and the 1-NN algorithm associated with DTW applied to the data pre-processed by our algorithm  (7). The $ (4) $ algorithm gives the best results that are to say
 $ ((4) \leq (5) \: and \:(4) \leq (6) \: and \:(4) \leq (7)) $ on $ 20 $ datasets, the algorithm $ (5) $ is the best on $ 47 $ datasets, the $ (6) $ algorithm is the best on $ 21 $ datasets, the $ (7) $ algorithm is the best on $ 21 $ datasets. Although no of these algorithms have the best performance on all datasets, the algorithm $ (5) $ averaged the smallest misclassification \textbf{0.237} and the most expensive $ (4) $ algorithm large average error \textbf{0,288}.
 The $ (6) $ and $ (7) $ algorithms have relatively close average error rates  equal to \textbf{0,256} and \textbf{0,258} respectively.
@@ -423,7 +421,7 @@ The $ (6) $ and $ (7) $ algorithms have relatively close average error rates  eq
 
 To evaluate the effects of the \textbf{change of representation} of the time series on their
 \textbf{classification}, we compare the length of the time series and the errors of
-classification presented by the columns $ (6) $ and $ (7) $ of the tables \ref{erreur_classification1} and \ref{erreur_classification}.
+classification presented by the columns $ (6) $ and $ (7) $ of the table  \ref{erreur_classification}.
 Indeed, these two columns use the same 1-NN classification algorithm and the same function
 distance DTW. The only difference between these columns is the nature of the data; the $ (6) $ column
 uses the raw data and the column $ (7) $ the compacted data with the method described above.
@@ -446,12 +444,10 @@ UCR base. These results are summarized in Figure \ref{synthesis}. One of the rea
 % Visionner le code LaTeX du paragraphe 29
 
 \begin{figure}
-
-\subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_euclid2.png} }\subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_dtw(r)2.png}}
-
-\subfloat[]{
-\includegraphics[scale=0.50]{erreur_dtw-reduit_dtw2.png}
-}
+\center
+\subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_euclid2.png} }
+\subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_dtw(r)2.png}}\\
+\subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_dtw2.png}}
 
 \caption{Two-to-two comparison of the classification errors of the algorithm
 1-Nearest Neighbor (1-NN) using Euclidean distance with 1-NN using two variations of the temporal warping algorithm on data
@@ -464,7 +460,7 @@ raw and compact data}
 
 
 \begin{longtable}
-   {|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|}
+   {|p{0.05\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.15\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|}
    \hline
 	 \textbf{(1)} &\textbf{(2)} &\textbf{(3)} &\textbf{(4)} &\textbf{(5)} &\textbf{(6)} &\textbf{(7)} \endfirsthead
    \hline
@@ -597,6 +593,290 @@ symbolic of time series. Indeed, several symbolic representations of series
 of the literature (SAX \cite{lin2003symbolic}, ESAX \cite{lkhagva2006extended}, 1d-SAX \cite{Malinowski2013},
 SAX-TD \cite{sun2014improvement}, SAX-P \cite{siyou2015}) use the division into segments recommended by PAA.
 \label{conclusion}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter{Determination of the probability density function of MZ  uncertainty}
+\label{pdf_uncertainty}
+
+
+\section{Ampiric probability distribution}
+\paragraph{ descriptive statistics}
+
+\begin{table}[h]
+\centering
+\caption{descriptive}
+\label{my-label}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Min.} & \textbf{1st Qu.} & \textbf{Median} & \textbf{Mean} & \textbf{3rd Qu.} & \textbf{Max.} \\ \hline
+-24.15        & -0.4735          & 0               & 0.2416        & 0.78             & 25.4          \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{box_plot}
+\caption{Distribution of data around the mean}
+\label{fig:average}
+\end{figure}
+35.65\% of values of uncertainty are equal  to zero
+
+
+\paragraph{Distribution}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{ampiric_pdf}
+\caption{Estimated probability density of data}
+\label{fig:average}
+\end{figure}
+
+The empirical probability density function does not allow us a priori to know which probability law follows the residuals (uncertainty). To determine this, we will use statistical tests. The principle of statistical tests is as follow: we assume that the residues follow a defined probability law. And we calculate a p-value. If it is less than 0.05, the above hypothesis is rejected. Another method to determine the probability law follows by the residuals is to hypothesize that data followed a particular law and estimated the parameters that best feet the law. If the theoretical probability density function estimated is closed to the empirical one, we assume that we find the probability law follows by residuals.
+
+
+\section{Theoric probability distribution}
+
+Residuals are real values between minus infinity and plus infinity. The probability laws that residuals can follow are therefore
+
+\begin{itemize}
+\item A normal law
+\item A law of cauchy
+\item A Student's Law t
+\item A general exponential law
+\item A double exponential law
+\item Generalized error distribution (GED)
+\item A pearson law type 4
+\item A generalization of the student's law.
+\end{itemize}
+
+
+\paragraph{Normality test}:
+For each tests in (table \ref{normal}), the p-value is significant, so the sample does not follow a normal distribution.
+
+\begin{table}[h]
+\centering
+\caption{normality test show that residues(uncertainty) do not follow normal law}
+\label{normal}
+\begin{tabular}{llll}
+\textbf{Test}    & Kolmogorov-Smirnov & Anderson-Darling  & Shapiro-Wilk      \\
+\textbf{p-value} & \textless 2.2e-16  & \textless 2.2e-16 & \textless 2.2e-16
+\end{tabular}
+\end{table}
+
+\paragraph{Cauchy's Law Test}: The qqplot line does not match correctly with the data particularly the two extremities of the diagram (Fig. \ref{cauchy}); we can say that the data probably do not follow a Cauchy law.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.7]{cauchy}
+\caption{Estimated probability density of data for cauchy's law}
+\label{cauchy}
+\end{figure}
+
+\paragraph{Student's Law test}: The Quantile-Quantile diagram, from the distribution function, doesn't match correctly the data, particularly the two extremities of the diagram (Fig. \ref{student}). We can then say that the data do not follow a Student law.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.7]{student}
+\caption{Estimated probability density of data for Student's law}
+\label{student}
+\end{figure}
+
+\paragraph{Logistics law} The probability density function matches the data reasonably well(Fig. \ref{logistic}), so we can say that the \textbf{residuals (uncertainty) following a zero-inflated logistic law}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.7]{logistic}
+\caption{Estimated probability density of data for Logistic law}
+\label{logistic}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\chapter{Training and changes on propulsion technics}
+\label{training_technic}
+In this section, we want to evaluate the effect of the experiment on the propulsion technique used by manual wheelchair users. We assume that the shape of the Z moment of the left and right wheels reflects the propulsion technique used. Thus, in this paragraph, rather than using an approach that uses cycle properties, we will directly compare time series from a distance function while taking into account the presence of uncertainty in measurements. To do this, we applied FOTS-UShapelet to the measurements made and we deliver here the analysis we make of the results obtained.
+
+
+
+FOTS-UShapelet was applied to the time series from the measurement of efforts made by 08 valid subjects during the first week of use and after three weeks of use of the Manual Wheelchair. The table\ref{technic} details the results we get. From the shape of the time series, we can form three large groups that correspond to three techniques that we have named T1, T2 and T3. For each subject of the experiment, we observe a difference between the propulsion techniques used at the beginning of the trial period and after three weeks. The subject SA01 for example uses the T1 technique 83\% and the T3 technique 17\% of the time during the first week. However, after three weeks of using the Manual Wheelchair, he uses the T1 technique 33\% of the time and the T3 technique 67\% of the time. So there is a change in the way he moves. 
+However, the changes observed vary according to the subjects (Table \ref{technic}). The variations in the evolution of propulsion techniques require personalized monitoring of locomotion and highlights the importance of using a Wheelchair Ergometer when learning locomotion in a Manual Wheelchair.
+
+
+
+
+\begin{longtable}
+   {|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|p{0.1\linewidth}|}
+   
+   \hline
+\textbf{Subject} & \textbf{Week} & \textbf{Trial} & \textbf{wheel} & \textbf{technic} & \textbf{T1} & \textbf{T2} & \textbf{T3}\endfirsthead 
+ \hline
+
+\textbf{Subject} & \textbf{Week} & \textbf{Trial} & \textbf{wheel} & \textbf{technic} & \textbf{T1} & \textbf{T2} & \textbf{T3}  \\
+
+	 \hline
+   \multicolumn{8}{|p{0.8\linewidth}|}{Following ... } \\
+
+   \hline
+	 \endhead
+
+   \hline
+   \multicolumn{8}{|p{0.8\linewidth}|}{Continue to the next page}\\ 
+
+	 \hline 
+	 \endfoot 
+
+	 \hline
+   \multicolumn{8}{|p{0.8\linewidth}|}{End} \\
+
+   \hline
+   \endlastfoot 
+	\hline
+	
+SA01NE           & T0S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA01NE           & T0S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA01NE           & T0S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA01NE           & T0S           & ES2            & RG             & 3                &             &             &             \\ \hline
+SA01NE           & T0S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA01NE           & T0S           & ES3            & RG             & 1                & 0,83        & 0,00        & 0,17        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA01NE           & T3S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA01NE           & T3S           & ES1            & RG             & 3                &             &             &             \\ \hline
+SA01NE           & T3S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA01NE           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA01NE           & T3S           & ES4            & RD             & 3                &             &             &             \\ \hline
+SA01NE           & T3S           & ES4            & RG             & 3                & 0,33        & 0,00        & 0,67        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA02GG           & T0S           & ES1            & RD             & 3                &             &             &             \\ \hline
+SA02GG           & T0S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA02GG           & T0S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA02GG           & T0S           & ES2            & RG             & 3                & 0,25        & 0,00        & 0,75        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA02GG           & T3S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA02GG           & T3S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA02GG           & T3S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA02GG           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA02GG           & T3S           & ES3            & RD             & 3                &             &             &             \\ \hline
+SA02GG           & T3S           & ES3            & RG             & 3                & 0,50        & 0,00        & 0,50        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA03JM           & T0S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA03JM           & T0S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA03JM           & T0S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA03JM           & T0S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA03JM           & T0S           & ES3            & RD             & 2                &             &             &             \\ \hline
+SA03JM           & T0S           & ES3            & RG             & 1                & 0,67        & 0,17        & 0,17        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA03JM           & T3S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA03JM           & T3S           & ES1            & RG             & 3                &             &             &             \\ \hline
+SA03JM           & T3S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA03JM           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA03JM           & T3S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA03JM           & T3S           & ES3            & RG             & 1                & 0,83        & 0,00        & 0,17        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA04BD           & T0S           & ES1            & RD             & 3                &             &             &             \\ \hline
+SA04BD           & T0S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA04BD           & T0S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA04BD           & T0S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA04BD           & T0S           & ES4            & RD             & 3                &             &             &             \\ \hline
+SA04BD           & T0S           & ES4            & RG             & 3                & 0,33        & 0,00        & 0,67        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA04BD           & T3S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA04BD           & T3S           & ES1            & RG             & 3                &             &             &             \\ \hline
+SA04BD           & T3S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA04BD           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA04BD           & T3S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA04BD           & T3S           & ES3            & RG             & 1                & 0,83        & 0,00        & 0,17        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA05AT           & T0S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA05AT           & T0S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA05AT           & T0S           & ES3            & RD             & 3                &             &             &             \\ \hline
+SA05AT           & T0S           & ES3            & RG             & 3                &             &             &             \\ \hline
+SA05AT           & T0S           & ES4            & RD             & 2                &             &             &             \\ \hline
+SA05AT           & T0S           & ES4            & RG             & 1                & 0,33        & 0,17        & 0,50        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA05AT           & T3S           & ES1            & RD             & 2                &             &             &             \\ \hline
+SA05AT           & T3S           & ES1            & RG             & 2                &             &             &             \\ \hline
+SA05AT           & T3S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA05AT           & T3S           & ES2            & RG             & 3                &             &             &             \\ \hline
+SA05AT           & T3S           & ES3            & RD             & 2                &             &             &             \\ \hline
+SA05AT           & T3S           & ES3            & RG             & 1                & 0,33        & 0,50        & 0,17        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA06BM           & T0S           & ES1            & RD             & 3                &             &             &             \\ \hline
+SA06BM           & T0S           & ES1            & RG             & 3                &             &             &             \\ \hline
+SA06BM           & T0S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA06BM           & T0S           & ES2            & RG             & 2                &             &             &             \\ \hline
+SA06BM           & T0S           & ES4            & RD             & 1                &             &             &             \\ \hline
+SA06BM           & T0S           & ES4            & RG             & 3                &             &             &             \\ \hline
+SA06BM           & T0S           & ES4            & RD             & 3                &             &             &             \\ \hline
+SA06BM           & T0S           & ES4            & RG             & 2                & 0,25        & 0,25        & 0,50        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA06BM           & T3S           & ES1            & RD             & 3                &             &             &             \\ \hline
+SA06BM           & T3S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA06BM           & T3S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA06BM           & T3S           & ES2            & RG             & 3                &             &             &             \\ \hline
+SA06BM           & T3S           & ES3            & RD             & 3                &             &             &             \\ \hline
+SA06BM           & T3S           & ES3            & RG             & 3                & 0,33        & 0,00        & 0,67        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA07HP           & T0S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA07HP           & T0S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA07HP           & T0S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA07HP           & T0S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA07HP           & T0S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA07HP           & T0S           & ES3            & RG             & 1                & 1,00        & 0,00        & 0,00        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA07HP           & T3S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA07HP           & T3S           & ES1            & RG             & 3                &             &             &             \\ \hline
+SA07HP           & T3S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA07HP           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA07HP           & T3S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA07HP           & T3S           & ES3            & RG             & 1                & 0,83        & 0,00        & 0,17        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA08CA           & T0S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA08CA           & T0S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA08CA           & T0S           & ES2            & RD             & 1                &             &             &             \\ \hline
+SA08CA           & T0S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA08CA           & T0S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA08CA           & T0S           & ES3            & RG             & 1                & 1,00        & 0,00        & 0,00        \\ \hline
+                 &               &                &                &                  &             &             &             \\ \hline
+SA08CA           & T3S           & ES1            & RD             & 1                &             &             &             \\ \hline
+SA08CA           & T3S           & ES1            & RG             & 1                &             &             &             \\ \hline
+SA08CA           & T3S           & ES2            & RD             & 3                &             &             &             \\ \hline
+SA08CA           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
+SA08CA           & T3S           & ES3            & RD             & 1                &             &             &             \\ \hline
+SA08CA           & T3S           & ES3            & RG             & 3                & 0,67        & 0,00        & 0,33        \\ \hline
+\caption{Evolution of manual wheelchair propulsion technology with training}
+\label{technic}  
+\end{longtable}
+
+
 
 
 

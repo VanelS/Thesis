@@ -8,15 +8,17 @@
 \input{page-de-couverture/page-de-couverture}%on crèe la couverture
 \thispagestyle{empty}%pour la page de garde toute blanche
 \input{page-de-couverture/page-de-titre}%no comment !
-\input{resume/resume}%no comment !
-\input{remerciements/remerciements}%no comment !
+%\input{resume/resume}%no comment !
 \input{dedicaces/dedicaces}%no comment !
-\shorttableofcontents{Sommary}{0}%sommaire avec uniquement les chapitres
-\addcontentsline{toc}{chapter}{Sommary}%ajout du sommaire dans le sommaire !
+\addcontentsline{toc}{chapter}{Dedications}
+\input{remerciements/remerciements}%no comment !
+\addcontentsline{toc}{chapter}{Acknowledgment}
+\shorttableofcontents{Summary}{0}%sommaire avec uniquement les chapitres
+\addcontentsline{toc}{chapter}{Summary}%ajout du sommaire dans le sommaire !
 \mainmatter% corps du document
 \pagestyle{main}%style des en-têtes pour cette partie
 \input{introduction/introduction}
-\addcontentsline{toc}{chapter}{Introduction}
+\addcontentsline{toc}{chapter}{General introduction}
 \part{Background and related works}
 \input{chapitre1/chapitre1}
 \part{Contributions}
@@ -25,7 +27,7 @@
 \input{chapitre4/chapitre4}
 \input{chapitre5/chapitre5}
 \input{conclusion/conclusion}
-\addcontentsline{toc}{chapter}{Conclusion}
+\addcontentsline{toc}{chapter}{General conclusion}
 \cleardoublepage% le corps du document est terminé
 \pagestyle{back}
 \appendix
@@ -33,24 +35,25 @@
 \input{annexes/annexe2}
 \backmatter
 
-\printindex
-\addcontentsline{toc}{chapter}{Index}
-\input{glossaire/glossaire}
-\printglossaries
-\addcontentsline{toc}{chapter}{Glossaire}
-\printnomenclature
-\addcontentsline{toc}{chapter}{Liste des abreviations, des sigles et des symboles}
-\nocite{*}
+%\printindex
+%\addcontentsline{toc}{chapter}{Index}
+%\input{glossaire/glossaire}
+%\printglossaries
+%\addcontentsline{toc}{chapter}{Glossaire}
+%\printnomenclature
+%\addcontentsline{toc}{chapter}{Liste des abreviations, des sigles et des symboles}
+%\nocite{*}
 %\printbibliography
-\bibliographystyle{named}
+%\bibliographystyle{named}
+\bibliographystyle{apalike}
 \bibliography{bibliographie/biblio}
 \addcontentsline{toc}{chapter}{References}
 \listoffigures
-\addcontentsline{toc}{chapter}{Table des figures}
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoftables
-\addcontentsline{toc}{chapter}{Liste des tableaux}
+\addcontentsline{toc}{chapter}{List of Tables}
 \tableofcontents%table des matières plus complète
-\addcontentsline{toc}{chapter}{Table des matieres}%ajout de la table des matières dans la table des matières !
+\addcontentsline{toc}{chapter}{Contents}%ajout de la table des matières dans la table des matières !
 %
-%\input{page-de-couverture/quatrieme-de-couv}
+\input{page-de-couverture/quatrieme-de-couv}
 \end{document}

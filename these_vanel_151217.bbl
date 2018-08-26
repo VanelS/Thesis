@@ -1,1295 +1,1038 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{0{\AA}strand and
-  Saltin}{1961}]{0aastrand1961maximal}
-Per-Olof 0{\AA}strand and Bengt Saltin.
+\bibitem[lss, 2016]{lsst}
+ (2016).
+\newblock {LSST time series catalog - XLDB Use Cases}.
+
+\bibitem[SAC, 2016]{SACR-FRM}
+ (2016).
+\newblock {Projet SACR-FRM (Approches de la Sociologie, de la
+  Biom{\'{e}}canique et de l'Intelligence Artificielle...) | ANR - Agence
+  Nationale de la Recherche}.
+
+\bibitem[0{\AA}strand and Saltin, 1961]{0aastrand1961maximal}
+0{\AA}strand, P.-O. and Saltin, B. (1961).
 \newblock Maximal oxygen uptake and heart rate in various types of muscular
   activity.
-\newblock {\em Journal of Applied Physiology}, 16(6):977--981, 1961.
+\newblock {\em Journal of Applied Physiology}, 16(6):977--981.
 
-\bibitem[\protect\citeauthoryear{Aach and Church}{2001}]{Aach2001}
-J.~Aach and G.~M. Church.
+\bibitem[Aach and Church, 2001]{Aach2001}
+Aach, J. and Church, G.~M. (2001).
 \newblock {Aligning gene expression time series with time warping algorithms}.
-\newblock {\em Bioinformatics}, 17(6):495--508, June 2001.
+\newblock {\em Bioinformatics}, 17(6):495--508.
 
-\bibitem[\protect\citeauthoryear{Abonyi \bgroup \em et al.\egroup
-  }{2003}]{Abonyi2003}
-Janos Abonyi, Balazs Feil, Sandor Nemeth, and Peter Arva.
+\bibitem[Abonyi et~al., 2003]{Abonyi2003}
+Abonyi, J., Feil, B., Nemeth, S., and Arva, P. (2003).
 \newblock {Fuzzy clustering based segmentation of time-series}.
-\newblock {\em Advances in Intelligent Data Analysis V}, pages 275--285, 2003.
+\newblock {\em Advances in Intelligent Data Analysis V}, pages 275--285.
 
-\bibitem[\protect\citeauthoryear{Aggarwal}{}]{aggarwal2008unifying}
-Charu~C Aggarwal.
-\newblock On unifying privacy and uncertain data models.
-\newblock In {\em Data Engineering, 2008. ICDE 2008. IEEE 24th International
-  Conference on}, pages 386--395. IEEE.
-
-\bibitem[\protect\citeauthoryear{Agrawal \bgroup \em et al.\egroup
-  }{1993}]{Agrawal1993}
-Rakesh Agrawal, Christos Faloutsos, and Arun~N. Swami.
+\bibitem[Agrawal et~al., 1993]{Agrawal1993}
+Agrawal, R., Faloutsos, C., and Swami, A.~N. (1993).
 \newblock {Efficient Similarity Search In Sequence Databases}.
 \newblock In {\em FODO '93 Proceedings of the 4th International Conference on
   Foundations of Data Organization and Algorithms}, pages 69--84.
-  Springer-Verlag, oct 1993.
+  Springer-Verlag.
 
-\bibitem[\protect\citeauthoryear{Amini \bgroup \em et al.\egroup
-  }{2011}]{amini2011study}
-Amineh Amini, Teh~Ying Wah, Mahmoud~Reza Saybani, and Saeed Reza
-  Aghabozorgi~Sahaf Yazdi.
+\bibitem[Amini et~al., 2011]{amini2011study}
+Amini, A., Wah, T.~Y., Saybani, M.~R., and Yazdi, S. R. A.~S. (2011).
 \newblock A study of density-grid based clustering algorithms on data streams.
 \newblock In {\em Fuzzy Systems and Knowledge Discovery (FSKD), 2011 Eighth
-  International Conference on}, volume~3, pages 1652--1656. IEEE, 2011.
+  International Conference on}, volume~3, pages 1652--1656. IEEE.
 
-\bibitem[\protect\citeauthoryear{A{\ss}falg \bgroup \em et al.\egroup
-  }{}]{assfalg2009probabilistic}
-Johannes A{\ss}falg, Hans-Peter Kriegel, Peer Kr{\"o}ger, and Matthias Renz.
+\bibitem[A{\ss}falg et~al., 2009]{assfalg2009probabilistic}
+A{\ss}falg, J., Kriegel, H.-P., Kr{\"o}ger, P., and Renz, M. (2009).
 \newblock Probabilistic similarity search for uncertain time series.
 \newblock In {\em SSDBM}, pages 435--443. Springer.
 
-\bibitem[\protect\citeauthoryear{Athanasiou and
-  Clark}{2009}]{athanasiou2009bayesian}
-Maria Athanasiou and Jonathan~Y Clark.
+\bibitem[Athanasiou and Clark, 2009]{athanasiou2009bayesian}
+Athanasiou, M. and Clark, J.~Y. (2009).
 \newblock A bayesian network model for the diagnosis of the caring procedure
   for wheelchair users with spinal injury.
-\newblock {\em Computer methods and programs in biomedicine}, 95(2):S44--S54,
-  2009.
+\newblock {\em Computer methods and programs in biomedicine}, 95(2):S44--S54.
 
-\bibitem[\protect\citeauthoryear{Bagnall \bgroup \em et al.\egroup
-  }{a}]{Bagnall}
-Anthony Bagnall, Eamonn Keogh, Jason Lines, Aaron Bostrom, and James Large.
+\bibitem[Bagnall et~al., 2016a]{Bagnall}
+Bagnall, A., Keogh, E., Lines, J., Bostrom, A., and Large, J. (2016a).
 \newblock {Time Series Classification Website}.
 \newblock \url{http://timeseriesclassification.com}.
 
-\bibitem[\protect\citeauthoryear{Bagnall \bgroup \em et al.\egroup
-  }{b}]{bagnall2016great}
-Anthony Bagnall, Jason Lines, Aaron Bostrom, James Large, and Eamonn Keogh.
+\bibitem[Bagnall et~al., 2016b]{bagnall2016great}
+Bagnall, A., Lines, J., Bostrom, A., Large, J., and Keogh, E. (2016b).
 \newblock The great time series classification bake off: a review and
   experimental evaluation of recent algorithmic advances.
 \newblock pages 1--55.
 
-\bibitem[\protect\citeauthoryear{Batista \bgroup \em et al.\egroup
-  }{}]{batista2014cid}
-Gustavo~EAPA Batista, Eamonn~J Keogh, Oben~Moses Tataw, and Vinicius~MA
-  De~Souza.
+\bibitem[Batista et~al., 2014]{batista2014cid}
+Batista, G.~E., Keogh, E.~J., Tataw, O.~M., and De~Souza, V.~M. (2014).
 \newblock Cid: an efficient complexity-invariant distance for time series.
 \newblock 28(3):634--669.
 
-\bibitem[\protect\citeauthoryear{Batista \bgroup \em et al.\egroup
-  }{2011}]{batista2011complexity}
-Gustavo~EAPA Batista, Xiaoyue Wang, and Eamonn~J Keogh.
+\bibitem[Batista et~al., 2011]{batista2011complexity}
+Batista, G.~E., Wang, X., and Keogh, E.~J. (2011).
 \newblock A complexity-invariant distance measure for time series.
 \newblock In {\em Proceedings of the 2011 SIAM international conference on data
-  mining}, pages 699--710. SIAM, 2011.
+  mining}, pages 699--710. SIAM.
 
-\bibitem[\protect\citeauthoryear{Baydogan and Runger}{2016}]{baydogan2016time}
-Mustafa~Gokce Baydogan and George Runger.
+\bibitem[Baydogan and Runger, 2016]{baydogan2016time}
+Baydogan, M.~G. and Runger, G. (2016).
 \newblock Time series representation and similarity based on local
   autopatterns.
-\newblock {\em Data Mining and Knowledge Discovery}, 30(2):476--509, 2016.
+\newblock {\em Data Mining and Knowledge Discovery}, 30(2):476--509.
 
-\bibitem[\protect\citeauthoryear{Baydogan \bgroup \em et al.\egroup
-  }{2013}]{baydogan2013bag}
-Mustafa~Gokce Baydogan, George Runger, and Eugene Tuv.
+\bibitem[Baydogan et~al., 2013]{baydogan2013bag}
+Baydogan, M.~G., Runger, G., and Tuv, E. (2013).
 \newblock A bag-of-features framework to classify time series.
 \newblock {\em IEEE transactions on pattern analysis and machine intelligence},
-  35(11):2796--2802, 2013.
+  35(11):2796--2802.
 
-\bibitem[\protect\citeauthoryear{Begum and Keogh}{2014}]{Begum2014}
-Nurjahan Begum and Eamonn Keogh.
+\bibitem[Begum and Keogh, 2014]{Begum2014}
+Begum, N. and Keogh, E. (2014).
 \newblock {Rare time series motif discovery from unbounded streams}.
-\newblock {\em Proceedings of the VLDB Endowment}, 8(2):149--160, October 2014.
+\newblock {\em Proceedings of the VLDB Endowment}, 8(2):149--160.
 
-\bibitem[\protect\citeauthoryear{Bergh \bgroup \em et al.\egroup
-  }{1976}]{bergh1976maximal}
-U~Bergh, IL~Kanstrup, and B~Ekblom.
+\bibitem[Bergh et~al., 1976]{bergh1976maximal}
+Bergh, U., Kanstrup, I., and Ekblom, B. (1976).
 \newblock Maximal oxygen uptake during exercise with various combinations of
   arm and leg work.
-\newblock {\em Journal of Applied Physiology}, 41(2):191--196, 1976.
+\newblock {\em Journal of Applied Physiology}, 41(2):191--196.
 
-\bibitem[\protect\citeauthoryear{Bhatia and Bhattacharyya}{}]{Bhatia1993}
-Rajendra Bhatia and Tirthankar Bhattacharyya.
+\bibitem[Bhatia and Bhattacharyya, 1993]{Bhatia1993}
+Bhatia, R. and Bhattacharyya, T. (1993).
 \newblock {A generalization of the Hoffman-Wielandt theorem}.
 \newblock 179:11--17.
 
-\bibitem[\protect\citeauthoryear{Brouha and
-  Krobath}{1967}]{brouha1967continuous}
-Lucien Brouha and Hans Krobath.
+\bibitem[Brattg{\aa}rd et~al., 1970]{brattgaard1970energy}
+Brattg{\aa}rd, S., Grimby, G., and H{\"o}{\"o}k, O. (1970).
+\newblock Energy expenditure and heart rate in driving a wheel-chair ergometer.
+\newblock {\em Scandinavian journal of rehabilitation medicine}, 2(4):143.
+
+\bibitem[Brouha and Krobath, 1967]{brouha1967continuous}
+Brouha, L. and Krobath, H. (1967).
 \newblock Continuous recording of cardiac and respiratory functions in normal
   and handicapped people.
-\newblock {\em Human factors}, 9(6):567--571, 1967.
+\newblock {\em Human factors}, 9(6):567--571.
 
-\bibitem[\protect\citeauthoryear{Buttkus}{2012}]{buttkus2012spectral}
-Burkhard Buttkus.
+\bibitem[Buttkus, 2012]{buttkus2012spectral}
+Buttkus, B. (2012).
 \newblock {\em Spectral analysis and filter theory in applied geophysics}.
-\newblock Springer Science \& Business Media, 2012.
+\newblock Springer Science \& Business Media.
 
-\bibitem[\protect\citeauthoryear{Camerra \bgroup \em et al.\egroup
-  }{}]{camerra2010isax}
-Alessandro Camerra, Themis Palpanas, Jin Shieh, and Eamonn Keogh.
+\bibitem[Camerra et~al., 2010]{camerra2010isax}
+Camerra, A., Palpanas, T., Shieh, J., and Keogh, E. (2010).
 \newblock isax 2.0: Indexing and mining one billion time series.
 \newblock In {\em Data Mining (ICDM), 2010 IEEE 10th International Conference
   on}, pages 58--67. IEEE.
 
-\bibitem[\protect\citeauthoryear{Candan \bgroup \em et al.\egroup
-  }{}]{candan2012sdtw}
-K~Sel{\c{c}}uk Candan, Rosaria Rossini, Xiaolan Wang, and Maria~Luisa Sapino.
+\bibitem[Candan et~al., 2012]{candan2012sdtw}
+Candan, K.~S., Rossini, R., Wang, X., and Sapino, M.~L. (2012).
 \newblock sdtw: computing dtw distances using locally relevant constraints
   based on salient feature alignments.
 \newblock 5(11):1519--1530.
 
-\bibitem[\protect\citeauthoryear{Chan and Fu}{1999a}]{chan1999efficient}
-Kin-Pong Chan and Ada Wai-Chee Fu.
+\bibitem[Chan and Fu, 1999a]{chan1999efficient}
+Chan, K.-P. and Fu, A. W.-C. (1999a).
 \newblock Efficient time series matching by wavelets.
 \newblock In {\em Data Engineering, 1999. Proceedings., 15th International
-  Conference on}, pages 126--133. IEEE, 1999.
+  Conference on}, pages 126--133. IEEE.
 
-\bibitem[\protect\citeauthoryear{Chan and Fu}{1999b}]{Chan1999}
-Kin-Pong Chan and Ada Wai-Chee Fu.
+\bibitem[Chan and Fu, 1999b]{Chan1999}
+Chan, K.-P. and Fu, A. W.-C. (1999b).
 \newblock {Efficient time series matching by wavelets}.
 \newblock In {\em Proceedings 15th International Conference on Data Engineering
-  (Cat. No.99CB36337)}, pages 126--133. IEEE, 1999.
+  (Cat. No.99CB36337)}, pages 126--133. IEEE.
 
-\bibitem[\protect\citeauthoryear{{Chandola} \bgroup \em et al.\egroup
-  }{2009}]{chandola2009anomaly}
-Varun {Chandola}, Arindam {Banerjee}, and Vipin {Kumar}.
+\bibitem[{Chandola} et~al., 2009]{chandola2009anomaly}
+{Chandola}, V., {Banerjee}, A., and {Kumar}, V. (2009).
 \newblock Anomaly detection: A survey.
-\newblock {\em ACM Computing Surveys}, 41(3):15, 2009.
+\newblock {\em ACM Computing Surveys}, 41(3):15.
 
-\bibitem[\protect\citeauthoryear{Chen \bgroup \em et al.\egroup
-  }{2005}]{chen2005robust}
-Lei Chen, M~Tamer {\"O}zsu, and Vincent Oria.
+\bibitem[Chen et~al., 2005]{chen2005robust}
+Chen, L., {\"O}zsu, M.~T., and Oria, V. (2005).
 \newblock Robust and fast similarity search for moving object trajectories.
 \newblock In {\em Proceedings of the 2005 ACM SIGMOD international conference
-  on Management of data}, pages 491--502. ACM, 2005.
+  on Management of data}, pages 491--502. ACM.
 
-\bibitem[\protect\citeauthoryear{Chen \bgroup \em et al.\egroup
-  }{2015}]{UCRArchive}
-Yanping Chen, Eamonn Keogh, Bing Hu, Nurjahan Begum, Anthony Bagnall, Abdullah
-  Mueen, and Gustavo Batista.
+\bibitem[Chen et~al., 2015]{UCRArchive}
+Chen, Y., Keogh, E., Hu, B., Begum, N., Bagnall, A., Mueen, A., and Batista, G.
+  (2015).
 \newblock The ucr time series classification archive.
-\newblock \url{http://www.cs.ucr.edu/~eamonn/time_series_data/}, July 2015.
+\newblock \url{http://www.cs.ucr.edu/~eamonn/time_series_data/}.
 \newblock \url{www.cs.ucr.edu/~eamonn/time\_series\_data/}.
 
-\bibitem[\protect\citeauthoryear{Cheng \bgroup \em et al.\egroup
-  }{}]{cheng2003evaluating}
-Reynold Cheng, Dmitri~V Kalashnikov, and Sunil Prabhakar.
-\newblock Evaluating probabilistic queries over imprecise data.
-\newblock In {\em Proceedings of the 2003 ACM SIGMOD international conference
-  on Management of data}, pages 551--562. ACM.
-
-\bibitem[\protect\citeauthoryear{Chiu \bgroup \em et al.\egroup
-  }{}]{chiu2003probabilistic}
-Bill Chiu, Eamonn Keogh, and Stefano Lonardi.
-\newblock Probabilistic discovery of time series motifs.
-\newblock In {\em ninth ACM SIGKDD international conference on Knowledge
-  discovery and data mining}, pages 493--498. ACM.
-
-\bibitem[\protect\citeauthoryear{Chu \bgroup \em et al.\egroup
-  }{}]{chu2002iterative}
-Selina Chu, Eamonn~J Keogh, David~M Hart, Michael~J Pazzani, et~al.
+\bibitem[Chu et~al., 2002]{chu2002iterative}
+Chu, S., Keogh, E.~J., Hart, D.~M., Pazzani, M.~J., et~al. (2002).
 \newblock Iterative deepening dynamic time warping for time series.
 \newblock In {\em SDM}, pages 195--212. SIAM.
 
-\bibitem[\protect\citeauthoryear{Claremont and
-  Maksud}{1985}]{claremont1985model}
-AD~Claremont and MG~Maksud.
+\bibitem[Claremont and Maksud, 1985]{claremont1985model}
+Claremont, A. and Maksud, M. (1985).
 \newblock A model treadmill adaptation for wheelchair ergometry.
 \newblock {\em Canadian journal of applied sport sciences. Journal canadien des
-  sciences appliquees au sport}, 10(4):178--181, 1985.
+  sciences appliquees au sport}, 10(4):178--181.
 
-\bibitem[\protect\citeauthoryear{Cooper \bgroup \em et al.\egroup
-  }{2003}]{cooper2003wheelchair}
-Rory~A Cooper, Michael~L Boninger, Rosemarie Cooper, RN~Robertson, and
-  FD~Baldini.
-\newblock Wheelchair racing efficiency.
-\newblock {\em Disability and rehabilitation}, 25(4-5):207--212, 2003.
-
-\bibitem[\protect\citeauthoryear{Cooper}{1990}]{cooper1990exploratory}
-Rory~A Cooper.
+\bibitem[Cooper, 1990]{cooper1990exploratory}
+Cooper, R.~A. (1990).
 \newblock An exploratory study of racing wheelchair propulsion dynamics.
-\newblock {\em Adapted Physical Activity Quarterly}, 7(1):74--85, 1990.
+\newblock {\em Adapted Physical Activity Quarterly}, 7(1):74--85.
 
-\bibitem[\protect\citeauthoryear{Coutts and Stogryn}{1987}]{coutts1987aerobic}
-KENNETH~D Coutts and JANET~L Stogryn.
-\newblock Aerobic and anaerobic power of canadian wheelchair track athletes.
-\newblock {\em Medicine and science in sports and exercise}, 19(1):62--65,
-  1987.
+\bibitem[Cooper et~al., 2003]{cooper2003wheelchair}
+Cooper, R.~A., Boninger, M.~L., Cooper, R., Robertson, R., and Baldini, F.
+  (2003).
+\newblock Wheelchair racing efficiency.
+\newblock {\em Disability and rehabilitation}, 25(4-5):207--212.
 
-\bibitem[\protect\citeauthoryear{Coutts}{1990}]{coutts1990kinematics}
-Kenneth~D Coutts.
+\bibitem[Cou{\'e}tard, 2000]{couetard2000}
+Cou{\'e}tard, Y. (2000).
+\newblock {\em Caract{\'e}risation et {\'e}talonnage des dynamom{\`e}tres {\`a}
+  six composantes pour torseur associ{\'e} {\`a} un syst{\`e}me de forces}.
+\newblock PhD thesis, Universit{\'e} Sciences et Technologies-Bordeaux I.
+
+\bibitem[Coutts, 1990]{coutts1990kinematics}
+Coutts, K.~D. (1990).
 \newblock Kinematics of sport wheelchair propulsion.
-\newblock {\em Journal of rehabilitation research and development}, 27(1):21,
-  1990.
+\newblock {\em Journal of rehabilitation research and development}, 27(1):21.
 
-\bibitem[\protect\citeauthoryear{Cu{\v{r}}{\'\i}n \bgroup \em et al.\egroup
-  }{}]{cuvrin2007meeting}
-Jan Cu{\v{r}}{\'\i}n, Pascal Fleury, Jan Kleindienst, and Robert Kessl.
+\bibitem[Coutts and Stogryn, 1987]{coutts1987aerobic}
+Coutts, K.~D. and Stogryn, J.~L. (1987).
+\newblock Aerobic and anaerobic power of canadian wheelchair track athletes.
+\newblock {\em Medicine and science in sports and exercise}, 19(1):62--65.
+
+\bibitem[Cu{\v{r}}{\'\i}n et~al., 2007]{cuvrin2007meeting}
+Cu{\v{r}}{\'\i}n, J., Fleury, P., Kleindienst, J., and Kessl, R. (2007).
 \newblock Meeting state recognition from visual and aural labels.
 \newblock In {\em International Workshop on Machine Learning for Multimodal
   Interaction}, pages 24--25. Springer.
 
-\bibitem[\protect\citeauthoryear{Dallachiesa \bgroup \em et al.\egroup
-  }{}]{dallachiesa}
-Michele Dallachiesa, Besmira Nushi, Katsiaryna Mirylenka, and Themis Palpanas.
+\bibitem[Dabonneville et~al., 2005]{dabonneville2005self}
+Dabonneville, M., Kauffmann, P., Vaslin, P., De~Saint~Remy, N., Cou{\'e}tard,
+  Y., and Cid, M. (2005).
+\newblock A self-contained wireless wheelchair ergometer designed for
+  biomechanical measures in real life conditions.
+\newblock {\em Technology and Disability}, 17(2):63--76.
+
+\bibitem[Dallachiesa et~al., 2012]{dallachiesa}
+Dallachiesa, M., Nushi, B., Mirylenka, K., and Palpanas, T. (2012).
 \newblock Uncertain time-series similarity: return to the basics.
 \newblock 5(11):1662--1673.
 
-\bibitem[\protect\citeauthoryear{Dallachiesa \bgroup \em et al.\egroup
-  }{2012}]{dallachiesa2012uncertain}
-Michele Dallachiesa, Besmira Nushi, Katsiaryna Mirylenka, and Themis Palpanas.
-\newblock Uncertain time-series similarity: return to the basics.
-\newblock {\em VLDB Endowment}, 5(11):1662--1673, 2012.
-
-\bibitem[\protect\citeauthoryear{Das \bgroup \em et al.\egroup
-  }{1997}]{das1997finding}
-Gautam Das, Dimitrios Gunopulos, and Heikki Mannila.
+\bibitem[Das et~al., 1997]{das1997finding}
+Das, G., Gunopulos, D., and Mannila, H. (1997).
 \newblock Finding similar time series.
 \newblock In {\em European Symposium on Principles of Data Mining and Knowledge
-  Discovery}, pages 88--100. Springer, 1997.
+  Discovery}, pages 88--100. Springer.
 
-\bibitem[\protect\citeauthoryear{De~Lathauwer \bgroup \em et al.\egroup
-  }{1994}]{de1994singular}
-L~De~Lathauwer, B~De~Moor, J~Vandewalle, and Blind Source~Separation
-  by~Higher-Order.
+\bibitem[De~Lathauwer et~al., 1994]{de1994singular}
+De~Lathauwer, L., De~Moor, B., Vandewalle, J., and by~Higher-Order, B. S.~S.
+  (1994).
 \newblock Singular value decomposition.
 \newblock In {\em Proc. EUSIPCO-94, Edinburgh, Scotland, UK}, volume~1, pages
-  175--178, 1994.
+  175--178.
 
-\bibitem[\protect\citeauthoryear{Dean and Ghemawat}{2010}]{Dean2010}
-Jeffrey Dean and Sanjay Ghemawat.
-\newblock {MapReduce}.
-\newblock {\em Communications of the ACM}, 53(1):72, jan 2010.
-
-\bibitem[\protect\citeauthoryear{Deng \bgroup \em et al.\egroup
-  }{2013}]{deng2013time}
-Houtao Deng, George Runger, Eugene Tuv, and Martyanov Vladimir.
+\bibitem[Deng et~al., 2013]{deng2013time}
+Deng, H., Runger, G., Tuv, E., and Vladimir, M. (2013).
 \newblock A time series forest for classification and feature extraction.
-\newblock {\em Information Sciences}, 239:142--153, 2013.
+\newblock {\em Information Sciences}, 239:142--153.
 
-\bibitem[\protect\citeauthoryear{Devillard \bgroup \em et al.\egroup
-  }{2001}]{devillard2001validation}
-Xavier Devillard, Paul Calmels, Bernard Sauvignet, Alain Belli, Christian
-  Denis, Clermont Simard, and Vincent Gautheron.
-\newblock Validation of a new ergometer adapted to all types of manual
-  wheelchair.
-\newblock {\em European journal of applied physiology}, 85(5):479--485, 2001.
-
-\bibitem[\protect\citeauthoryear{Devillard}{1999}]{devillard1999wheelchair}
-X~Devillard.
+\bibitem[Devillard, 1999]{devillard1999wheelchair}
+Devillard, X. (1999).
 \newblock A wheelchair ergometer for physiological and biomechanical
   measurement.
-\newblock In {\em Proceedings of the 11th}, 1999.
+\newblock In {\em Proceedings of the 11th}.
 
-\bibitem[\protect\citeauthoryear{Dhillon \bgroup \em et al.\egroup
-  }{2003}]{dhillon2003information}
-Inderjit~S Dhillon, Subramanyam Mallela, and Dharmendra~S Modha.
+\bibitem[Devillard et~al., 2001]{devillard2001validation}
+Devillard, X., Calmels, P., Sauvignet, B., Belli, A., Denis, C., Simard, C.,
+  and Gautheron, V. (2001).
+\newblock Validation of a new ergometer adapted to all types of manual
+  wheelchair.
+\newblock {\em European journal of applied physiology}, 85(5):479--485.
+
+\bibitem[Dhillon et~al., 2003]{dhillon2003information}
+Dhillon, I.~S., Mallela, S., and Modha, D.~S. (2003).
 \newblock Information-theoretic co-clustering.
 \newblock In {\em Proceedings of the ninth ACM SIGKDD international conference
-  on Knowledge discovery and data mining}, pages 89--98. ACM, 2003.
+  on Knowledge discovery and data mining}, pages 89--98. ACM.
 
-\bibitem[\protect\citeauthoryear{Dietterich}{2002}]{Dietterich2002}
-Thomas~G. Dietterich.
+\bibitem[Dietterich, 2002]{Dietterich2002}
+Dietterich, T.~G. (2002).
 \newblock {Machine Learning for Sequential Data: A Review}.
 \newblock {\em Proceedings of the Joint IAPR International Workshop on
-  Structural, Syntactic, and Statistical Pattern Recognition}, pages 16--30,
-  August 2002.
+  Structural, Syntactic, and Statistical Pattern Recognition}, pages 16--30.
 
-\bibitem[\protect\citeauthoryear{DiGiovine \bgroup \em et al.\egroup
-  }{2001}]{digiovine2001dynamic}
-Carmen~P DiGiovine, Rory~A Cooper, and Michael~L Boninger.
+\bibitem[DiGiovine et~al., 2001]{digiovine2001dynamic}
+DiGiovine, C.~P., Cooper, R.~A., and Boninger, M.~L. (2001).
 \newblock Dynamic calibration of a wheelchair dynamometer.
-\newblock {\em Journal of rehabilitation research and development}, 38(1):41,
-  2001.
+\newblock {\em Journal of rehabilitation research and development}, 38(1):41.
 
-\bibitem[\protect\citeauthoryear{Ding \bgroup \em et al.\egroup
-  }{2008}]{Ding2008}
-Hui Ding, Goce Trajcevski, Peter Scheuermann, Xiaoyue Wang, and Eamonn Keogh.
+\bibitem[Ding, 2011]{ding2011key}
+Ding, H. (2011).
+\newblock {\em Key concepts for implementing SoC-Holter}.
+\newblock PhD thesis, Universit{\'e} Blaise Pascal-Clermont-Ferrand II.
+
+\bibitem[Ding et~al., 2008]{Ding2008}
+Ding, H., Trajcevski, G., Scheuermann, P., Wang, X., and Keogh, E. (2008).
 \newblock {Querying and mining of time series data}.
-\newblock {\em Proceedings of the VLDB Endowment}, 1(2):1542--1552, August
-  2008.
+\newblock {\em Proceedings of the VLDB Endowment}, 1(2):1542--1552.
 
-\bibitem[\protect\citeauthoryear{Eriksson \bgroup \em et al.\egroup
-  }{2004}]{eriksson2004piecewise}
-Kenneth Eriksson, Donald Estep, and Claes Johnson.
+\bibitem[Eriksson et~al., 2004]{eriksson2004piecewise}
+Eriksson, K., Estep, D., and Johnson, C. (2004).
 \newblock Piecewise linear approximation.
 \newblock In {\em Applied Mathematics: Body and Soul}, pages 741--753.
-  Springer, 2004.
+  Springer.
 
-\bibitem[\protect\citeauthoryear{Esling and Agon}{2012}]{Esling2012}
-Philippe Esling and Carlos Agon.
+\bibitem[Esling and Agon, 2012]{Esling2012}
+Esling, P. and Agon, C. (2012).
 \newblock {Time-series data mining}.
-\newblock {\em ACM Computing Surveys (CSUR)}, 45(1):1--34, 2012.
+\newblock {\em ACM Computing Surveys (CSUR)}, 45(1):1--34.
 
-\bibitem[\protect\citeauthoryear{Faria \bgroup \em et al.\egroup
-  }{2012}]{faria2012patient}
-Br{\'\i}gida~M{\'o}nica Faria, Lu{\'\i}s~Paulo Reis, Nuno Lau, Jo{\~a}o~Couto
-  Soares, and S{\'e}rgio Vasconcelos.
+\bibitem[Faria et~al., 2012]{faria2012patient}
+Faria, B.~M., Reis, L.~P., Lau, N., Soares, J.~C., and Vasconcelos, S. (2012).
 \newblock Patient classification and automatic configuration of an intelligent
   wheelchair.
 \newblock In {\em International Conference on Agents and Artificial
-  Intelligence}, pages 268--282. Springer, 2012.
+  Intelligence}, pages 268--282. Springer.
 
-\bibitem[\protect\citeauthoryear{Feo and Resende}{1995}]{feo1995greedy}
-Thomas~A Feo and Mauricio~GC Resende.
+\bibitem[Feo and Resende, 1995]{feo1995greedy}
+Feo, T.~A. and Resende, M.~G. (1995).
 \newblock Greedy randomized adaptive search procedures.
-\newblock {\em Journal of global optimization}, 6(2):109--133, 1995.
+\newblock {\em Journal of global optimization}, 6(2):109--133.
 
-\bibitem[\protect\citeauthoryear{Filippone \bgroup \em et al.\egroup
-  }{2008}]{filippone2008survey}
-Maurizio Filippone, Francesco Camastra, Francesco Masulli, and Stefano Rovetta.
+\bibitem[Filippone et~al., 2008]{filippone2008survey}
+Filippone, M., Camastra, F., Masulli, F., and Rovetta, S. (2008).
 \newblock A survey of kernel and spectral methods for clustering.
-\newblock {\em Pattern recognition}, 41(1):176--190, 2008.
+\newblock {\em Pattern recognition}, 41(1):176--190.
 
-\bibitem[\protect\citeauthoryear{Folland and
-  Sitaram}{1997}]{folland1997uncertainty}
-Gerald~B Folland and Alladi Sitaram.
+\bibitem[Folland and Sitaram, 1997]{folland1997uncertainty}
+Folland, G.~B. and Sitaram, A. (1997).
 \newblock The uncertainty principle: a mathematical survey.
-\newblock {\em Journal of Fourier analysis and applications}, 3(3):207--238,
-  1997.
+\newblock {\em Journal of Fourier analysis and applications}, 3(3):207--238.
 
-\bibitem[\protect\citeauthoryear{Fu}{2011}]{fu2011review}
-Tak-chung Fu.
+\bibitem[FOTS-SUSh, 2018]{expe}
+FOTS-SUSh (2018).
+\newblock https://sites.google.com/view/fots-sush/accueil.
+
+\bibitem[Fu, 2011]{fu2011review}
+Fu, T.-c. (2011).
 \newblock A review on time series data mining.
 \newblock {\em Engineering Applications of Artificial Intelligence},
-  24(1):164--181, 2011.
+  24(1):164--181.
 
-\bibitem[\protect\citeauthoryear{Gao \bgroup \em et al.\egroup
-  }{}]{gao2016iterative}
-Yifeng Gao, Jessica Lin, and Huzefa Rangwala.
-\newblock Iterative grammar-based framework for discovering variable-length
-  time series motifs.
-\newblock In {\em Machine Learning and Applications (ICMLA), 2016 15th IEEE
-  International Conference on}, pages 7--12. IEEE.
-
-\bibitem[\protect\citeauthoryear{Ghalwash \bgroup \em et al.\egroup
-  }{}]{ghalwash2014utilizing}
-Mohamed~F Ghalwash, Vladan Radosavljevic, and Zoran Obradovic.
-\newblock Utilizing temporal patterns for estimating uncertainty in
-  interpretable early decision making.
-\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
-  on Knowledge discovery and data mining}, pages 402--411. ACM.
-
-\bibitem[\protect\citeauthoryear{Godsill}{}]{godsill2001relationship}
-Simon~J Godsill.
-\newblock On the relationship between {Markov} chain {Monte Carlo} methods for
-  model uncertainty.
-\newblock 10(2):230--248.
-
-\bibitem[\protect\citeauthoryear{Goosey \bgroup \em et al.\egroup
-  }{1998}]{goosey1998relationship}
-Victoria~L Goosey, Ian~G Campbell, and Neil~E Fowler.
+\bibitem[Goosey et~al., 1998]{goosey1998relationship}
+Goosey, V.~L., Campbell, I.~G., and Fowler, N.~E. (1998).
 \newblock The relationship between three-dimensional wheelchair propulsion
   techniques and pushing economy.
-\newblock {\em Journal of applied biomechanics}, 14(4):412--427, 1998.
+\newblock {\em Journal of applied biomechanics}, 14(4):412--427.
 
-\bibitem[\protect\citeauthoryear{Goosey-Tolfrey \bgroup \em et al.\egroup
-  }{2001}]{goosey2001kinetic}
-Victoria~L Goosey-Tolfrey, Neil~E Fowler, Ian~G Campbell, and Simon~D Iwnicki.
+\bibitem[Goosey-Tolfrey et~al., 2001]{goosey2001kinetic}
+Goosey-Tolfrey, V.~L., Fowler, N.~E., Campbell, I.~G., and Iwnicki, S.~D.
+  (2001).
 \newblock A kinetic analysis of trained wheelchair racers during two speeds of
   propulsion.
-\newblock {\em Medical engineering and physics}, 23(4):259--266, 2001.
+\newblock {\em Medical engineering and physics}, 23(4):259--266.
 
-\bibitem[\protect\citeauthoryear{Grabocka \bgroup \em et al.\egroup
-  }{2014}]{grabocka2014learning}
-Josif Grabocka, Nicolas Schilling, Martin Wistuba, and Lars Schmidt-Thieme.
+\bibitem[Grabocka et~al., 2014]{grabocka2014learning}
+Grabocka, J., Schilling, N., Wistuba, M., and Schmidt-Thieme, L. (2014).
 \newblock Learning time-series shapelets.
 \newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
-  on Knowledge discovery and data mining}, pages 392--401. ACM, 2014.
+  on Knowledge discovery and data mining}, pages 392--401. ACM.
 
-\bibitem[\protect\citeauthoryear{Gusfield}{1997}]{gusfield1997algorithms}
-Dan Gusfield.
-\newblock {\em Algorithms on strings, trees and sequences: computer science and
-  computational biology}.
-\newblock Cambridge university press, 1997.
-
-\bibitem[\protect\citeauthoryear{Halkidi \bgroup \em et al.\egroup
-  }{2001}]{halkidi2001clustering}
-Maria Halkidi, Yannis Batistakis, and Michalis Vazirgiannis.
+\bibitem[Halkidi et~al., 2001]{halkidi2001clustering}
+Halkidi, M., Batistakis, Y., and Vazirgiannis, M. (2001).
 \newblock On clustering validation techniques.
-\newblock {\em Journal of intelligent information systems}, 17(2-3):107--145,
-  2001.
+\newblock {\em Journal of intelligent information systems}, 17(2-3):107--145.
 
-\bibitem[\protect\citeauthoryear{Hamilton}{}]{Hamilton1989}
-Jd~Hamilton.
-\newblock A new approach to the economic analysis of nonstationary time series
-  and the business cycle.
-\newblock 57(2):357--384.
-
-\bibitem[\protect\citeauthoryear{Hamilton}{1989}]{Hamilton_1989}
-Jd~Hamilton.
-\newblock A new approach to the economic analysis of nonstationary time series
-  and the business cycle.
-\newblock {\em Econometrica: Journal of the Econometric Society},
-  57(2):357--384, 1989.
-
-\bibitem[\protect\citeauthoryear{Hochheiser and
-  Shneiderman}{2003}]{hochheiser2003interactive}
-Harry Hochheiser and Ben Shneiderman.
+\bibitem[Hochheiser and Shneiderman, 2003]{hochheiser2003interactive}
+Hochheiser, H. and Shneiderman, B. (2003).
 \newblock Interactive exploration of time series data.
 \newblock In {\em The Craft of Information Visualization}, pages 313--315.
-  Elsevier, 2003.
+  Elsevier.
 
-\bibitem[\protect\citeauthoryear{Hofmann}{2017}]{hofmann2017probabilistic}
-Thomas Hofmann.
+\bibitem[Hoffmann-J{\o}rgensen and Pisier, 1976]{hoffmann1976law}
+Hoffmann-J{\o}rgensen, J. and Pisier, G. (1976).
+\newblock The law of large numbers and the central limit theorem in banach
+  spaces.
+\newblock {\em The Annals of Probability}, pages 587--599.
+
+\bibitem[Hofmann, 2017]{hofmann2017probabilistic}
+Hofmann, T. (2017).
 \newblock Probabilistic latent semantic indexing.
-\newblock In {\em ACM SIGIR Forum}, volume~51, pages 211--218. ACM, 2017.
+\newblock In {\em ACM SIGIR Forum}, volume~51, pages 211--218. ACM.
 
-\bibitem[\protect\citeauthoryear{Huang and Kinsner}{}]{HuangKinsner2002}
-B~Huang and W~Kinsner.
-\newblock {ECG} frame classification using dynamic time warping.
-\newblock 2:1105--1110.
-
-\bibitem[\protect\citeauthoryear{Huang and Kinsner}{2002}]{Huang_Kinsner_2002}
-B~Huang and W~Kinsner.
-\newblock Ecg frame classification using dynamic time warping.
-\newblock {\em Electrical and Computer Engineering,}, 2:1105--1110, 2002.
-
-\bibitem[\protect\citeauthoryear{Hwang \bgroup \em et al.\egroup
-  }{}]{Hwang2014}
-Jun Hwang, Yusuke Kozawa, Toshiyuki Amagasa, and Hiroyuki Kitagawa.
+\bibitem[Hwang et~al., 2014]{Hwang2014}
+Hwang, J., Kozawa, Y., Amagasa, T., and Kitagawa, H. (2014).
 \newblock {GPU Acceleration of Similarity Search for Uncertain Time Series}.
 \newblock In {\em 2014 17th International Conference on Network-Based
   Information Systems}, pages 627--632. IEEE.
 
-\bibitem[\protect\citeauthoryear{Ibarra and Kim}{}]{ibarra1975fast}
-Oscar~H Ibarra and Chul~E Kim.
+\bibitem[Ibarra and Kim, 1975]{ibarra1975fast}
+Ibarra, O.~H. and Kim, C.~E. (1975).
 \newblock Fast approximation algorithms for the knapsack and sum of subset
   problems.
 \newblock 22(4):463--468.
 
-\bibitem[\protect\citeauthoryear{Ibragimov and
-  Has'~minskii}{}]{ibragimov2013statistical}
-Ilʹdar~Abdulovi{\v{c}} Ibragimov and Rafail~Z Has'~minskii.
+\bibitem[Ibragimov and Has'~minskii, 2013]{ibragimov2013statistical}
+Ibragimov, I.~A. and Has'~minskii, R.~Z. (2013).
 \newblock {\em Statistical estimation: asymptotic theory}, volume~16.
 \newblock Springer Science \& Business Media.
 
-\bibitem[\protect\citeauthoryear{Itakura}{}]{itakura1975minimum}
-Fumitada Itakura.
+\bibitem[Itakura, 1975]{itakura1975minimum}
+Itakura, F. (1975).
 \newblock Minimum prediction residual principle applied to speech recognition.
 \newblock 23(1):67--72.
 
-\bibitem[\protect\citeauthoryear{Jeong \bgroup \em et al.\egroup
-  }{}]{jeong2011weighted}
-Young-Seon Jeong, Myong~K Jeong, and Olufemi~A Omitaomu.
+\bibitem[Jeong et~al., 2011]{jeong2011weighted}
+Jeong, Y.-S., Jeong, M.~K., and Omitaomu, O.~A. (2011).
 \newblock Weighted dynamic time warping for time series classification.
 \newblock 44(9):2231--2240.
 
-\bibitem[\protect\citeauthoryear{Johnson \bgroup \em et al.\egroup
-  }{2004}]{johnson2004sport}
-B~Johnson, C~Mushett, Ken Richter, and G~Peacock.
+\bibitem[Johnson et~al., 2004]{johnson2004sport}
+Johnson, B., Mushett, C., Richter, K., and Peacock, G. (2004).
 \newblock Sport for athletes with physical disabilities: injuries and medical
   issues.
-\newblock {\em BlazeSports America}, 2004.
+\newblock {\em BlazeSports America}.
 
-\bibitem[\protect\citeauthoryear{Kalpakis \bgroup \em et al.\egroup
-  }{2001}]{kalpakis2001distance}
-Konstantinos Kalpakis, Dhiral Gada, and Vasundhara Puttagunta.
+\bibitem[Kalpakis et~al., 2001]{kalpakis2001distance}
+Kalpakis, K., Gada, D., and Puttagunta, V. (2001).
 \newblock Distance measures for effective clustering of arima time-series.
 \newblock In {\em Data Mining, 2001. ICDM 2001, Proceedings IEEE International
-  Conference on}, pages 273--280. IEEE, 2001.
+  Conference on}, pages 273--280. IEEE.
 
-\bibitem[\protect\citeauthoryear{Kate}{}]{Kate2016}
-Rohit~J. Kate.
+\bibitem[Kate, 2016a]{kate2016using}
+Kate, R.~J. (2016a).
+\newblock Using dynamic time warping distances as features for improved time
+  series classification.
+\newblock {\em Data Mining and Knowledge Discovery}, 30(2):283--312.
+
+\bibitem[Kate, 2016b]{Kate2016}
+Kate, R.~J. (2016b).
 \newblock Using dynamic time warping distances as features for improved time
   series classification.
 \newblock 30(2):283--312.
 
-\bibitem[\protect\citeauthoryear{Kate}{2016}]{kate2016using}
-Rohit~J Kate.
-\newblock Using dynamic time warping distances as features for improved time
-  series classification.
-\newblock {\em Data Mining and Knowledge Discovery}, 30(2):283--312, 2016.
-
-\bibitem[\protect\citeauthoryear{Kendall}{1961}]{kendall1961advanced}
-Maurice~George Kendall.
+\bibitem[Kendall, 1961]{kendall1961advanced}
+Kendall, M.~G. (1961).
 \newblock {\em The advanced theory of statistics: Inference and relationship},
   volume~2.
-\newblock Charles Griffin, 1961.
+\newblock Charles Griffin.
 
-\bibitem[\protect\citeauthoryear{Keogh and Kasetty}{2003a}]{keogh2003need}
-Eamonn Keogh and Shruti Kasetty.
-\newblock On the need for time series data mining benchmarks: a survey and
-  empirical demonstration.
-\newblock {\em Data Mining and knowledge discovery}, 7(4):349--371, 2003.
+\bibitem[Keogh et~al., 2001a]{Keogh2001a}
+Keogh, E., Chakrabarti, K., Pazzani, M., and Mehrotra, S. (2001a).
+\newblock {Dimensionality Reduction for Fast Similarity Search in Large Time
+  Series Databases}.
+\newblock {\em Knowledge and Information Systems}, 3(January):263--286.
 
-\bibitem[\protect\citeauthoryear{Keogh and Kasetty}{2003b}]{KeoghBenchmarks}
-Eamonn Keogh and Shruti Kasetty.
-\newblock {On the Need for Time Series Data Mining Benchmarks: A Survey and
-  Empirical Demonstration}.
-\newblock {\em Data Mining and Knowledge Discovery}, 7(4):349--371, 2003.
+\bibitem[Keogh et~al., 2001b]{keogh2001dimensionality}
+Keogh, E., Chakrabarti, K., Pazzani, M., and Mehrotra, S. (2001b).
+\newblock Dimensionality reduction for fast similarity search in large time
+  series databases.
+\newblock {\em Knowledge and information Systems}, 3(3):263--286.
 
-\bibitem[\protect\citeauthoryear{Keogh and Pazzani}{a}]{KeoghPazzani2001}
-E~J Keogh and M~J Pazzani.
-\newblock Derivative dynamic time warping.
-\newblock pages 1--11.
-
-\bibitem[\protect\citeauthoryear{Keogh and Pazzani}{b}]{keogh2000scaling}
-Eamonn~J Keogh and Michael~J Pazzani.
-\newblock Scaling up dynamic time warping for datamining applications.
-\newblock In {\em sixth ACM SIGKDD}, pages 285--289. ACM.
-
-\bibitem[\protect\citeauthoryear{Keogh and Pazzani}{2001a}]{Keogh_Pazzani_2001}
-E~J Keogh and M~J Pazzani.
-\newblock Derivative dynamic time warping.
-\newblock {\em 1st SIAM International Conference on Data Mining}, pages 1--11,
-  2001.
-
-\bibitem[\protect\citeauthoryear{Keogh and
-  Pazzani}{2001b}]{keogh2001derivative}
-Eamonn~J Keogh and Michael~J Pazzani.
-\newblock Derivative dynamic time warping.
-\newblock In {\em Proceedings of the 2001 SIAM International Conference on Data
-  Mining}, pages 1--11. SIAM, 2001.
-
-\bibitem[\protect\citeauthoryear{Keogh and Ratanamahatana}{}]{Keogh2004}
-Eamonn Keogh and Chotirat~Ann Ratanamahatana.
-\newblock {Exact indexing of dynamic time warping}.
-\newblock 7(3):358--386.
-
-\bibitem[\protect\citeauthoryear{Keogh and Ratanamahatana}{2004}]{Keogh2004a}
-E~Keogh and A~Ratanamahatana.
-\newblock {Everything you know about dynamic time warping is wrong}.
-\newblock In {\em 3rd Workshop on Mining Temporal and Sequential Data, in
-  conjunction with 10th ACM SIGKDD Int. Conf. Knowledge Discovery and Data
-  Mining (KDD-2004), Seattle, WA}, 2004.
-
-\bibitem[\protect\citeauthoryear{Keogh \bgroup \em et al.\egroup
-  }{}]{keogh2001locally}
-Eamonn Keogh, Kaushik Chakrabarti, Michael Pazzani, and Sharad Mehrotra.
+\bibitem[Keogh et~al., 2001c]{keogh2001locally}
+Keogh, E., Chakrabarti, K., Pazzani, M., and Mehrotra, S. (2001c).
 \newblock Locally adaptive dimensionality reduction for indexing large time
   series databases.
 \newblock 30(2):151--162.
 
-\bibitem[\protect\citeauthoryear{Keogh \bgroup \em et al.\egroup
-  }{2001a}]{Keogh2001a}
-Eamonn Keogh, Kaushik Chakrabarti, Michael Pazzani, and Sharad Mehrotra.
-\newblock {Dimensionality Reduction for Fast Similarity Search in Large Time
-  Series Databases}.
-\newblock {\em Knowledge and Information Systems}, 3(January):263--286, 2001.
+\bibitem[Keogh and Kasetty, 2003a]{keogh2003need}
+Keogh, E. and Kasetty, S. (2003a).
+\newblock On the need for time series data mining benchmarks: a survey and
+  empirical demonstration.
+\newblock {\em Data Mining and knowledge discovery}, 7(4):349--371.
 
-\bibitem[\protect\citeauthoryear{Keogh \bgroup \em et al.\egroup
-  }{2001b}]{keogh2001dimensionality}
-Eamonn Keogh, Kaushik Chakrabarti, Michael Pazzani, and Sharad Mehrotra.
-\newblock Dimensionality reduction for fast similarity search in large time
-  series databases.
-\newblock {\em Knowledge and information Systems}, 3(3):263--286, 2001.
+\bibitem[Keogh and Kasetty, 2003b]{KeoghBenchmarks}
+Keogh, E. and Kasetty, S. (2003b).
+\newblock {On the Need for Time Series Data Mining Benchmarks: A Survey and
+  Empirical Demonstration}.
+\newblock {\em Data Mining and Knowledge Discovery}, 7(4):349--371.
 
-\bibitem[\protect\citeauthoryear{Keogh \bgroup \em et al.\egroup
-  }{2001c}]{Keogh2001}
-Eamonn Keogh, Kaushik Chakrabarti, Michael Pazzani, and Sharad Mehrotra.
-\newblock {Dimensionality Reduction for Fast Similarity Search in Large Time
-  Series Databases}.
-\newblock {\em Knowledge and Information Systems}, 3(January):263--286, 2001.
+\bibitem[Keogh and Ratanamahatana, ]{Keogh2004}
+Keogh, E. and Ratanamahatana, C.~A.
+\newblock {Exact indexing of dynamic time warping}.
+\newblock 7(3):358--386.
 
-\bibitem[\protect\citeauthoryear{Kerk \bgroup \em et al.\egroup
-  }{1995}]{kerk1995effect}
-Julie~K Kerk, Philip~S Clifford, Ann~C Snyder, Thomas~E Prieto, Kathleen~P
-  O'hagan, Philip~K Schot, Joel~B Myklebust, and Barbara~M Myklebust.
+\bibitem[Keogh and Pazzani, 2000]{keogh2000scaling}
+Keogh, E.~J. and Pazzani, M.~J. (2000).
+\newblock Scaling up dynamic time warping for datamining applications.
+\newblock In {\em sixth ACM SIGKDD}, pages 285--289. ACM.
+
+\bibitem[Keogh and Pazzani, 2001a]{keogh2001derivative}
+Keogh, E.~J. and Pazzani, M.~J. (2001a).
+\newblock Derivative dynamic time warping.
+\newblock In {\em Proceedings of the 2001 SIAM International Conference on Data
+  Mining}, pages 1--11. SIAM.
+
+\bibitem[Keogh and Pazzani, 2001b]{Keogh_Pazzani_2001}
+Keogh, E.~J. and Pazzani, M.~J. (2001b).
+\newblock Derivative dynamic time warping.
+\newblock {\em 1st SIAM International Conference on Data Mining}, pages 1--11.
+
+\bibitem[Kerk et~al., 1995]{kerk1995effect}
+Kerk, J.~K., Clifford, P.~S., Snyder, A.~C., Prieto, T.~E., O'hagan, K.~P.,
+  Schot, P.~K., Myklebust, J.~B., and Myklebust, B.~M. (1995).
 \newblock Effect of an abdominal binder during wheelchair exercise.
-\newblock {\em Medicine and science in sports and exercise}, 27(6):913--919,
-  1995.
+\newblock {\em Medicine and science in sports and exercise}, 27(6):913--919.
 
-\bibitem[\protect\citeauthoryear{Kriegel \bgroup \em et al.\egroup
-  }{2011}]{kriegel2011density}
-Hans-Peter Kriegel, Peer Kr{\"o}ger, J{\"o}rg Sander, and Arthur Zimek.
+\bibitem[Kriegel et~al., 2011]{kriegel2011density}
+Kriegel, H.-P., Kr{\"o}ger, P., Sander, J., and Zimek, A. (2011).
 \newblock Density-based clustering.
 \newblock {\em Wiley Interdisciplinary Reviews: Data Mining and Knowledge
-  Discovery}, 1(3):231--240, 2011.
+  Discovery}, 1(3):231--240.
 
-\bibitem[\protect\citeauthoryear{Kuczera and Parent}{}]{kuczera1998monte}
-George Kuczera and Eric Parent.
-\newblock {Monte Carlo} assessment of parameter uncertainty in conceptual
-  catchment models: the metropolis algorithm.
-\newblock 211(1):69--85.
-
-\bibitem[\protect\citeauthoryear{Kulig \bgroup \em et al.\egroup
-  }{2001}]{kulig2001effect}
-Kornelia Kulig, Craig~J Newsam, Sara~J Mulroy, Sreesha Rao, JoAnne~K Gronley,
-  Ernest~L Bontrager, and Jacquelin Perry.
+\bibitem[Kulig et~al., 2001]{kulig2001effect}
+Kulig, K., Newsam, C.~J., Mulroy, S.~J., Rao, S., Gronley, J.~K., Bontrager,
+  E.~L., and Perry, J. (2001).
 \newblock The effect of level of spinal cord injury on shoulder joint kinetics
   during manual wheelchair propulsion.
-\newblock {\em Clinical biomechanics}, 16(9):744--751, 2001.
+\newblock {\em Clinical biomechanics}, 16(9):744--751.
 
-\bibitem[\protect\citeauthoryear{Langbein and
-  Fehr}{1993}]{langbein1993research}
-W~Edwin Langbein and Linda Fehr.
-\newblock Research device to preproduction prototype: a chronology.
-\newblock {\em Journal of rehabilitation research and development}, 30(4):436,
-  1993.
-
-\bibitem[\protect\citeauthoryear{Langbein \bgroup \em et al.\egroup
-  }{1993}]{langbein1993calibration}
-WE~Langbein, CJ~Robinson, L~Kynast, and L~Fehr.
+\bibitem[Langbein et~al., 1993]{langbein1993calibration}
+Langbein, W., Robinson, C., Kynast, L., and Fehr, L. (1993).
 \newblock Calibration of a new wheelchair ergometer: the wheelchair aerobic
   fitness trainer.
-\newblock {\em IEEE Transactions on Rehabilitation Engineering}, 1(1):49--58,
-  1993.
+\newblock {\em IEEE Transactions on Rehabilitation Engineering}, 1(1):49--58.
 
-\bibitem[\protect\citeauthoryear{Langbein \bgroup \em et al.\egroup
-  }{1994}]{langbein1994initial}
-W~Edwin Langbein, Kevin~C Maki, Lonnie~C Edwards, Ming~H Hwang, et~al.
+\bibitem[Langbein and Fehr, 1993]{langbein1993research}
+Langbein, W.~E. and Fehr, L. (1993).
+\newblock Research device to preproduction prototype: a chronology.
+\newblock {\em Journal of rehabilitation research and development}, 30(4):436.
+
+\bibitem[Langbein et~al., 1994]{langbein1994initial}
+Langbein, W.~E., Maki, K.~C., Edwards, L.~C., Hwang, M.~H., et~al. (1994).
 \newblock Initial clinical evaluation of a wheelchair ergometer for diagnostic
   exercise testing: a technical note.
-\newblock {\em Journal of rehabilitation research and development}, 31(4):317,
-  1994.
+\newblock {\em Journal of rehabilitation research and development}, 31(4):317.
 
-\bibitem[\protect\citeauthoryear{Lin and Li}{2009}]{lin2009finding}
-Jessica Lin and Yuan Li.
-\newblock Finding structural similarity in time series data using
-  bag-of-patterns representation.
-\newblock In {\em International Conference on Scientific and Statistical
-  Database Management}, pages 461--477. Springer, 2009.
-
-\bibitem[\protect\citeauthoryear{Lin \bgroup \em et al.\egroup
-  }{2003}]{lin2003symbolic}
-Jessica Lin, Eamonn Keogh, Stefano Lonardi, and Bill Chiu.
+\bibitem[Lin et~al., 2003]{lin2003symbolic}
+Lin, J., Keogh, E., Lonardi, S., and Chiu, B. (2003).
 \newblock A symbolic representation of time series, with implications for
   streaming algorithms.
 \newblock In {\em 8th ACM SIGMOD workshop on Research issues in data mining and
-  knowledge discovery}, pages 2--11, New York, New York, USA, 2003. ACM, ACM
-  Press.
+  knowledge discovery}, pages 2--11, New York, New York, USA. ACM, ACM Press.
 
-\bibitem[\protect\citeauthoryear{Lin \bgroup \em et al.\egroup
-  }{2007}]{Lin2007}
-Jessica Lin, Eamonn Keogh, Li~Wei, and Stefano Lonardi.
+\bibitem[Lin et~al., 2007]{Lin2007}
+Lin, J., Keogh, E., Wei, L., and Lonardi, S. (2007).
 \newblock {Experiencing SAX: a novel symbolic representation of time series}.
-\newblock {\em Data Mining and Knowledge Discovery}, 15(2):107--144, apr 2007.
+\newblock {\em Data Mining and Knowledge Discovery}, 15(2):107--144.
 
-\bibitem[\protect\citeauthoryear{Lin \bgroup \em et al.\egroup
-  }{2012}]{lin2012rotation}
-Jessica Lin, Rohan Khade, and Yuan Li.
+\bibitem[Lin et~al., 2012]{lin2012rotation}
+Lin, J., Khade, R., and Li, Y. (2012).
 \newblock Rotation-invariant similarity in time series using bag-of-patterns
   representation.
-\newblock {\em Journal of Intelligent Information Systems}, 39(2):287--315,
-  2012.
+\newblock {\em Journal of Intelligent Information Systems}, 39(2):287--315.
 
-\bibitem[\protect\citeauthoryear{Lines \bgroup \em et al.\egroup
-  }{2012}]{lines2012shapelet}
-Jason Lines, Luke~M Davis, Jon Hills, and Anthony Bagnall.
+\bibitem[Lin and Li, 2009]{lin2009finding}
+Lin, J. and Li, Y. (2009).
+\newblock Finding structural similarity in time series data using
+  bag-of-patterns representation.
+\newblock In {\em International Conference on Scientific and Statistical
+  Database Management}, pages 461--477. Springer.
+
+\bibitem[Lines et~al., 2012]{lines2012shapelet}
+Lines, J., Davis, L.~M., Hills, J., and Bagnall, A. (2012).
 \newblock A shapelet transform for time series classification.
 \newblock In {\em Proceedings of the 18th ACM SIGKDD international conference
-  on Knowledge discovery and data mining}, pages 289--297. ACM, 2012.
+  on Knowledge discovery and data mining}, pages 289--297. ACM.
 
-\bibitem[\protect\citeauthoryear{Lkhagva and Kawagoe}{2006}]{Lkhagva2006}
-B.~Lkhagva and K.~Kawagoe.
+\bibitem[Lkhagva and Kawagoe, 2006]{Lkhagva2006}
+Lkhagva, B. and Kawagoe, K. (2006).
 \newblock {New Time Series Data Representation ESAX for Financial
   Applications}.
 \newblock In {\em 22nd International Conference on Data Engineering Workshops
-  (ICDEW'06)}, pages x115--x115. IEEE, April 2006.
+  (ICDEW'06)}, pages x115--x115. IEEE.
 
-\bibitem[\protect\citeauthoryear{Lkhagva \bgroup \em et al.\egroup
-  }{}]{lkhagva2006extended}
-Battuguldur Lkhagva, Yu~Suzuki, and Kyoji Kawagoe.
+\bibitem[Lkhagva et~al., 2006]{lkhagva2006extended}
+Lkhagva, B., Suzuki, Y., and Kawagoe, K. (2006).
 \newblock Extended sax: Extension of symbolic aggregate approximation for
   financial time series data representation.
 \newblock 7.
 
-\bibitem[\protect\citeauthoryear{Longin \bgroup \em et al.\egroup
-  }{}]{longin2005elastic}
-JL~Longin, M~Vasilis, W~Qiang, L~Rolf, AR~Chotirat, and EJ~Keogh.
+\bibitem[Longin et~al., 2005]{longin2005elastic}
+Longin, J., Vasilis, M., Qiang, W., Rolf, L., Chotirat, A., and Keogh, E.
+  (2005).
 \newblock Elastic partial matching of time series.
 \newblock In {\em 9th European Conference On Principles And Practice Of
   Knowledge Discovery In Databases, Porto, Portugal}.
 
-\bibitem[\protect\citeauthoryear{lss}{}]{lsst}
-{LSST time series catalog - XLDB Use Cases}.
+\bibitem[Lonlac et~al., 2018]{lonlacfouille}
+Lonlac, J., Negrevergne, B., Miras, Y., Beauger, A., and Nguifo, E.~M. (2018).
+\newblock Fouille de motifs graduels ferm{\'e}s fr{\'e}quents sous contrainte
+  de la temporalit{\'e}.
+\newblock {\em GAST--Gestion et Analyse de donn{\'e}es Spatiales et
+  Temporelles}.
 
-\bibitem[\protect\citeauthoryear{Lundqvist \bgroup \em et al.\egroup
-  }{1991}]{lundqvist1991spinal}
-C~Lundqvist, A~Si{\"o}steen, C~Blomstrand, B~Lind, and M~Sullivan.
+\bibitem[Lundqvist et~al., 1991]{lundqvist1991spinal}
+Lundqvist, C., Si{\"o}steen, A., Blomstrand, C., Lind, B., and Sullivan, M.
+  (1991).
 \newblock Spinal cord injuries. clinical, functional, and emotional status.
-\newblock {\em Spine}, 16(1):78--83, 1991.
+\newblock {\em Spine}, 16(1):78--83.
 
-\bibitem[\protect\citeauthoryear{Machida \bgroup \em et al.\egroup
-  }{2013}]{machida2013resilience}
-Moe Machida, Brandon Irwin, and Deborah Feltz.
+\bibitem[Machida et~al., 2013]{machida2013resilience}
+Machida, M., Irwin, B., and Feltz, D. (2013).
 \newblock Resilience in competitive athletes with spinal cord injury: the role
   of sport participation.
-\newblock {\em Qualitative health research}, 23(8):1054--1065, 2013.
+\newblock {\em Qualitative health research}, 23(8):1054--1065.
 
-\bibitem[\protect\citeauthoryear{Mahalakshmi \bgroup \em et al.\egroup
-  }{2016}]{mahalakshmi2016survey}
-G~Mahalakshmi, S~Sridevi, and S~Rajaram.
+\bibitem[Mahalakshmi et~al., 2016]{mahalakshmi2016survey}
+Mahalakshmi, G., Sridevi, S., and Rajaram, S. (2016).
 \newblock A survey on forecasting of time series data.
 \newblock In {\em Computing Technologies and Intelligent Data Engineering
-  (ICCTIDE), International Conference on}, pages 1--8. IEEE, 2016.
+  (ICCTIDE), International Conference on}, pages 1--8. IEEE.
 
-\bibitem[\protect\citeauthoryear{Malinowski \bgroup \em et al.\egroup
-  }{2013}]{Malinowski2013}
-Simon Malinowski, Thomas Guyet, Ren{\'{e}} Quiniou, and Romain Tavenard.
+\bibitem[Malinowski et~al., 2013]{Malinowski2013}
+Malinowski, S., Guyet, T., Quiniou, R., and Tavenard, R. (2013).
 \newblock {\em {1d-SAX: A Novel Symbolic Representation for Time Series}},
   volume 8207 of {\em Lecture Notes in Computer Science}.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
 
-\bibitem[\protect\citeauthoryear{Marszalek and
-  Burczynski}{}]{MarszaekBurczyski2014}
-A.~Marszalek and T.~Burczynski.
-\newblock Modeling and forecasting financial time series with ordered fuzzy
-  candlesticks.
-\newblock 273:144--155.
-
-\bibitem[\protect\citeauthoryear{Marszalek and
-  Burczynski}{2014}]{Marszaek_Burczyski_2014}
-A.~Marszalek and T.~Burczynski.
-\newblock Modeling and forecasting financial time series with ordered fuzzy
-  candlesticks.
-\newblock {\em Information Sciences}, 273:144--155, 2014.
-
-\bibitem[\protect\citeauthoryear{Marteau}{2008}]{marteau2008time}
-Pierre-Fran{\c{c}}ois Marteau.
+\bibitem[Marteau, 2008]{marteau2008time}
+Marteau, P.-F. (2008).
 \newblock Time warp edit distance.
-\newblock {\em arXiv preprint arXiv:0802.3522}, 2008.
+\newblock {\em arXiv preprint arXiv:0802.3522}.
 
-\bibitem[\protect\citeauthoryear{Marteau}{2009}]{marteau2009time}
-Pierre-Fran{\c{c}}ois Marteau.
+\bibitem[Marteau, 2009]{marteau2009time}
+Marteau, P.-F. (2009).
 \newblock Time warp edit distance with stiffness adjustment for time series
   matching.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  31(2):306--318, 2009.
+  31(2):306--318.
 
-\bibitem[\protect\citeauthoryear{Masse \bgroup \em et al.\egroup
-  }{1992}]{masse1992biomechanical}
-LC~Masse, M~Lamontagne, and MD~O'riain.
+\bibitem[Masse et~al., 1992]{masse1992biomechanical}
+Masse, L., Lamontagne, M., and O'riain, M. (1992).
 \newblock Biomechanical analysis of wheelchair propulsion for various seating
   positions.
 \newblock {\em Journal of rehabilitation research and development},
-  29(3):12--28, 1992.
+  29(3):12--28.
 
-\bibitem[\protect\citeauthoryear{Matthies \bgroup \em et al.\egroup
-  }{1989}]{matthies1989kalman}
-Larry Matthies, Takeo Kanade, and Richard Szeliski.
+\bibitem[Matthies et~al., 1989]{matthies1989kalman}
+Matthies, L., Kanade, T., and Szeliski, R. (1989).
 \newblock Kalman filter-based algorithms for estimating depth from image
   sequences.
-\newblock {\em International Journal of Computer Vision}, 3(3):209--238, 1989.
+\newblock {\em International Journal of Computer Vision}, 3(3):209--238.
 
-\bibitem[\protect\citeauthoryear{Merugu and Ghosh}{2003}]{merugu2003privacy}
-Srujana Merugu and Joydeep Ghosh.
+\bibitem[Merugu and Ghosh, 2003]{merugu2003privacy}
+Merugu, S. and Ghosh, J. (2003).
 \newblock Privacy-preserving distributed clustering using generative models.
 \newblock In {\em Data Mining, 2003. ICDM 2003. Third IEEE International
-  Conference on}, pages 211--218. IEEE, 2003.
+  Conference on}, pages 211--218. IEEE.
 
-\bibitem[\protect\citeauthoryear{Murthy and Sarangi}{}]{murthy2013generalized}
-Karin Murthy and Smruti~Ranjan Sarangi.
+\bibitem[Murthy and Sarangi, 2013]{murthy2013generalized}
+Murthy, K. and Sarangi, S.~R. (2013).
 \newblock Generalized notion of similarities between uncertain time series.
 \newblock US Patent 8,407,221.
 
-\bibitem[\protect\citeauthoryear{Myers \bgroup \em et al.\egroup
-  }{}]{MyersRabinerRosenberg1980}
-Cory Myers, Lawrence~R. Rabiner, and Aaron~E. Rosenberg.
+\bibitem[Myers et~al., 1980a]{myers1980performance}
+Myers, C., Rabiner, L., and Rosenberg, A. (1980a).
+\newblock Performance tradeoffs in dynamic time warping algorithms for isolated
+  word recognition.
+\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  28(6):623--635.
+
+\bibitem[Myers et~al., 1980b]{MyersRabinerRosenberg1980}
+Myers, C., Rabiner, L.~R., and Rosenberg, A.~E. (1980b).
 \newblock Performance tradeoffs in dynamic time warping algorithms for isolated
   word recognition.
 \newblock 28(6):623--635.
 
-\bibitem[\protect\citeauthoryear{Myers \bgroup \em et al.\egroup
-  }{1980a}]{myers1980performance}
-Cory Myers, Lawrence Rabiner, and Aaron Rosenberg.
-\newblock Performance tradeoffs in dynamic time warping algorithms for isolated
-  word recognition.
-\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
-  28(6):623--635, 1980.
+\bibitem[Needs and The, 2016]{Needs2016}
+Needs, W. and The, I. (2016).
+\newblock {Analysis of Wheelchair Need - Wheelchair Foundation}.
 
-\bibitem[\protect\citeauthoryear{Myers \bgroup \em et al.\egroup
-  }{1980b}]{Myers_Rabiner_Rosenberg_1980}
-Cory Myers, Lawrence~R. Rabiner, and Aaron~E. Rosenberg.
-\newblock Performance tradeoffs in dynamic time warping algorithms for isolated
-  word recognition.
-\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
-  28(6):623--635, 1980.
-
-\bibitem[\protect\citeauthoryear{Needs and The}{2016}]{Needs2016}
-Wheelchair Needs and In~The.
-\newblock {Analysis of Wheelchair Need - Wheelchair Foundation}, 2016.
-
-\bibitem[\protect\citeauthoryear{Newsam \bgroup \em et al.\egroup
-  }{1996}]{newsam1996temporal}
-Craig~J Newsam, Sara~J Mulroy, JoAnne~K Gronley, Ernest~L Bontrager, and
-  Jacquelin Perry.
+\bibitem[Newsam et~al., 1996]{newsam1996temporal}
+Newsam, C.~J., Mulroy, S.~J., Gronley, J.~K., Bontrager, E.~L., and Perry, J.
+  (1996).
 \newblock Temporal-spatial characteristics of wheelchair propulsion: Effects of
   level of spinal cord injury, terrain, and propulsion rate1.
 \newblock {\em American journal of physical medicine \& rehabilitation},
-  75(4):292--299, 1996.
+  75(4):292--299.
 
-\bibitem[\protect\citeauthoryear{Orang and Shiri}{a}]{Orang2014}
-Mahsa Orang and Nematollaah Shiri.
+\bibitem[Orang and Shiri, 2014]{Orang2014}
+Orang, M. and Shiri, N. (2014).
 \newblock {An experimental evaluation of similarity measures for uncertain time
   series}.
 \newblock In {\em Proceedings of the 18th International Database Engineering
   {\&} Applications Symposium on - IDEAS '14}, pages 261--264. ACM Press.
 
-\bibitem[\protect\citeauthoryear{Orang and Shiri}{b}]{Orang2017}
-Mahsa Orang and Nematollaah Shiri.
-\newblock {Correlation analysis techniques for uncertain time series}.
-\newblock 50(1):79--116.
-
-\bibitem[\protect\citeauthoryear{Orang and Shiri}{c}]{Orang2015}
-Mahsa Orang and Nematollaah Shiri.
+\bibitem[Orang and Shiri, 2015]{Orang2015}
+Orang, M. and Shiri, N. (2015).
 \newblock {Improving performance of similarity measures for uncertain time
   series using preprocessing techniques}.
 \newblock In {\em Proceedings of the 27th International Conference on
   Scientific and Statistical Database Management - SSDBM '15}, pages 1--12. ACM
   Press.
 
-\bibitem[\protect\citeauthoryear{Pan and Chen}{1999}]{pan1999complexity}
-Victor~Y Pan and Zhao~Q Chen.
+\bibitem[Orang and Shiri, 2017]{Orang2017}
+Orang, M. and Shiri, N. (2017).
+\newblock {Correlation analysis techniques for uncertain time series}.
+\newblock 50(1):79--116.
+
+\bibitem[Pan and Chen, 1999]{pan1999complexity}
+Pan, V.~Y. and Chen, Z.~Q. (1999).
 \newblock The complexity of the matrix eigenproblem.
 \newblock In {\em Proceedings of the thirty-first annual ACM symposium on
-  Theory of computing}, pages 507--516. ACM, 1999.
+  Theory of computing}, pages 507--516. ACM.
 
-\bibitem[\protect\citeauthoryear{Panuccio \bgroup \em et al.\egroup
-  }{2002}]{panuccio2002hidden}
-Antonello Panuccio, Manuele Bicego, and Vittorio Murino.
+\bibitem[Panuccio et~al., 2002]{panuccio2002hidden}
+Panuccio, A., Bicego, M., and Murino, V. (2002).
 \newblock A hidden markov model-based approach to sequential data clustering.
 \newblock In {\em Joint IAPR International Workshops on Statistical Techniques
   in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition
-  (SSPR)}, pages 734--743. Springer, 2002.
+  (SSPR)}, pages 734--743. Springer.
 
-\bibitem[\protect\citeauthoryear{Papadimitriou \bgroup \em et al.\egroup
-  }{}]{papadimitriou2007time}
-Spiros Papadimitriou, Feifei Li, George Kollios, and Philip~S Yu.
-\newblock Time series compressibility and privacy.
-\newblock In {\em Proceedings of the 33rd international conference on Very
-  large data bases}, pages 459--470. VLDB Endowment.
+\bibitem[Papadimitriou et~al., 2006]{papadimitriou2006local}
+Papadimitriou, S., Sun, J., and Philip, S.~Y. (2006).
+\newblock Local correlation tracking in time series.
+\newblock In {\em Data Mining, 2006. ICDM'06. Sixth International Conference
+  on}, pages 456--465. IEEE.
 
-\bibitem[\protect\citeauthoryear{Papapetrou \bgroup \em et al.\egroup
-  }{2011}]{Papapetrou2011}
-Panagiotis Papapetrou, Vassilis Athitsos, Michalis Potamias, George Kollios,
-  and Dimitrios Gunopulos.
+\bibitem[Papapetrou et~al., 2011]{Papapetrou2011}
+Papapetrou, P., Athitsos, V., Potamias, M., Kollios, G., and Gunopulos, D.
+  (2011).
 \newblock {Embedding-based subsequence matching in time-series databases}.
-\newblock {\em ACM Transactions on Database Systems}, 36(3):1--39, August 2011.
+\newblock {\em ACM Transactions on Database Systems}, 36(3):1--39.
 
-\bibitem[\protect\citeauthoryear{Parsons \bgroup \em et al.\egroup
-  }{2004}]{parsons2004subspace}
-Lance Parsons, Ehtesham Haque, and Huan Liu.
+\bibitem[Parsons et~al., 2004]{parsons2004subspace}
+Parsons, L., Haque, E., and Liu, H. (2004).
 \newblock Subspace clustering for high dimensional data: a review.
-\newblock {\em Acm Sigkdd Explorations Newsletter}, 6(1):90--105, 2004.
+\newblock {\em Acm Sigkdd Explorations Newsletter}, 6(1):90--105.
 
-\bibitem[\protect\citeauthoryear{Patra \bgroup \em et al.\egroup
-  }{}]{patra2015new}
-Bidyut~Kr Patra, Raimo Launonen, Ville Ollikainen, and Sukumar Nandi.
+\bibitem[Patra et~al., 2015]{patra2015new}
+Patra, B.~K., Launonen, R., Ollikainen, V., and Nandi, S. (2015).
 \newblock A new similarity measure using bhattacharyya coefficient for
   collaborative filtering in sparse data.
 \newblock 82:163--177.
 
-\bibitem[\protect\citeauthoryear{Patterson and
-  Draper}{1997}]{patterson1997selected}
-Patrick Patterson and Scott Draper.
+\bibitem[Patterson and Draper, 1997]{patterson1997selected}
+Patterson, P. and Draper, S. (1997).
 \newblock Selected comparisons between experienced and non-experienced
   individuals during manual wheelchair propulsion.
-\newblock {\em Biomedical sciences instrumentation}, 33:477--481, 1997.
+\newblock {\em Biomedical sciences instrumentation}, 33:477--481.
 
-\bibitem[\protect\citeauthoryear{Pentland and
-  Twomey}{1991}]{pentland1991weight}
-WE~Pentland and LT~Twomey.
+\bibitem[Pentland and Twomey, 1991]{pentland1991weight}
+Pentland, W. and Twomey, L. (1991).
 \newblock The weight-bearing upper extremity in women with long term
   paraplegia.
-\newblock {\em Spinal Cord}, 29(8):521, 1991.
+\newblock {\em Spinal Cord}, 29(8):521.
 
-\bibitem[\protect\citeauthoryear{Petitjean \bgroup \em et al.\egroup
-  }{2011}]{Petitjean2011}
-Fran\c{c}ois Petitjean, Alain Ketterlin, and Pierre Gan\c{c}arski.
-\newblock {A global averaging method for dynamic time warping, with
-  applications to clustering}.
-\newblock {\em Pattern Recognition}, 44(3):678--693, March 2011.
-
-\bibitem[\protect\citeauthoryear{Petitjean \bgroup \em et al.\egroup
-  }{2014}]{Petitjean2014}
-Fran\c{c}ois~Francois Petitjean, Germain Forestier, Geoffrey~I. Webb, Ann~E.
-  Nicholson, Yanping Chen, and Eamonn Keogh.
+\bibitem[Petitjean et~al., 2014]{Petitjean2014}
+Petitjean, F.~F., Forestier, G., Webb, G.~I., Nicholson, A.~E., Chen, Y., and
+  Keogh, E. (2014).
 \newblock {Dynamic Time Warping Averaging of Time Series Allows Faster and More
   Accurate Classification}.
 \newblock In {\em 2014 IEEE International Conference on Data Mining}, pages
-  470--479. IEEE, December 2014.
+  470--479. IEEE.
 
-\bibitem[\protect\citeauthoryear{{Pollock}}{2007}]{pollock2007wiener}
-David~Stephen {Pollock}.
+\bibitem[{Pollock}, 2007]{pollock2007wiener}
+{Pollock}, D.~S. (2007).
 \newblock Wiener--kolmogorov filtering, frequency-selective filtering and
   polynomial regression.
-\newblock {\em Econometric Theory}, 23(1):71--88, 2007.
+\newblock {\em Econometric Theory}, 23(1):71--88.
 
-\bibitem[\protect\citeauthoryear{Price and
-  Campbell}{1999}]{price1999thermoregulatory}
-MJ~Price and IG~Campbell.
+\bibitem[Price and Campbell, 1999]{price1999thermoregulatory}
+Price, M. and Campbell, I. (1999).
 \newblock Thermoregulatory and physiological responses of wheelchair athletes
   to prolonged arm crank and wheelchair exercise.
-\newblock {\em International journal of sports medicine}, 20(07):457--463,
-  1999.
+\newblock {\em International journal of sports medicine}, 20(07):457--463.
 
-\bibitem[\protect\citeauthoryear{Rakthanmanon and
-  Keogh}{2013}]{rakthanmanon2013fast}
-Thanawin Rakthanmanon and Eamonn Keogh.
-\newblock Fast shapelets: A scalable algorithm for discovering time series
-  shapelets.
-\newblock In {\em Proceedings of the 2013 SIAM International Conference on Data
-  Mining}, pages 668--676. SIAM, 2013.
-
-\bibitem[\protect\citeauthoryear{Rakthanmanon \bgroup \em et al.\egroup
-  }{2012a}]{Rakthanmanon_Campana_Mueen_Batista_Westover_Zhu_Zakaria_Keogh_2012}
-Thanawin Rakthanmanon, Bilson Campana, Abdullah Mueen, Gustavo Batista, Brandon
-  Westover, Qiang Zhu, Jesin Zakaria, and Eamonn Keogh.
+\bibitem[Rakthanmanon et~al.,
+  2012a]{Rakthanmanon_Campana_Mueen_Batista_Westover_Zhu_Zakaria_Keogh_2012}
+Rakthanmanon, T., Campana, B., Mueen, A., Batista, G., Westover, B., Zhu, Q.,
+  Zakaria, J., and Keogh, E. (2012a).
 \newblock Searching and mining trillions of time series subsequences under
   dynamic time warping.
-\newblock {\em 18th ACM SIGKDD}, pages 262--270, 2012.
+\newblock {\em 18th ACM SIGKDD}, pages 262--270.
 
-\bibitem[\protect\citeauthoryear{Rakthanmanon \bgroup \em et al.\egroup
-  }{2012b}]{Rakthanmanon2012}
-Thanawin Rakthanmanon, Bilson Campana, Abdullah Mueen, Gustavo Batista, Brandon
-  Westover, Qiang Zhu, Jesin Zakaria, and Eamonn Keogh.
+\bibitem[Rakthanmanon et~al., 2012b]{Rakthanmanon2012}
+Rakthanmanon, T., Campana, B., Mueen, A., Batista, G., Westover, B., Zhu, Q.,
+  Zakaria, J., and Keogh, E. (2012b).
 \newblock Searching and mining trillions of time series subsequences under
   dynamic time warping.
 \newblock {\em Proceedings of the 18th ACM SIGKDD International Conference on
-  Knowledge Discovery and Data Mining}, pages 262--270, 2012.
+  Knowledge Discovery and Data Mining}, pages 262--270.
 
-\bibitem[\protect\citeauthoryear{Ralanamahatana \bgroup \em et al.\egroup
-  }{2005}]{ralanamahatana2005mining}
-Chotirat~Ann Ralanamahatana, Jessica Lin, Dimitrios Gunopulos, Eamonn Keogh,
-  Michail Vlachos, and Gautam Das.
+\bibitem[Rakthanmanon and Keogh, 2013]{rakthanmanon2013fast}
+Rakthanmanon, T. and Keogh, E. (2013).
+\newblock Fast shapelets: A scalable algorithm for discovering time series
+  shapelets.
+\newblock In {\em Proceedings of the 2013 SIAM International Conference on Data
+  Mining}, pages 668--676. SIAM.
+
+\bibitem[Ralanamahatana et~al., 2005]{ralanamahatana2005mining}
+Ralanamahatana, C.~A., Lin, J., Gunopulos, D., Keogh, E., Vlachos, M., and Das,
+  G. (2005).
 \newblock Mining time series data.
 \newblock In {\em Data mining and knowledge discovery handbook}, pages
-  1069--1103. Springer, 2005.
+  1069--1103. Springer.
 
-\bibitem[\protect\citeauthoryear{Rand}{}]{rand1971objective}
-William~M Rand.
+\bibitem[Rand, 1971]{rand1971objective}
+Rand, W.~M. (1971).
 \newblock Objective criteria for the evaluation of clustering methods.
 \newblock 66(336):846--850.
 
-\bibitem[\protect\citeauthoryear{Rani and Sikka}{2012}]{rani2012recent}
-Sangeeta Rani and Geeta Sikka.
+\bibitem[Rani and Sikka, 2012]{rani2012recent}
+Rani, S. and Sikka, G. (2012).
 \newblock Recent techniques of clustering of time series data: a survey.
-\newblock {\em International Journal of Computer Applications}, 52(15), 2012.
+\newblock {\em International Journal of Computer Applications}, 52(15).
 
-\bibitem[\protect\citeauthoryear{Ratanamahatana and
-  Keogh}{}]{RatanamahatanaKeogh2004}
-Chotirat~Ann Ratanamahatana and Eamonn Keogh.
+\bibitem[Ratanamahatana and Keogh, 2004]{Ratanamahatana_Keogh_2004}
+Ratanamahatana, C.~A. and Keogh, E. (2004).
 \newblock {\em Making Time-series Classification More Accurate Using Learned
   Constraints}, pages 11--22.
 
-\bibitem[\protect\citeauthoryear{Ratanamahatana and
-  Keogh}{2004}]{Ratanamahatana_Keogh_2004}
-Chotirat~Ann Ratanamahatana and Eamonn Keogh.
-\newblock {\em Making Time-series Classification More Accurate Using Learned
-  Constraints}, pages 11--22.
-\newblock 2004.
-
-\bibitem[\protect\citeauthoryear{Rehfeld and Kurths}{}]{Rehfeld2014}
-K.~Rehfeld and J.~Kurths.
+\bibitem[Rehfeld and Kurths, 2014]{Rehfeld2014}
+Rehfeld, K. and Kurths, J. (2014).
 \newblock {Similarity estimators for irregular and age-uncertain time series}.
 \newblock 10(1):107--122.
 
-\bibitem[\protect\citeauthoryear{Rizvandi \bgroup \em et al.\egroup
-  }{}]{Rizvandi2013}
-Nikzad~Babaii Rizvandi, Javid Taheri, Reza Moraveji, and Albert~Y. Zomaya.
+\bibitem[Remy, 2005]{Remy2005}
+Remy, N. D.~S. (2005).
+\newblock {Mod{\'{e}}lisation et d{\'{e}}termination des param{\`{e}}tres
+  biom{\'{e}}caniques de la locomotion en fauteuil roulant manuel}.
+
+\bibitem[Rizvandi et~al., 2013]{Rizvandi2013}
+Rizvandi, N.~B., Taheri, J., Moraveji, R., and Zomaya, A.~Y. (2013).
 \newblock {A study on using uncertain time series matching algorithms for
   MapReduce applications}.
 \newblock 25(12):1699--1718.
 
-\bibitem[\protect\citeauthoryear{Roddick and
-  Spiliopoulou}{2002}]{roddick2002survey}
-John~F Roddick and Myra Spiliopoulou.
+\bibitem[Roddick and Spiliopoulou, 2002]{roddick2002survey}
+Roddick, J.~F. and Spiliopoulou, M. (2002).
 \newblock A survey of temporal knowledge discovery paradigms and methods.
 \newblock {\em IEEE Transactions on Knowledge and data engineering},
-  14(4):750--767, 2002.
+  14(4):750--767.
 
-\bibitem[\protect\citeauthoryear{Rodgers \bgroup \em et al.\egroup
-  }{1994}]{rodgers1994biomechanics}
-Mary~M Rodgers, G~William Gayle, Stephen~F Figoni, Masuo Kobayashi, Junghsen
-  Lieh, and Roger~M Glaser.
+\bibitem[Rodgers et~al., 1994]{rodgers1994biomechanics}
+Rodgers, M.~M., Gayle, G.~W., Figoni, S.~F., Kobayashi, M., Lieh, J., and
+  Glaser, R.~M. (1994).
 \newblock Biomechanics of wheelchair propulsion during fatigue.
-\newblock {\em Archives of physical medicine and rehabilitation}, 75(1):85--93,
-  1994.
+\newblock {\em Archives of physical medicine and rehabilitation}, 75(1):85--93.
 
-\bibitem[\protect\citeauthoryear{Ruggles \bgroup \em et al.\egroup
-  }{1994}]{ruggles1994biomechanics}
-Deborah~L Ruggles, Thomas Cahalan, and Kai-Nan An.
+\bibitem[Ruggles et~al., 1994]{ruggles1994biomechanics}
+Ruggles, D.~L., Cahalan, T., and An, K.-N. (1994).
 \newblock Biomechanics of wheelchair propulsion by able-bodied subjects.
 \newblock {\em Archives of physical medicine and rehabilitation},
-  75(5):540--544, 1994.
+  75(5):540--544.
 
-\bibitem[\protect\citeauthoryear{SAC}{}]{SACR-FRM}
-{Projet SACR-FRM (Approches de la Sociologie, de la Biom{\'{e}}canique et de
-  l'Intelligence Artificielle...) | ANR - Agence Nationale de la Recherche}.
-
-\bibitem[\protect\citeauthoryear{Sakoe and Chiba}{1978a}]{SakoeChiba1978}
-H~Sakoe and S~Chiba.
-\newblock Dynamic programming algorithm optimization for spoken word
-  recognition.
-\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
-  26(1):43--49, February 1978.
-
-\bibitem[\protect\citeauthoryear{Sakoe and Chiba}{1978b}]{Sakoe_Chiba_1978}
-H~Sakoe and S~Chiba.
-\newblock Dynamic programming algorithm optimization for spoken word
-  recognition.
-\newblock {\em IEEE Transactions on Acoustics, Speech and Signal Processing},
-  26(1):43--49, 1978.
-
-\bibitem[\protect\citeauthoryear{Sakoe and Chiba}{1978c}]{sakoe1978dynamic}
-Hiroaki Sakoe and Seibi Chiba.
+\bibitem[Sakoe and Chiba, 1978]{sakoe1978dynamic}
+Sakoe, H. and Chiba, S. (1978).
 \newblock Dynamic programming algorithm optimization for spoken word
   recognition.
 \newblock {\em IEEE transactions on acoustics, speech, and signal processing},
-  26(1):43--49, 1978.
+  26(1):43--49.
 
-\bibitem[\protect\citeauthoryear{{Salvador} and
-  {Chan}}{2007}]{salvador2007toward}
-Stan {Salvador} and Philip {Chan}.
+\bibitem[{Salvador} and {Chan}, 2007]{salvador2007toward}
+{Salvador}, S. and {Chan}, P. (2007).
 \newblock Toward accurate dynamic time warping in linear time and space.
-\newblock {\em intelligent data analysis}, 11(5):561--580, 2007.
+\newblock {\em intelligent data analysis}, 11(5):561--580.
 
-\bibitem[\protect\citeauthoryear{Sch{\"a}fer}{2015}]{schafer2015boss}
-Patrick Sch{\"a}fer.
+\bibitem[Sauret, 2010]{Sauret2010}
+Sauret, C. (2010).
+\newblock {Cin{\'{e}}tique et {\'{e}}nerg{\'{e}}tique de la propulsion en
+  fauteuil roulant manuel}.
+
+\bibitem[Sch{\"a}fer, 2015]{schafer2015boss}
+Sch{\"a}fer, P. (2015).
 \newblock The boss is concerned with time series classification in the presence
   of noise.
-\newblock {\em Data Mining and Knowledge Discovery}, 29(6):1505--1530, 2015.
+\newblock {\em Data Mining and Knowledge Discovery}, 29(6):1505--1530.
 
-\bibitem[\protect\citeauthoryear{Senin and Malinchik}{2013}]{senin2013sax}
-Pavel Senin and Sergey Malinchik.
-\newblock Sax-vsm: Interpretable time series classification using sax and
-  vector space model.
-\newblock In {\em Data Mining (ICDM), 2013 IEEE 13th International Conference
-  on}, pages 1175--1180. IEEE, 2013.
-
-\bibitem[\protect\citeauthoryear{Senin \bgroup \em et al.\egroup
-  }{}]{senin2014grammarviz}
-Pavel Senin, Jessica Lin, Xing Wang, Tim Oates, Sunil Gandhi, Arnold~P
-  Boedihardjo, Crystal Chen, Susan Frankenstein, and Manfred Lerner.
+\bibitem[Senin et~al., 2014]{senin2014grammarviz}
+Senin, P., Lin, J., Wang, X., Oates, T., Gandhi, S., Boedihardjo, A.~P., Chen,
+  C., Frankenstein, S., and Lerner, M. (2014).
 \newblock Grammarviz 2.0: a tool for grammar-based pattern discovery in time
   series.
 \newblock In {\em Joint European Conference on Machine Learning and Knowledge
   Discovery in Databases}, pages 468--472. Springer.
 
-\bibitem[\protect\citeauthoryear{Shannon}{2001}]{Shannon2001}
-C.~E. Shannon.
+\bibitem[Senin and Malinchik, 2013]{senin2013sax}
+Senin, P. and Malinchik, S. (2013).
+\newblock Sax-vsm: Interpretable time series classification using sax and
+  vector space model.
+\newblock In {\em Data Mining (ICDM), 2013 IEEE 13th International Conference
+  on}, pages 1175--1180. IEEE.
+
+\bibitem[Shannon, 2001]{Shannon2001}
+Shannon, C.~E. (2001).
 \newblock {A mathematical theory of communication}.
 \newblock {\em ACM SIGMOBILE Mobile Computing and Communications Review},
-  5(1):3, jan 2001.
+  5(1):3.
 
-\bibitem[\protect\citeauthoryear{Shatkay and
-  Zdonik}{1996}]{shatkay1996approximate}
-Hagit Shatkay and Stanley~B Zdonik.
+\bibitem[Shatkay and Zdonik, 1996]{shatkay1996approximate}
+Shatkay, H. and Zdonik, S.~B. (1996).
 \newblock Approximate queries and representations for large data sequences.
 \newblock In {\em Data Engineering, 1996. Proceedings of the Twelfth
-  International Conference on}, pages 536--545. IEEE, 1996.
+  International Conference on}, pages 536--545. IEEE.
 
-\bibitem[\protect\citeauthoryear{Siyou~Fotso \bgroup \em et al.\egroup
-  }{}]{Vanel}
-Vanel~Steve Siyou~Fotso, Engelbert Mephu~Nguifo, and Philippe Vaslin.
+\bibitem[Siyou~Fotso et~al., 2015]{siyou2015}
+Siyou~Fotso, V.~S., Mephu~Nguifo, E., and Vaslin, P. (2015).
+\newblock {Symbolic representation of cyclic time series: application to
+  biomechanics}.
+\newblock In {\em ICML'15 Workshop on Constructive Machine Learning}.
+
+\bibitem[Siyou~Fotso et~al., 2016]{Vanel}
+Siyou~Fotso, V.~S., Mephu~Nguifo, E., and Vaslin, P. (2016).
 \newblock Comparison of classification algorithms to fdtw.
 \newblock \url{http://fc.isima.fr/~siyou/fdtw}.
 
-\bibitem[\protect\citeauthoryear{Siyou~Fotso \bgroup \em et al.\egroup
-  }{2015}]{siyou2015}
-Vanel~Steve Siyou~Fotso, Engelbert Mephu~Nguifo, and Philippe Vaslin.
-\newblock {Symbolic representation of cyclic time series: application to
-  biomechanics}.
-\newblock In {\em ICML'15 Workshop on Constructive Machine Learning}, July
-  2015.
-
-\bibitem[\protect\citeauthoryear{Stefan \bgroup \em et al.\egroup
-  }{2013}]{stefan2013move}
-Alexandra Stefan, Vassilis Athitsos, and Gautam Das.
+\bibitem[Stefan et~al., 2013]{stefan2013move}
+Stefan, A., Athitsos, V., and Das, G. (2013).
 \newblock The move-split-merge metric for time series.
 \newblock {\em IEEE transactions on Knowledge and Data Engineering},
-  25(6):1425--1438, 2013.
+  25(6):1425--1438.
 
-\bibitem[\protect\citeauthoryear{Stenberg \bgroup \em et al.\egroup
-  }{1967}]{stenberg1967hemodynamic}
-Jesper Stenberg, PO~Astrand, B~Ekblom, J~Royce, and B~Saltin.
+\bibitem[Stenberg et~al., 1967]{stenberg1967hemodynamic}
+Stenberg, J., Astrand, P., Ekblom, B., Royce, J., and Saltin, B. (1967).
 \newblock Hemodynamic response to work with different muscle groups, sitting
   and supine.
-\newblock {\em Journal of Applied Physiology}, 22(1):61--70, 1967.
+\newblock {\em Journal of Applied Physiology}, 22(1):61--70.
 
-\bibitem[\protect\citeauthoryear{Stoboy \bgroup \em et al.\egroup
-  }{1971}]{stoboy1971workload}
-Hans Stoboy, Bryan~Wilson Rich, and Mathew Lee.
+\bibitem[Stoboy et~al., 1971]{stoboy1971workload}
+Stoboy, H., Rich, B.~W., and Lee, M. (1971).
 \newblock Workload and energy expenditure during wheelchair propelling.
-\newblock {\em Spinal Cord}, 8(4):223, 1971.
+\newblock {\em Spinal Cord}, 8(4):223.
 
-\bibitem[\protect\citeauthoryear{Sun \bgroup \em et al.\egroup
-  }{2014}]{sun2014improvement}
-Youqiang Sun, Jiuyong Li, Jixue Liu, Bingyu Sun, and Christopher Chow.
+\bibitem[Sun et~al., 2014]{sun2014improvement}
+Sun, Y., Li, J., Liu, J., Sun, B., and Chow, C. (2014).
 \newblock An improvement of symbolic aggregate approximation distance measure
   for time series.
-\newblock {\em Neurocomputing}, 138:189--198, August 2014.
+\newblock {\em Neurocomputing}, 138:189--198.
 
-\bibitem[\protect\citeauthoryear{Theisen \bgroup \em et al.\egroup
-  }{1996}]{theisen1996new}
-Daniel Theisen, Marc Francaux, A~Fay, and Xavier Sturbois.
+\bibitem[Theisen et~al., 1996]{theisen1996new}
+Theisen, D., Francaux, M., Fay, A., and Sturbois, X. (1996).
 \newblock A new procedure to determine external power output during handrim
   wheelchair propulsion on a roller ergometer: a reliability study.
-\newblock {\em International journal of sports medicine}, 17(08):564--571,
-  1996.
+\newblock {\em International journal of sports medicine}, 17(08):564--571.
 
-\bibitem[\protect\citeauthoryear{Ulanova \bgroup \em et al.\egroup
-  }{}]{ulanova2015scalable}
-Liudmila Ulanova, Nurjahan Begum, and Eamonn Keogh.
+\bibitem[Ulanova et~al., 2015]{ulanova2015scalable}
+Ulanova, L., Begum, N., and Keogh, E. (2015).
 \newblock Scalable clustering of time series with u-shapelets.
 \newblock In {\em Proceedings of the 2015 SIAM International Conference on Data
   Mining}, pages 900--908. SIAM.
 
-\bibitem[\protect\citeauthoryear{van~der Slikke \bgroup \em et al.\egroup
-  }{2017}]{van2017future}
-Rienk~MA van~der Slikke, Daan~JJ Bregman, Monique~AM Berger, Annemarie~MH
-  de~Witte, and Dirk-Jan (H)~EJ Veeger.
+\bibitem[van~der Slikke et~al., 2017]{van2017future}
+van~der Slikke, R.~M., Bregman, D.~J., Berger, M.~A., de~Witte, A.~M., and
+  Veeger, D.-J. H.~E. (2017).
 \newblock The future of classification in wheelchair sports; can data science
   and technological advancement offer an alternative point of view?
 \newblock {\em International journal of sports physiology and performance},
-  pages 1--25, 2017.
+  pages 1--25.
 
-\bibitem[\protect\citeauthoryear{van~der Woude and de
-  Groot}{2005}]{van2005wheelchair}
-Lucas~HV van~der Woude and Sonja de~Groot.
+\bibitem[van~der Woude and de~Groot, 2005]{van2005wheelchair}
+van~der Woude, L.~H. and de~Groot, S. (2005).
 \newblock Wheelchair propulsion: a straining form of ambulation.
-\newblock {\em Indian Journal of Medical Research}, 121(6):719, 2005.
+\newblock {\em Indian Journal of Medical Research}, 121(6):719.
 
-\bibitem[\protect\citeauthoryear{Van~der Woude \bgroup \em et al.\egroup
-  }{2006}]{van2006manual}
-Lucas~HV Van~der Woude, Sonja de~Groot, and Thomas~WJ Janssen.
+\bibitem[Van~der Woude et~al., 2006]{van2006manual}
+Van~der Woude, L.~H., de~Groot, S., and Janssen, T.~W. (2006).
 \newblock Manual wheelchairs: research and innovation in rehabilitation,
   sports, daily life and health.
-\newblock {\em Medical Engineering and Physics}, 28(9):905--915, 2006.
+\newblock {\em Medical Engineering and Physics}, 28(9):905--915.
 
-\bibitem[\protect\citeauthoryear{Van~Wijk and Van~Selow}{1999}]{van1999cluster}
-Jarke~J Van~Wijk and Edward~R Van~Selow.
+\bibitem[Van~Wijk and Van~Selow, 1999]{van1999cluster}
+Van~Wijk, J.~J. and Van~Selow, E.~R. (1999).
 \newblock Cluster and calendar based visualization of time series data.
 \newblock In {\em Information Visualization, 1999.(Info Vis' 99) Proceedings.
-  1999 IEEE Symposium on}, pages 4--9. IEEE, 1999.
+  1999 IEEE Symposium on}, pages 4--9. IEEE.
 
-\bibitem[\protect\citeauthoryear{Vanlandewijck \bgroup \em et al.\egroup
-  }{1999}]{vanlandewijck1999field}
-YC~Vanlandewijck, DJ~Daly, and DM~Theisen.
+\bibitem[Vanlandewijck et~al., 1999]{vanlandewijck1999field}
+Vanlandewijck, Y., Daly, D., and Theisen, D. (1999).
 \newblock Field test evaluation of aerobic, anaerobic, and wheelchair
   basketball skill performances.
-\newblock {\em International journal of sports medicine}, 20(08):548--554,
-  1999.
+\newblock {\em International journal of sports medicine}, 20(08):548--554.
 
-\bibitem[\protect\citeauthoryear{Vasimalla}{2017}]{Vasimalla2017}
-Kumar Vasimalla.
+\bibitem[Vasimalla, 2017]{Vasimalla2017}
+Vasimalla, K. (2017).
 \newblock {A Survey on Time Series Data Mining}.
 \newblock {\em International Journal of Innovative Research in Computer and
-  Communication Engineering}, 2(5):170--179, 2017.
+  Communication Engineering}, 2(5):170--179.
 
-\bibitem[\protect\citeauthoryear{Vegter \bgroup \em et al.\egroup
-  }{2014}]{Vegter2014}
-Riemer J~K Vegter, Claudine~J Lamoth, Sonja de~Groot, Dirkjan H E~J Veeger, and
-  Lucas H~V van~der Woude.
+\bibitem[Vegter et~al., 2014]{Vegter2014}
+Vegter, R. J.~K., Lamoth, C.~J., de~Groot, S., Veeger, D. H. E.~J., and van~der
+  Woude, L. H.~V. (2014).
 \newblock {Inter-individual differences in the initial 80~{m}inutes of motor
   learning of handrim wheelchair propulsion.}
-\newblock {\em PloS one}, 9(2):e89729, January 2014.
+\newblock {\em PloS one}, 9(2):e89729.
 
-\bibitem[\protect\citeauthoryear{Ville and Winance}{2006}]{ville2006work}
-Isabelle Ville and Myriam Winance.
+\bibitem[Ville and Winance, 2006]{ville2006work}
+Ville, I. and Winance, M. (2006).
 \newblock To work or not to work? the occupational trajectories of wheelchair
   users.
-\newblock {\em Disability and rehabilitation}, 28(7):423--436, 2006.
+\newblock {\em Disability and rehabilitation}, 28(7):423--436.
 
-\bibitem[\protect\citeauthoryear{Wand and Jones}{1994}]{wand1994kernel}
-Matt~P Wand and M~Chris Jones.
+\bibitem[Wand and Jones, 1994]{wand1994kernel}
+Wand, M.~P. and Jones, M.~C. (1994).
 \newblock {\em Kernel smoothing}.
-\newblock Crc Press, 1994.
+\newblock Crc Press.
 
-\bibitem[\protect\citeauthoryear{Wang and Zhang}{2013}]{wang2013nonnegative}
-Yu-Xiong Wang and Yu-Jin Zhang.
-\newblock Nonnegative matrix factorization: A comprehensive review.
-\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
-  25(6):1336--1353, 2013.
-
-\bibitem[\protect\citeauthoryear{Wang \bgroup \em et al.\egroup }{a}]{Wang2015}
-Wei Wang, Guohua Liu, and Dingjia Liu.
+\bibitem[Wang et~al., 2015]{Wang2015}
+Wang, W., Liu, G., and Liu, D. (2015).
 \newblock {Chebyshev Similarity Match between Uncertain Time Series}.
 \newblock 2015:1--13.
 
-\bibitem[\protect\citeauthoryear{Wang \bgroup \em et al.\egroup
-  }{b}]{wang2013experimental}
-Xiaoyue Wang, Abdullah Mueen, Hui Ding, Goce Trajcevski, Peter Scheuermann, and
-  Eamonn Keogh.
+\bibitem[Wang et~al., 2013]{wang2013experimental}
+Wang, X., Mueen, A., Ding, H., Trajcevski, G., Scheuermann, P., and Keogh, E.
+  (2013).
 \newblock Experimental comparison of representation methods and distance
   measures for time series data.
 \newblock 26(2):275--309.
 
-\bibitem[\protect\citeauthoryear{Weber \bgroup \em et al.\egroup
-  }{2001}]{weber2001visualizing}
-Marc Weber, Marc Alexa, and Wolfgang M{\"u}ller.
+\bibitem[Wang and Zhang, 2013]{wang2013nonnegative}
+Wang, Y.-X. and Zhang, Y.-J. (2013).
+\newblock Nonnegative matrix factorization: A comprehensive review.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  25(6):1336--1353.
+
+\bibitem[Weber et~al., 2001]{weber2001visualizing}
+Weber, M., Alexa, M., and M{\"u}ller, W. (2001).
 \newblock Visualizing time-series on spirals.
-\newblock In {\em Infovis}, volume~1, pages 7--14, 2001.
+\newblock In {\em Infovis}, volume~1, pages 7--14.
 
-\bibitem[\protect\citeauthoryear{Woude \bgroup \em et al.\egroup
-  }{1986}]{woude1986wheelchair}
-Lhv Van~Der Woude, G~DE GROOT, AP~Hollander, GJ~Van~Ingen Schenau, and
-  RH~Rozendal.
+\bibitem[Woude et~al., 1986]{woude1986wheelchair}
+Woude, L. V.~D., GROOT, G.~D., Hollander, A., Schenau, G. V.~I., and Rozendal,
+  R. (1986).
 \newblock Wheelchair ergonomics and physiological testing of prototypes.
-\newblock {\em Ergonomics}, 29(12):1561--1573, 1986.
+\newblock {\em Ergonomics}, 29(12):1561--1573.
 
-\bibitem[\protect\citeauthoryear{Wu \bgroup \em et al.\egroup }{1996}]{Wu1996}
-Daniel Wu, Ambuj Singh, Divyakant Agrawal, Amr {El Abbadi}, and Terence~R.
-  Smith.
+\bibitem[Wu et~al., 1996]{Wu1996}
+Wu, D., Singh, A., Agrawal, D., {El Abbadi}, A., and Smith, T.~R. (1996).
 \newblock {Efficient retrieval for browsing large image databases}.
 \newblock In {\em Proceedings of the fifth international conference on
   Information and knowledge management - CIKM '96}, pages 11--18, New York, New
-  York, USA, nov 1996. ACM Press.
+  York, USA. ACM Press.
 
-\bibitem[\protect\citeauthoryear{Yeh \bgroup \em et al.\egroup
-  }{}]{yeh2009proud}
-Mi-Yen Yeh, Kun-Lung Wu, Philip~S Yu, and Ming-Syan Chen.
+\bibitem[Yeh et~al., 2009]{yeh2009proud}
+Yeh, M.-Y., Wu, K.-L., Yu, P.~S., and Chen, M.-S. (2009).
 \newblock Proud: a probabilistic approach to processing similarity queries over
   uncertain data streams.
 \newblock In {\em Proceedings of the 12th International Conference on Extending
   Database Technology: Advances in Database Technology}, pages 684--695. ACM.
 
-\bibitem[\protect\citeauthoryear{Yi and Faloutsos}{2000}]{yi2000fast}
-Byoung-Kee Yi and Christos Faloutsos.
+\bibitem[Yi and Faloutsos, 2000]{yi2000fast}
+Yi, B.-K. and Faloutsos, C. (2000).
 \newblock Fast time sequence indexing for arbitrary lp norms.
-\newblock VLDB, 2000.
+\newblock VLDB.
 
-\bibitem[\protect\citeauthoryear{Yu \bgroup \em et al.\egroup
-  }{}]{YuYuHuLiuWu2011}
-Daren Yu, Xiao Yu, Qinghua Hu, Jinfu Liu, and Anqi Wu.
+\bibitem[Yu et~al., 2011]{Yu_Yu_Hu_Liu_Wu_2011}
+Yu, D., Yu, X., Hu, Q., Liu, J., and Wu, A. (2011).
 \newblock Dynamic time warping constraint learning for large margin nearest
   neighbor classification.
-\newblock 181(13):2787--2796.
+\newblock {\em Information Sciences}, 181(13):2787--2796.
 
-\bibitem[\protect\citeauthoryear{Yu \bgroup \em et al.\egroup
-  }{2011}]{Yu_Yu_Hu_Liu_Wu_2011}
-Daren Yu, Xiao Yu, Qinghua Hu, Jinfu Liu, and Anqi Wu.
-\newblock Dynamic time warping constraint learning for large margin nearest
-  neighbor classification.
-\newblock {\em Information Sciences}, 181(13):2787--2796, 2011.
-
-\bibitem[\protect\citeauthoryear{Zakaria \bgroup \em et al.\egroup
-  }{}]{zakaria2012clustering}
-Jesin Zakaria, Abdullah Mueen, and Eamonn Keogh.
+\bibitem[Zakaria et~al., 2012]{zakaria2012clustering}
+Zakaria, J., Mueen, A., and Keogh, E. (2012).
 \newblock Clustering time series using unsupervised-shapelets.
 \newblock In {\em Data Mining (ICDM), 2012 IEEE 12th International Conference
   on}, pages 785--794. IEEE.
 
-\bibitem[\protect\citeauthoryear{Zhang \bgroup \em et al.\egroup
-  }{a}]{zhang2016survey}
-XX~Zhang, Q~Liu, DM~Liu, and W~Xie.
-\newblock A survey on anonymity for privacy preserving data mining.
-\newblock In {\em Information Science and Electronic Engineering: Proceedings
-  of the 3rd International Conference of Electronic Engineering and Information
-  Science (ICEEIS 2016), 4-5 January, 2016, Harbin, China}, pages 343--346. CRC
-  Press.
-
-\bibitem[\protect\citeauthoryear{Zhang \bgroup \em et al.\egroup
-  }{b}]{ZhangTangDuan2015}
-Zheng Zhang, Ping Tang, and Rubing Duan.
-\newblock Dynamic time warping under pointwise shape context.
-\newblock 315:88--101.
-
-\bibitem[\protect\citeauthoryear{Zhang \bgroup \em et al.\egroup
-  }{2015}]{Zhang_Tang_Duan_2015}
-Zheng Zhang, Ping Tang, and Rubing Duan.
-\newblock Dynamic time warping under pointwise shape context.
-\newblock {\em Information Sciences}, 315:88--101, 2015.
-
-\bibitem[\protect\citeauthoryear{Zhang \bgroup \em et al.\egroup
-  }{2016}]{zhang2016unsupervised}
-Qin Zhang, Jia Wu, Hong Yang, Yingjie Tian, and Chengqi Zhang.
+\bibitem[Zhang et~al., 2016]{zhang2016unsupervised}
+Zhang, Q., Wu, J., Yang, H., Tian, Y., and Zhang, C. (2016).
 \newblock Unsupervised feature learning from time series.
-\newblock In {\em IJCAI}, pages 2322--2328, 2016.
+\newblock In {\em IJCAI}, pages 2322--2328.
 
-\bibitem[\protect\citeauthoryear{Zhao and Itti}{}]{zhao2016shapedtw}
-Jiaping Zhao and Laurent Itti.
+\bibitem[Zhang et~al., 2015]{Zhang_Tang_Duan_2015}
+Zhang, Z., Tang, P., and Duan, R. (2015).
+\newblock Dynamic time warping under pointwise shape context.
+\newblock {\em Information Sciences}, 315:88--101.
+
+\bibitem[Zhao and Itti, 2016]{zhao2016shapedtw}
+Zhao, J. and Itti, L. (2016).
 \newblock shapedtw: shape dynamic time warping.
 
 \end{thebibliography}

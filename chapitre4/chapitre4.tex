@@ -1,4 +1,5 @@
 \chapter[SAX-P]{Symbolic representation of cyclic time series based on properties of cycles}
+\label{chapter_saxp}
 \begin{abstract} 
 The analysis of cyclic time series from bio-mechanics is based on the
 comparison of the properties of their cycles. As usual algorithms of time 
@@ -16,7 +17,7 @@ the cyclic time series and the clinical interpretation of the classification res
 \section{Introduction}
 \label{introduction}
 
-Generally, during his locomotion, the human being performs cyclic movements (eg walking, running, swimming,
+Generally, during his locomotion, the human being performs cyclic movements (e.g. : walking, running, swimming,
 cycling). The bio-mechanical analysis of these movements is performed with various measuring instruments 
 (eg force and acceleration sensors, kinematic analysis systems) that enable continuous recording over 
 long periods of many kinematic and dynamic parameters. These recordings produce long
@@ -51,13 +52,13 @@ A segment of a time series is a sequence of consecutive values belonging to it \
 
 \cite{keogh2001dimensionality} proposed replacing each segment of a time series
 $X=x_{1},x_{2},\cdots,x_{n}$ by its mean values;
-$\bar{x}_{i}=\frac{N}{n}\sum_{j=\frac{n}{N}(i-1)+1}^{(\frac{n}{N})i}x_{j}$  transforming the time
+$\bar{x}_{i}=\frac{N}{n}\sum_{j=\frac{n}{N}(i-1)+1}^{(\frac{n}{N})i}x_{j},$  transforming the time
 series, which is a sequence of values, in the suite of the means of its N segments
-$\bar{X}=\bar{x}_{1}\bar{,x}_{2},\cdots,\bar{x}_{N}$ This method is known as Piecewise Aggregate
+$\bar{X}=\bar{x}_{1}\bar{,x}_{2},\cdots,\bar{x}_{N}.$ This method is known as Piecewise Aggregate
 Approximation (PAA) (Fig. \ref{fig:paa}). The time series $C$ and $Q$ are then compared by calculating the distance $DR$
 between the suite $\bar{C}$ and $\bar{Q}$ of the means of their segments :
 \begin{equation}
-DR(\bar{C},\bar{Q})=\sqrt{\frac{n}{N}\sum_{i=1}^{N}(\bar{c}_{i}-\bar{q}_{i})^{2}}
+DR(\bar{C},\bar{Q})=\sqrt{\frac{n}{N}\sum_{i=1}^{N}(\bar{c}_{i}-\bar{q}_{i})^{2}}.
 \label{equ:paa}
 \end{equation}
 
@@ -95,7 +96,7 @@ distance between the borders of the intervals represented by each character in t
 
 
 \begin{equation}
-MINDIST(\hat{Q},\hat{C})=\sqrt{\frac{n}{N}\sum_{i=1}^{N}(dist(\hat{q}_{i},\hat{c}_{i}))^{2}}
+MINDIST(\hat{Q},\hat{C})=\sqrt{\frac{n}{N}\sum_{i=1}^{N}(dist(\hat{q}_{i},\hat{c}_{i}))^{2}}.
 \label{equ:sax}
 \end{equation}
 
@@ -191,7 +192,7 @@ have different units, they must be normalized (i.e. centered and reduced) (Fig. 
   \end{figure}
 	
  
-\item Segments are then gathered in clusters using a classification algorithm
+\item Segments are then gathered in clusters using a classification algorithm \\
 \cite{Esling2012} and each cluster is named by a capital letter (Fig. \ref{fig:classification}); 
 
 	 \begin{figure}[h]
@@ -393,3 +394,29 @@ obtained were then compared using the Dynamic Time Warping distance.
  subjects had different modes of propulsion and propulsion cycles of the same subject were not 
  symmetrical. Ongoing research is devoted on applying this new symbolic representation to a 
  supervised classification of cyclic time-series in bio-mechanics.
+ 
+ 
+ \begin{table}[ht]
+\centering
+\begin{tabular}{|l|}
+
+\hline
+\rowcolor{LavenderBlush}
+Key points\\
+$\bullet$ We propose a symbolic representation of cyclic time series based \\ on the properties of the cycles. \\
+\\
+$\bullet$ We show that this symbolic representation improves the \\ visualization and processing of cyclic time series from manual wheelchair locomotion.\\ 
+\\
+Communications :\\
+$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Symbolic representation of cyclic\\ time series: application to biomechanics. Constructive Machine Learning \\workshop at International Conference on Machine Learning , France, July 2015\\
+
+$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Représentation symbolique de \\ séries temporelles cycliques basée sur les propriétés des cycles : application \\ à la biomécanique . Treizièmes Rencontres des Jeunes Chercheurs en Intelligence \\ Artificielle (RJCIA 2015), Rennes, France, Jun 2015\\
+
+$-$ Siyou Fotso VS, E. M. Nguifo, and P. Vaslin, “Symbolic representation of \\propulsion cycles in manual wheelchair locomotion,” Comput. Methods \\ Biomech. Biomed. Engin., vol. 18, no. sup1, pp. 2060–2061, 2015.\\
+
+$-$ C. Sauret, Siyou Fotso VS, J. Bascou, H. Pillet, E. Mephu-Nguifo, P. Fodé, \\and P. Vaslin, “Cluster analysis to investigate biomechanical changes during learning \\ of manual wheelchair locomotion: a preliminary study,” Comput. Methods Biomech.\\ Biomed. Engin., vol. 18, no. sup1, pp. 2058–2059, 2015.\\
+
+ 
+\hline
+\end{tabular}
+\end{table}

@@ -1,4 +1,4 @@
-\chapter*{Introduction}
+\chapter*{\textbf{General introduction} }
 
 \section*{Context}
 
@@ -8,8 +8,8 @@ speed from almost every application domain, e.g.:
 
 \begin{itemize}
 \item In astronomy, telescopes scan the sky and capture light rays that are used in the study of the universe. In Large Synoptic Survey Telescope (LSST) project \cite{lsst}, telescopes will capture the electromagnetic radiation of the sky during ten years to calculate the acceleration of the expansion of the universe. This will result in an astronomical catalogs of time series.
-\item In paleoecology, ...
-\item In medicine, the analysis is electrocardiogram is used to prevent heart attacks[]. Those electrocardiograms are long time series obtained by recording the electrical activity of the heart over a period.  
+\item In paleoecology, scientists study the evolution of living animal and plant species in the past. To do this, they extract cores from the soil and look for the presence of fossils at each depth, thus creating time series representing the growth or decline in the size of fauna and flora populations over time \cite{lonlacfouille}. 
+\item In medicine, the analysis is electrocardiogram is used to prevent heart attacks \cite{ding2011key}. Those electrocardiograms are long time series obtained by recording the electrical activity of the heart over a period.  
 \item In biomechanics, the study of human locomotion is perform using sensors that record the efforts performed and the movements of the body during the locomotion.
 \end{itemize}
 
@@ -19,19 +19,19 @@ As a consequence, in the last decade there has been a dramatically increasing am
 
 
 
-Time-series data mining unveils numerous facets of complexity. The most prominent
+Time series data mining unveils numerous facets of complexity. The most prominent
 problems arise from the uncertainty contained in time series data,  the difficulty of
-defining a form of similarity measure based on human perception, and the high dimensionality of time-series data. These constraints show us that three major issues are involved.
+defining a form of similarity measure based on human perception, and the high dimensionality of time series data. These constraints show us that three major issues are involved.
 
 
 \begin{itemize}
 \item Uncertainty. How to compare the shape of time series without knowing their exact value? How to measure the impact of uncertainty contained in time series or to reduce the adverse effects of uncertainty? 
-\item Similarity measurement. How can any pair of time-series be distinguished or
+\item Similarity measurement. How can any pair of time series be distinguished or
 matched? How can an intuitive distance between two series be formalized? This
 measure should establish a notion of similarity based on perceptual criteria, thus
 allowing the recognition of perceptually similar objects even though they are not
 mathematically identical.  
-\item Data representation. How can the fundamental shape characteristics of a time-series
+\item Data representation. How can the fundamental shape characteristics of a time series
 be represented? What invariance properties should the representation satisfy? A
 representation technique should derive the notion of shape by reducing the dimensionality
 of data while retaining its essential characteristics.
@@ -43,7 +43,7 @@ The aim of our work is to propose algorithm to deal with thoses caracteristics o
 This thesis apprehends these scientific questions from a data mining point of view, within the framework of the analysis of time series coming from Manual Wheelchair locomotion. Also, even if the issues addressed are not limited to the field of biomechanics time series and concern other areas of applications, this thesis will deal with the analysis of time series coming from Ergometer Wheelchair FRET-2.
 
 
-For improving the mobility of persons confined to manual wheelchairs, it is necessary to be able to "assess" people in their daily environment, and a field ergometer wheelchair (FRET-1) has been designed and manufactured for this purpose []. , ]. This ergometer is equipped with a moment sensor that measures the forces applied to the handrails as well as the acceleration and movement of the FRET-1 [, ]. It, therefore, makes it possible to measure and calculate a large number of the mechanical parameters of manual wheelchair locomotion.
+For improving the mobility of persons confined to manual wheelchairs, it is necessary to be able to "assess" people in their daily environment, and a field ergometer wheelchair (FRET-1) has been designed and manufactured for this purpose \cite{dabonneville2005self}. This ergometer is equipped with a moment sensor that measures the forces applied to the handrails as well as the acceleration and movement of the FRET-1 \cite{couetard2000}. It, therefore, makes it possible to measure and calculate a large number of the mechanical parameters of manual wheelchair locomotion.
 
 
 However, the time series produced by this moment sensor have specific characteristics: 
@@ -61,25 +61,20 @@ Our work consists of proposing algorithms to extract relevant information from t
 
 The thesis is organised as follow
 \begin{itemize}
-\item \textbf{Chapter\,1} present the state of art
-\item \textbf{Chapter\,2}  Dynamic Time Warping (DTW) is a time series alignment algorithm that is often used because it
- considers that it exits small distortions between time series during their alignment.  However, DTW
- sometimes produces pathological alignments that occur when, during the comparison of two time series
- X and Y, one data point of the time series X is compared to a large subsequence of data points of Y.
- In this paper, we demonstrate that to compress time series using Piecewise Aggregate Approximation
- (PAA) is a simple strategy that greatly increases the quality of the alignment with DTW this is
- particularly true for synthetic data sets.
-\item \textbf{Chapter\,3} The abstract.
-\item \textbf{Chapter\,4} The analysis of cyclic time series from biomechanics is based on the
-comparison of the properties of their cycles. As usual algorithms of time 
-series classification ignore this particularity, we propose
-a symbolic representation of cyclic time series based on the properties
-of cycles, named SAX-P. The resulting character strings can be compared
-using the Dynamic Time Warping distance. The application of SAX-P
-to propulsive moments of three subjects (S1, S2, S3) moving in Manual
-Wheelchair highlight the asymmetry of their propulsion. The symbolic representation 
-SAX-P facilitates the reading of
-the cyclic time series and the clinical interpretation of the classification results. 
+\item \textbf{Chapter\,\ref{locomotion_analysis}} presents the main issues related to manual wheelchair locomotion analysis, a literature review of physical and computer models and tools for assessing wheelchair locomotion. The objective of this chapter is to show that over the years manual wheelchair locomotion analysis tools have been upgraded and have allowed the construction of a manual field ergometer wheelchair called FRET, so the data is the subject of our analysis. It also presents works from the literature conducted in the fields of biomechanics and computer science with the aim of analyzing manual wheelchair locomotion, which will enable the reader to position our work with what already exists.
+
+
+\item \textbf{Chapter\,\ref{kdd}} explains existing models in the field of time series processing that could be useful for the analysis of Manual Wheelchair locomotion. Thus, chapter \ref{kdd} presents strategies for the preprocessing of time series (noise reduction, length reduction), their comparisons, their exploitation through visualization, classification, clustering or prediction.
+ 
+ 
+\item \textbf{Chapter\,\ref{fdtw}} introduces an algorithm called FDTW which aims to reduce the length of time series while preserving the information it contains. Its operating principle is based on that of GRASP , but it is original in that it defines its global search strategy. Experiments conducted on a classification task have shown that compression does not alter classification performance. 
+
+\item \textbf{Chapter\, \ref{fots}} proposes a novel framework for uncertain time series clustering which is based on the use of a clustering algorithm (UShapelet) that is not very sensitive to the presence of uncertainty in the data and which is based on the use of a dissimilarity function (FOTS)  that is not very sensitive to the presence of uncertainty. We tested this clustering strategy on 17 data sets from the literature, which allowed us to observe an improvement in the quality of the results obtained.
+
+
+\item \textbf{Chapter\,\ref{chapter_saxp}} presents a novel symbolic representation of cyclic time series based on cycle properties, which we use for the analysis of cyclic time series of human locomotion. The symbolic representation introduced facilitates the visualization and evaluation of cyclic time series.
+
+\item \textbf{Chapter \, \ref{application}} gives some applications of the proposed algorithm to  to data from manual wheelchair locomotion, which allowed us to measure the asymmetry of locomotion and to establish this asymmetry decreases with years of practice. We have also observed that the propulsion capabilities of wheelchair users with similar disabilities (level of spinal injury) may differ. Also, wheelchair users' propulsion technic evolves, but this evolution varies according to the subject. These last two results highlight the importance of monitoring manual wheelchair locomotion using measuring instruments.  
 \end{itemize}
 
 
