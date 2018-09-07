@@ -227,6 +227,11 @@ De~Lathauwer, L., De~Moor, B., Vandewalle, J., and by~Higher-Order, B. S.~S.
 \newblock In {\em Proc. EUSIPCO-94, Edinburgh, Scotland, UK}, volume~1, pages
   175--178.
 
+\bibitem[De~Saint~Remy, 2005]{Remy2005}
+De~Saint~Remy, N. (2005).
+\newblock {Mod{\'{e}}lisation et d{\'{e}}termination des param{\`{e}}tres
+  biom{\'{e}}caniques de la locomotion en fauteuil roulant manuel}.
+
 \bibitem[Deng et~al., 2013]{deng2013time}
 Deng, H., Runger, G., Tuv, E., and Vladimir, M. (2013).
 \newblock A time series forest for classification and feature extraction.
@@ -780,11 +785,6 @@ Ratanamahatana, C.~A. and Keogh, E. (2004).
 Rehfeld, K. and Kurths, J. (2014).
 \newblock {Similarity estimators for irregular and age-uncertain time series}.
 \newblock 10(1):107--122.
-
-\bibitem[Remy, 2005]{Remy2005}
-Remy, N. D.~S. (2005).
-\newblock {Mod{\'{e}}lisation et d{\'{e}}termination des param{\`{e}}tres
-  biom{\'{e}}caniques de la locomotion en fauteuil roulant manuel}.
 
 \bibitem[Rizvandi et~al., 2013]{Rizvandi2013}
 Rizvandi, N.~B., Taheri, J., Moraveji, R., and Zomaya, A.~Y. (2013).

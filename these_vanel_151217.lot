@@ -1,32 +1,32 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Temporal-Proximity-Based Clustering Approach\relax }}{29}{table.caption.45}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Representation-Based Clustering Approach Paper\relax }}{30}{table.caption.46}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Model-Based Clustering Approach\relax }}{31}{table.caption.47}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Temporal-Proximity-Based Clustering Approach\relax }}{31}{table.caption.42}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Representation-Based Clustering Approach Paper\relax }}{32}{table.caption.43}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Model-Based Clustering Approach\relax }}{33}{table.caption.44}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Classification errors associated with the number of segments \textbf {N} chosen by the heuristics IDDTW and FDTW. When two numbers of segments $N_1$ and $N_2$ are associated with the same classification error, the smallest is considered\relax }}{50}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of generalization errors. In \textbf {italics}, the smallest generalization error. In \textbf {bold}, the smallest generalization error between IDDTW and FDTW. \textbf {N }is the number of segments selected and $\ell $ is the number of data points in a segment $(l = \delimiter "4262304 \frac {n}{N}\delimiter "5263305 )$ \relax }}{52}{table.3.2}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Classification errors associated with the number of segments \textbf {N} chosen by the heuristics IDDTW and FDTW. When two numbers of segments $N_1$ and $N_2$ are associated with the same classification error, the smallest is considered\relax }}{52}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of generalization errors obtained with selected methods: the overall smallest error is indicated in \textbf {italic} digits; the smallest error between IDDTW and FDTW is indicated in \textbf {bold} digits. \textbf {N }is the number of segments selected and $\ell $ is the number of data points in a segment $(l = \delimiter "4262304 \frac {n}{N}\delimiter "5263305 )$ \relax }}{54}{table.3.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Datasets\relax }}{71}{table.caption.106}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of the Rand Index of SUSH (RI\_SUSh) and FOTS-SUSh (RI\_FOTS). The best Rand Index is in bold\relax }}{72}{table.caption.107}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison between k-Shape, USLM and FOTS-UShapelet\relax }}{73}{table.caption.108}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Datasets\relax }}{73}{table.caption.92}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of the Rand Index of SUSH (RI\_SUSh) and FOTS-SUSh (RI\_FOTS). The best Rand Index is in bold\relax }}{74}{table.caption.93}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison between k-Shape, USLM and FOTS-UShapelet\relax }}{75}{table.caption.94}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Average vectors of the properties of classes (A, B, C, D, E) used for the symbolic representation of the axial moment (Mz) SAX-P takes into account the surface under the push, the time-push and the time-cycle.\relax }}{83}{table.caption.125}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Strings of characters obtained with SAX-P method on times series of axial moments applied by the three subjects on right and left rear wheels of an instrumented MWC during their second 10-m run.\relax }}{83}{table.caption.126}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Average vectors of the properties of classes (A, B, C, D, E) used for the symbolic representation of the axial moment (Mz) SAX-P takes into account the surface under the push, the time-push and the time-cycle.\relax }}{85}{table.caption.111}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Strings of characters obtained with SAX-P method on times series of axial moments applied by the three subjects on right and left rear wheels of an instrumented MWC during their second 10-m run.\relax }}{85}{table.caption.112}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Straight displacement in manual wheelchair\relax }}{96}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Dissymmetry and number of years of practice\relax }}{96}{table.caption.138}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Physiological parameters\relax }}{98}{table.caption.140}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Frequency of occurrence of each type of relapse for each user\relax }}{99}{table.caption.141}
-\contentsline {table}{\numberline {6.5}{\ignorespaces Similarity matrix between wheelchair users\relax }}{100}{table.caption.142}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Straight displacement in manual wheelchair\relax }}{98}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Dissymmetry and number of years of practice\relax }}{98}{table.caption.124}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Physiological parameters\relax }}{100}{table.caption.126}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Frequency of occurrence of each type of relapse for each user\relax }}{101}{table.caption.127}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Similarity matrix between wheelchair users\relax }}{102}{table.caption.128}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces 85 UCR datasets used for experimental validation. The full list is available here \cite {UCRArchive}\relax }}{119}{table.B.1}
-\contentsline {table}{\numberline {B.2}{\ignorespaces The \textbf {(1)} column presents \textbf {numbers} of the datasets. The column \textbf {(2)} the \textbf {reduced length} of the time series. The column \textbf {(3)} is the \textbf {ratio} of the length of the reduced time series over the length of the initial time series. The \textbf {(4)} column designates the \textbf {1-Nearest Neighbor} algorithm, associated to the \textbf {Euclidean distance}. The \textbf {(5)} column designates the algorithm of \textbf {1- Nearer Neighbor}, associated with the algorithm of \textbf {dynamic dynamic temporal deformation} using a \textbf {constraint} called deformation window that allows to stop the comparison of time series when one perceives that they are very different. The \textbf {(6)} column represents \textbf {1-Nearest Neighbor} algorithm associated to the \textbf {unconstrained dynamic time warping} applied to the \textbf {raw data}. The \textbf {(7)} column represents the \textbf {algorithm. 1-Nearest Neighbor} associated with the \textbf {dynamic time warping algorithm without constraints}, applied on the \textbf {compact representations} produced by our algorithm. We compare firstly, the classification error of the algorithms (6) and (7) the smallest error is in \textbf {bold}. We then compare the classification errors of algorithms (4), (5), (6) and (7) the smallest error is put \textbf {italicized}.\relax }}{123}{table.B.2}
+\contentsline {table}{\numberline {B.1}{\ignorespaces 85 UCR datasets used for experimental validation. The full list is available here \cite {UCRArchive}\relax }}{121}{table.B.1}
+\contentsline {table}{\numberline {B.2}{\ignorespaces The \textbf {(1)} column presents \textbf {numbers} of the datasets. The column \textbf {(2)} the \textbf {reduced length} of the time series. The column \textbf {(3)} is the \textbf {ratio} of the length of the reduced time series over the length of the initial time series. The \textbf {(4)} column designates the \textbf {1-Nearest Neighbor} algorithm, associated to the \textbf {Euclidean distance}. The \textbf {(5)} column designates the algorithm of \textbf {1- Nearer Neighbor}, associated with the algorithm of \textbf {dynamic dynamic temporal deformation} using a \textbf {constraint} called deformation window that allows to stop the comparison of time series when one perceives that they are very different. The \textbf {(6)} column represents \textbf {1-Nearest Neighbor} algorithm associated to the \textbf {unconstrained dynamic time warping} applied to the \textbf {raw data}. The \textbf {(7)} column represents the \textbf {algorithm. 1-Nearest Neighbor} associated with the \textbf {dynamic time warping algorithm without constraints}, applied on the \textbf {compact representations} produced by our algorithm. We compare firstly, the classification error of the algorithms (6) and (7) the smallest error is in \textbf {bold}. We then compare the classification errors of algorithms (4), (5), (6) and (7) the smallest error is put \textbf {italicized}.\relax }}{125}{table.B.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces descriptive\relax }}{125}{table.caption.171}
-\contentsline {table}{\numberline {C.2}{\ignorespaces normality test show that residues(uncertainty) do not follow normal law\relax }}{127}{table.caption.176}
+\contentsline {table}{\numberline {C.1}{\ignorespaces descriptive\relax }}{127}{table.caption.157}
+\contentsline {table}{\numberline {C.2}{\ignorespaces normality test show that residues(uncertainty) do not follow normal law\relax }}{129}{table.caption.162}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {D.1}{\ignorespaces Evolution of manual wheelchair propulsion technology with training\relax }}{133}{table.D.1}
+\contentsline {table}{\numberline {D.1}{\ignorespaces Evolution of manual wheelchair propulsion technology with training\relax }}{135}{table.D.1}
 \babel@toc {english}{}

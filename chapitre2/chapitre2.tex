@@ -6,8 +6,8 @@
  considers that it exits small distortions between time series during their alignment.  However, DTW
  sometimes produces pathological alignments that occur when, during the comparison of two time series
  X and Y, one data point of the time series X is compared to a large subsequence of data points of Y.
- In this chapter, we demonstrate that to compress time series using Piecewise Aggregate Approximation
- (PAA) is a simple strategy that greatly increases the quality of the alignment with DTW this is
+ In this chapter, we demonstrate that  compressing time series using Piecewise Aggregate Approximation
+ (PAA) is a simple strategy that greatly increases the quality of the alignment with DTW This result is 
  particularly true for synthetic data sets.      
  \end{abstract}
 
@@ -20,14 +20,14 @@ introduced in order to represent them in a more compact way. One of these transf
 Piecewise Aggregate Approximation (PAA) \cite{keogh2001dimensionality}, which consists in dividing a
 time series into several segments of fixed length and replacing the data points of each segment with
 their averages. Due to its simplicity and low computational time, PAA has been widely used as a
-basic primitive by other temporal data mining algorithms such as \cite{lin2003symbolic} \cite{sun2014improvement}  \cite{lkhagva2006extended}, in order to : 
+basic primitive by other temporal data mining algorithms such as SAX \cite{lin2003symbolic}, SAX-TD \cite{sun2014improvement}, ESAX  \cite{lkhagva2006extended}, in order to: 
 \begin{itemize}
-  \item construct symbolic representations of time
+  \item Construct symbolic representations of time
 series; \cite{camerra2010isax} \\ \cite{ulanova2015scalable}.
-  \item construct an index for time series; \cite{zhao2016shapedtw} \\ \cite{keogh2000scaling}  \cite{Kate2016}. Indeed, PAA allows queries which are shorter than length for which the
+  \item Construct an index for time series; \cite{zhao2016shapedtw} \\ \cite{keogh2000scaling}  \cite{Kate2016}. Indeed, PAA allows queries, which are shorter than length for which the
 index was built. This very desirable feature is impossible with Discrete Fourier Transform, Singular
 Value Decomposition and Discrete Wavelet Transform.
-\item classify time series.
+\item Classify time series.
 \end{itemize}
 
 
@@ -39,25 +39,25 @@ Either the comparison method  considers that there is no time distortion as in E
 (ED), or it considers that  some small time distortions  exist between time axis of time series as
 in Dynamic Time Warping alignment algorithm (DTW)
 \cite{Zhang_Tang_Duan_2015}. Since time distortion often exists between time series, DTW  has often
-better results than the ED \cite{UCRArchive}. An exhaustive comparison of time series algorithms
-\cite{Bagnall} shows that DTW is among the efficient techniques to be used. However, DTW has two major
+better results than ED \cite{UCRArchive}. An exhaustive comparison of time series algorithms
+\cite{Bagnall} showed that DTW is among the efficient techniques to be used. However, DTW has two major
 drawbacks:
- the comparison of two time series under DTW is time-consuming
-\cite{Rakthanmanon_Campana_Mueen_Batista_Westover_Zhu_Zakaria_Keogh_2012} and  DTW
-sometimes produces pathological alignments \cite{Keogh_Pazzani_2001}. A
+ the comparison of two time series with this algorithm is time-consuming
+\cite{Rakthanmanon_Campana_Mueen_Batista_Westover_Zhu_Zakaria_Keogh_2012} and sometimes DTW
+ produces pathological alignments \cite{Keogh_Pazzani_2001}. A
 pathological alignment occurs when, during the comparison of two time  series $X$
 and $Y$, one datapoint of the time series $X$ is compared to a large subsequence
-of datapoints of $Y$.  A pathological alignment causes a wrong comparison.
+of datapoints of $Y$;  A pathological alignment causes a wrong comparison.
 
 
  Three categories of methods are used to avoid pathological alignments with DTW:
 
 \begin{itemize}
   \item The first one adds constraints to DTW \cite{Ratanamahatana_Keogh_2004} \cite{Yu_Yu_Hu_Liu_Wu_2011}  \cite{candan2012sdtw}  \cite{sakoe1978dynamic} \\ \cite{jeong2011weighted}  \cite{salvador2007toward}.
-  The main idea here is to limit the length of the subsequence of a time series
+  The main idea of these methods is to limit the length of the subsequence of a time series
   that can be compared to a single datapoint of another time series.
   
-  \item The second one suggests skipping datapoints that
+  \item The second one suggests skipping data points that
   produce pathological alignment during the comparison of two time series \cite{longin2005elastic} \\ \cite{itakura1975minimum}  \cite{myers1980performance}.
   \item The third one proposes to replace the datapoints of time
   series with a high-level abstraction that captures the local behavior of those
@@ -66,9 +66,7 @@ of datapoints of $Y$.  A pathological alignment causes a wrong comparison.
   feature that captures the local  properties of time series, such as the trend with Derivative DTW
   (DDTW) \cite{Keogh_Pazzani_2001}.
 \end{itemize}
-Another simple but yet interesting way to capture local properties of time series is to consider
-mean of segments of the time series as PAA does. Indeed, the use of the mean reduces the harmful
-effects of singularities contained in the data and thus allows to avoid pathological
+Another simple but yet interesting way to capture local properties of time series is to  consider the mean of segments of the time series as PAA does. Indeed, the use of the mean reduces the harmful effects of singularities contained in the data and thus allows to avoid pathological
 alignments.  However, one major challenge with PAA is the choice of the number of segments to
 consider especially with long time series.
 
@@ -79,10 +77,10 @@ If the number of segments considered with PAA is too small, the resulting
 representation  is compact, but it contains less information. On the other hand, if the number of
 segments is too large, the obtained representation  is less compact and more prone to the noise
 contained in the original time series (Fig. \ref{relation_nb_acc}). Our idea is that a number of
-segments for PAA will be considered as good if it allows obtaining a compact representation of the
-time series, and also if it preserves the quality of the alignment of time series. So when
-considering classification task, one of the best classification algorithm to use for
-evaluating the quality of time series alignment is one nearest neighbor (1NN).   
+segments for PAA will be considered as good (1) if it allows obtaining a compact representation of the
+time series, and (2) if it preserves the quality of the alignment of time series. So when
+considering classification task, one of the best algorithm to use for
+evaluating the quality of time series alignment is one Nearest Neighbor (1NN).   
 Indeed, its classification error directly depends on time series alignment, since 1NN has no other
 parameters \cite{wang2013experimental}.
 
@@ -91,25 +89,23 @@ parameters \cite{wang2013experimental}.
 \center
 \includegraphics[scale = 0.4]{effets_de_n_sur_accuracy}
 \caption{Relation between Accuracy and the number of segment on FISH dataset. The accuracy is computed from the algorithm one nearest neighbor (1NN) associated with PDTW. When the number of segments
-considered is very small, there is a loss of information and the accuracy is reduced. However, considering all the points in the time series, we also do not obtain maximum accuracy due to the presence of noise or singularities \cite{Keogh_Pazzani_2001}  in the data. }
+considered is very small (bellow 20), there is a loss of information and the accuracy is reduced. However, considering all the points in the time series, do not produce a maximum accuracy due to the presence of noise or singularities \cite{Keogh_Pazzani_2001}  in the data. }
 \label{relation_nb_acc}
 \end{figure}
 
 \subsection{Summary of Contributions}
 
-In this paper, 
+In this chapter, 
 \begin{itemize}
 \item We define the problem of preprocessing time series with PAA for a better classification with
-DTW.
+DTW;
 \item We propose a parameter free heuristic for aligning piecewise aggregate time series with DTW, which approximates the optimal value of the number of segments to be considered with PAA. 
-\item  We make our source code and all our results available to allow the reproducibility of
-our experiments.
 \end{itemize}
 
-The rest of the paper is organized as follow: in Section
+The rest of the chapter is organized as follows: in Section
 \ref{sec:1} we recall the definitions and background; Section \ref{sec:3} explains our approach;
-Section \ref{sec:4} presents experimental results and comparisons to others methods; Section
-\ref{sec:5} offers conclusions and venues for future work.   It is possible to consider the internal properties of time series to choose the compression ratio to use with them. However, this approach gives less good results (Appendix \ref{seg}).
+Section \ref{sec:4} presents experimental results and comparisons to other methods; Section
+\ref{sec:5} draws conclusions and venues for future work.   
 
 
 
@@ -118,27 +114,27 @@ Section \ref{sec:4} presents experimental results and comparisons to others meth
 \label{sec:1}
 Let's recall some definitions.
 
-
-\paragraph{Definition 1.}:  A \textbf{time series}
+\begin{definition}
+A \textbf{time series}
 $X=x_{1},\cdots,x_{n}$ is a sequence of numerical values representing the evolution of a specific quantity over time. $x_{n}$ is the most recent value.
+\end{definition}
 
-
-\paragraph{Definition 2.}:
+\begin{definition}
 A segment  $X_{i}$ of length  $l$ of the time series $X$ of length $n$
 $(l<n)$ is a sequence constituted by $l$ \hyphenation{conse-cutive} variables of $X$ starting at the position $i$ and ending at the position $i+l-1$.
 We have: $X_{i}=x_{i},x_{i+1},...,x_{i+l-1}$.
+\end{definition}
 
-
-\paragraph{Definition 3.}:
+\begin{definition}
 The arithmetic average of the data points of a segment  $X_{i}$ of length
 $l$ is noted $\bar{X}_{i}$ and is defined by:
 \begin{eqnarray}
 \bar{X}_{i}=\frac{1}{l}\sum_{j=0}^{l-1}x_{i+j}.
 \end{eqnarray}
+\end{definition}
 
 
-
-\paragraph{Definition 4.}:
+\begin{definition}
 Let $T$ be the set of time series. The Piecewise Aggregate Approximation (PAA) is defined as follows:
 
 \begin{eqnarray}
@@ -154,17 +150,17 @@ X\:otherwise.
 \end{cases}
 \end{array}
 \end{eqnarray}
+\end{definition}
 
-
-\paragraph{Definition 5.}:
+\begin{definition}
 Let $d\subseteq T$ be a subset of time series,
 $N\in\mathbb{N}^{*},\:PAAset(d,N)=\{PAA(X,N),\:\forall X\in d\}.$
-
+\end{definition}
 
 \subsection{Dynamic Time Warping algorithm.}
 DTW \cite{sakoe1978dynamic} is an algorithm of time series alignment
 algorithm that  performs a non-linear alignment while
-minimizing the distance between two time series. To align two time series : 
+minimizing the distance between two time series. To align two time series: 
 $X=x_{1},x_{2},\cdots,x_{n};\,
 Y=y_{1},y_{2},\cdots,y_{m},$ the algorithm constructs an  $n\times m$  matrix where the cell $(i,
 j)$ of the matrix corresponds to the squared distance $(x_{i}-y_{j})^{2}$ between $x_{i}$
@@ -173,9 +169,9 @@ $W = w_1, w_2, \ldots, w_k, \ldots, w_K,$ must respect the following constraints
 \begin{itemize}
   \item Boundary constraint: $w_1 = (1, 1)$ and  $w_K = (n, m)$;
   \item Monotonicity constraint: given $w_k = (i, j)$ and :  $w_{k + 1} =
-  (i',j')$ then : $i \leq i'$ and $j \leq j'$;
- \item Continuity constraint: given $w_k = (i, j)$ and :   $w_{k + 1} = (i', j')$
- then : $i' \leq i + 1$ and : $j' \leq j + 1$.
+  (i',j')$ then: $i \leq i'$ and $j \leq j'$;
+ \item Continuity constraint: given $w_k = (i, j)$ and:   $w_{k + 1} = (i', j')$
+ then: $i' \leq i + 1$ and: $j' \leq j + 1$.
 \end{itemize}
 The warping path is computed by  an algorithm based on the dynamic
 programming paradigm that solves the following recurrence:
@@ -240,28 +236,25 @@ In this way, IDDTW finds the number of segments that best approximates DTW and s
 \end{itemize}
 
 
-Our goal is to find the number of segments that best aligns the time series and also speeds up the computation of DTW.We propose a  heuristic named parameter Free piecewise DTW (FDTW) based on Greedy Randomized Adapted Search Procedure that deals with all the limitations of IDDTW: it considers all the possible values for the number of segments, it is parameter-free and it finds a number of segments for PDTW based on the quality of  the time series alignment, namely the error rate for classification task. The next section introduces FDTW.
+ Our goal is to find the number of segments that best aligns the time series and also speeds up the computation of DTW.
 
 
 
-
-\section{GRASP based heuristic}
+\section{FDTW: a GRASP based heuristic}
 \label{sec:3}
 
+We propose a  heuristic named parameter Free piecewise DTW (FDTW) based on Greedy Randomized Adapted Search Procedure that deals with all the limitations of IDDTW: it considers all the possible values for the number of segments, it is parameter-free and it finds a number of segments for PDTW based on the quality of  the time series alignment, namely the error rate for classification task. The next section introduces FDTW.
 
 \subsection{ Evaluation procedures for the compression quality}
 Before explaining how to evaluate the quality of time series compression, we
 first describe the time series datasets that we considered. They are
-made up of time series associated with labels that identify the shape of the
-latter. For instance, in the ECG dataset, each time series traces the
-electrical activity recorded during one heartbeat. The two classes are a normal
-heartbeat and a Myocardial Infarction. 
+made up of time series associated with labels that identify their shapes. For instance, in the ECG dataset, each time series traces the
+electrical activity recorded during one heartbeat. These time series are split in two classes: normal heartbeat and myocardial infarction. 
 
- Time series classification is a classic problem with time
-series which consists in guessing the label of an unlabeled time series  based on its shape.
-The quality of a time series classification model is evaluated from its classification error ($\epsilon$), or its accuracy ($a = 1 - \epsilon$).  When considering classification task, one of the
-best classification algorithm to use for evaluating the quality of time series
-alignment is \textbf{one nearest neighbor (1NN)}. Indeed,  its classification
+ Time series classification is a classic problem, which consists in guessing the label of an unlabeled time series  based on its shape.
+The quality of a time series classification model is evaluated from its classification error ($\epsilon$), or its accuracy ($a = 1 - \epsilon$).  When considering a classification task, one of the
+best classification algorithm  for evaluating the quality of time series
+alignment is \textbf{one Nearest Neighbor (1NN)}. Indeed,  its classification
 error directly depends on time series alignment, since 1NN has no other parameters \cite{wang2013experimental}.
 
 During this work, a compact representation of time series  is considered to be good
@@ -278,20 +271,20 @@ $|d_i|$ the number of time series of the dataset $d_i$.
 
 Let $X \in d_i$ be a time series of the dataset $d_i$; we note $|X| = n$ the length of the time series $X$. For simplicity of notation we suppose that all the time series of $d_i$ have the same length.
 
-\paragraph{Definition 6.}:
+\begin{definition}
 \begin{eqnarray}
  1NNDTW: D \rightarrow [0, 1] \\
   d_i\mapsto 1NNDTW(d_i)
 \end{eqnarray}
 
 
- $1NNDTW(d_i)$ is the classification error of one nearest neighbour with Dynamic Time Warping on the dataset $d_i$.
+ $1NNDTW(d_i)$ is the classification error of one Nearest Neighbour with Dynamic Time Warping on the dataset $d_i$.
+\end{definition}
 
 
 
 
-
-\paragraph{Definition 7.}:
+\begin{definition}
 \begin{eqnarray}
 \begin{array}{l}
  1NNPDTW: D\times\{1 \ldots n\}\rightarrow [0, 1]\\
@@ -300,11 +293,12 @@ Let $X \in d_i$ be a time series of the dataset $d_i$; we note $|X| = n$ the len
  =  1NNDTW \circ PAAset ( d_i, N) 
 \end{array}
 \end{eqnarray}
+\end{definition}
 
 $1NNPDTW( d_i, N)$  is the classification error of 1-NN with PDTW using $N$ segments on 
  $d_i$.
 
-
+\\
 Our goal is to find the number of segments that allows $PDTW$ to best align
 time series.  $PDTW$ gives a good alignment when its
 classification error with $1NN$ is low
@@ -312,7 +306,7 @@ classification error with $1NN$ is low
 problem is then to find the number of segments $N$ that minimizes $1NNPDTW(d_i,
 N)$.
 
-Formally, \textbf{ given a dataset $d_i,$ whose time series have a length n, we look for the number
+Formally, \textbf{ given a dataset $d_i,$ of time series that have a length n, we look for the number
 of segments $N \in \{1 \ldots n \}$ such that}
 \begin{eqnarray}
 1NNPDTW(d_{i},N)=\underset{1\leq\alpha\leq n}{min}\{1NNPDTW(d_i,\alpha)\}.
@@ -323,7 +317,7 @@ of segments $N \in \{1 \ldots n \}$ such that}
 
 The simplest way to find the value for the number of segments that minimized the
 classification error is to test all the possible values.  Obviously, this
-method is time consuming as it requires to test $n$ values to find the best one. The time complexity is :
+method is time consuming as it requires to test $n$ values to find the best one. The time complexity is:
 \begin{eqnarray}
 O(|d|^{2} \times \underset{N\in C}{\sum}{\displaystyle
 N^{2}}),\, |C|=n,
@@ -331,29 +325,29 @@ N^{2}}),\, |C|=n,
 
 where $C$ is the set of values for the number of segments.
 
-To reduce the time of the search, the FDTW proposes to look for the
+To reduce the time of the search,  FDTW proposes to look for the
 number of segments with the minimal classification error without testing all the possible values.
 
 \subsection{ Greedy Randomized Adaptive Search Procedures}
 The Greedy Randomized Adaptive Search Procedures (GRASP) is a multi-start, or iterative metaheuristic proposed by Feo and Resende
 (1995) \cite{feo1995greedy}, in which each iteration consists of two phases:
 firstly a new solution is constructed by a greedy randomized
-procedure and  then is improved using a local search procedure.
+procedure and this solution is then improved using a local search procedure.
 
 
-The greediness criterion establishes that elements with the best quality are
- added to a restricted candidate list and chosen at random when
+The greediness criterion establishes that candidates with the best quality are
+ added to a restricted list of candidates. Then, one of the candidate of the restricted list is  chosen at random when
 building up the solution. The candidates obtained by greedy algorithms are not
-necessarily optimal. So, those candidates are  used as initial solutions
+necessarily optimal, but they are used as initial solutions
 to be explored by local search. The heuristic  we proposed is build upon
 GRASP and strengthened with an inclusion of specific global search component.
 
 
 
 
-\subsection{Parameter free heuristic.}
+\subsection{Parameter free heuristic}
 The idea of our heuristic is the following:
-\paragraph{1.} We choose $N_{c}$ candidates distributed in the space of possible values
+\paragraph{1.} We choose $N_{c}$ candidates number of segments, distributed in the space of possible values
 to ensure that we are going to have small, medium and large values as
 candidates. The candidates values are: $n,\,n-\left\lfloor
 \frac{n}{N_{c}}\right\rfloor ,\,n-2\times\left\lfloor \frac{n}{N_{c}}\right\rfloor
@@ -388,7 +382,7 @@ candidates 12, 9, 6, 3.
 
 \paragraph{2.} We evaluate the classification error with $1NNPDTW$ for each chosen candidate, and we
 select the candidate that has the minimal classification error: it is the best candidate.
-In our example, we may suppose that we get the minimal value with the candidate 6 : it is thus the
+In our example, let us suppose that we get the minimal value with the candidate 6: it is thus the
 best candidate at this step.
 
 \begin{center}
@@ -411,7 +405,7 @@ best candidate at this step.
 \end{center}
 
 \paragraph{3.} We respectively look between the predecessor (i.e., 3 here) and successor (i.e., 9
-here) of the best candidate for a number of segments with a lower classification error : this number
+here) of the best candidate for a number of segments with a lower classification error: this number
 of segments corresponds to a local minimum.
 In our example, we are going to test values 4, 5, 7 and 8 to see if there is a local minimum.
 
@@ -449,7 +443,7 @@ We finally perform $nb(N_{c})\, =\, N_{c}\, +\, \frac{2n}{N_{c}}$ tests. The num
  to be performed is a function of the number of candidates. Hence, how many
 candidates should we consider to reduce the number of tests? The first
 derivative of $nb$ function  vanishes when $N_{c}=\sqrt{2n}$ and its second derivative is
-positive; so the minimal number of tests is obtained when the number of candidates is : 
+positive; so the minimal number of tests is obtained when the number of candidates is: 
 $N_{c}=\sqrt{2n}$. At each
 iteration, the heuristic tests $nb(\sqrt{2n})=\sqrt{8n}$ number of segments. As we have $k$
 iterations the number of candidates tested is: $|C|=\stackrel[i=0]{k-1}{\sum}{\textstyle
@@ -470,12 +464,12 @@ number of segments, and  $C$ being the set of values for the number of segments.
 
 
 
-\paragraph{}\textbf{Lemma 1 : } \\
-For a given dataset $d_i$,the quality of the alignment of our heuristic
+\paragraph{}\textbf{Lemma 1: } \\
+For a given dataset $d_i$, the quality of the alignment of our heuristic
 is better than that of DTW: $ FDTW(d_{i}) \leq 1NNDTW(d_{i}) $.
 
 
-\paragraph{}\textbf{Proof : } \\
+\paragraph{}\textbf{Proof: } \\
  $1NNDTW(d_i) = 1NNPDTW(d_i,n)$. Then, $1NNDTW(d_i)$ is one of the
 candidates considered by the heuristic $FDTW$. Since $FDTW$ returns the
 minimal classification error from all candidates, the classification error of
@@ -485,7 +479,7 @@ $1NNDTW$ is always greater than or equal to $FDTW$.
 
 \begin{algorithm}[h]
 \DontPrintSemicolon
-\KwIn{training\_set, length of a time serie : n, \\ number of iterations :
+\KwIn{training\_set, length of a time serie: n, \\ number of iterations:
 nb\_rep}
 \KwOut{The number of segments to be used N \\ The accuracy associated to N}
 \SetKwBlock{Begin}{function}{end function}
@@ -530,7 +524,7 @@ nb\_rep}
 
 \paragraph{}Nevertheless, a heuristic does not always give the optimal value. To ensure that
 it gives a result not far from the optimal value, one approach is to
- guarantee that the result of the heuristic always lies in an interval with respect to the optimal
+ guarantee that the result of the heuristic always lies within an interval with respect to the optimal
 value \cite{ibarra1975fast}.
 
 In our case, we are looking for the number of segments that allows a good
@@ -553,7 +547,7 @@ used as baseline classifier \cite{cuvrin2007meeting}. The minimal value of the
 accuracy of Zero Rule is $\frac{1}{c}$ where c is the number of classes of the
 dataset.
 
-\paragraph{}\textbf{Proposition 1.}:\\
+\paragraph{}\textbf{Proposition 1.:}\\
 For a given dataset $d_i$ that has $c_i$ classes, $c_i\in \mathbb{N}^*,$
 
 $
@@ -561,10 +555,10 @@ if \; acc_{DTW} \geq \frac{1}{c_i} \; then \;  \frac{1}{c_i} \times acc_{max}
 \leq acc_{FDTW} \leq acc_{max}
 $
 
-Proposition 1 shows that when 1NN associated with DTW has a better accuracy than the baseline
-classifier Zero Rule, the FDTW heuristic is a parametric approximation.
+Proposition 1 shows that  1NN associated with DTW has a better accuracy than the baseline
+classifier Zero Rule; the FDTW heuristic is a parametric approximation.
 
-\paragraph{}\textbf{Proof : }\\
+\paragraph{}\textbf{Proof: }\\
 By definition, $ acc_{FDTW} \leq acc_{max}$ 
 We look for $\beta \in \mathbb{N}$ such that 
 
@@ -578,12 +572,12 @@ So,\; \frac{1}{acc_{DTW}}\leq c_{i} \; because \; \frac{1}{c_{i}}\leq acc_{DTW} 
 
 \section{Experiment and results}
 \label{sec:4}
-Throughout the experiments described in this paper, FDTW performs three iterations (k=3) when searching for the appropriate number of segments for a dataset. To evaluate the ability of FDTW heuristic to propose a good number of segments for PAA. It have been compared to the IDDTW algorithm in terms of : 
+Throughout the experiments described in this chapter, FDTW performs three iterations (k=3) when searching for the appropriate number of segments for a dataset. To evaluate the ability of FDTW heuristic to propose a good number of segments for PAA, it has been compared to IDDTW algorithm in terms of: 
 
 \begin{itemize}
-\item heuristic execution speed;
-\item time series compression ratio;
-\item classification error associated with the number of segments found by the heuristic.
+\item Execution speed;
+\item Time series compression ratio;
+\item Classification error associated with the number of segments found by the heuristic.
 \end{itemize}
 
 
@@ -598,9 +592,9 @@ algorithms for which the pre-processing performed by FDTW allows to improve the 
 results.
 \subsubsection{Compression}
 
-\paragraph{}\textbf{Compression ratio : }
-An immediate way to evaluate the quality of the segmentation is to compare the compression ratios. A
-segment number $N_1$ will be better than a segment number $N_2$ if it makes it possible to obtain a
+\paragraph{}\textbf{Compression ratio: }
+An immediate way to evaluate the quality of the segmentation is to compare  compression ratios. A
+segment number $N_1$ will be better than a segment number $N_2$ if it allows to obtain a
 more compact representation with PAA. The compression ratio is given by:
 \[
 r=\frac{n-N}{n},
@@ -609,22 +603,23 @@ where $n$ is the length of the time series and $N$ is the number of segments con
 
 The numbers of segments used here are shown in Table \ref{error_trainingset}. For the considered datasets, the mean compression ratio of \textbf{IDDTW (r = 0.654)}  is slightly higher than that
 of \textbf{FDTW (r = 0.605)}. However, this difference is not significant. Indeed, the wilcoxon test
-gives us a p-value greater than $0.1$ (\textbf{p} $>$ \textbf{0.1}). Therefore, we cannot reject the hypothesis that the
+gives a p-value greater than $0.1$ (\textbf{p} $>$ \textbf{0.1}). Therefore, we cannot reject the hypothesis that the
 compression ratios of IDDTW and FDTW are equal.
 \\
 
-\paragraph{}\textbf{Application : } 
+\paragraph{}\textbf{Application: } 
 PAA used with a suitable segment number allows compression of the time series of
 the \textbf{Coffee} dataset without loss of information. Although they are more compact, the obtained time series
 capture the main variations of the original time series (figure \ref{coffee}).
 
 \begin{figure}
+\center
 
 \includegraphics[scale=0.23]{coffee_0_ts}\includegraphics[scale=0.23]{coffee_0_paa_88}
 
 \includegraphics[scale=0.23]{coffee_1_ts}\includegraphics[scale=0.23]{coffee_1_paa_88}
 
-\caption{Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series, right:  representation using PAA with 88 segments}
+\caption{Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series(286 data points), right:  representation using PAA with 88 segments}
 
 \label{coffee}
 \end{figure}
@@ -636,22 +631,22 @@ PAA is used by ShapeDTW \cite{zhao2016shapedtw} and DTW\_F \cite{Kate2016} to cl
 number of segments to use with 1NN and PDTW. 
 
 
-PDTW was designed to speed up the calculation of DTW without degrading the accuracy. Here, we observe that when the number of segments is chosen, this may even lead to an improvement of the results of the classification.
+PDTW was designed to speed up the calculation of DTW without degrading the accuracy. In our experiments, we observe that when the number of segments is chosen, this may even lead to an improvement of the results of the classification.
 
 
 
 \\
- \paragraph{}\textbf{Quality of the number of segments found} :  \\
+ \paragraph{}\textbf{Quality of the number of segments found:}   \\
  A segment number $N_1$ is better than a segment number $N_2$ if the classification
  error associated with $N_1$ is smaller than that associated with $N_2$. So, to evaluate the
  quality of our heuristic FDTW, we compared its classification errors with that of IDDTW.
-  The classification error  was calculated based on the 3 fold cross validation 
+  The classification error  was calculated from the results of the 3 fold cross validation 
   applied on the training set. IDDTW tested all the values of $N$ that were equal to a power of two and kept the one that had  a minimum
 classification error (Table \ref{error_trainingset}).
 
 
 \\
- \paragraph{}\textbf{Application} : \\
+ \paragraph{}\textbf{Application:}  \\
 According to the announcement in \textbf{Lemma 1}, the classification error of FDTW during the learning phase (training error) is less
 than or equal to that of DTW for all the considered datasets.  We used \textbf{Wilcoxon signed rank test} with continuity
 correction to test the significance of FDTW against IDDTW.  The Wilcoxon signed rank test gives a
@@ -736,10 +731,10 @@ classification error, the smallest is considered}
  
  
 \\
- \paragraph{}\textbf{Comparison with IDDTW} : \\
+ \paragraph{}\textbf{Comparison with IDDTW:}  \\
 To evaluate the quality of FDTW, we compared its classification errors with
 that of IDDTW  and the minimal one. The minimal classification error was find by applying Brute-force search (BF) on both training set and testing set. FDTW and IDDTW used
-the training set to find the segment number $N$ with minimal training error using 3 fold cross validation, and then used this number of segments on the testing set to compute the classification error. The value of the segment number $N$ found on the training set may in some cases not be appropriate for the testing set. We speak of a  generalization error which is due to the representativeness of the training set (Table \ref{error}).  
+the training set to find the segment number $N$ with minimal training error using 3 fold cross validation, and then used this number of segments on the testing set to compute the classification error. The value of the segment number $N$ found on the training set may in some cases not be appropriate for the testing set. We speak of a  generalization error, which is due to the representativeness of the training set (Table \ref{error}).  
  
 If two numbers of
 segments $N_1$ and $N_2$ are associated with the same training error, we retain the largest.
@@ -780,8 +775,7 @@ $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} 
 \tablelasttail{\hline}
 
 
-\bottomcaption{Comparison of generalization errors. In \textbf{italics}, the smallest generalization
-error. In \textbf{bold}, the smallest generalization error between IDDTW and FDTW. \textbf{N }is the number of segments selected
+\bottomcaption{ Comparison of generalization errors obtained with selected methods: the overall smallest error is indicated in \textbf{italic} digits; the smallest error between IDDTW and FDTW is indicated in \textbf{bold} digits.  \textbf{N }is the number of segments selected
 and $\ell$ is the number of data points in a segment $(l = \lfloor\frac{n}{N}\rfloor)$ }
 
 \label{error}
@@ -885,11 +879,11 @@ $\overline{X}$  & 0.268 & 0.227 & 0.242 &  0.175 &  & 0.232 &  & 0.214 & \tabula
 
 
 
-The experiments showed that FDTW is more performant than IDDTW. Actually, FDTW resulted in a
+The results of our experiments showed that FDTW is more performant than IDDTW. Actually, FDTW resulted in a
 lower generalization error than IDDTW on 22 datasets and the same generalization error than IDDTW on 8
 datasets.  The Wilcoxon signed rank test gives a
 p-values, \textbf{ 0.01 $<$ p $\leq$ 0.05}, which demonstrates that FDTW achieved a
-significant reduction of the generalization error of IDDTW. Results also show that FDTW managed to
+significant reduction of the generalization error of IDDTW. Results also showed that FDTW was able to
 find the minimum error for 9 datasets (Coffee, ECGFiveDays, Gun-point, ItalyPowerDemand, OliveOil, Plane, Synthetic control, Trace, Two
 patterns) and outperforms the smallest classification error reported in the literature on
 dataset CBF ($N^{\circ} 5$).
@@ -897,8 +891,8 @@ dataset CBF ($N^{\circ} 5$).
 
 
 
-\paragraph{}\textbf{Heuristic execution speed : }\\
-As already suggested by the time complexity of  FDTW and IDDTW heuristics, IDDTW
+\paragraph{}\textbf{Heuristic execution speed\footnote{Note: The experiments were conducted on a PC with an Intel Core i7 processor, 16GB of RAM and a Windows 7 64-bit operating system.}: }\\
+As already suggested by the time complexity of both FDTW and IDDTW heuristics, IDDTW
 tests fewer candidates than FDTW and is therefore faster. However, the number of candidates tested
 by FDTW reduces exponentially with the length of the time series (Figure
 \ref{NumberOfValuesTested}).
@@ -911,8 +905,8 @@ series, and FDTW considers $\sqrt{n}$ candidates for each iteration.
 \center
 \includegraphics[width=23pc,height=19pc]{nombre_de_candidats_testees}
 \caption{Comparison of the number of tested values of the parameter number of segments with
-the FDTW and IDDTW. x-axis datasets are sorted according to
-the length of the time series. }
+the FDTW and IDDTW.  Datasets are sorted according to
+the length of the time series (x-axis). }
 
 \label{NumberOfValuesTested}
 
@@ -921,13 +915,12 @@ the length of the time series. }
 In average, FDTW is 8 times faster than Brute-force search with an average execution time of 176 minutes
 against 1386 minutes for Brute-force search. IDDTW is 7 times faster than FDTW and remains
 the fastest with an average execution time of 24 minutes. The execution time increases with the length of the time series (Figure 
-\ref{tempsDeCalcul}). The increase of Brute-force search execution time is faster than that of FDTW
-and IDDTW. This is observable from the datasets Lightning-2 whose time series have a length equal
-to 637 data points. Note: The experiments were conducted on a PC with an Intel Core i7 processor, 16GB of RAM and a Windows 7 64-bit operating system.
+\ref{tempsDeCalcul}). The increase of Brute-force search execution time is much more important than that of FDTW
+and IDDTW, particularly on datasets that contain more than 600 points (e.g. Lightning-2). 
 
 \begin{figure}
 \center
-\includegraphics[width=18pc,height=14pc]{tempsDeCalcul2.jpg}
+\includegraphics[width=22pc,height=15pc]{tempsDeCalcul2.jpg}
 \caption{Comparison of the execution time of
 the Brute-force search algorithm, FDTW and IDDTW. }
 
@@ -938,16 +931,16 @@ the Brute-force search algorithm, FDTW and IDDTW. }
 
 
 \\
- \paragraph{}\textbf{Comparison with other classification algorithms} : \\
+ \paragraph{}\textbf{Comparison with other classification algorithms:}  \\
 To evaluate the quality of FDTW, we compared its classification errors (generalization error) with that of 35 other classification algorithms \cite{bagnall2016great} of the literature on 84 datasets of UCR archive{{}}.
  The performances of the algorithms are compared using 
 the Nemenyi test that compares all the algorithms pairwise and  provides an intuitive way to
 visualize the results (Fig. \ref{cd2}). The Nemenyi test allows ranking  classification algorithms according to their average accuracy on 84 datasets.
- FDTW obtained good results on the simulated datasets in terms of average accuracy (3rd / 37 algorithms, Fig. \ref{cd2}) because the data of the training set and the testing set are generated by the same models.
+ FDTW obtained good results on the simulated datasets in terms of average accuracy (3rd / 37 algorithms) because  data of the training set and of the testing set are generated by the same models.
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.28]{images/cd1}
+\includegraphics[scale=0.33]{images/cd1}
 \caption{Critical difference diagram for FDTW and $36$ other classification algorithms on 6 simulated datasets. FDTW is ranked 3rd / 37 algorithms}
 
 \label{cd2}
@@ -955,11 +948,11 @@ visualize the results (Fig. \ref{cd2}). The Nemenyi test allows ranking  classif
 
 
 
-However, to evaluate the significance of the difference between the classification algorithms on 84 datasets, we used the Wilcoxon signed rank test with continuity correction, which has more statistical power.The results of these experiments  show that despite data compression, 
+However, to evaluate the significance of the difference between the 35 classification algorithms on 84 datasets, we used the Wilcoxon signed rank test with continuity correction, which has a higher statistical power than Nemenyi test. The results of these tests  show that despite data compression, 
 \begin{itemize}
-  \item  FDTW have better performance than Naive Bayes (NB), C45,  logistic regression (Logistic), BN;
-  \item FDTW has similar performance to that of 26 other algorithms in the literature, namely : SVMQ, RANDF, ROTF, MLP, EUCLIDEAN\_1\_NN, DDTW\_R1\_1NN, DDTW\_RN\_1NN, ERP\_1NN, LCSS\_1NN, MSM\_1NN, TWE\_1NN, WDDTW\_1NN, WDTW\_1NN, DD\_DTW, DTD\_C, LS, BOP, SAXVSM, TSF, TSBF, LPS, PS, CID\_DTW, SVML, FS, ACF;
-  \item Only five algorithms DTW\_F, Shapelet Transform (ST), BOSS, Elastic Ensemble (EE) and COTE perform better overall than FDTW.
+  \item  FDTW had a better performance than Naive Bayes (NB), C45,  logistic regression (Logistic), BN;
+  \item FDTW had a similar performance as 26 other algorithms in the literature, namely: SVMQ, RANDF, ROTF, MLP, EUCLIDEAN\_1\_NN, DDTW\_R1\_1NN, DDTW\_RN\_1NN, ERP\_1NN, LCSS\_1NN, MSM\_1NN, TWE\_1NN, WDDTW\_1NN, WDTW\_1NN, DD\_DTW, DTD\_C, LS, BOP, SAXVSM, TSF, TSBF, LPS, PS, CID\_DTW, SVML, FS, ACF;
+  \item Only five algorithms DTW\_F, Shapelet Transform (ST), BOSS, Elastic Ensemble (EE) and COTE performed better overall than FDTW.
 \end{itemize}
 
 These results demonstrate the competitiveness of FDTW. Moreover, this algorithm
@@ -988,14 +981,14 @@ on this dataset is 83.44\% with TSBF algorithm; FDTW outperforms this result and
 
 
 
- Additional experiments are available here \cite{Vanel}.
+ Additional experiments are available here \cite{Vanel}. It is possible to consider the internal properties of time series to choose the compression ratio to use with them. However, this approach gives less good results (Appendix \ref{seg}).
 
 \section{Conclusion and perspective}
 \label{sec:5}
-This paper deals with the problem of choosing an appropriate number of segments to compress time series with PAA in order to improve the alignment with DTW. In this aime, we proposed a parameter Free heuristic named FDTW, wich approximates the optimal number of segments to use. The experiments showed that FDTW increased the quality of alignment of time series especially on synthetic datasets where DTW associated with PAA performed better than any other variant of DTW on a classification task and was rank 3/37 behind two ensemble classification algorithms COTE and EE. This algorithm allows reducing the storage space and the processing time of time series while increasing the quality of the alignment of DTW. As a perspective, the problem we have dealt with in this paper could be modeled as a multi-objective optimization problem where one objective function would be compression and the other the classification of time series. 
+This chapter deals with the problem of choosing an appropriate number of segments to compress time series with PAA in order to improve the alignment with DTW. In this aim, we proposed a parameter Free heuristic named FDTW, wich approximates the optimal number of segments to use. The experiments showed that FDTW increased the quality of alignment of time series especially on synthetic datasets where DTW associated with PAA performed better than any other variant of DTW on a classification task. FDTW was rank 3/37 behind two ensemble classification algorithms COTE and EE. This algorithm allows reducing the storage space and the processing time of time series while increasing the quality of the alignment of DTW. As a perspective, the problem we have dealt with in this chapter could be modeled as a multi-objective optimization problem where one objective function would be compression and the other the classification of time series. 
 
 
-In the next chapter, we will introduce a novel dissimilarity function adapted to the comparison of uncertain time series.
+%In the next chapter, we will introduce a novel dissimilarity function adapted to the comparison of uncertain time series.
 
 
 \begin{table}[ht]
@@ -1005,13 +998,13 @@ In the next chapter, we will introduce a novel dissimilarity function adapted to
 \hline
 \rowcolor{LavenderBlush}
 Key points\\
-$\bullet$ We propose a heuristic for time series compression with Piecewise Aggregate\\ Approximation for classification purpose. \\
+$\bullet$ We proposed a heuristic for time series compression with Piecewise Aggregate\\ Approximation for classification purpose. \\
 \\
-$\bullet$ We show experimentally that in addition to reducing the length and processing\\ time of time series, compression can improve the classification of time series.\\ 
+$\bullet$ We experimentally showed that in addition to reducing the length and the processing\\ time of time series, compression can improve the classification of time series.\\ 
 \\
-Communications :\\
+Communications:\\
 $-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter Free Piecewise Dynamic\\ Time Warping. ROADEF, France, Febuary 2017\\
-$-$  Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. PARAMETER FREE PIECEWISE\\ DYNAMIC TIME WARPING FOR TIME SERIES CLASSIFICATION. Time Series \\ workshop at International Conference on Machine Learning, Sydney, August 2017\\
+$-$  Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter free piecewise\\ dynamic time warping for time series classification. \textit{Time Series} \\ \textit{workshop at International Conference on Machine Learning}, Sydney, Australia, August 2017\\
 \hline
 \end{tabular}
 \end{table}
