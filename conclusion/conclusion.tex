@@ -8,8 +8,24 @@ We proposed a heuristic named FDTW that find a suitable parameter to use with th
 We introduce a novel dissimilarity score for the comparison of time series named FOTS for Frobenius Correlation for Time series uShapelet discovery. This dissimilarity score is based on local correlation and allows to capture internal properties of the time series while being robust to uncertainty because its computation is based on the comparison of eigenvectors of the autocorrelation matrices of time series. This score has been used for clustering purpose with UShapelet clustering algorithm an shows a significant improvement of the quality of clustering according to the rand Index.
 \subsection*{Taking into accounts cycles with a symbolic representation}
 Time series coming from wheelchair locomotion are cyclic due to the cyclic aspect of the wheelchair locomotion. The analysis of the wheelchair locomotion is based on those cycles, but none of the data mining models of the literature consider this aspect. We then proposed a symbolic representation of cyclic time series based on the properties of cycles that allow better visualization of the data and a better comprehension of the results obtained after the data mining process. We use this symbolic representation for the analysis of the wheelchair locomotion of eleven users, and this symbolic representation allows establishing that the wheelchair locomotion is asymmetric but this asymmetry get lower and lower with the years' of practice. This symbolic representation also allows a more precise evaluation of motor capabilities of manual wheelchair mainly based on the effort measure during their use of the manual wheelchair.
-\section*{Future works and prospects}
-\subsection*{Multidimensionality for a better characterization of the propulsion technic}
+\section*{Future works}
+
+\subsection*{Compression with FDTW}
+One perspective is to model the time series compression problem using a multi-objective optimization problem where one objective function would be compression and the other the classification of time series. Another problem we want to explore is that of multi-dimensional time series compression.
+
+
+\subsection*{Uncertainty - FOTS}
+One perspective to this work consists in testing FOTS-SUSh on the 85 data sets of the UCR database, we also plan to  use the FOTS score for classification and for fuzzy clustering of uncertain time series.  It is also important to speed-up the computation of FOTS based on sequential learning principles  \cite{calandriello}. We also propose to use the FOTS score for the multidimensional time series shapelet discovery \cite{zeitouniselect}.  
+
+
+\subsection*{SAX-P}
+Another important perspective is to evaluate the robustness of the symbolic representation (SAX-P) to the presence of uncertainty in the data and on applying SAX-P to a supervised classification of cyclic time-series in bio-mechanics.
+
+\subsection*{Application}
+
+the perspectives on the application to wheelchair locomotion are as follows : 
+
+\subsubsection*{Multidimensionality for a better characterization of the propulsion technique}
 The analyses in this thesis are based on the Z moment of the wheels of the manual wheelchair. However, several measurements, including seat, back and footrest forces, were taken during the locomotion of the manual wheelchair users. Considering these signals could allow a better analysis of the subjects' movement and therefore suggests that we propose multidimensional data mining models that would simultaneously take into account all the measurements and their characteristics, namely their length, the presence of uncertainty, and the cyclical nature of specific measures.
-\subsection*{Fuzziness for a more realistic categorization}
+\subsubsection*{Fuzziness for a more realistic categorization}
 As we saw in Chapter 6 with subject S05, a subject can be very likely to belong to two or more groups. It would, therefore, be wise to associate each assignment with a degree of trust about the subject's group member. This data mining amounts to considering fuzzy approaches in the analysis of time series from manual wheelchair locomotion.

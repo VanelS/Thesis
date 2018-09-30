@@ -1,177 +1,213 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: these_vanel_151217.aux
 The style file: apalike.bst
 Database file #1: bibliographie/biblio.bib
-I was expecting a `,' or a `}'---line 288 of file bibliographie/biblio.bib
+I was expecting a `,' or a `}'---line 127 of file bibliographie/biblio.bib
+ :   
+ :   journaltitle = {1st SIAM International Conference on Data Mining},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 147 of file bibliographie/biblio.bib
+ :   
+ :   journaltitle = {Information Sciences},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 225 of file bibliographie/biblio.bib
+ :   
+ :   doi          = {10.1007/s10115-004-0154-9},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 292 of file bibliographie/biblio.bib
  :   
  :   doi          = {10.1007/s10618-015-0418-x},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 393 of file bibliographie/biblio.bib
+I was expecting a `,' or a `}'---line 401 of file bibliographie/biblio.bib
  :   
  :   doi       = {10.1109/NBiS.2014.89},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1123 of file bibliographie/biblio.bib
+I was expecting a `,' or a `}'---line 423 of file bibliographie/biblio.bib
+ :   
+ :   journaltitle = {Journal of Hydrology},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring Rakthanmanon2012's extra "year" field
+--line 968 of file bibliographie/biblio.bib
+Warning--I'm ignoring Keogh2001a's extra "year" field
+--line 987 of file bibliographie/biblio.bib
+Warning--I'm ignoring lin2003symbolic's extra "year" field
+--line 1008 of file bibliographie/biblio.bib
+I was expecting a `,' or a `}'---line 1008 of file bibliographie/biblio.bib
+ :   
+ :   doi          = {10.1145/882085.882086},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring sun2014improvement's extra "year" field
+--line 1040 of file bibliographie/biblio.bib
+Repeated entry---line 1139 of file bibliographie/biblio.bib
  : @inproceedings{senin2014grammarviz
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1174 of file bibliographie/biblio.bib
+Repeated entry---line 1190 of file bibliographie/biblio.bib
  : @article{jeong2011weighted
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1221 of file bibliographie/biblio.bib
+Repeated entry---line 1237 of file bibliographie/biblio.bib
  : @inproceedings{lines2012shapelet
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1391 of file bibliographie/biblio.bib
+Repeated entry---line 1407 of file bibliographie/biblio.bib
  : @inproceedings{senin2014grammarviz
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1400 of file bibliographie/biblio.bib
+Repeated entry---line 1416 of file bibliographie/biblio.bib
  : @article{batista2014cid
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1423 of file bibliographie/biblio.bib
+Repeated entry---line 1439 of file bibliographie/biblio.bib
  : @article{zhao2016shapedtw
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1492 of file bibliographie/biblio.bib
+Repeated entry---line 1508 of file bibliographie/biblio.bib
  : @misc{UCRArchive
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1500 of file bibliographie/biblio.bib
+Repeated entry---line 1516 of file bibliographie/biblio.bib
  :  @misc{Bagnall
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1520 of file bibliographie/biblio.bib
+Repeated entry---line 1536 of file bibliographie/biblio.bib
  : @article{bagnall2016great
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1555 of file bibliographie/biblio.bib
+Repeated entry---line 1571 of file bibliographie/biblio.bib
  : @article{candan2012sdtw
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1576 of file bibliographie/biblio.bib
+Repeated entry---line 1592 of file bibliographie/biblio.bib
  : @article{jeong2011weighted
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1587 of file bibliographie/biblio.bib
+Repeated entry---line 1603 of file bibliographie/biblio.bib
  : @inproceedings{longin2005elastic
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1594 of file bibliographie/biblio.bib
+Repeated entry---line 1610 of file bibliographie/biblio.bib
  : @article{itakura1975minimum
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1616 of file bibliographie/biblio.bib
+Repeated entry---line 1632 of file bibliographie/biblio.bib
  : @inproceedings{keogh2000scaling
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1625 of file bibliographie/biblio.bib
+Repeated entry---line 1641 of file bibliographie/biblio.bib
  : @article{wang2013experimental
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1637 of file bibliographie/biblio.bib
+Repeated entry---line 1653 of file bibliographie/biblio.bib
  : @article{Keogh2004
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1669 of file bibliographie/biblio.bib
+Repeated entry---line 1685 of file bibliographie/biblio.bib
  : @inproceedings{chu2002iterative
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1678 of file bibliographie/biblio.bib
+Repeated entry---line 1694 of file bibliographie/biblio.bib
  : @article{ibarra1975fast
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1689 of file bibliographie/biblio.bib
+Repeated entry---line 1705 of file bibliographie/biblio.bib
  : @inproceedings{cuvrin2007meeting
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1698 of file bibliographie/biblio.bib
+Repeated entry---line 1714 of file bibliographie/biblio.bib
  : @article{lkhagva2006extended
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1706 of file bibliographie/biblio.bib
+Repeated entry---line 1722 of file bibliographie/biblio.bib
  : @article{sun2014improvement
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1716 of file bibliographie/biblio.bib
+Repeated entry---line 1732 of file bibliographie/biblio.bib
  : @inproceedings{lin2003symbolic
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1725 of file bibliographie/biblio.bib
+Repeated entry---line 1741 of file bibliographie/biblio.bib
  : @inproceedings{camerra2010isax
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1735 of file bibliographie/biblio.bib
+Repeated entry---line 1751 of file bibliographie/biblio.bib
  : @inproceedings{ulanova2015scalable
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1747 of file bibliographie/biblio.bib
+Repeated entry---line 1763 of file bibliographie/biblio.bib
  : @article{Kate2016
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1761 of file bibliographie/biblio.bib
+Repeated entry---line 1777 of file bibliographie/biblio.bib
  :  @misc{Vanel
  :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1784 of file bibliographie/biblio.bib
+Repeated entry---line 1800 of file bibliographie/biblio.bib
  : @article{feo1995greedy
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1865 of file bibliographie/biblio.bib
+Repeated entry---line 1881 of file bibliographie/biblio.bib
  : @article{keogh2001locally
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2311 of file bibliographie/biblio.bib
+Repeated entry---line 2327 of file bibliographie/biblio.bib
  : @article{goosey2001kinetic
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2322 of file bibliographie/biblio.bib
+Repeated entry---line 2338 of file bibliographie/biblio.bib
  : @article{price1999thermoregulatory
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2334 of file bibliographie/biblio.bib
+Repeated entry---line 2350 of file bibliographie/biblio.bib
  : @article{cooper2003wheelchair
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2345 of file bibliographie/biblio.bib
+Repeated entry---line 2361 of file bibliographie/biblio.bib
  : @article{digiovine2001dynamic
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2356 of file bibliographie/biblio.bib
+Repeated entry---line 2372 of file bibliographie/biblio.bib
  : @article{goosey1998relationship
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2366 of file bibliographie/biblio.bib
+Repeated entry---line 2382 of file bibliographie/biblio.bib
  : @article{kulig2001effect
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2377 of file bibliographie/biblio.bib
+Repeated entry---line 2393 of file bibliographie/biblio.bib
  : @article{rodgers1994biomechanics
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2388 of file bibliographie/biblio.bib
+Repeated entry---line 2404 of file bibliographie/biblio.bib
  : @article{coutts1987aerobic
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2398 of file bibliographie/biblio.bib
+Repeated entry---line 2414 of file bibliographie/biblio.bib
  : @article{kerk1995effect
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2501 of file bibliographie/biblio.bib
+Repeated entry---line 2517 of file bibliographie/biblio.bib
  : @article{kerk1995effect
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2521 of file bibliographie/biblio.bib
+Repeated entry---line 2537 of file bibliographie/biblio.bib
  : @article{goosey1998relationship
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2532 of file bibliographie/biblio.bib
+Repeated entry---line 2548 of file bibliographie/biblio.bib
  : @article{rodgers1994biomechanics
  :                                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Validation"
+Repeated entry---line 2693 of file bibliographie/biblio.bib
+ : @article{dabonneville2005self
+ :                              ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in lsst
 Warning--to sort, need author or key in SACR-FRM
 Warning--empty journal in bagnall2016great
@@ -186,7 +222,6 @@ Warning--empty journal in itakura1975minimum
 Warning--empty journal in jeong2011weighted
 Warning--empty journal in Kate2016
 Warning--empty journal in keogh2001locally
-Warning--empty year in Keogh2004
 Warning--empty journal in Keogh2004
 Warning--empty journal in lkhagva2006extended
 Warning--can't use both author and editor fields in Malinowski2013
@@ -202,5 +237,7 @@ Warning--empty journal in Sauret2010
 Warning--empty journal in Wang2015
 Warning--empty journal in wang2013experimental
 Warning--empty booktitle in yi2000fast
+Warning--empty year in zeitouniselect
+Warning--empty journal in zeitouniselect
 Warning--empty journal in zhao2016shapedtw
-(There were 42 error messages)
+(There were 48 error messages)

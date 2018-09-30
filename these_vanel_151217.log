@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.6.6)  5 SEP 2018 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.6.6)  30 SEP 2018 07:26
 entering extended mode
 **./these_vanel_151217.tex
 (these_vanel_151217.tex
@@ -499,28 +499,32 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count131
 \LT@p@ftn=\toks38
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\units\nicefrac.sty"
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip58
+\L@UnitsRaiseTextstyle=\skip59
+\L@UnitsRaiseScriptstyle=\skip60
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen171
 \extrarowheight=\dimen172
 \NC@list=\toks39
-\extratabsurround=\skip58
-\backup@length=\skip59
+\extratabsurround=\skip61
+\backup@length=\skip62
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks40
-\minrowclearance=\skip60
+\minrowclearance=\skip63
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count132
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\algocf@hangindent=\skip61
+\algocf@hangindent=\skip64
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
@@ -532,36 +536,36 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
-\skiptotal=\skip62
-\skiplinenumber=\skip63
-\skiprule=\skip64
-\skiphlne=\skip65
-\skiptext=\skip66
-\skiplength=\skip67
-\algomargin=\skip68
-\skipalgocfslide=\skip69
+\skiptotal=\skip65
+\skiplinenumber=\skip66
+\skiprule=\skip67
+\skiphlne=\skip68
+\skiptext=\skip69
+\skiplength=\skip70
+\algomargin=\skip71
+\skipalgocfslide=\skip72
 \algowidth=\dimen173
 \inoutsize=\dimen174
 \inoutindent=\dimen175
 \interspacetitleruled=\dimen176
 \interspacealgoruled=\dimen177
 \interspacetitleboxruled=\dimen178
-\algocf@ruledwidth=\skip70
+\algocf@ruledwidth=\skip73
 \algocf@inoutbox=\box43
 \algocf@inputbox=\box44
-\AlCapSkip=\skip71
-\AlCapHSkip=\skip72
-\algoskipindent=\skip73
+\AlCapSkip=\skip74
+\AlCapHSkip=\skip75
+\algoskipindent=\skip76
 \algocf@nlbox=\box45
 \algocf@hangingbox=\box46
 \algocf@untilbox=\box47
-\algocf@skipuntil=\skip74
+\algocf@skipuntil=\skip77
 \algocf@capbox=\box48
-\algocf@lcaptionbox=\skip75
-\algoheightruledefault=\skip76
-\algoheightrule=\skip77
-\algotitleheightruledefault=\skip78
-\algotitleheightrule=\skip79
+\algocf@lcaptionbox=\skip78
+\algoheightruledefault=\skip79
+\algoheightrule=\skip80
+\algotitleheightruledefault=\skip81
+\algotitleheightrule=\skip82
 \c@algocfline=\count134
 \c@algocfproc=\count135
 \c@algocf=\count136
@@ -594,26 +598,26 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fncychap\fncychap.sty"
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip80
-\mylen=\skip81
-\myhi=\skip82
-\px=\skip83
-\py=\skip84
-\pyy=\skip85
-\pxx=\skip86
+\RW=\skip83
+\mylen=\skip84
+\myhi=\skip85
+\px=\skip86
+\py=\skip87
+\pyy=\skip88
+\pxx=\skip89
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip87
-\f@nch@O@elh=\skip88
-\f@nch@O@erh=\skip89
-\f@nch@O@olh=\skip90
-\f@nch@O@orh=\skip91
-\f@nch@O@elf=\skip92
-\f@nch@O@erf=\skip93
-\f@nch@O@olf=\skip94
-\f@nch@O@orf=\skip95
+\f@nch@headwidth=\skip90
+\f@nch@O@elh=\skip91
+\f@nch@O@erh=\skip92
+\f@nch@O@olh=\skip93
+\f@nch@O@orh=\skip94
+\f@nch@O@elf=\skip95
+\f@nch@O@erf=\skip96
+\f@nch@O@olf=\skip97
+\f@nch@O@orf=\skip98
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -1105,9 +1109,9 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip96
+\Hy@SectionHShift=\skip99
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `colorlinks' set `true' on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
 Package: glossaries 2017/11/14 v4.35 (NLCT)
@@ -1199,7 +1203,7 @@ Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks49
 \@dtl@tmpcount=\count174
-\dtl@tmplength=\skip97
+\dtl@tmplength=\skip100
 \dtl@sortresult=\count175
 \@dtl@numgrpsepcount=\count176
 \@dtl@datatype=\count177
@@ -1223,7 +1227,7 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count181
 \@gls@tmpb=\toks50
-\gls@tmplen=\skip98
+\gls@tmplen=\skip101
 \glskeylisttok=\toks51
 \glslabeltok=\toks52
 \glsshorttok=\toks53
@@ -1234,11 +1238,11 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
 Package: glossary-list 2017/11/14 v4.35 (NLCT)
-\glslistdottedwidth=\skip99
+\glslistdottedwidth=\skip102
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
 Package: glossary-long 2017/11/14 v4.35 (NLCT)
-\glsdescwidth=\skip100
-\glspagelistwidth=\skip101
+\glsdescwidth=\skip103
+\glspagelistwidth=\skip104
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
 Package: glossary-super 2017/11/14 v4.35 (NLCT)
 
@@ -1246,9 +1250,9 @@ Package: glossary-super 2017/11/14 v4.35 (NLCT)
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count182
 \ST@wd=\dimen196
-\ST@rightskip=\skip102
-\ST@leftskip=\skip103
-\ST@parfillskip=\skip104
+\ST@rightskip=\skip105
+\ST@leftskip=\skip106
+\ST@parfillskip=\skip107
 \ST@pageleft=\dimen197
 \ST@headht=\dimen198
 \ST@tailht=\dimen199
@@ -1263,26 +1267,26 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
 Package: glossary-tree 2017/11/14 v4.35 (NLCT)
-\glstreeindent=\skip105
+\glstreeindent=\skip108
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\frcursive\frcursive.sty"
 Package: frcursive 2004/02/01 v1.2 support package for French Cursive
-\seyesThickness=\skip106
+\seyesThickness=\skip109
 \seyes@box=\box54
-\seyes@ln=\skip107
+\seyes@ln=\skip110
 )
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `these_vanel_151217.glo'.
 
 Package glossaries Info: Writing glossary file these_vanel_151217.glo on input 
-line 67.
+line 72.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen263
 \nom@tempdim=\dimen264
-\nomitemsep=\skip108
+\nomitemsep=\skip111
 )
 \@nomenclaturefile=\write7
 \openout7 = `these_vanel_151217.nlo'.
@@ -1292,18 +1296,6 @@ Writing nomenclature file these_vanel_151217.nlo
 \c@definition=\count183
 \c@theorem=\count184
 ) (these_vanel_151217.aux
-
-LaTeX Warning: Label `TWMWC' multiply defined.
-
-
-LaTeX Warning: Label `algo1' multiply defined.
-
-
-LaTeX Warning: Label `algo2' multiply defined.
-
-
-LaTeX Warning: Label `fig:average' multiply defined.
-
 
 LaTeX Warning: Label `fig:average' multiply defined.
 
@@ -1435,24 +1427,30 @@ e-de-couverture/page-de-titre.tex
 <to be read again> 
                    \relax 
 l.39 \end{titlepage}
-                     [1]) (dedicaces/dedicaces.tex
-LaTeX Font Info:    Try loading font information for T1+frc on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\frcursive\t1frc.fd"
-File: t1frc.fd 2004/06/12 French Cursive font definition
-))
-(remerciements/remerciements.texpdfTeX warning (ext4): destination with the sam
-e identifier (name{page.ii}) has been already used, duplicate ignored
+                     [1])pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            *{Acknowledgment} [2]) [3
+l.22 \tableofcontents
+                     %table des matières plus complète [2
 
-] [4
+]
+(these_vanel_151217.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3] [4])
+\tf@toc=\write9
+\openout9 = `these_vanel_151217.toc'.
 
-] (these_vanel_151217.toc [5])
-[6] [1
 
+[5] [6
+
+] [1
 
 ] [2] (introduction/introduction.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
@@ -1469,9 +1467,9 @@ Package Fancyhdr Warning: \headheight is too small (14.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] [4] [5]) [6] [7
+[3] [4]) [5] [6
 
-] [8] (chapitre1/chapitre1.tex
+] [7] [8] (chapitre1/chapitre1.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
@@ -1482,357 +1480,108 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-Overfull \hbox (26.07808pt too wide) in paragraph at lines 9--10
-\T1/cmr/m/n/12 shoul-der, and at the el-bow, wrist and hand. For in-stance in [
-[]],
- []
+Underfull \vbox (badness 1721) has occurred while \output is active []
 
-[9
+ [9
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [10]
-<images/WAFT.png, id=601, 9.61688pt x 6.80638pt>
-File: images/WAFT.png Graphic file (type png)
-<use images/WAFT.png>
-Package pdftex.def Info: images/WAFT.png  used on input line 44.
-(pdftex.def)             Requested size: 240.42091pt x 170.15877pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]\T1/cmr/m/n/12 Figure 1.1: |Wheelchair Aer-o-bic Fit-ness Trainer (WAFT) pho-
-to-graph
+[10] [11]
+Overfull \hbox (44.21165pt too wide) in paragraph at lines 81--82
+\T1/cmr/m/n/12 [[]] and Sym-bolic Ag-gre-gate Ap-prox-i-ma-tion (SAX) [[]]. 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (21.0921pt too wide) in paragraph at lines 50--51
-\T1/cmr/m/n/12 [[]], tachome-ters [[]] [[]] [[]] 
- []
-
-
-Overfull \hbox (17.16113pt too wide) in paragraph at lines 50--51
-\T1/cmr/m/n/12 [[]] or speedome-ters [[]] [[]]
- []
-
-[11]
-<images/FRER.jpg, id=665, 8.73741pt x 6.2328pt>
-File: images/FRER.jpg Graphic file (type jpg)
-<use images/FRER.jpg>
-Package pdftex.def Info: images/FRER.jpg  used on input line 54.
-(pdftex.def)             Requested size: 218.43452pt x 155.81932pt.
- [12 <./images/WAFT.png> <./images/FRER.jpg>]
-<images/tapi_roulant.jpg, id=677, 5.3151pt x 3.97676pt>
-File: images/tapi_roulant.jpg Graphic file (type jpg)
-<use images/tapi_roulant.jpg>
-Package pdftex.def Info: images/tapi_roulant.jpg  used on input line 66.
-(pdftex.def)             Requested size: 212.60254pt x 159.06921pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]\T1/cmr/m/n/12 Figure 1.3: |Ex-er-cise test-ing on a mo-tor driven tread-mill
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-<images/SFR.png, id=680, 7.6285pt x 5.73572pt>
-File: images/SFR.png Graphic file (type png)
-<use images/SFR.png>
-Package pdftex.def Info: images/SFR.png  used on input line 76.
-(pdftex.def)             Requested size: 228.85391pt x 172.07062pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (82.39401pt too wide) in paragraph at lines 82--83
-\T1/cmr/m/n/12 (WWE or FRET-1) equipped with sev-eral sen-sors has been man-u-f
-ac-tured [[]].
+[12] [13] [14] [15]
+Overfull \hbox (13.99074pt too wide) in paragraph at lines 144--145
+\T1/cmr/m/n/12 [[]], and SAX [[]]. These lat-ter au-thors [[]]
  []
 
-[13 <./images/tapi_roulant.jpg>]
-<images/FRET-2_Legend_GB.pdf, id=693, 722.7pt x 542.025pt>
-File: images/FRET-2_Legend_GB.pdf Graphic file (type pdf)
-<use images/FRET-2_Legend_GB.pdf>
-Package pdftex.def Info: images/FRET-2_Legend_GB.pdf  used on input line 90.
-(pdftex.def)             Requested size: 289.07487pt x 216.80615pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14 <./images/SFR.png>]
-Overfull \hbox (0.50859pt too wide) in paragraph at lines 105--107
-[]\T1/cmr/m/n/12 The doc-toral the-sis of Nico-las DE SAINT REMY (2005) [[]]
- []
-
-<images/wheelchair_model2.png, id=704, 465.99094pt x 210.7875pt>
-File: images/wheelchair_model2.png Graphic file (type png)
-<use images/wheelchair_model2.png>
-Package pdftex.def Info: images/wheelchair_model2.png  used on input line 110.
-(pdftex.def)             Requested size: 279.59671pt x 126.47346pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/squelette.pdf, id=709, 412.54124pt x 540.51938pt>
-File: images/squelette.pdf Graphic file (type pdf)
-<use images/squelette.pdf>
-Package pdftex.def Info: images/squelette.pdf  used on input line 120.
-(pdftex.def)             Requested size: 206.27011pt x 270.25902pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\T1/cmr/m/n/12 Figure 1.7: |Mark-ers for kine-matic anal-y-sis of man-ual whe
-elchair
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./images/FRET-2_Legend_GB.pdf>]
-Overfull \hbox (2.46211pt too wide) in paragraph at lines 132--133
-[]\T1/cmr/m/n/12 In [[]] the au-thors pre-sented a model based on Bayesian
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./images/wheelchair_model2.png>]
-Overfull \hbox (64.17793pt too wide) in paragraph at lines 154--167
- [][] 
- []
-
-[17 <./images/squelette.pdf>] [18]
-Chapter 2.
-[19
-
-] [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-
- []
-
-[22] [23]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.288 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[24] [25] [26] [27] [28]
-Overfull \hbox (11.38522pt too wide) in paragraph at lines 359--360
+[16] [17] [18] [19]
+Overfull \hbox (11.38522pt too wide) in paragraph at lines 202--203
 \T1/cmr/m/n/12 which al-lows de-ter-min-ing the char-ac-ter-is-tics of the data
  [[]]. 
  []
 
-[29]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.372 ...ds as follows: a nonnegative matrix X \in
-                                                   $\mathbb{R}^{M			\times N...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.372 ...lows: a nonnegative matrix X \in $\mathbb
-                                                  {R}^{M			\times N}$ can be...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.372 ...: a nonnegative matrix X \in $\mathbb{R}^
-                                                  {M			\times N}$ can be 			...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.372 ...orised into two lower rank matrices U \in
-                                                   $			\mathbb{R}^{M\times L...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.372 ...two lower rank matrices U \in $			\mathbb
-                                                  {R}^{M\times L}$ and V \in...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.372 ...lower rank matrices U \in $			\mathbb{R}^
-                                                  {M\times L}$ and V \in $\m...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.372 ...\in $			\mathbb{R}^{M\times L}$ and V \in
-                                                   $\mathbb{R}^{L\times N}$ ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.372 ...mathbb{R}^{M\times L}$ and V \in $\mathbb
-                                                  {R}^{L\times N}$ with $L <...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.372 ...bb{R}^{M\times L}$ and V \in $\mathbb{R}^
-                                                  {L\times N}$ with $L < M$ ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[30]
-Overfull \hbox (4.54228pt too wide) in paragraph at lines 392--410
+[20] [21]
+Overfull \hbox (4.54228pt too wide) in paragraph at lines 235--253
  [][] 
  []
 
-
-LaTeX Warning: Float too large for page by 12.1258pt on input line 410.
-
-[31]
-Overfull \hbox (10.06415pt too wide) in paragraph at lines 421--433
+[22]
+Overfull \hbox (10.06415pt too wide) in paragraph at lines 264--276
  [][] 
  []
 
-[32
+[23
 
 
 
-] [33
+] [24
 
 
 ]
-Overfull \hbox (20.12614pt too wide) in paragraph at lines 462--474
+Overfull \hbox (12.79997pt too wide) in paragraph at lines 306--318
  [][] 
  []
 
-) [34
+) [25
 
-] [35
+] [26
 
-] [36] (chapitre2/chapitre2.tex
-Chapter 3.
+] [27] [28] (chapitre2/chapitre2.tex
+Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
 
  []
 
-[37
+[29
 
-] [38]
-<images/effets_de_n_sur_accuracy.pdf, id=1076, 505.89pt x 505.89pt>
+] [30]
+<images/effets_de_n_sur_accuracy.pdf, id=899, 505.89pt x 505.89pt>
 File: images/effets_de_n_sur_accuracy.pdf Graphic file (type pdf)
 <use images/effets_de_n_sur_accuracy.pdf>
 Package pdftex.def Info: images/effets_de_n_sur_accuracy.pdf  used on input lin
-e 90.
+e 91.
 (pdftex.def)             Requested size: 202.3524pt x 202.3524pt.
- [39 <./images/effets_de_n_sur_accuracy.pdf>] [40]
-Overfull \hbox (6.7513pt too wide) in paragraph at lines 189--190
+ [31 <./images/effets_de_n_sur_accuracy.pdf>]
+
+LaTeX Warning: Reference `siyouRairo' on page 32 undefined on input line 116.
+
+
+Overfull \hbox (34.86485pt too wide) in alignment at lines 142--154
+ [][][] []
+ []
+
+[32]
+Overfull \hbox (6.7513pt too wide) in paragraph at lines 192--193
 []\T1/cmr/m/n/12 Piecewise Dy-namic Time Warp-ing Al-go-rithm (PDTW) [[]]
  []
 
 
-Overfull \hbox (12.66393pt too wide) in paragraph at lines 189--190
+Overfull \hbox (12.66393pt too wide) in paragraph at lines 192--193
 \T1/cmr/m/n/12 is the DTW al-go-rithm ap-plied on Piece-wise Ag-gre-gate time s
 e-ries [[]].
  []
 
-[41]
-<images/iddtw.png, id=1139, 642.14906pt x 375.65344pt>
+[33]
+<images/iddtw.png, id=960, 642.14906pt x 375.65344pt>
 File: images/iddtw.png Graphic file (type png)
 <use images/iddtw.png>
-Package pdftex.def Info: images/iddtw.png  used on input line 207.
+Package pdftex.def Info: images/iddtw.png  used on input line 210.
 (pdftex.def)             Requested size: 256.85507pt x 150.2587pt.
- [42 <./images/iddtw.png>] [43]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 O
-       ur goal is to find the number of segments that allows $PDTW$ to best ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (2.55798pt too wide) in paragraph at lines 332--336
+ [34 <./images/iddtw.png>] [35]
+Overfull \hbox (2.55798pt too wide) in paragraph at lines 334--338
 \T1/cmr/m/n/12 it-er-a-tive meta-heuris-tic pro-posed by Feo and Re-sende (1995
 ) [[]],
  []
 
-[44] [45]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 522.
+[36] [37]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 517.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1840,8 +1589,8 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46] [47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 604--609
+[38] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 600--605
 
  []
 
@@ -1853,13 +1602,13 @@ Package epstopdf Info: Source file: <images/coffee_0_ts.eps>
 (epstopdf)                    size: 38825 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/coffee_0_ts-eps-conv
 erted-to.pdf images/coffee_0_ts.eps>
-(epstopdf)             \includegraphics on input line 618.
+(epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
-<images/coffee_0_ts-eps-converted-to.pdf, id=1226, 794.97pt x 614.295pt>
+<images/coffee_0_ts-eps-converted-to.pdf, id=1051, 794.97pt x 614.295pt>
 File: images/coffee_0_ts-eps-converted-to.pdf Graphic file (type pdf)
 <use images/coffee_0_ts-eps-converted-to.pdf>
 Package pdftex.def Info: images/coffee_0_ts-eps-converted-to.pdf  used on input
- line 618.
+ line 614.
 (pdftex.def)             Requested size: 182.83925pt x 141.28487pt.
 Package epstopdf Info: Source file: <images/coffee_0_paa_88.eps>
 (epstopdf)                    date: 2017-12-21 17:54:34
@@ -1870,14 +1619,14 @@ f>
 (epstopdf)                    size: 22189 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/coffee_0_paa_88-eps-
 converted-to.pdf images/coffee_0_paa_88.eps>
-(epstopdf)             \includegraphics on input line 618.
+(epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
-<images/coffee_0_paa_88-eps-converted-to.pdf, id=1227, 785.93625pt x 614.295pt>
+<images/coffee_0_paa_88-eps-converted-to.pdf, id=1052, 785.93625pt x 614.295pt>
 
 File: images/coffee_0_paa_88-eps-converted-to.pdf Graphic file (type pdf)
 <use images/coffee_0_paa_88-eps-converted-to.pdf>
 Package pdftex.def Info: images/coffee_0_paa_88-eps-converted-to.pdf  used on i
-nput line 618.
+nput line 614.
 (pdftex.def)             Requested size: 180.76154pt x 141.28487pt.
 Package epstopdf Info: Source file: <images/coffee_1_ts.eps>
 (epstopdf)                    date: 2018-03-14 15:18:44
@@ -1887,13 +1636,13 @@ Package epstopdf Info: Source file: <images/coffee_1_ts.eps>
 (epstopdf)                    size: 38675 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/coffee_1_ts-eps-conv
 erted-to.pdf images/coffee_1_ts.eps>
-(epstopdf)             \includegraphics on input line 620.
+(epstopdf)             \includegraphics on input line 616.
 Package epstopdf Info: Output file is already uptodate.
-<images/coffee_1_ts-eps-converted-to.pdf, id=1228, 785.93625pt x 614.295pt>
+<images/coffee_1_ts-eps-converted-to.pdf, id=1053, 785.93625pt x 614.295pt>
 File: images/coffee_1_ts-eps-converted-to.pdf Graphic file (type pdf)
 <use images/coffee_1_ts-eps-converted-to.pdf>
 Package pdftex.def Info: images/coffee_1_ts-eps-converted-to.pdf  used on input
- line 620.
+ line 616.
 (pdftex.def)             Requested size: 180.76154pt x 141.28487pt.
 Package epstopdf Info: Source file: <images/coffee_1_paa_88.eps>
 (epstopdf)                    date: 2018-03-14 15:18:44
@@ -1904,83 +1653,43 @@ f>
 (epstopdf)                    size: 22623 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/coffee_1_paa_88-eps-
 converted-to.pdf images/coffee_1_paa_88.eps>
-(epstopdf)             \includegraphics on input line 620.
+(epstopdf)             \includegraphics on input line 616.
 Package epstopdf Info: Output file is already uptodate.
-<images/coffee_1_paa_88-eps-converted-to.pdf, id=1229, 794.97pt x 614.295pt>
+<images/coffee_1_paa_88-eps-converted-to.pdf, id=1054, 794.97pt x 614.295pt>
 File: images/coffee_1_paa_88-eps-converted-to.pdf Graphic file (type pdf)
 <use images/coffee_1_paa_88-eps-converted-to.pdf>
 Package pdftex.def Info: images/coffee_1_paa_88-eps-converted-to.pdf  used on i
-nput line 620.
+nput line 616.
 (pdftex.def)             Requested size: 182.83925pt x 141.28487pt.
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.639  \paragraph
-                 {}\textbf{Quality of the number of segments found:}   \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.649  \paragraph
-                 {}\textbf{Application:}  \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[49] [50 <./images/coffee_0_ts-eps-converted-to.pdf> <./images/coffee_0_paa_88-
+[41] [42 <./images/coffee_0_ts-eps-converted-to.pdf> <./images/coffee_0_paa_88-
 eps-converted-to.pdf> <./images/coffee_1_ts-eps-converted-to.pdf> <./images/cof
-fee_1_paa_88-eps-converted-to.pdf>] [51]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.733 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (10.47418pt too wide) in paragraph at lines 783--783
+fee_1_paa_88-eps-converted-to.pdf>] [43]
+Overfull \hbox (10.47418pt too wide) in paragraph at lines 781--781
 []|$\OML/cmm/m/it/10.95 N[]$| 
  []
 
 
-Overfull \hbox (16.0821pt too wide) in paragraph at lines 783--783
+Overfull \hbox (16.0821pt too wide) in paragraph at lines 781--781
 []|\T1/cmr/bx/n/10.95 distance| 
  []
 
 
-Overfull \hbox (1.0353pt too wide) in paragraph at lines 783--783
+Overfull \hbox (1.0353pt too wide) in paragraph at lines 781--781
 [] 
  []
 
-[52]
-Overfull \hbox (10.47418pt too wide) in paragraph at lines 783--783
+[44]
+Overfull \hbox (10.47418pt too wide) in paragraph at lines 781--781
 []$\OML/cmm/m/it/10.95 N[]$| 
  []
 
 
-Overfull \hbox (16.0821pt too wide) in paragraph at lines 783--783
+Overfull \hbox (16.0821pt too wide) in paragraph at lines 781--781
 []\T1/cmr/bx/n/10.95 distance| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 784--784
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 782--782
 []\T1/cmr/m/n/10.95 1| 
  []
 
@@ -1990,242 +1699,242 @@ Overfull \hbox (1.17621pt too wide) in paragraph at lines 786--786
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 788--788
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 790--790
 []\T1/cmr/m/n/10.95 3| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 790--790
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 796--796
 []\T1/cmr/m/n/10.95 4| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 792--792
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 802--802
 []\T1/cmr/m/n/10.95 5| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 794--794
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 811--811
 []\T1/cmr/m/n/10.95 6| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 796--796
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 815--815
 []\T1/cmr/m/n/10.95 7| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 798--798
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 819--819
 []\T1/cmr/m/n/10.95 8| 
  []
 
 
-Overfull \hbox (1.17621pt too wide) in paragraph at lines 800--800
+Overfull \hbox (1.17621pt too wide) in paragraph at lines 823--823
 []\T1/cmr/m/n/10.95 9| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 802--802
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 827--827
 []\T1/cmr/m/n/10.95 10| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 804--804
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 831--831
 []\T1/cmr/m/n/10.95 11| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 806--806
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 835--835
 []\T1/cmr/m/n/10.95 12| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 808--808
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 839--839
 []\T1/cmr/m/n/10.95 13| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 810--810
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 843--843
 []\T1/cmr/m/n/10.95 14| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 812--812
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 847--847
 []\T1/cmr/m/n/10.95 15| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 814--814
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 851--851
 []\T1/cmr/m/n/10.95 16| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 816--816
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 855--855
 []\T1/cmr/m/n/10.95 17| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 818--818
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 859--859
 []\T1/cmr/m/n/10.95 18| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 820--820
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 863--863
 []\T1/cmr/m/n/10.95 19| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 822--822
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 867--867
 []\T1/cmr/m/n/10.95 20| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 824--824
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 871--871
 []\T1/cmr/m/n/10.95 21| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 826--826
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 875--875
 []\T1/cmr/m/n/10.95 22| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 828--828
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 879--879
 []\T1/cmr/m/n/10.95 23| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 830--830
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 883--883
 []\T1/cmr/m/n/10.95 24| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 832--832
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 887--887
 []\T1/cmr/m/n/10.95 25| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 834--834
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 891--891
 []\T1/cmr/m/n/10.95 26| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 836--836
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 895--895
 []\T1/cmr/m/n/10.95 27| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 838--838
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 899--899
 []\T1/cmr/m/n/10.95 28| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 840--840
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 903--903
 []\T1/cmr/m/n/10.95 29| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 842--842
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 907--907
 []\T1/cmr/m/n/10.95 30| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 844--844
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 911--911
 []\T1/cmr/m/n/10.95 31| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 846--846
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 915--915
 []\T1/cmr/m/n/10.95 32| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 848--848
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 919--919
 []\T1/cmr/m/n/10.95 33| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 850--850
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 923--923
 []\T1/cmr/m/n/10.95 34| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 852--852
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 927--927
 []\T1/cmr/m/n/10.95 35| 
  []
 
 
-Overfull \hbox (30.45134pt too wide) in paragraph at lines 783--854
+Overfull \hbox (30.45134pt too wide) in paragraph at lines 781--929
  [] 
  []
 
-[53]
-Overfull \hbox (10.47418pt too wide) in paragraph at lines 854--854
+[45]
+Overfull \hbox (10.47418pt too wide) in paragraph at lines 929--929
 []$\OML/cmm/m/it/10.95 N[]$| 
  []
 
 
-Overfull \hbox (16.0821pt too wide) in paragraph at lines 854--854
+Overfull \hbox (16.0821pt too wide) in paragraph at lines 929--929
 []\T1/cmr/bx/n/10.95 distance| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 854--854
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 931--931
 []\T1/cmr/m/n/10.95 36| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 856--856
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 935--935
 []\T1/cmr/m/n/10.95 37| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 858--858
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 939--939
 []\T1/cmr/m/n/10.95 38| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 860--860
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 943--943
 []\T1/cmr/m/n/10.95 39| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 862--862
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 947--947
 []\T1/cmr/m/n/10.95 40| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 864--864
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 951--951
 []\T1/cmr/m/n/10.95 41| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 866--866
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 955--955
 []\T1/cmr/m/n/10.95 42| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 868--868
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 959--959
 []\T1/cmr/m/n/10.95 43| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 870--870
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 963--963
 []\T1/cmr/m/n/10.95 44| 
  []
 
 
-Overfull \hbox (6.62015pt too wide) in paragraph at lines 872--872
+Overfull \hbox (6.62015pt too wide) in paragraph at lines 967--967
 []\T1/cmr/m/n/10.95 45| 
  []
 
 
-Overfull \hbox (5.6633pt too wide) in paragraph at lines 875--875
+Overfull \hbox (5.6633pt too wide) in paragraph at lines 972--972
 []$[]$| 
  []
 
 
-Overfull \hbox (19.56346pt too wide) in paragraph at lines 854--877
+Overfull \hbox (19.56346pt too wide) in paragraph at lines 929--976
  [] 
  []
 
@@ -2238,318 +1947,282 @@ verted-to.pdf>
 (epstopdf)                    size: 18637 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/nombre_de_candidats_
 testees-eps-converted-to.pdf images/nombre_de_candidats_testees.eps>
-(epstopdf)             \includegraphics on input line 906.
+(epstopdf)             \includegraphics on input line 1005.
 Package epstopdf Info: Output file is already uptodate.
-<images/nombre_de_candidats_testees-eps-converted-to.pdf, id=1322, 502.87875pt 
+<images/nombre_de_candidats_testees-eps-converted-to.pdf, id=1145, 502.87875pt 
 x 484.81125pt>
 File: images/nombre_de_candidats_testees-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use images/nombre_de_candidats_testees-eps-converted-to.pdf>
 Package pdftex.def Info: images/nombre_de_candidats_testees-eps-converted-to.pd
-f  used on input line 906.
+f  used on input line 1005.
 (pdftex.def)             Requested size: 276.00099pt x 228.00186pt.
-[54]
-<images/tempsDeCalcul2.jpg, id=1331, 445.665pt x 293.59688pt>
+[46]
+<images/tempsDeCalcul2.jpg, id=1154, 445.665pt x 293.59688pt>
 File: images/tempsDeCalcul2.jpg Graphic file (type jpg)
 <use images/tempsDeCalcul2.jpg>
-Package pdftex.def Info: images/tempsDeCalcul2.jpg  used on input line 923.
+Package pdftex.def Info: images/tempsDeCalcul2.jpg  used on input line 1022.
 (pdftex.def)             Requested size: 264.00092pt x 179.99876pt.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.933 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/cd1.pdf, id=1334, 794.97pt x 614.295pt>
+<images/cd1.pdf, id=1157, 794.97pt x 614.295pt>
 File: images/cd1.pdf Graphic file (type pdf)
 <use images/cd1.pdf>
-Package pdftex.def Info: images/cd1.pdf  used on input line 943.
+Package pdftex.def Info: images/cd1.pdf  used on input line 1042.
 (pdftex.def)             Requested size: 262.34091pt x 202.71797pt.
-[55 <./images/nombre_de_candidats_testees-eps-converted-to.pdf>] [56 <./images/
-tempsDeCalcul2.jpg> <./images/cd1.pdf>]
-Overfull \hbox (24.73973pt too wide) in paragraph at lines 954--955
+ [47 <./images/nombre_de_candidats_testees-eps-converted-to.pdf>] [48 <./images
+/tempsDeCalcul2.jpg> <./images/cd1.pdf>]
+Overfull \hbox (24.73973pt too wide) in paragraph at lines 1053--1054
 \T1/cmr/m/n/12 namely: SVMQ, RANDF, ROTF, MLP, EU-CLIDEAN_1_NN, DDTW_R1_1NN,
  []
 
-<images/c1.pdf, id=1364, 794.97pt x 614.295pt>
+<images/c1.pdf, id=1188, 794.97pt x 614.295pt>
 File: images/c1.pdf Graphic file (type pdf)
 <use images/c1.pdf>
-Package pdftex.def Info: images/c1.pdf  used on input line 968.
+Package pdftex.def Info: images/c1.pdf  used on input line 1067.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c2.pdf, id=1365, 794.97pt x 614.295pt>
+<images/c2.pdf, id=1189, 794.97pt x 614.295pt>
 File: images/c2.pdf Graphic file (type pdf)
 <use images/c2.pdf>
-Package pdftex.def Info: images/c2.pdf  used on input line 969.
+Package pdftex.def Info: images/c2.pdf  used on input line 1068.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c3.pdf, id=1366, 794.97pt x 614.295pt>
+<images/c3.pdf, id=1190, 794.97pt x 614.295pt>
 File: images/c3.pdf Graphic file (type pdf)
 <use images/c3.pdf>
-Package pdftex.def Info: images/c3.pdf  used on input line 970.
+Package pdftex.def Info: images/c3.pdf  used on input line 1069.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c4.pdf, id=1367, 794.97pt x 614.295pt>
+<images/c4.pdf, id=1191, 794.97pt x 614.295pt>
 File: images/c4.pdf Graphic file (type pdf)
 <use images/c4.pdf>
-Package pdftex.def Info: images/c4.pdf  used on input line 971.
+Package pdftex.def Info: images/c4.pdf  used on input line 1070.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c5.pdf, id=1368, 794.97pt x 614.295pt>
+<images/c5.pdf, id=1192, 794.97pt x 614.295pt>
 File: images/c5.pdf Graphic file (type pdf)
 <use images/c5.pdf>
-Package pdftex.def Info: images/c5.pdf  used on input line 972.
+Package pdftex.def Info: images/c5.pdf  used on input line 1071.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c6.pdf, id=1369, 794.97pt x 614.295pt>
+<images/c6.pdf, id=1193, 794.97pt x 614.295pt>
 File: images/c6.pdf Graphic file (type pdf)
 <use images/c6.pdf>
-Package pdftex.def Info: images/c6.pdf  used on input line 973.
+Package pdftex.def Info: images/c6.pdf  used on input line 1072.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c7.pdf, id=1370, 794.97pt x 614.295pt>
+<images/c7.pdf, id=1194, 794.97pt x 614.295pt>
 File: images/c7.pdf Graphic file (type pdf)
 <use images/c7.pdf>
-Package pdftex.def Info: images/c7.pdf  used on input line 974.
+Package pdftex.def Info: images/c7.pdf  used on input line 1073.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-<images/c8.pdf, id=1371, 794.97pt x 614.295pt>
+<images/c8.pdf, id=1195, 794.97pt x 614.295pt>
 File: images/c8.pdf Graphic file (type pdf)
 <use images/c8.pdf>
-Package pdftex.def Info: images/c8.pdf  used on input line 975.
+Package pdftex.def Info: images/c8.pdf  used on input line 1074.
 (pdftex.def)             Requested size: 79.50165pt x 61.43309pt.
-[57 <./images/c1.pdf> <./images/c2.pdf> <./images/c3.pdf> <./images/c4.pdf> <./
+[49 <./images/c1.pdf> <./images/c2.pdf> <./images/c3.pdf> <./images/c4.pdf> <./
 images/c5.pdf> <./images/c6.pdf> <./images/c7.pdf> <./images/c8.pdf>]
-Overfull \hbox (61.91588pt too wide) in paragraph at lines 996--1010
+Overfull \hbox (12.79997pt too wide) in paragraph at lines 1101--1117
  [][] 
  []
 
-) (chapitre3/chapitre3.tex [58]
-Chapter 4.
+) (chapitre3/chapitre3.tex [50]
+Chapter 3.
 
-Overfull \hbox (4.7072pt too wide) in paragraph at lines 17--19
+Overfull \hbox (4.7072pt too wide) in paragraph at lines 18--20
 \T1/cmr/m/n/12 tance func-tions [[], [], [],
  []
 
-[59
+[51
 
 ]
-<images/exemple_shapelet.png, id=1442, 327.47343pt x 132.495pt>
+<images/exemple_shapelet.png, id=1265, 327.47343pt x 132.495pt>
 File: images/exemple_shapelet.png Graphic file (type png)
 <use images/exemple_shapelet.png>
-Package pdftex.def Info: images/exemple_shapelet.png  used on input line 27.
+Package pdftex.def Info: images/exemple_shapelet.png  used on input line 28.
 (pdftex.def)             Requested size: 212.85521pt x 86.12071pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 28--28
+Underfull \hbox (badness 1337) in paragraph at lines 29--29
 \T1/cmr/m/n/12 the Eu-clidean dis-tance(left), and on the other hand the u-shap
 elet (right)
  []
 
-[60 <./images/exemple_shapelet.png>] [61]
-Overfull \hbox (4.97197pt too wide) in paragraph at lines 105--108
+[52 <./images/exemple_shapelet.png>] [53]
+Overfull \hbox (4.97197pt too wide) in paragraph at lines 106--109
 []\T1/cmr/m/n/12 Clustering time se-ries with u-shapelets has sev-eral ad-van-t
 ages. Firstly, u-shapelets
  []
 
-[62]
-<images/multiset2.pdf, id=1479, 584.48422pt x 489.51624pt>
+[54]
+<images/multiset2.pdf, id=1303, 584.48422pt x 489.51624pt>
 File: images/multiset2.pdf Graphic file (type pdf)
 <use images/multiset2.pdf>
-Package pdftex.def Info: images/multiset2.pdf  used on input line 157.
+Package pdftex.def Info: images/multiset2.pdf  used on input line 158.
 (pdftex.def)             Requested size: 233.78954pt x 195.80301pt.
-<images/pdf2.pdf, id=1481, 584.48422pt x 432.41548pt>
+<images/pdf2.pdf, id=1305, 584.48422pt x 432.41548pt>
 File: images/pdf2.pdf Graphic file (type pdf)
 <use images/pdf2.pdf>
-Package pdftex.def Info: images/pdf2.pdf  used on input line 166.
+Package pdftex.def Info: images/pdf2.pdf  used on input line 167.
 (pdftex.def)             Requested size: 233.78954pt x 172.96312pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63 <./images/multiset2.pdf>] [64 <./images/pdf2.pdf>]
-Overfull \hbox (21.26678pt too wide) in paragraph at lines 231--233
+[55 <./images/multiset2.pdf>] [56 <./images/pdf2.pdf>]
+<images/bhattacharyya.png, id=1377, 590.95781pt x 402.00188pt>
+File: images/bhattacharyya.png Graphic file (type png)
+<use images/bhattacharyya.png>
+Package pdftex.def Info: images/bhattacharyya.png  used on input line 232.
+(pdftex.def)             Requested size: 236.37894pt x 160.7979pt.
+ [57] [58 <./images/bhattacharyya.png>] [59]
+Overfull \hbox (21.26678pt too wide) in paragraph at lines 390--392
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[] \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 Y[]\O
 T1/cmr/m/n/12 )[]\OML/cmm/m/it/12 :$ \T1/cmr/m/n/12 Ac-cord-ing to the cen-tral
  limit the-o-rem [[]],
  []
 
-[65]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.246 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (10.91618pt too wide) in paragraph at lines 264--265
+[60]
+Overfull \hbox (10.91618pt too wide) in paragraph at lines 422--423
 []\T1/cmr/m/n/12 PROUDS de-fines the dis-tance be-tween two nor-mal-ized time s
 e-ries $[] \OT1/cmr/m/n/12 =\OML/cmm/m/it/12 < []:::[] >$
  []
 
 
-Overfull \hbox (1.45937pt too wide) in paragraph at lines 275--278
- []\T1/cmr/bx/n/12 Uncertain Cor-re-la-tion[] \T1/cmr/m/n/12 [[]] : Cor-re-la-t
-ion anal-y-sis tech-niques
+Overfull \hbox (1.45937pt too wide) in paragraph at lines 432--435
+ [][] \T1/cmr/bx/n/12 Un-cer-tain Cor-re-la-tion \T1/cmr/m/n/12 [[]]: Cor-re-la
+-tion anal-y-sis tech-niques
  []
 
-[66] [67]
-<images/loco2.pdf, id=1595, 584.48422pt x 175.63116pt>
+[61] [62]
+<images/loco2.pdf, id=1464, 584.48422pt x 175.63116pt>
 File: images/loco2.pdf Graphic file (type pdf)
 <use images/loco2.pdf>
-Package pdftex.def Info: images/loco2.pdf  used on input line 344.
+Package pdftex.def Info: images/loco2.pdf  used on input line 502.
 (pdftex.def)             Requested size: 409.13615pt x 122.94096pt.
+ [63 <./images/loco2.pdf>] [64]
 
-Overfull \hbox (14.2698pt too wide) in paragraph at lines 351--354
-\T1/cmr/m/n/12 mean of time se-ries data point is zero. This could be eas-ily a
-chieve with z-normalization.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[65]
+Underfull \vbox (badness 3895) has occurred while \output is active []
+
+ [66]
+Overfull \hbox (5.4294pt too wide) in paragraph at lines 697--698
+\T1/cmr/m/n/12 Similarly to [[]], we tested FOTS-SUSh on 17 real world datasets
+
  []
 
-[68 <./images/loco2.pdf>] [69]
-! Undefined control sequence.
-<recently read> \nicefrac 
-                          
-l.452 \caption
-              {ComputeOrderline}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+[67]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[70]
-Underfull \vbox (badness 1571) has occurred while \output is active []
-
- [71]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[73]
-<images/temps_ED_FOTS.png, id=1706, 562.1pt x 421.575pt>
+[68]
+<images/temps_ED_FOTS.png, id=1572, 562.1pt x 421.575pt>
 File: images/temps_ED_FOTS.png Graphic file (type png)
 <use images/temps_ED_FOTS.png>
-Package pdftex.def Info: images/temps_ED_FOTS.png  used on input line 624.
+Package pdftex.def Info: images/temps_ED_FOTS.png  used on input line 788.
 (pdftex.def)             Requested size: 281.04932pt x 210.78697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[74]
-Overfull \hbox (69.7556pt too wide) in paragraph at lines 637--650
+[69]
+<images/noisy_time_series.png, id=1582, 484.81125pt x 389.95688pt>
+File: images/noisy_time_series.png Graphic file (type png)
+<use images/noisy_time_series.png>
+Package pdftex.def Info: images/noisy_time_series.png  used on input line 798.
+(pdftex.def)             Requested size: 387.84952pt x 311.96591pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70 <./images/temps_ED_FOTS.png>] [71 <./images/noisy_time_series.png>]
+Overfull \hbox (12.79997pt too wide) in paragraph at lines 818--832
  [][] 
  []
 
-) (chapitre4/chapitre4.tex [75 <./images/temps_ED_FOTS.png>] [76]
-Chapter 5.
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \end{abstract}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/sax-p/cycliqueTS.pdf, id=1724, 794.97pt x 614.295pt>
+) (chapitre4/chapitre4.tex [72]
+Chapter 4.
+<images/sax-p/cycliqueTS.pdf, id=1600, 794.97pt x 614.295pt>
 File: images/sax-p/cycliqueTS.pdf Graphic file (type pdf)
 <use images/sax-p/cycliqueTS.pdf>
-Package pdftex.def Info: images/sax-p/cycliqueTS.pdf  used on input line 30.
+Package pdftex.def Info: images/sax-p/cycliqueTS.pdf  used on input line 29.
 (pdftex.def)             Requested size: 317.98236pt x 245.71364pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sax-p/cycle_prop.jpg, id=1727, 340.27126pt x 555.57562pt>
+<images/sax-p/cycle_prop.jpg, id=1603, 340.27126pt x 555.57562pt>
 File: images/sax-p/cycle_prop.jpg Graphic file (type jpg)
 <use images/sax-p/cycle_prop.jpg>
-Package pdftex.def Info: images/sax-p/cycle_prop.jpg  used on input line 42.
+Package pdftex.def Info: images/sax-p/cycle_prop.jpg  used on input line 41.
 (pdftex.def)             Requested size: 136.10608pt x 222.2263pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[77
+[73
 
 ]
-<images/sax-p/paa.png, id=1741, 1020.06094pt x 448.67625pt>
+<images/sax-p/paa.png, id=1616, 1020.06094pt x 448.67625pt>
 File: images/sax-p/paa.png Graphic file (type png)
 <use images/sax-p/paa.png>
-Package pdftex.def Info: images/sax-p/paa.png  used on input line 67.
+Package pdftex.def Info: images/sax-p/paa.png  used on input line 66.
 (pdftex.def)             Requested size: 408.01715pt x 179.46732pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sax-p/sax2.png, id=1745, 650.43pt x 286.82156pt>
+<images/sax-p/sax2.png, id=1620, 650.43pt x 286.82156pt>
 File: images/sax-p/sax2.png Graphic file (type png)
 <use images/sax-p/sax2.png>
-Package pdftex.def Info: images/sax-p/sax2.png  used on input line 87.
+Package pdftex.def Info: images/sax-p/sax2.png  used on input line 86.
 (pdftex.def)             Requested size: 390.261pt x 172.09425pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[78 <./images/sax-p/cycliqueTS.pdf>]
-<images/sax-p/Esax.png, id=1763, 650.43pt x 286.82156pt>
+[74 <./images/sax-p/cycliqueTS.pdf>]
+<images/sax-p/Esax.png, id=1638, 650.43pt x 286.82156pt>
 File: images/sax-p/Esax.png Graphic file (type png)
 <use images/sax-p/Esax.png>
-Package pdftex.def Info: images/sax-p/Esax.png  used on input line 112.
+Package pdftex.def Info: images/sax-p/Esax.png  used on input line 111.
 (pdftex.def)             Requested size: 390.261pt x 172.09425pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sax-p/Sax-td.png, id=1766, 1019.30812pt x 458.46281pt>
+<images/sax-p/Sax-td.png, id=1641, 1019.30812pt x 458.46281pt>
 File: images/sax-p/Sax-td.png Graphic file (type png)
 <use images/sax-p/Sax-td.png>
-Package pdftex.def Info: images/sax-p/Sax-td.png  used on input line 123.
+Package pdftex.def Info: images/sax-p/Sax-td.png  used on input line 122.
 (pdftex.def)             Requested size: 407.71602pt x 183.38187pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sax-p/unD_sax.png, id=1767, 1020.06094pt x 460.72125pt>
+<images/sax-p/unD_sax.png, id=1642, 1020.06094pt x 460.72125pt>
 File: images/sax-p/unD_sax.png Graphic file (type png)
 <use images/sax-p/unD_sax.png>
-Package pdftex.def Info: images/sax-p/unD_sax.png  used on input line 130.
+Package pdftex.def Info: images/sax-p/unD_sax.png  used on input line 129.
 (pdftex.def)             Requested size: 408.01715pt x 184.28523pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[79 <./images/sax-p/cycle_prop.jpg>] [80 <./images/sax-p/paa.png> <./images/sax
+[75 <./images/sax-p/cycle_prop.jpg>] [76 <./images/sax-p/paa.png> <./images/sax
 -p/sax2.png>]
-<images/sax-p/sax-p_deplacement_seuil.png, id=1790, 692.5875pt x 416.55624pt>
+<images/sax-p/sax-p_deplacement_seuil.png, id=1665, 692.5875pt x 416.55624pt>
 File: images/sax-p/sax-p_deplacement_seuil.png Graphic file (type png)
 <use images/sax-p/sax-p_deplacement_seuil.png>
 Package pdftex.def Info: images/sax-p/sax-p_deplacement_seuil.png  used on inpu
-t line 162.
+t line 161.
 (pdftex.def)             Requested size: 277.03009pt x 166.61954pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sax-p/sax-p_deplacement32_thesee.png, id=1792, 693.59125pt x 366.36874p
+<images/sax-p/sax-p_deplacement32_thesee.png, id=1667, 693.59125pt x 366.36874p
 t>
 File: images/sax-p/sax-p_deplacement32_thesee.png Graphic file (type png)
 <use images/sax-p/sax-p_deplacement32_thesee.png>
 Package pdftex.def Info: images/sax-p/sax-p_deplacement32_thesee.png  used on i
-nput line 171.
+nput line 170.
 (pdftex.def)             Requested size: 277.43158pt x 146.54489pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2557,318 +2230,861 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81 <./images/sax-p/Esax.png> <./images/sax-p/Sax-td.png>]
-<images/sax-p/sax-p_deplacement_property.png, id=1802, 693.59125pt x 366.36874p
+ [77 <./images/sax-p/Esax.png> <./images/sax-p/Sax-td.png>]
+<images/sax-p/sax-p_deplacement_property.png, id=1678, 693.59125pt x 366.36874p
 t>
 File: images/sax-p/sax-p_deplacement_property.png Graphic file (type png)
 <use images/sax-p/sax-p_deplacement_property.png>
 Package pdftex.def Info: images/sax-p/sax-p_deplacement_property.png  used on i
-nput line 189.
+nput line 188.
 (pdftex.def)             Requested size: 277.43158pt x 146.54489pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/sax-p/regroupement.png, id=1805, 1007.26312pt x 499.11469pt>
+<images/sax-p/regroupement.png, id=1681, 1007.26312pt x 499.11469pt>
 File: images/sax-p/regroupement.png Graphic file (type png)
 <use images/sax-p/regroupement.png>
-Package pdftex.def Info: images/sax-p/regroupement.png  used on input line 200.
+Package pdftex.def Info: images/sax-p/regroupement.png  used on input line 199.
 
 (pdftex.def)             Requested size: 402.89812pt x 199.64232pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82 <./images/sax-p/unD_sax.png> <./images/sax-p/sax-p_deplacement_seuil.png>]
-<images/sax-p/representionSymbolique2_t.png, id=1819, 916.42375pt x 545.03625pt
+[78 <./images/sax-p/unD_sax.png> <./images/sax-p/sax-p_deplacement_seuil.png>]
+<images/sax-p/representionSymbolique2_t.png, id=1695, 916.42375pt x 545.03625pt
 >
 File: images/sax-p/representionSymbolique2_t.png Graphic file (type png)
 <use images/sax-p/representionSymbolique2_t.png>
 Package pdftex.def Info: images/sax-p/representionSymbolique2_t.png  used on in
-put line 212.
+put line 211.
 (pdftex.def)             Requested size: 366.563pt x 218.01064pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[83 <./images/sax-p/sax-p_deplacement32_thesee.png> <./images/sax-p/sax-p_depla
+[79 <./images/sax-p/sax-p_deplacement32_thesee.png> <./images/sax-p/sax-p_depla
 cement_property.png>]
-
-LaTeX Warning: Citation `Validation' on page 84 undefined on input line 383.
-
-[84 <./images/sax-p/regroupement.png>] [85]
-Overfull \hbox (24.24152pt too wide) in paragraph at lines 401--422
- [][] 
- []
-
-) (chapitre5/chapitre5.tex [86 <./images/sax-p/representionSymbolique2_t.png>]
-[87] [88
-
-]
-Chapter 6.
-<images/capteur_tri_axe.png, id=1862, 1106.1325pt x 542.025pt>
-File: images/capteur_tri_axe.png Graphic file (type png)
-<use images/capteur_tri_axe.png>
-Package pdftex.def Info: images/capteur_tri_axe.png  used on input line 12.
-(pdftex.def)             Requested size: 442.44516pt x 216.80615pt.
-
-Overfull \hbox (15.65381pt too wide) in paragraph at lines 12--13
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
- [89]
-<images/TSMWC.png, id=1870, 563.10374pt x 421.575pt>
+<images/TSMWC.png, id=1711, 563.10374pt x 421.575pt>
 File: images/TSMWC.png Graphic file (type png)
 <use images/TSMWC.png>
-Package pdftex.def Info: images/TSMWC.png  used on input line 27.
+Package pdftex.def Info: images/TSMWC.png  used on input line 267.
 (pdftex.def)             Requested size: 281.55118pt x 210.78697pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mz_left_wheel.png, id=1872, 456.2646pt x 265.9536pt>
-File: images/mz_left_wheel.png Graphic file (type png)
-<use images/mz_left_wheel.png>
-Package pdftex.def Info: images/mz_left_wheel.png  used on input line 39.
-(pdftex.def)             Requested size: 273.76086pt x 159.57338pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[90 <./images/capteur_tri_axe.png>]
-<images/TSN.png, id=1880, 578.6418pt x 434.1018pt>
+[80 <./images/sax-p/regroupement.png>]
+<images/TSN.png, id=1721, 578.6418pt x 434.1018pt>
 File: images/TSN.png Graphic file (type png)
 <use images/TSN.png>
-Package pdftex.def Info: images/TSN.png  used on input line 49.
+Package pdftex.def Info: images/TSN.png  used on input line 286.
 (pdftex.def)             Requested size: 289.32019pt x 217.05037pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[91 <./images/TSMWC.png>]
-<images/residus.png, id=1892, 604.50844pt x 362.85562pt>
+[81 <./images/sax-p/representionSymbolique2_t.png>]
+<images/residus.png, id=1735, 604.50844pt x 362.85562pt>
 File: images/residus.png Graphic file (type png)
 <use images/residus.png>
-Package pdftex.def Info: images/residus.png  used on input line 62.
+Package pdftex.def Info: images/residus.png  used on input line 295.
 (pdftex.def)             Requested size: 302.25348pt x 181.42737pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92 <./images/mz_left_wheel.png>] [93 <./images/TSN.png (PNG copy)>]
-Overfull \hbox (23.16434pt too wide) in alignment at lines 95--98
+[82 <./images/TSMWC.png>]
+Overfull \hbox (23.16434pt too wide) in alignment at lines 314--317
  [] [] [] 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 98--107
+Overfull \hbox (23.16434pt too wide) in alignment at lines 317--326
  [] [] [] 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 107--113
+Overfull \hbox (23.16434pt too wide) in alignment at lines 326--332
  [] [] [] 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 113--119
+Overfull \hbox (23.16434pt too wide) in alignment at lines 332--338
  [] [] [] 
  []
 
 
-Overfull \hbox (29.12341pt too wide) in paragraph at lines 123--123
+Overfull \hbox (29.12341pt too wide) in paragraph at lines 342--342
 []|\T1/cmr/m/n/12 AAAAAAAAAAAAA| 
  []
 
 
-Overfull \hbox (20.31723pt too wide) in paragraph at lines 124--124
+Overfull \hbox (20.31723pt too wide) in paragraph at lines 343--343
 []|\T1/cmr/m/n/12 AAAAAAAAAAAA| 
  []
 
 
-Overfull \hbox (11.51105pt too wide) in paragraph at lines 125--125
+Overfull \hbox (11.51105pt too wide) in paragraph at lines 344--344
 []|\T1/cmr/m/n/12 AAAAAAAAAAA| 
  []
 
 
-Overfull \hbox (11.51105pt too wide) in paragraph at lines 126--126
+Overfull \hbox (11.51105pt too wide) in paragraph at lines 345--345
 []|\T1/cmr/m/n/12 AAAAAAAAAAA| 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 119--141
+Overfull \hbox (23.16434pt too wide) in alignment at lines 338--360
  [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 141
+Underfull \vbox (badness 10000) detected at line 360
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 141--161
+Overfull \hbox (23.16434pt too wide) in alignment at lines 360--380
  [] [] [] 
  []
 
-[94 <./images/residus.png>]
-Overfull \hbox (23.16434pt too wide) in alignment at lines 161--181
+[83 <./images/TSN.png (PNG copy)>]
+Overfull \hbox (23.16434pt too wide) in alignment at lines 380--400
  [] [] [] 
  []
 
 
-Overfull \hbox (3.20891pt too wide) in paragraph at lines 197--197
+Overfull \hbox (3.20891pt too wide) in paragraph at lines 416--416
 []|\T1/cmr/m/n/12 DDDADDDDAA| 
  []
 
 
-Overfull \hbox (2.39105pt too wide) in paragraph at lines 198--198
+Overfull \hbox (2.39105pt too wide) in paragraph at lines 417--417
 []|\T1/cmr/m/n/12 BDDDDAADAA| 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 181--201
+Overfull \hbox (23.16434pt too wide) in alignment at lines 400--420
  [] [] [] 
  []
 
-[95]
-Overfull \hbox (2.54796pt too wide) in paragraph at lines 209--209
+[84]
+Overfull \hbox (2.54796pt too wide) in paragraph at lines 428--428
 []|\T1/cmr/m/n/12 DDAADAAAAA| 
  []
 
 
-Overfull \hbox (21.31282pt too wide) in paragraph at lines 210--210
+Overfull \hbox (21.31282pt too wide) in paragraph at lines 429--429
 []|\T1/cmr/m/n/12 AADDDDDDDDAA| 
  []
 
 
-Overfull \hbox (2.88676pt too wide) in paragraph at lines 212--212
+Overfull \hbox (2.88676pt too wide) in paragraph at lines 431--431
 []|\T1/cmr/m/n/12 DDADDDCDDA| 
  []
 
 
-Overfull \hbox (2.87843pt too wide) in paragraph at lines 214--214
+Overfull \hbox (2.87843pt too wide) in paragraph at lines 433--433
 []|\T1/cmr/m/n/12 AADDDDADAA| 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 201--221
+Overfull \hbox (23.16434pt too wide) in alignment at lines 420--440
  [] [] [] 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 221--241
+Overfull \hbox (23.16434pt too wide) in alignment at lines 440--460
  [] [] [] 
  []
 
-[96]
-Overfull \hbox (20.16449pt too wide) in paragraph at lines 249--249
+[85]
+Overfull \hbox (20.16449pt too wide) in paragraph at lines 468--468
 []|\T1/cmr/m/n/12 DDAADADDAAAA| 
  []
 
 
-Overfull \hbox (21.64746pt too wide) in paragraph at lines 250--250
+Overfull \hbox (21.64746pt too wide) in paragraph at lines 469--469
 []|\T1/cmr/m/n/12 DBDDDDDDDDDD| 
  []
 
 
-Overfull \hbox (23.16434pt too wide) in alignment at lines 241--256
+Overfull \hbox (23.16434pt too wide) in alignment at lines 460--475
  [] [] [] 
  []
 
-[97]
-Underfull \vbox (badness 4739) has occurred while \output is active []
-
- [98]
-[99]
-Overfull \hbox (12.24084pt too wide) in paragraph at lines 301--316
+[86] [87] [88 <./images/residus.png>]
+Overfull \hbox (12.24084pt too wide) in paragraph at lines 516--531
  [][] 
  []
 
-[100
+[89
+
+] [90
 
 ]
-! Undefined control sequence.
-<recently read> \paralleld 
-                           
-l.355 Where $.$ is the dot product and $\paralleld
-                                                  \parallel$ is the norm of ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[101
-
-]
-Overfull \hbox (32.53426pt too wide) in paragraph at lines 393--407
+Overfull \hbox (32.53426pt too wide) in paragraph at lines 610--624
  [][] 
  []
 
-<images/histogramme_sujets_frm.png, id=1952, 397.485pt x 407.27156pt>
+<images/histogramme_sujets_frm.png, id=1792, 397.485pt x 407.27156pt>
 File: images/histogramme_sujets_frm.png Graphic file (type png)
 <use images/histogramme_sujets_frm.png>
 Package pdftex.def Info: images/histogramme_sujets_frm.png  used on input line 
-416.
+632.
 (pdftex.def)             Requested size: 238.49283pt x 244.3648pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[102]
-Underfull \vbox (badness 2735) has occurred while \output is active []
+[91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103 <./images/histogramme_sujets_frm.png>]
-<images/arbre_physio_motor.png, id=1966, 356.83313pt x 309.40594pt>
-File: images/arbre_physio_motor.png Graphic file (type png)
-<use images/arbre_physio_motor.png>
-Package pdftex.def Info: images/arbre_physio_motor.png  used on input line 437.
-
-(pdftex.def)             Requested size: 214.10152pt x 185.64499pt.
- [104 <./images/arbre_physio_motor.png>]
-Overfull \hbox (42.63713pt too wide) in paragraph at lines 453--464
+ [92 <./images/histogramme_sujets_frm.png>]
+Overfull \hbox (12.79997pt too wide) in paragraph at lines 657--678
  [][] 
  []
 
-) (conclusion/conclusion.tex [105] [106
+) (conclusion/conclusion.tex [93] [94
 
-] [107]
-Overfull \hbox (3.09306pt too wide) in paragraph at lines 12--12
-[][]\T1/cmr/bx/n/14.4 Multidimensionality for a bet-ter char-ac-ter-i-za-tion o
-f the propul-
- []
-
-) [108] (annexes/annexe1.tex
-Appendix A.
-[109
-
+] [95] [96]) [97] [98
 
 ]
-<images/bhattacharyya.png, id=2010, 590.95781pt x 402.00188pt>
-File: images/bhattacharyya.png Graphic file (type png)
-<use images/bhattacharyya.png>
-Package pdftex.def Info: images/bhattacharyya.png  used on input line 36.
-(pdftex.def)             Requested size: 236.37894pt x 160.7979pt.
- [110 <./images/bhattacharyya.png>] [111]) (annexes/annexe2.tex [112]
+(annexes/annexe1.tex
+Appendix A.
+
+Overfull \hbox (20.6563pt too wide) in paragraph at lines 9--10
+\T1/cmr/m/n/12 Man-ual WheelChair (MWC) can lead to spe-cific in-juries and pai
+ns [[]],
+ []
+
+[99
+
+]
+
+LaTeX Warning: Reference `dabonneville2005self' on page 100 undefined on input 
+line 21.
+
+[100]
+<images/WAFT.png, id=1898, 9.61688pt x 6.80638pt>
+File: images/WAFT.png Graphic file (type png)
+<use images/WAFT.png>
+Package pdftex.def Info: images/WAFT.png  used on input line 45.
+(pdftex.def)             Requested size: 240.42091pt x 170.15877pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/12 Figure A.1: |Wheelchair Aer-o-bic Fit-ness Trainer (WAFT) pho-
+to-graph
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[101]
+Overfull \hbox (38.71692pt too wide) in paragraph at lines 51--51
+[]\T1/cmr/m/n/12 [[]], tachome-ters [[]] [[]] [[]] 
+ []
+
+
+Overfull \hbox (34.78595pt too wide) in paragraph at lines 51--52
+[]\T1/cmr/m/n/12 [[]] or speedome-ters [[]] [[]]
+ []
+
+<images/FRER.jpg, id=1957, 8.73741pt x 6.2328pt>
+File: images/FRER.jpg Graphic file (type jpg)
+<use images/FRER.jpg>
+Package pdftex.def Info: images/FRER.jpg  used on input line 55.
+(pdftex.def)             Requested size: 218.43452pt x 155.81932pt.
+[102 <./images/WAFT.png> <./images/FRER.jpg>]
+<images/tapi_roulant.jpg, id=1975, 5.3151pt x 3.97676pt>
+File: images/tapi_roulant.jpg Graphic file (type jpg)
+<use images/tapi_roulant.jpg>
+Package pdftex.def Info: images/tapi_roulant.jpg  used on input line 67.
+(pdftex.def)             Requested size: 212.60254pt x 159.06921pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\T1/cmr/m/n/12 Figure A.3: |Ex-er-cise test-ing on a mo-tor driven tread-mill
+
+ []
+
+[103 <./images/tapi_roulant.jpg>]
+<images/SFR.png, id=1984, 7.6285pt x 5.73572pt>
+File: images/SFR.png Graphic file (type png)
+<use images/SFR.png>
+Package pdftex.def Info: images/SFR.png  used on input line 77.
+(pdftex.def)             Requested size: 228.85391pt x 172.07062pt.
+
+Overfull \hbox (82.39401pt too wide) in paragraph at lines 83--84
+\T1/cmr/m/n/12 (WWE or FRET-1) equipped with sev-eral sen-sors has been man-u-f
+ac-tured [[]].
+ []
+
+<images/FRET-2_Legend_GB.pdf, id=1989, 722.7pt x 542.025pt>
+File: images/FRET-2_Legend_GB.pdf Graphic file (type pdf)
+<use images/FRET-2_Legend_GB.pdf>
+Package pdftex.def Info: images/FRET-2_Legend_GB.pdf  used on input line 91.
+(pdftex.def)             Requested size: 289.07487pt x 216.80615pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+ [104 <./images/SFR.png>]
+<images/principle_six_component_sensor.png, id=1999, 543.02875pt x 447.6725pt>
+File: images/principle_six_component_sensor.png Graphic file (type png)
+<use images/principle_six_component_sensor.png>
+Package pdftex.def Info: images/principle_six_component_sensor.png  used on inp
+ut line 105.
+(pdftex.def)             Requested size: 217.20764pt x 179.06583pt.
+
+! Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.119 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\@caption \@captype }{\def \@currenvir {itemize}\edef \@currenvline \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.119 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[105 <./images/FRET-2_Legend_GB.pdf>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.142 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.142 
+      
+I'm guessing that you meant to end an alignment here.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.142 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $$ inserted.
+<to be read again> 
+                   \par 
+l.142 
+      
+Displays can use special alignments (like \eqalignno)
+only if nothing but the alignment itself is between $$'s.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.143 \overrightarrow{F}
+                        _{ext}=
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.153 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+\reserved@a ->&
+                & &
+l.156 \end{eqnarray}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+\reserved@a ->& &
+                  &
+l.156 \end{eqnarray}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+\reserved@a ->& & &
+                   
+l.156 \end{eqnarray}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\@@eqncr ...l \@eqnswtrue \global \@eqcnt \z@ \cr 
+                                                  
+l.156 \end{eqnarray}
+                    
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\H@endeqnarray ->\@@eqncr \egroup 
+                                  \global \advance \c@equation \m@ne $$\@ign...
+l.156 \end{eqnarray}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.156 \end{eqnarray}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.156 \end{eqnarray}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[106]
+Overfull \hbox (0.50859pt too wide) in paragraph at lines 169--171
+[]\T1/cmr/m/n/12 The doc-toral the-sis of Nico-las DE SAINT REMY (2005) [[]]
+ []
+
+<images/wheelchair_model2.png, id=2037, 465.99094pt x 210.7875pt>
+File: images/wheelchair_model2.png Graphic file (type png)
+<use images/wheelchair_model2.png>
+Package pdftex.def Info: images/wheelchair_model2.png  used on input line 174.
+(pdftex.def)             Requested size: 279.59671pt x 126.47346pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/squelette.pdf, id=2042, 412.54124pt x 540.51938pt>
+File: images/squelette.pdf Graphic file (type pdf)
+<use images/squelette.pdf>
+Package pdftex.def Info: images/squelette.pdf  used on input line 184.
+(pdftex.def)             Requested size: 206.27011pt x 270.25902pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[107]
+Overfull \hbox (2.46211pt too wide) in paragraph at lines 196--197
+[]\T1/cmr/m/n/12 In [[]] the au-thors pre-sented a model based on Bayesian
+ []
+
+) (annexes/annexe2.tex [108] [109 <./images/principle_six_component_sensor.png 
+(PNG copy)>] [110 <./images/wheelchair_model2.png> <./images/squelette.pdf>]
 Appendix B.
 
 Underfull \vbox (badness 1178) has occurred while \output is active []
 
- [113
+ [111
 
 ]
-<images/moyenne_des_segment1.jpg, id=2066, 361.35pt x 217.5628pt>
+<images/moyenne_des_segment1.jpg, id=2090, 361.35pt x 217.5628pt>
 File: images/moyenne_des_segment1.jpg Graphic file (type jpg)
 <use images/moyenne_des_segment1.jpg>
 Package pdftex.def Info: images/moyenne_des_segment1.jpg  used on input line 13
 .
 (pdftex.def)             Requested size: 216.81168pt x 130.53868pt.
-<images/moyenne_des_segment2.jpg, id=2067, 361.35pt x 217.5628pt>
+<images/moyenne_des_segment2.jpg, id=2091, 361.35pt x 217.5628pt>
 File: images/moyenne_des_segment2.jpg Graphic file (type jpg)
 <use images/moyenne_des_segment2.jpg>
 Package pdftex.def Info: images/moyenne_des_segment2.jpg  used on input line 13
@@ -2879,19 +3095,14 @@ Overfull \hbox (6.832pt too wide) in paragraph at lines 13--15
  [][][][] 
  []
 
-
-LaTeX Warning: Reference `problem' on page 114 undefined on input line 26.
-
-
-Underfull \vbox (badness 1371) has occurred while \output is active []
-
- [114 <./images/moyenne_des_segment1.jpg> <./images/moyenne_des_segment2.jpg>]
-<images/fordA_ecart-type.jpg, id=2083, 759.58781pt x 355.3275pt>
+[112 <./images/moyenne_des_segment1.jpg> <./images/moyenne_des_segment2.jpg>]
+<images/fordA_ecart-type.jpg, id=2108, 759.58781pt x 355.3275pt>
 File: images/fordA_ecart-type.jpg Graphic file (type jpg)
 <use images/fordA_ecart-type.jpg>
-Package pdftex.def Info: images/fordA_ecart-type.jpg  used on input line 56.
+Package pdftex.def Info: images/fordA_ecart-type.jpg  used on input line 64.
 (pdftex.def)             Requested size: 379.79297pt x 177.6633pt.
- [115 <./images/fordA_ecart-type.jpg>] [116]
+
+[113 <./images/fordA_ecart-type.jpg>] [114]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2899,7 +3110,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 \caption
+l.157 \caption
               {optimalNumberOfSegment}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2909,211 +3120,182 @@ or  <return>  to continue without it.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (0.24316pt too wide) in paragraph at lines 244--246
-\T1/cmr/m/n/12 The dy-namic time warp-ing al-go-rithm [[]] al-lows to carry
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \paragraph{Complexity of the algorithm}\\
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[115] [116]
+Overfull \hbox (43.97943pt too wide) in paragraph at lines 287--290
+\T1/cmr/m/n/12 recog-ni-tion, crypt-anal-y-sis, as-tron-omy, ex-plo-ration spac
+e [[]]. 
  []
 
-[117] [118]
-Overfull \hbox (15.50919pt too wide) in paragraph at lines 289--294
+
+Overfull \hbox (15.50919pt too wide) in paragraph at lines 301--306
 \T1/cmr/m/n/12 We per-formed tests on 85 datasets that come from the UCR databa
 se [[]]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []|\T1/cmr/bx/n/12 Size of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 \T1/cmr/bx/n/12 train-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []|\T1/cmr/bx/n/12 Size of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 []|\T1/cmr/bx/n/12 Size of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
 \T1/cmr/bx/n/12 train-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 []|\T1/cmr/bx/n/12 Size of
  []
 
 
-Underfull \vbox (badness 10000) detected at line 357
+Underfull \vbox (badness 10000) detected at line 369
  []
 
-[119] [120] [121]
-<images/erreur_dtw-reduit_euclid2.png, id=2174, 483.8075pt x 291.0875pt>
+[117] [118] [119]
+<images/erreur_dtw-reduit_euclid2.png, id=2206, 483.8075pt x 291.0875pt>
 File: images/erreur_dtw-reduit_euclid2.png Graphic file (type png)
 <use images/erreur_dtw-reduit_euclid2.png>
 Package pdftex.def Info: images/erreur_dtw-reduit_euclid2.png  used on input li
-ne 448.
+ne 460.
 (pdftex.def)             Requested size: 241.90315pt x 145.54338pt.
-<images/erreur_dtw-reduit_dtw(r)2.png, id=2175, 483.8075pt x 291.0875pt>
+<images/erreur_dtw-reduit_dtw(r)2.png, id=2207, 483.8075pt x 291.0875pt>
 File: images/erreur_dtw-reduit_dtw(r)2.png Graphic file (type png)
 <use images/erreur_dtw-reduit_dtw(r)2.png>
 Package pdftex.def Info: images/erreur_dtw-reduit_dtw(r)2.png  used on input li
-ne 449.
+ne 461.
 (pdftex.def)             Requested size: 241.90315pt x 145.54338pt.
 
-Overfull \hbox (60.93066pt too wide) in paragraph at lines 448--449
+Overfull \hbox (60.93066pt too wide) in paragraph at lines 460--461
  [][][] 
  []
 
-<images/erreur_dtw-reduit_dtw2.png, id=2176, 483.8075pt x 291.0875pt>
+<images/erreur_dtw-reduit_dtw2.png, id=2208, 483.8075pt x 291.0875pt>
 File: images/erreur_dtw-reduit_dtw2.png Graphic file (type png)
 <use images/erreur_dtw-reduit_dtw2.png>
 Package pdftex.def Info: images/erreur_dtw-reduit_dtw2.png  used on input line 
-450.
+462.
 (pdftex.def)             Requested size: 241.90315pt x 145.54338pt.
 
-Underfull \vbox (badness 10000) detected at line 502
+Underfull \vbox (badness 10000) detected at line 514
  []
 
-[122 <./images/erreur_dtw-reduit_euclid2.png> <./images/erreur_dtw-reduit_dtw(r
+[120 <./images/erreur_dtw-reduit_euclid2.png> <./images/erreur_dtw-reduit_dtw(r
 )2.png> <./images/erreur_dtw-reduit_dtw2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
 []|\T1/cmr/m/it/12 (0)
  []
 
-[123] [124] [125] [126]
+[121] [122] [123] [124]
 Appendix C.
-<images/box_plot.png, id=2212, 361.35pt x 289.08pt>
+! Undefined control sequence.
+l.628 \minitoc
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<images/box_plot.png, id=2243, 361.35pt x 289.08pt>
 File: images/box_plot.png Graphic file (type png)
 <use images/box_plot.png>
-Package pdftex.def Info: images/box_plot.png  used on input line 635.
+Package pdftex.def Info: images/box_plot.png  used on input line 646.
 (pdftex.def)             Requested size: 216.81168pt x 173.44933pt.
-<images/ampiric_pdf.png, id=2213, 551.05875pt x 359.84438pt>
+<images/ampiric_pdf.png, id=2244, 551.05875pt x 359.84438pt>
 File: images/ampiric_pdf.png Graphic file (type png)
 <use images/ampiric_pdf.png>
-Package pdftex.def Info: images/ampiric_pdf.png  used on input line 645.
+Package pdftex.def Info: images/ampiric_pdf.png  used on input line 656.
 (pdftex.def)             Requested size: 275.52869pt x 179.92174pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[127
+[125
 
- <./images/box_plot.png>] [128 <./images/ampiric_pdf.png>]
-<images/cauchy.png, id=2230, 361.35pt x 289.08pt>
+ <./images/box_plot.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[126 <./images/ampiric_pdf.png>]
+<images/cauchy.png, id=2263, 361.35pt x 289.08pt>
 File: images/cauchy.png Graphic file (type png)
 <use images/cauchy.png>
-Package pdftex.def Info: images/cauchy.png  used on input line 686.
-(pdftex.def)             Requested size: 252.94327pt x 202.35461pt.
-<images/student.png, id=2232, 361.35pt x 289.08pt>
+Package pdftex.def Info: images/cauchy.png  used on input line 697.
+(pdftex.def)             Requested size: 289.0804pt x 231.2643pt.
+<images/student.png, id=2265, 361.35pt x 289.08pt>
 File: images/student.png Graphic file (type png)
 <use images/student.png>
-Package pdftex.def Info: images/student.png  used on input line 695.
-(pdftex.def)             Requested size: 252.94327pt x 202.35461pt.
+Package pdftex.def Info: images/student.png  used on input line 706.
+(pdftex.def)             Requested size: 289.0804pt x 231.2643pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (14.3439pt too wide) in paragraph at lines 700--701
- []\T1/cmr/bx/n/12 Logistics law[] \T1/cmr/m/n/12 The prob-a-bil-ity den-sity f
-unc-tion matches the data rea-son-ably well(Fig.
- []
-
-<images/logistic.png, id=2234, 361.35pt x 289.08pt>
+<images/logistic.png, id=2267, 361.35pt x 289.08pt>
 File: images/logistic.png Graphic file (type png)
 <use images/logistic.png>
-Package pdftex.def Info: images/logistic.png  used on input line 704.
-(pdftex.def)             Requested size: 252.94327pt x 202.35461pt.
+Package pdftex.def Info: images/logistic.png  used on input line 715.
+(pdftex.def)             Requested size: 289.0804pt x 231.2643pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[129 <./images/cauchy.png>] [130 <./images/student.png> <./images/logistic.png>
+[127 <./images/cauchy.png>] [128 <./images/student.png> <./images/logistic.png>
 ]
 Appendix D.
 
-Overfull \hbox (2.09204pt too wide) in paragraph at lines 733--733
+Overfull \hbox (2.09204pt too wide) in paragraph at lines 744--744
 []|\T1/cmr/bx/n/12 Subject| 
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 730--733
+Overfull \hbox (14.26245pt too wide) in alignment at lines 741--744
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.09204pt too wide) in paragraph at lines 736--736
+Overfull \hbox (2.09204pt too wide) in paragraph at lines 747--747
 []|\T1/cmr/bx/n/12 Subject| 
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 733--742
+Overfull \hbox (14.26245pt too wide) in alignment at lines 744--753
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 742--748
+Overfull \hbox (14.26245pt too wide) in alignment at lines 753--759
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 748--754
+Overfull \hbox (14.26245pt too wide) in alignment at lines 759--765
  [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 757--757
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 758--758
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 759--759
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 760--760
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 761--761
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 762--762
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 764--764
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 765--765
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 766--766
-[]|\T1/cmr/m/n/12 SA01NE| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 767--767
-[]|\T1/cmr/m/n/12 SA01NE| 
  []
 
 
@@ -3127,112 +3309,112 @@ Overfull \hbox (1.19644pt too wide) in paragraph at lines 769--769
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 772--772
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 770--770
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 771--771
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 772--772
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 773--773
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 775--775
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 776--776
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 777--777
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 778--778
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 779--779
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 780--780
+[]|\T1/cmr/m/n/12 SA01NE| 
+ []
+
+
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 783--783
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 773--773
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 784--784
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 774--774
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 785--785
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 775--775
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 786--786
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 754--776
+Overfull \hbox (14.26245pt too wide) in alignment at lines 765--787
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 776
+Underfull \vbox (badness 10000) detected at line 787
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 777--777
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 788--788
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 778--778
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 789--789
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 779--779
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 790--790
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 780--780
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 791--791
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 781--781
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 792--792
 []|\T1/cmr/m/n/12 SA02GG| 
  []
 
 
-Overfull \hbox (2.83215pt too wide) in paragraph at lines 782--782
+Overfull \hbox (2.83215pt too wide) in paragraph at lines 793--793
 []|\T1/cmr/m/n/12 SA02GG| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 785--785
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 786--786
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 787--787
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 788--788
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 789--789
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 790--790
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 792--792
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 793--793
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 794--794
-[]|\T1/cmr/m/n/12 SA03JM| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 795--795
-[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
@@ -3241,65 +3423,65 @@ Overfull \hbox (1.19644pt too wide) in paragraph at lines 796--796
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 776--796
- [] [] [] [] [] [] [] [] 
- []
-
-[131
-
-]
 Overfull \hbox (1.19644pt too wide) in paragraph at lines 797--797
 []|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 800--800
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 798--798
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 801--801
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 799--799
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 802--802
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 800--800
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 803--803
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 801--801
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 804--804
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 803--803
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 805--805
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 804--804
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 807--807
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 805--805
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 808--808
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 806--806
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 809--809
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 807--807
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 810--810
-[]|\T1/cmr/m/n/12 SA04BD| 
+Overfull \hbox (14.26245pt too wide) in alignment at lines 787--807
+ [] [] [] [] [] [] [] [] 
+ []
+
+[129
+
+]
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 808--808
+[]|\T1/cmr/m/n/12 SA03JM| 
  []
 
 
@@ -3313,58 +3495,53 @@ Overfull \hbox (1.68799pt too wide) in paragraph at lines 812--812
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 815--815
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 813--813
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 816--816
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 814--814
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 796--816
- [] [] [] [] [] [] [] [] 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 815--815
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 817--817
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 818--818
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 818--818
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 819--819
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 819--819
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 820--820
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 820--820
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 822--822
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 821--821
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 823--823
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 822--822
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 824--824
-[]|\T1/cmr/m/n/12 SA05AT| 
- []
-
-
-Overfull \hbox (0.70906pt too wide) in paragraph at lines 825--825
-[]|\T1/cmr/m/n/12 SA05AT| 
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 823--823
+[]|\T1/cmr/m/n/12 SA04BD| 
  []
 
 
@@ -3378,58 +3555,58 @@ Overfull \hbox (0.70906pt too wide) in paragraph at lines 827--827
  []
 
 
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 830--830
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 831--831
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 832--832
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 833--833
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 834--834
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 835--835
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 836--836
-[]|\T1/cmr/m/n/12 SA06BM| 
- []
-
-
-Overfull \hbox (14.26245pt too wide) in alignment at lines 816--836
+Overfull \hbox (14.26245pt too wide) in alignment at lines 807--827
  [] [] [] [] [] [] [] [] 
  []
 
-[132]
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 837--837
-[]|\T1/cmr/m/n/12 SA06BM| 
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 828--828
+[]|\T1/cmr/m/n/12 SA05AT| 
  []
 
 
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 839--839
-[]|\T1/cmr/m/n/12 SA06BM| 
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 829--829
+[]|\T1/cmr/m/n/12 SA05AT| 
  []
 
 
-Overfull \hbox (3.4806pt too wide) in paragraph at lines 840--840
-[]|\T1/cmr/m/n/12 SA06BM| 
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 830--830
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 831--831
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 833--833
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 834--834
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 835--835
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 836--836
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 837--837
+[]|\T1/cmr/m/n/12 SA05AT| 
+ []
+
+
+Overfull \hbox (0.70906pt too wide) in paragraph at lines 838--838
+[]|\T1/cmr/m/n/12 SA05AT| 
  []
 
 
@@ -3453,58 +3630,58 @@ Overfull \hbox (3.4806pt too wide) in paragraph at lines 844--844
  []
 
 
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 847--847
-[]|\T1/cmr/m/n/12 SA07HP| 
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/12 SA06BM| 
  []
 
 
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 848--848
-[]|\T1/cmr/m/n/12 SA07HP| 
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 846--846
+[]|\T1/cmr/m/n/12 SA06BM| 
  []
 
 
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 849--849
-[]|\T1/cmr/m/n/12 SA07HP| 
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 847--847
+[]|\T1/cmr/m/n/12 SA06BM| 
  []
 
 
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 850--850
-[]|\T1/cmr/m/n/12 SA07HP| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 851--851
-[]|\T1/cmr/m/n/12 SA07HP| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 852--852
-[]|\T1/cmr/m/n/12 SA07HP| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 854--854
-[]|\T1/cmr/m/n/12 SA07HP| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 855--855
-[]|\T1/cmr/m/n/12 SA07HP| 
- []
-
-
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 856--856
-[]|\T1/cmr/m/n/12 SA07HP| 
- []
-
-
-Overfull \hbox (14.26245pt too wide) in alignment at lines 836--856
+Overfull \hbox (14.26245pt too wide) in alignment at lines 827--847
  [] [] [] [] [] [] [] [] 
  []
 
-[133]
-Overfull \hbox (1.19644pt too wide) in paragraph at lines 857--857
-[]|\T1/cmr/m/n/12 SA07HP| 
+[130]
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 848--848
+[]|\T1/cmr/m/n/12 SA06BM| 
+ []
+
+
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 850--850
+[]|\T1/cmr/m/n/12 SA06BM| 
+ []
+
+
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 851--851
+[]|\T1/cmr/m/n/12 SA06BM| 
+ []
+
+
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 852--852
+[]|\T1/cmr/m/n/12 SA06BM| 
+ []
+
+
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 853--853
+[]|\T1/cmr/m/n/12 SA06BM| 
+ []
+
+
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 854--854
+[]|\T1/cmr/m/n/12 SA06BM| 
+ []
+
+
+Overfull \hbox (3.4806pt too wide) in paragraph at lines 855--855
+[]|\T1/cmr/m/n/12 SA06BM| 
  []
 
 
@@ -3518,53 +3695,58 @@ Overfull \hbox (1.19644pt too wide) in paragraph at lines 859--859
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 862--862
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 860--860
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 863--863
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 861--861
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 864--864
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 862--862
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 865--865
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 863--863
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 866--866
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 865--865
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 867--867
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 866--866
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 869--869
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 867--867
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 870--870
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (14.26245pt too wide) in alignment at lines 847--867
+ [] [] [] [] [] [] [] [] 
+ []
+
+[131]
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 868--868
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 871--871
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 869--869
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
-Overfull \hbox (1.68799pt too wide) in paragraph at lines 872--872
-[]|\T1/cmr/m/n/12 SA08CA| 
+Overfull \hbox (1.19644pt too wide) in paragraph at lines 870--870
+[]|\T1/cmr/m/n/12 SA07HP| 
  []
 
 
@@ -3578,11 +3760,61 @@ Overfull \hbox (1.68799pt too wide) in paragraph at lines 874--874
  []
 
 
-Overfull \hbox (14.26245pt too wide) in alignment at lines 856--877
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 875--875
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 876--876
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 877--877
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 878--878
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 880--880
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 881--881
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 882--882
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 883--883
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 884--884
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (1.68799pt too wide) in paragraph at lines 885--885
+[]|\T1/cmr/m/n/12 SA08CA| 
+ []
+
+
+Overfull \hbox (14.26245pt too wide) in alignment at lines 867--888
  [] [] [] [] [] [] [] [] 
  []
 
-[134]) [135] [136
+[132]) [133] [134
 
 ] (these_vanel_151217.bbl
 Underfull \hbox (badness 6348) in paragraph at lines 54--57
@@ -3595,108 +3827,97 @@ Underfull \hbox (badness 2213) in paragraph at lines 54--57
 .  [][]$\T1/cmtt/m/n/12 http : / /
  []
 
-[137
+[135
 
-] [138]
-Underfull \hbox (badness 1584) in paragraph at lines 144--147
+] [136]
+Underfull \hbox (badness 1584) in paragraph at lines 151--154
 []\T1/cmr/m/n/12 Chandola, V., Baner-jee, A., and Ku-mar, V. (2009).
  []
 
-[139]
-Underfull \hbox (badness 10000) in paragraph at lines 206--211
+[137]
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 []\T1/cmr/m/n/12 Dabonneville, M., Kauff-mann, P., Vaslin, P.,
  []
 
-
-Underfull \hbox (badness 1490) in paragraph at lines 254--258
+[138]
+Underfull \hbox (badness 1490) in paragraph at lines 266--270
 []\T1/cmr/m/n/12 Dhillon, I. S., Mal-lela, S., and Modha, D. S. (2003).
  []
 
-[140]
-Underfull \hbox (badness 5741) in paragraph at lines 314--316
+
+Underfull \hbox (badness 5741) in paragraph at lines 326--328
 []\T1/cmr/m/n/12 FOTS-SUSh (2018).  https://sites.google.com/view/fots-
  []
 
-[141]
-Underfull \hbox (badness 2837) in paragraph at lines 354--358
+[139]
+Underfull \hbox (badness 2837) in paragraph at lines 366--370
 []\T1/cmr/m/n/12 Hoffmann-Jørgensen, J. and Pisier, G.
  []
 
-[142] [143] [144] [145] [146]
-Underfull \hbox (badness 1859) in paragraph at lines 741--746
+[140] [141] [142] [143] [144] [145]
+Underfull \hbox (badness 1859) in paragraph at lines 759--764
 []\T1/cmr/m/n/12 Rakthanmanon, T., Cam-pana, B., Mueen, A.,
  []
 
-[147]
-Underfull \hbox (badness 1755) in paragraph at lines 748--754
+
+Underfull \hbox (badness 1755) in paragraph at lines 766--772
 []\T1/cmr/m/n/12 Rakthanmanon, T., Cam-pana, B., Mueen, A.,
  []
 
-[148] [149] [150] [151]) [152] (these_vanel_151217.lof
-Overfull \hbox (63.62505pt too wide) in paragraph at lines 3--3
+[146] [147] [148] [149]) [150] (these_vanel_151217.lof
+Overfull \hbox (25.56224pt too wide) in paragraph at lines 5--5
+ \T1/cmr/m/n/12 A rep-re-sents ap-prox-i-mate dis-tance and B is best_so_far [[
+]]. 
+ []
+
+[151
+
+]
+Overfull \hbox (63.62505pt too wide) in paragraph at lines 37--37
  [][] [][][]\T1/cmr/m/n/12 Wheelchair Aer-o-bic Fit-ness Trainer (WAFT) pho-to-
 graph [[]].[][] [][]  
  []
 
 
-Overfull \hbox (5.3948pt too wide) in paragraph at lines 5--5
+Overfull \hbox (5.3948pt too wide) in paragraph at lines 39--39
  [][] [][][]\T1/cmr/m/n/12 Exercise test-ing on a mo-tor driven tread-mill [[]]
 [][] [][]  
  []
 
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.42 ... \def {\@@par }}}{109}{figure.caption.135}
+                                                  
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
 
-Overfull \hbox (27.81837pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/cmr/m/n/12 Markers for kine-matic anal-y-sis of man-ual wheelch
-air locomotion[[]][][] [][]  
- []
-
-
-Overfull \hbox (25.56224pt too wide) in paragraph at lines 13--13
- \T1/cmr/m/n/12 A rep-re-sents ap-prox-i-mate dis-tance and B is best_so_far [[
-]]. 
- []
-
-
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
- [153
-
-]
-Overfull \hbox (13.72609pt too wide) in paragraph at lines 45--45
- \T1/cmr/m/n/12 can-not be enough to ex-plain propul-sion ca-pa-bil-i-ties of m
-an-ual wheelchair 
- []
-
-[154]
-Overfull \hbox (2.99927pt too wide) in paragraph at lines 52--52
+[152]
+Overfull \hbox (2.99927pt too wide) in paragraph at lines 49--49
  \T1/cmr/m/n/12 fordA dataset avail-able in the UCR [[]] database. Time 
  []
 
 )
-\tf@lof=\write9
-\openout9 = `these_vanel_151217.lof'.
+\tf@lof=\write10
+\openout10 = `these_vanel_151217.lof'.
 
- [155] [156
+ [153] [154
 
-] (these_vanel_151217.lot [157])
-\tf@lot=\write10
-\openout10 = `these_vanel_151217.lot'.
+] (these_vanel_151217.lot [155])
+\tf@lot=\write11
+\openout11 = `these_vanel_151217.lot'.
 
- [158] (these_vanel_151217.toc
-[159
 
-] [160] [161])
-\tf@toc=\write11
-\openout11 = `these_vanel_151217.toc'.
+(page-de-couverture/quatrieme-de-couv.tex [156] [157
 
- (page-de-couverture/quatrieme-de-couv.tex [162] [163
-
-]
-[164]
-<./images/logoLimos.png, id=2667, 570.63188pt x 120.45pt>
+] [158]
+<./images/logoLimos.png, id=2578, 570.63188pt x 120.45pt>
 File: ./images/logoLimos.png Graphic file (type png)
 <use ./images/logoLimos.png>
-Package pdftex.def Info: ./images/logoLimos.png  used on input line 39.
+Package pdftex.def Info: ./images/logoLimos.png  used on input line 41.
 (pdftex.def)             Requested size: 285.31525pt x 60.22484pt.
 )
 
@@ -3704,14 +3925,14 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[165 <./images/logoLimos.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+[159 <./images/logoLimos.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (these_vanel_151217.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `these_vanel_151217.out' has not changed.
-(rerunfilecheck)             Checksum: CBBA412A1D1FC144B51656853D736D42;7838.
+(rerunfilecheck)             Checksum: 17717B84DBBD4B4EEC323E98DD0D2810;7013.
 
 
 LaTeX Warning: There were undefined references.
@@ -3719,56 +3940,55 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 29084 strings out of 493303
- 519938 string characters out of 3138672
- 732602 words of memory out of 3000000
- 31116 multiletter control sequences out of 15000+200000
- 37538 words of font info for 86 fonts, out of 3000000 for 9000
+ 29049 strings out of 493303
+ 519356 string characters out of 3138672
+ 734611 words of memory out of 3000000
+ 31095 multiletter control sequences out of 15000+200000
+ 36549 words of font info for 85 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
  57i,26n,87p,2460b,712s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
-gram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\SIYOU Vanel\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\public\frcursive\dpi720\frcr10.pk><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cm
-mib8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/cm-super/sfbi1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/c
-m-super/sfbi1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/s
-fbx0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/cm-super/sfcc1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/cm-super/sfrm0700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
-m1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2488.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sfti1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
-per/sftt1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfxc1
-440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfxc2488.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on these_vanel_151217.pdf (173 pages, 22923670 bytes).
+gram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sf
+bi1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1200.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx0800.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/cm-super/sfbx1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/cm-super/sfbx2488.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-s
+uper/sfcc1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm
+0700.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/cm-super/sfrm2488.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/cm-super/sfsl1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfti12
+00.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfxc1440.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfxc2488.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/urw/times/utmr8a.pfb>
+Output written on these_vanel_151217.pdf (167 pages, 22810326 bytes).
 PDF statistics:
- 2985 PDF objects out of 3580 (max. 8388607)
- 775 named destinations out of 1000 (max. 500000)
- 1156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2866 PDF objects out of 2984 (max. 8388607)
+ 779 named destinations out of 1000 (max. 500000)
+ 1047 words of extra memory for PDF output out of 10000 (max. 10000000)
 

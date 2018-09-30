@@ -1,10 +1,10 @@
 \chapter{An optimal approach for time series segmentation: Application to the supervised classification}
 \label{seg}
-
+%\minitoc
 \section{Introduction}
-Time series databases are often huge. This is particularly the case of the Large Synoptic Survey Telescope (LSST) database which records data from of telescopes \cite {lsst}. It has billions of time series (10 Petabytes). The time series recorded in these databases are sometimes very long. Another example is the  SACR-FRM project that uses sensors to measure the efforts of a  manual wheelchair user at a frequency of 100 Hz \cite{SACR-FRM}. Ten minutes recording time series of 60 000 measurements. Faced with this, several scientific works were carried out with the aim of reducing the storage space of time series and accelerating their treatment.  A widely used approach is to change the representation of time series to reduce their length. This technique was introduced by Agrawal et al. \cite{Agrawal1993}; he uses the discrete Fourier transform to obtain a compact representation of the time series.
- Other methods have also been used: the decomposition in eigenvalue \cite{Wu1996}, the  discrete wavelet transform \cite{Chan1999} and the piecewise approximate aggregation (PAA) \cite{keogh2001locally}. This last method has shown its effectiveness compared to previous three because it is easier to understand, to implement, but also faster and allows to build indexes in linear time. PAA suggests splitting the time series into segments of the same length, then replace each segment by the average of its points. This method generates a compact representation, able to have a few segments as possible to reduce space storage and processing time of time series.
- However, a too compact representation distorts the time series and causes a loss of information. How then to choose the right number of segments to consider? Our work is based on a simple observation: the use of the arithmetic average is relevant when the variance of the population is small as illustrated by the figure \ref{fig:average}.
+Time series databases are often huge. This is particularly the case of the Large Synoptic Survey Telescope (LSST) database which records data from of telescopes \cite {lsst}. It has billions of time series (10 Petabytes). Another example is the  SACR-FRM project that uses sensors to measure the efforts of a  manual wheelchair user at a sample  frequency of 100 Hz \cite{SACR-FRM}. For instance :  ten minutes recording produce time series of 60 000 measurements. Faced to this, several scientific works were carried out with the aim of reducing the storage space of time series and accelerating their treatment.  A widely used approach is to change the representation of time series to reduce their length. This technique was introduced by Agrawal et al. \cite{Agrawal1993}; he uses the discrete Fourier transform to obtain a compact representation of the time series.
+ Other methods have also been used: the decomposition in eigenvalue \cite{Wu1996}, the  discrete wavelet transform \cite{Chan1999} and the Piecewise Aggregate Approximate (PAA) \cite{keogh2001locally}. This last method has shown its effectiveness compared to the previous three ones because it is easier to understand, to implement, but also faster to execute and it allows to build indexes in linear time. PAA suggests to split the time series into segments of the same length, then to replace each segment by the average of its points. This method generates a compact representation, of time series composed with as few segments as possible that reduces space storage and processing time of time series.
+ However, a too compact representation distorts the time series and causes a loss of information. How then to choose the right number of segments to consider? Our work is based on a simple observation: the use of the arithmetic average is relevant when the variance of the population is small as illustrated in figure \ref{fig:average22}.
  
  
 
@@ -12,9 +12,9 @@ Time series databases are often huge. This is particularly the case of the Large
 \centering
 \subfloat[]{\includegraphics[scale=0.6]{moyenne_des_segment1.jpg}} \subfloat[]{\includegraphics[scale=0.6]{moyenne_des_segment2.jpg}}
 \caption{These figures show the average of two segments. In the first
-case (a) the data points of the segment are far from the average, in the second case (b) they are close to the average. Replace data points of a segment by their average introduces an error that the can be measured from the gap between the points and the average. }
+case (a) the data points of the segment are far from the average, in the second case (b) they are close to the average. Replacing data points of a segment by their average introduces an error that the can be measured from the gap between the points and the average. }
 
-\label{fig:average}
+\label{fig:average22}
 \end{figure}
 
 
@@ -23,32 +23,40 @@ case (a) the data points of the segment are far from the average, in the second 
  We define here a minimal bound for the number of segments to be considered, and we propose an algorithm which allows choosing the number of segments which minimizes their mean squared error, with the aim to reduce the length of the time series without altering the information they contain.
  
  
-  The rest of this chapter is organized as follows: the \ref{problem} section presents a formal definition of our problem and an algorithm used to solve it; the section \ref{results} presents and comments the results of the experiments and the section \ref{conclusion} concludes the paper and presents perspectives for this work.
+  The rest of this appendix is organized as follows: the  section \ref{probleme22} presents a formal definition of our problem and an algorithm  to solve it; the section \ref{results} presents and comments the results of the experiments and the section \ref{conclusion} concludes the appendix and presents some perspectives for this work.
  
 
 \section{Granularity of time series segments}
-\label{probleme}
+\label{probleme22}
 
 
 \subsection{Notations and definitions}
 \paragraph{Definition 1:} A \textbf{time series} or \textbf{time series}
 $ X = x_{0}, x_{1}, \cdots, x_{m} $ is a sequence of numerical values representing the evolution of a specific quantity over time. $ x_{m} $ is the most recent value.
 
-\paragraph{Definition 2:} A segment $ X_{i} $ of length $ l $ of the time series
+\begin{definition}
+A segment $ X_{i} $ of length $ l $ of the time series
 $ X $ of size $ m $ $ (l <m) $ is a sequence consisting of $ l $ consecutive variables
 $ X $ beginning at the  position  $ i $  and ending at the position $ i + l-1 $.
 We have: $ X_{i} = x_{i}, x_{i + 1}, ..., x_{i + l-1} $
+\end{definition}
 
-\paragraph{Definition 3:} The arithmetic mean of the data points of a segment $ X_{i} $ of size $ l $ is
+ 
+\begin{definition}
+The arithmetic mean of the data points of a segment $ X_{i} $ of size $ l $ is
 denoted $ \bar {X}_{i} $ and is defined by
-\[
-\bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}.
-\]
+	\begin{eqnarray}
+		\bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}.
+	\end{eqnarray}
+
+\end{definition}
+
+
 
 
 
 \subsection{Information theory and minimum number of segments}
-To mitigate the effects of noise during time series processing, Keogh and Kasetty \cite{KeoghBenchmarks} recommend that they are normalized. Normalizing the time series makes them compatible with a normal distribution \cite{Lin2007}. In this case, 95 \% of the points in the time series are between minus two times the standard deviation $ (\sigma) $ and twice the standard deviation of the points, and thus 5 \% of the points of the series are outside this range. These points correspond to the ends of the series as shown in the figure \ref{standard_deviation}.
+To mitigate the effects of noise during time series processing, Keogh and Kasetty \cite{KeoghBenchmarks} recommend that they are normalized. Normalizing the time series makes them compatible with a normal distribution \cite{Lin2007}. According to this method, 95 \% of the points in the time series are between plus and  minus two times the standard deviation $ (\sigma) $ and twice the standard deviation of the points, and thus 5 \% of the points of the series are outside this range. These points correspond to the ends of the series as shown in the figure \ref{standard_deviation}.
 
 
 \begin{figure}
@@ -61,49 +69,53 @@ To mitigate the effects of noise during time series processing, Keogh and Kasett
 
 
 \subsection{Notations and definitions}
-\paragraph{Definition 1:} A \textbf{time series} or \textbf{time series}
-$ X = x_{0}, x_{1}, \cdots, x_{m} $ is a sequence of numerical values representing the evolution of a specific quantity over time. $ x_{m} $ is the most recent value.
 
-\paragraph{Definition 2:} A segment $ X_{i} $ of length $ l $ of the time series
-$ X $ of size $ m $ $ (l <m) $ is a sequence consisting of $ l $ consecutive variables
-$ X $ beginning at the  position  $ i $  and ending at the position $ i + l-1 $.
-We have: $ X_{i} = x_{i}, x_{i + 1}, ..., x_{i + l-1} $
 
-\paragraph{Definition 3:} The arithmetic mean of the data points of a segment $ X_{i} $ of size $ l $ is
-denoted $ \bar {X}_{i} $ and is defined by
-\[
+
+\begin{definition}
+The arithmetic mean of the data points of a segment $ X_{i} $ of size $ l $ is
+denoted $ \bar {X}_{i} $ and is defined by :
+
+\begin{eqnarray}
 \bar{X}_{i} = \frac{1}{l} \sum_{j = 0}^{l-1} x_{i + j}.
-\]
+\end{eqnarray}
+
+\end{definition}
 
 
 
 
-Also, information theory tells us that the amount of information relating to an event is equal to $ -log_{2}(p) $ where $ p $ is the probability of the event
-\cite{Shannon2001} . In other words, a very likely event ($ p \longrightarrow1 $) brings less information than an unlikely event ($ p \longrightarrow0 $). Therefore, a point outside the interval $ [- 2 \sigma, 2 \sigma] $ provides more information than a point in that range. Indeed, the probability that one point is in the range is $ 0.95$ while the probability that one point is out of range is $ 0.05 = \frac{1}{20} $ .
+Also, information theory tells  that the amount of information relating to an event is equal to $ -log_{2}(p) $ where $ p $ is the probability of the event
+\cite{Shannon2001} . In other words, a very likely event ($ p \longrightarrow1 $) brings less information than an unlikely event ($ p \longrightarrow0 $). Therefore, a point outside the interval $ [- 2 \sigma, + 2 \sigma] $ provides more information than a point within that range. Indeed, the probability that one point is in the range is $ 0.95$ while the probability that one point is out of range is $ 0.05 = \frac{1}{20} $ .
 
 
 If we choose a minimum number $ (\alpha) $ of segments less than 5 \% of the length of the time series, we risk to aggregate the data points within the interval $ [- 2 \sigma, 2 \sigma] $ and those outside this range. This will have two consequences: firstly, this aggregation will alter the information carried by data points. Secondly, this aggregation will increase the variance of the segments obtained. So we chose to  consider 5\% of the number of points in the time series as the minimum number of segments. This allows us to define the following functions of $ \mathbb{N} \rightarrow \mathbb{N} $:
 
-\[
+\begin{eqnarray}
 \alpha: n \mapsto \alpha(n) = \left \{
 \begin{array}{c}
 \left \lfloor \frac{n}{20} \right \rfloor \: if \: \left \lfloor \frac{n}{20} \right \rfloor \geq 2 \\
 2 \: otherwise
 \end{array} 
 \right.
-\]
+\end{eqnarray}
 
 
 
-\[
+\begin{eqnarray}
 \beta: n \mapsto \beta(n) = \left \lfloor \frac{n}{2} \right \rfloor
-\]
+\end{eqnarray}
+
  $ \beta $ gives the maximum number of segments. Indeed, a segment is made up of at least 2 points, so there is at most $ \left \lfloor
 \frac{n}{2} \right \rfloor $ segments. The number of segments W that we will consider is greater than or equal to $ \alpha (| X |) $ and less than or equal to $ \beta (| X |) $. The next subsection explains how we choose the value of W.
 
 \subsection{Minimize the squared error to choose the number of segments}
-After dividing into segments, we replace each segment by the average of the data points that constitute it. The variance between the points of each segment can be measured from the mean squared error. Our problem is therefore the following:
-\paragraph{} Let $ X = x_{0}, x_{1}, \cdots, x_{n} $ a time series of size $ n $, look for $ W \in \mathbb{N} $ such that $ \alpha(n) \leq W \leq \beta(n) $ and $ \frac{1}{n} \sum_{i = 1}^{^{W}} \sum_{j = (i-1) k}^{ik} (\bar{X}_{i} - X_{j})^{2} $ is minimal. Where $ \bar{X}_{i} $ is the arithmetic mean of a segment of length $ k $. 
+After dividing a time series into segments, we replace each segment by the average of the data points that constitute it. The variance between the points of each segment can be measured from the mean squared error. Our problem is therefore the following:
+\paragraph{} Let $ X = x_{0}, x_{1}, \cdots, x_{n} $ a time series of size $ n $, look for $ W \in \mathbb{N} $ such that $ \alpha(n) \leq W \leq \beta(n) $ and 
+\begin{eqnarray}
+ \frac{1}{n} \sum_{i = 1}^{^{W}} \sum_{j = (i-1) k}^{ik} (\bar{X}_{i} - X_{j})^{2} 
+\end{eqnarray}
+ is minimal, where $ \bar{X}_{i} $ is the arithmetic mean of a segment of length $ k $. 
 
 
 
@@ -117,11 +129,10 @@ propose an algorithm that proceeds as follows:
 $ X_{i} = x_{i}, x_{i + 1}, ..., x_{i + l-1}; $
 \item Calculate the mean of the quadratic errors;
 \end{enumerate}
-\item The value of W returned is the one that produces a minimum average squared error; 
+\item The value of W returned is the one that produces a minimum average squared error. 
 \end{enumerate}
 
-Algorithm \ref{algo1} details the previous principle.
-
+These conditions are implemented in algorithm \ref{algo1}:
 
 \begin{algorithm}[h]
 \DontPrintSemicolon
@@ -225,7 +236,7 @@ Algorithm \ref{algo1} details the previous principle.
  
  
 
-\paragraph{Complexity of the algorithm}
+\paragraph{Complexity of the algorithm}\\
 The calculation of the squared error of a segment is done in $ O(\left \lfloor
 \frac{n}{W} \right \rfloor) $.
 
@@ -234,62 +245,63 @@ $ O(n). $
 
 
 The number of segments varies from $ \left \lfloor \frac{n}{20} \right \rfloor, \; \left \lfloor \frac{n}{19} \right \rfloor $ \ldots $ \left \lfloor \frac{n}{2} \right \rfloor $. There are 19 possible divisions in segments. The time complexity of calculating the value of W which minimizes the error
-mean squared is $ 19 \times O(n) = O(n) $.
+mean squared is: $ 19 \times O(n) = O(n) $.
 
 
 To exploit the compact representations of the time series, we must be able to compare them. The next subsection presents how to compare compact time series that we get.
 
 \subsection{Dynamic Time Warping Algorithm and comparison of compact representations}
 
-The dynamic time warping algorithm \cite{Keogh2004} allows to carry out a non-linear correspondence between two time series by minimizing the distance between the two. It proceeds as follows:
+The Dynamic Time Warping algorithm (DTW)\cite{Keogh2004} allows to carry out a non-linear correspondence between two time series by minimizing the distance between them. It proceeds as follows:
+
+
 Let $X$ and $Y$ be two time series;
 
-\[
-X=x_{1},x_{2},\cdots,x_{n};
-\]
-
-
-\[
+\begin{eqnarray}
+X=x_{1},x_{2},\cdots,x_{n};\\
 Y=y_{1},y_{2},\cdots,y_{m}.
-\]
+\end{eqnarray}
+
 
  To align them, the algorithm constructs a matrix $ n \times m $ where
-the element $ (i, j) $ of the matrix corresponds to the square distance $ (x_{i} - y_{j}) ^ {2} $ which
+the element $ (i, j) $ of the matrix corresponds to the square distance $ (x_{i} - y_{j}) ^ {2} $, which
 is the alignment between $ x_{i} $ and $ y_{j} $. To find the best alignment between the two time series, we build
 the path in the matrix that minimizes the sum of the square distances. This path is calculated by
 dynamic programming from the following recurrence:
-\[
+
+\begin{eqnarray}
 \gamma(i, j) = d (x_{i}, y_{j}) + min \{\gamma(i-1, j-1), \gamma(i-1, j), \gamma(i , j-1) \},
-\]
+\end{eqnarray}
+
 where $ d(x_{i}, y_{j}) $ is the square of the distance contained in the cell $ (i, j) $ and $ \gamma(i, j) $ is the
-cumulative distance at the position $ (i, j) $ which is calculated by the sum of the square of the distance to
+cumulative distance at the position $ (i, j), $ which is calculated by the sum of the square of the distance to
 the position $ (i, j) $ and the minimum cumulative distance of its three adjacent cells.
 
 
-Piecewise aggregate approximation provides Euclidean-based distance measurement to compare compact representations. However, we chose to use the dynamic time warping algorithm. For the following reasons:
+Piecewise Aggregate Approximation(PAA) provides Euclidean-based distance measurement to compare compact representations. However, we chose to use the Dynamic Time Warping algorithm for the following reasons:
 \begin{enumerate}
-\item The dynamic time warping algorithm  is known to have the best performance for sequence alignment in several areas:
-in robotics, biometrics, music, climatology, aviation, in gesture recognition, cryptanalysis, astronomy, exploration
-space \cite{Rakthanmanon2012}.
-\item Piecewise aggregate approximation of the time series leads to temporal deformation. Indeed,
+\item PAA of the time series leads to temporal deformation. Indeed,
 with two time series of length $ n $, we can apply our algorithm to the
  first time series, then reduce it to $ N_{1} $ segments and reduce the second to $ N_{2} $
  segments with $ N_{1} <N_{2} $.
+\item The DTW algorithm  is known to have the best performance for sequence alignment in several :
+in robotics, biometrics, music, climatology, aviation, gesture recognition, cryptanalysis, astronomy, exploration
+space \cite{Rakthanmanon2012}.
+
 \end{enumerate}
 
 
 \section{Results and Discussion}
 \label{results} 
  First, we present the datasets used during the experiment.
- Then we evaluate the performances of the proposed methods in terms of  reduction of the
- length of time series and classification errors.
+ Then we evaluate the performances of the proposed methods in terms of  length reduction  of time series and classification errors.
 
 \subsection{Datasets}
 
 We performed tests on 85 datasets that come from the UCR database
 \cite{UCRArchive} . Detailed information on the datasets is presented in
-the table \ref{sets_of_data}.
- In the UCR database, each data set is divided into a learning set and a test set. Datasets contain between 2 and 60 classes and the time series of these datasets have lengths that range from 24 to 2709 points. The table \ref{sets_of_data} presents a
+the Table \ref{sets_of_data}.
+ In the UCR database, each data set is divided into a learning set and a test set. Datasets contain between 2 and 60 classes and the time series of these datasets have lengths that range from 24 to 2709 points. The Table \ref{sets_of_data} presents a
  detailed description of the datasets. The following paragraph presents the assessment of the performance of our algorithm on these datasets.
  
 \LTcapwidth=\textwidth
@@ -405,7 +417,7 @@ the table \ref{sets_of_data}.
  %& OutlineAgeGroup  &  &  & \\
  \ldots& \ldots  & \ldots & \ldots & \ldots \\
 \caption{85 UCR  datasets used for experimental validation.
-The full list is available here \cite{UCRArchive}}
+The full list is available in \cite{UCRArchive}}
 \label{sets_of_data}
 \end{longtable}
 
@@ -413,18 +425,18 @@ The full list is available here \cite{UCRArchive}}
 
 \subsection{Comparison of algorithm performance}
 % Visionner le code LaTeX du paragraphe 21
-The table \ref{erreur_classification} presents the comparison
-of the classification error of 1-Nearest Neighbor (1-NN) algorithms associated with Euclidean  distance (4), 1-NN, associated with the dynamic time warping algorithm using a constraint (a deformation window) (5), 1-NN associated with the algorithm of unconstrained dynamic time warping (DTW) applied to the raw data (6) and the 1-NN algorithm associated with DTW applied to the data pre-processed by our algorithm  (7). The $ (4) $ algorithm gives the best results that are to say
-$ ((4) \leq (5) \: and \:(4) \leq (6) \: and \:(4) \leq (7)) $ on $ 20 $ datasets, the algorithm $ (5) $ is the best on $ 47 $ datasets, the $ (6) $ algorithm is the best on $ 21 $ datasets, the $ (7) $ algorithm is the best on $ 21 $ datasets. Although no of these algorithms have the best performance on all datasets, the algorithm $ (5) $ averaged the smallest misclassification \textbf{0.237} and the most expensive $ (4) $ algorithm large average error \textbf{0,288}.
-The $ (6) $ and $ (7) $ algorithms have relatively close average error rates  equal to \textbf{0,256} and \textbf{0,258} respectively.
+Table \ref{erreur_classification} presents the comparison
+of the classification error of 1-Nearest Neighbor (1-NN) algorithms associated with Euclidean  distance (col.4), 1-NN, associated with the DTW algorithm using a constraint (a deformation window) (col.5), 1-NN associated with the algorithm of unconstrained dynamic time warping (DTW) applied to the raw data (6) and the 1-NN algorithm associated with DTW applied to the data pre-processed by our algorithm  (7). The $ (col.4) $ algorithm gives the best results that are to say
+$ ((col.4) \leq (col.5) \: and \:(col.4) \leq (col.6) \: and \:(col.4) \leq (col.7)) $ on $ 20 $ datasets, the algorithm $ (col.5) $ is the best on $ 47 $ datasets, the $ (col.6) $ algorithm is the best on $ 21 $ datasets, the $ (col.7) $ algorithm is the best on $ 21 $ datasets. Although none of these algorithms have the best performance on all datasets, the algorithm $ (col.5) $ averaged the smallest misclassification \textbf{0.237} and the most expensive $ (col.4) $ algorithm the largest average error \textbf{0,288}.
+The $ (col.6) $ and $ (col.7) $ algorithms have relatively close average error rates  equal to \textbf{0,256} and \textbf{0,258} respectively.
 
 
 To evaluate the effects of the \textbf{change of representation} of the time series on their
-\textbf{classification}, we compare the length of the time series and the errors of
-classification presented by the columns $ (6) $ and $ (7) $ of the table  \ref{erreur_classification}.
-Indeed, these two columns use the same 1-NN classification algorithm and the same function
-distance DTW. The only difference between these columns is the nature of the data; the $ (6) $ column
-uses the raw data and the column $ (7) $ the compacted data with the method described above.
+\textbf{classification}, we compared the length of the time series and the errors of
+classification presented by the columns $ (6) $ and $ (7) $ of Table  \ref{erreur_classification}.
+Indeed, these two columns use the same 1-NN classification algorithm and the same 
+distance function DTW. The only difference between these columns is the nature of the data: the $ (6) $ column
+uses the raw data and the column $ (7) $ the compacted data with the method described above. The result of the comparison between these two columns can be resumed as follows:
 
 \begin{itemize}
 \item Regarding the length of the time series; the $ (6) $ algorithm uses all the points of
@@ -435,10 +447,10 @@ On average, the compact representations have a length equal to \textbf {20} \% o
 the error of $ (7) = (6) $ on 3 datasets and the error of $ (7) <(6) $ on 42 datasets.
 \end {itemize}
 
- These results are encouraging because despite the reduction in the length of the time series
+ These results are encouraging because, despite the reduction in the length of the time series
  errors, the classification error with the compact representation is less than or equal to
 that of the raw data classification for 45 datasets out of the 85 available in the
-UCR base. These results are summarized in Figure \ref{synthesis}. One of the reasons for this observed improvement over 42 datasets is as follows: the dynamic time warping algorithm  is sensitive to noise, therefore by aggregating the points of the segments, we reduce the effects of noise.
+UCR base. These results are summarized in Figure \ref{synthesis}. One of the reasons for this observed improvement over 42 datasets is as follows: the DTW algorithm  is sensitive to noise, therefore by aggregating the points of the segments, we reduce the effects of noise.
 
 
 % Visionner le code LaTeX du paragraphe 29
@@ -449,9 +461,9 @@ UCR base. These results are summarized in Figure \ref{synthesis}. One of the rea
 \subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_dtw(r)2.png}}\\
 \subfloat[]{\includegraphics[scale=0.50]{erreur_dtw-reduit_dtw2.png}}
 
-\caption{Two-to-two comparison of the classification errors of the algorithm
-1-Nearest Neighbor (1-NN) using Euclidean distance with 1-NN using two variations of the temporal warping algorithm on data
-raw and compact data}
+\caption{Two-by-two comparison of the classification errors of the algorithm
+1-Nearest Neighbor (1-NN) using Euclidean distance with 1-NN using two variations of the temporal warping algorithm on raw data
+ and compact data}
 
 \label{synthesis}
 
@@ -568,7 +580,7 @@ raw and compact data}
 $\bar{X}$  &   &   & 0,288 & 0,237 & 0,256 & 0,258\\
 $\sigma$  &   &   & 0,175 & 0,161 & 0,166 & 0,160\\
 
-\caption{The \textbf{(1)} column presents \textbf{numbers} of the datasets. The column  \textbf{(2)} the \textbf{reduced length} of the time series. The column \textbf{(3)} is the \textbf{ratio} of the length of the reduced time series over the length of the initial time series. The \textbf{(4)} column designates the \textbf{1-Nearest Neighbor} algorithm, associated to the \textbf{Euclidean distance}. The \textbf{(5)} column designates the algorithm of \textbf{1- Nearer Neighbor}, associated with the algorithm of \textbf{dynamic dynamic temporal deformation} using a \textbf{constraint} called deformation window that allows to stop the comparison of time series when one perceives that they are very different. The \textbf{(6)} column represents  \textbf{1-Nearest Neighbor} algorithm  associated to the \textbf{unconstrained dynamic time warping} applied to the \textbf{raw data}. The \textbf{(7)} column represents the \textbf{algorithm. 1-Nearest Neighbor} associated with the \textbf{dynamic time warping algorithm without constraints}, applied on the \textbf{compact representations} produced by our algorithm. We compare firstly, the classification error of the algorithms (6) and (7) the smallest error is in \textbf{bold}. We then compare the classification errors of algorithms (4), (5), (6) and (7) the smallest error is put \textbf{italicized}.}
+\caption{ Column \textbf{(1)}  presents \textbf{numbers} of the datasets. Column  \textbf{(2)} the \textbf{reduced length} of the time series. Column \textbf{(3)} is the \textbf{ratio} of the length of the reduced time series over the length of the initial time series. Column \textbf{(4)}  designates the \textbf{1-Nearest Neighbor} algorithm, associated to the \textbf{Euclidean distance}. Column \textbf{(5)}  designates the algorithm of \textbf{1- Nearer Neighbor}, associated with the algorithm of \textbf{dynamic dynamic temporal deformation} using a \textbf{constraint} called deformation window that allows to stop the comparison of time series when one perceives that they are very different. Column \textbf{(6)}  represents  \textbf{1-Nearest Neighbor} algorithm  associated to the \textbf{unconstrained dynamic time warping} applied to the \textbf{raw data}.   Column \textbf{(7)} represents the \textbf{algorithm. 1-Nearest Neighbor} associated with the \textbf{dynamic time warping algorithm without constraints}, applied on the \textbf{compact representations} produced by our algorithm. We firstly compare, the classification error of the algorithms of columns(6) and (7) the smallest error is in \textbf{bold}. Then we compare the classification errors of algorithms of columns(4), (5), (6) and (7) the smallest error is put \textbf{italics}.}
 
 \label{erreur_classification}
 \end{longtable}
@@ -576,20 +588,19 @@ $\sigma$  &   &   & 0,175 & 0,161 & 0,166 & 0,160\\
 
 \section{Conclusion}
 
-The purpose of this article was to propose an algorithm for choosing the number of segments to consider for the compact representation of a time series. For this, we have defined a minimum bound for the number of segments to be considered which is equal to 5 \% of the length of the time series. We have proposed an algorithm that chooses the number W of segments minimizing the mean squared error. Results of experiments conducted on 42 datasets
- have shown that the number of segments chosen allows two improvements
+The purpose of this appendix was to propose an algorithm for choosing the number of segments to consider for the compact representation of a time series. In that aim, we have defined a minimum bound for the number of segments to be considered which is equal to 5 \% of the length of the time series. We have proposed an algorithm that chooses the number W of segments minimizing the mean squared error. Results of experiments conducted on 42 datasets
+ have shown that the number of segments chosen allows two improvements:
  \begin{itemize}
-\item significantly reduce the length of the series
-temporal; time series of reduced size has a length
+\item IT significantly reduces the length of the time series; time series of reduced size have a length
 which varies between $ 15 \% $ and $ 34 \% $ of the initial time series length
-\item improves supervised classification results on a set of 85 datasets
+\item It improves supervised classification results on a set of 85 datasets
 used in the literature. 
 \end{itemize}
 As a perspective for this work, we plan to vary the number of
 segments W from $ 2 $ to $ \frac{n}{2} $ to see if our value of W is optimum for a task classification. We also plan to compare the results of this compact representation to
-those of other representations of literature. We also plan to parallelize our algorithm to calculate the right number of segments in linear time (almost trivial). This work allows
-reducing the storage space and the processing time of the time series. It also allows choosing the number of segments to consider when designing representations
-symbolic of time series. Indeed, several symbolic representations of series
+those of other representations used in the literature. We also plan to parallelize our algorithm to calculate the right number of segments in linear time. This work allows
+reducing the storage space and the processing time of the time series. It also allows choosing the number of segments to consider when designing symbolic representation 
+ of time series. Indeed, several symbolic representations of series
 of the literature (SAX \cite{lin2003symbolic}, ESAX \cite{lkhagva2006extended}, 1d-SAX \cite{Malinowski2013},
 SAX-TD \cite{sun2014improvement}, SAX-P \cite{siyou2015}) use the division into segments recommended by PAA.
 \label{conclusion}
@@ -612,16 +623,16 @@ SAX-TD \cite{sun2014improvement}, SAX-P \cite{siyou2015}) use the division into 
 
 
 
-\chapter{Determination of the probability density function of Mz  uncertainty}
+\chapter{Determination of the probability density function of  uncertainty}
 \label{pdf_uncertainty}
+\minitoc
 
-
-\section{Ampiric probability distribution}
+\section{Empirical probability distribution of residuals}
 \paragraph{ descriptive statistics}
 
 \begin{table}[h]
 \centering
-\caption{descriptive}
+\caption{descriptive statistic}
 \label{my-label}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
@@ -647,31 +658,31 @@ SAX-TD \cite{sun2014improvement}, SAX-P \cite{siyou2015}) use the division into 
 \label{fig:average}
 \end{figure}
 
-The empirical probability density function does not allow us a priori to know which probability law follows the residuals (uncertainty). To determine this, we will use statistical tests. The principle of statistical tests is as follow: we assume that the residues follow a defined probability law. And we calculate a p-value. If it is less than 0.05, the above hypothesis is rejected. Another method to determine the probability law follows by the residuals is to hypothesize that data followed a particular law and estimated the parameters that best feet the law. If the theoretical probability density function estimated is closed to the empirical one, we assume that we find the probability law follows by residuals.
+A priori the empirical probability density function does not allow   to know which probability law follows the residuals (uncertainty). To determine this, we  used statistical tests. The principle of statistical tests is as follows: we assume that the residues follow a defined probability law, and we calculate a p-value. If it is less than 0.05, the above hypothesis is rejected. Another method  is to hypothesize that the data follow a particular law and to estimate the parameters that best fit the law. If the theoretical probability density function estimated is closed to the empirical one, we assume that  the probability law follows by residuals is found.
 
 
-\section{Theoric probability distribution}
+\section{Theorical probability distribution}
 
-Residuals are real values between minus infinity and plus infinity. The probability laws that residuals can follow are therefore
+Residuals are real values between minus infinity and plus infinity. The probability laws that residuals can follow are therefore:
 
 \begin{itemize}
-\item A normal law
-\item A law of cauchy
-\item A Student's Law t
-\item A general exponential law
-\item A double exponential law
-\item Generalized error distribution (GED)
-\item A pearson law type 4
-\item A generalization of the student's law.
+\item A normal law;
+\item A law of Cauchy;
+\item A Student's law t;
+\item A general exponential law;
+\item A double exponential law;
+\item Generalized error distribution (GED);
+\item A Pearson law type 4;
+\item A generalization of the Student's law.
 \end{itemize}
 
 
 \paragraph{Normality test}:
-For each tests in (table \ref{normal}), the p-value is significant, so the sample does not follow a normal distribution.
+For each tests in (Table \ref{normal}), the p-value is significant, so the sample does not follow a normal distribution.
 
 \begin{table}[h]
 \centering
-\caption{normality test show that residues(uncertainty) do not follow normal law}
+\caption{normality test show that residues (uncertainty) do not follow normal law.}
 \label{normal}
 \begin{tabular}{llll}
 \textbf{Test}    & Kolmogorov-Smirnov & Anderson-Darling  & Shapiro-Wilk      \\
@@ -679,29 +690,29 @@ For each tests in (table \ref{normal}), the p-value is significant, so the sampl
 \end{tabular}
 \end{table}
 
-\paragraph{Cauchy's Law Test}: The qqplot line does not match correctly with the data particularly the two extremities of the diagram (Fig. \ref{cauchy}); we can say that the data probably do not follow a Cauchy law.
+\paragraph{Cauchy's Law Test}: The Q-Qplot line does not match correctly with the data particularly the two extremities of the diagram (Fig. \ref{cauchy}); we can say that the data probably do not follow a Cauchy's law.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{cauchy}
-\caption{Estimated probability density of data for cauchy's law}
+\includegraphics[scale=0.8]{cauchy}
+\caption{Estimated probability density of data for Cauchy's law}
 \label{cauchy}
 \end{figure}
 
-\paragraph{Student's Law test}: The Quantile-Quantile diagram, from the distribution function, doesn't match correctly the data, particularly the two extremities of the diagram (Fig. \ref{student}). We can then say that the data do not follow a Student law.
+\paragraph{Student's Law test:} The Quantile-Quantile diagram, from the distribution function, does not match correctly the data, particularly the two extremities of the diagram (Fig. \ref{student}). We can then say that the data do not follow a Student's law.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{student}
+\includegraphics[scale=0.8]{student}
 \caption{Estimated probability density of data for Student's law}
 \label{student}
 \end{figure}
 
-\paragraph{Logistics law} The probability density function matches the data reasonably well(Fig. \ref{logistic}), so we can say that the \textbf{residuals (uncertainty) following a zero-inflated logistic law}.
+\paragraph{Logistics law:} The probability density function matches the data reasonably well(Fig. \ref{logistic}), so we can say that the \textbf{residuals (uncertainty) follow a zero-inflated logistic law}.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{logistic}
+\includegraphics[scale=0.8]{logistic}
 \caption{Estimated probability density of data for Logistic law}
 \label{logistic}
 \end{figure}
@@ -716,12 +727,12 @@ For each tests in (table \ref{normal}), the p-value is significant, so the sampl
 
 \chapter{Training and changes on propulsion technics}
 \label{training_technic}
-In this section, we want to evaluate the effect of the experiment on the propulsion technique used by manual wheelchair users. We assume that the shape of the Z moment of the left and right wheels reflects the propulsion technique used. Thus, in this paragraph, rather than using an approach that uses cycle properties, we will directly compare time series from a distance function while taking into account the presence of uncertainty in measurements. To do this, we applied FOTS-UShapelet to the measurements made and we deliver here the analysis we make of the results obtained.
+In this section, we want to evaluate the effect of the experiment on the propulsion technique used by manual wheelchair users. We assume that the shape of the $M_z$ moment of the left and right wheels reflects the propulsion technique used. Thus, in this paragraph, rather than using an approach that uses cycle properties, we  directly compared time series from a distance function while taking into account the presence of uncertainty in measurements. To do this, we applied FOTS-UShapelet to the measurements made and we deliver here the analysis we made of the results obtained.
 
 
 
-FOTS-UShapelet was applied to the time series from the measurement of efforts made by 08 valid subjects during the first week of use and after three weeks of use of the Manual Wheelchair. The table\ref{technic} details the results we get. From the shape of the time series, we can form three large groups that correspond to three techniques that we have named T1, T2 and T3. For each subject of the experiment, we observe a difference between the propulsion techniques used at the beginning of the trial period and after three weeks. The subject SA01 for example uses the T1 technique 83\% and the T3 technique 17\% of the time during the first week. However, after three weeks of using the Manual Wheelchair, he uses the T1 technique 33\% of the time and the T3 technique 67\% of the time. So there is a change in the way he moves. 
-However, the changes observed vary according to the subjects (Table \ref{technic}). The variations in the evolution of propulsion techniques require personalized monitoring of locomotion and highlights the importance of using a Wheelchair Ergometer when learning locomotion in a Manual Wheelchair.
+FOTS-UShapelet was applied to the time series from the measurement of efforts made by eight valid subjects during the first week of use and after three weeks of use of the Manual Wheelchair. Table \ref{technic} details the obtained results. From the shape of the time series, we could form three large groups that correspond to three techniques that we have named T1, T2 and T3. For each subject of the experiment, we observe a difference between the propulsion techniques used at the beginning of the trial period and after three weeks. For example the subject SA01  uses the T1 technique 83\% and the T3 technique 17\% of the time during the first week. However, after three weeks of using the Manual Wheelchair, he uses the T1 technique 33\% of the time and the T3 technique 67\% of the time. So there is a change in the way he moves. 
+However, the observed changes  vary according to the subjects (Table \ref{technic}). The variations in the evolution of propulsion techniques require personalized monitoring of locomotion and highlight the importance of using a Wheelchair Ergometer when learning locomotion in a Manual Wheelchair.
 
 
 
@@ -872,7 +883,7 @@ SA08CA           & T3S           & ES2            & RD             & 3          
 SA08CA           & T3S           & ES2            & RG             & 1                &             &             &             \\ \hline
 SA08CA           & T3S           & ES3            & RD             & 1                &             &             &             \\ \hline
 SA08CA           & T3S           & ES3            & RG             & 3                & 0,67        & 0,00        & 0,33        \\ \hline
-\caption{Evolution of manual wheelchair propulsion technology with training}
+\caption{Evolution of manual wheelchair propulsion technique with training}
 \label{technic}  
 \end{longtable}
 

@@ -1,187 +1,169 @@
 \babel@toc {english}{}
-\contentsline {chapter}{Dedications}{ii}{Doc-Start}
-\contentsline {chapter}{Acknowledgment}{iii}{chapter*.1}
-\contentsline {chapter}{Summary}{vi}{chapter*.2}
-\contentsline {part}{I\hspace {1em}General Introduction}{1}{part.1}
-\contentsline {chapter}{General introduction}{6}{section*.6}
+\contentsline {part}{I\hspace {1em}General introduction}{1}{part.1}
 \contentsline {part}{II\hspace {1em}Background and related works}{7}{part.2}
-\contentsline {chapter}{\numberline {1}Wheelchair locomotion}{9}{chapter.1}
+\contentsline {chapter}{\numberline {1}Knowledge discovery on time series}{9}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problem}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Evaluation tools}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Crank Ergometers}{10}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Roller Ergometers}{11}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Treadmill}{13}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Wheelchair simulators}{13}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Wheelchair Field-Ergometer}{14}{subsection.1.3.5}
-\contentsline {section}{\numberline {1.4}Wheelchair time series}{14}{section.1.4}
-\contentsline {paragraph}{}{15}{section*.12}
-\contentsline {paragraph}{}{16}{section*.15}
-\contentsline {section}{\numberline {1.5}Conclusion}{17}{section.1.5}
-\contentsline {chapter}{\numberline {2}Knowledge discovery on time series}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}
-\contentsline {section}{\numberline {2.2}Preprocessing of time series}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Denoising time series}{19}{subsection.2.2.1}
-\contentsline {paragraph}{Kernel smoothing:}{20}{section*.17}
-\contentsline {paragraph}{Polynomial Regression:}{20}{section*.18}
-\contentsline {paragraph}{Wiener-Kolmogorov Filtering of Short Stationary Sequences:}{20}{section*.19}
-\contentsline {paragraph}{Filtering in the Frequency Domain:}{20}{section*.20}
-\contentsline {paragraph}{Kalman Filter and the Smoothing Algorithm,}{20}{section*.21}
-\contentsline {subsection}{\numberline {2.2.2}Reducing uncertainty}{21}{subsection.2.2.2}
-\contentsline {paragraph}{Uncertain moving average:}{21}{section*.22}
-\contentsline {paragraph}{Z-normalization}{21}{section*.23}
-\contentsline {subsection}{\numberline {2.2.3}Dimensionality reduction}{21}{subsection.2.2.3}
-\contentsline {paragraph}{Non-data-adaptive:}{22}{section*.24}
-\contentsline {paragraph}{Data adaptive:}{22}{section*.25}
-\contentsline {paragraph}{Model based:}{22}{section*.26}
-\contentsline {section}{\numberline {2.3}Similarity Measures}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Time-Series Invariances}{23}{subsection.2.3.1}
-\contentsline {paragraph}{Scaling and translation invariances:}{23}{section*.27}
-\contentsline {paragraph}{Shift invariance:}{23}{section*.28}
-\contentsline {paragraph}{Uniform scaling invariance:}{23}{section*.29}
-\contentsline {paragraph}{Occlusion invariance:}{23}{section*.30}
-\contentsline {paragraph}{Complexity invariance:}{24}{section*.31}
-\contentsline {subsection}{\numberline {2.3.2}Categories of time series similarity function}{24}{subsection.2.3.2}
-\contentsline {paragraph}{Feature Based distance:}{25}{section*.32}
-\contentsline {paragraph}{Structure Based similarity measures:}{25}{section*.33}
-\contentsline {section}{\numberline {2.4}Datamining task on time series}{25}{section.2.4}
-\contentsline {paragraph}{Indexing time series: }{25}{section*.34}
-\contentsline {paragraph}{Motif Discovery:}{25}{section*.35}
-\contentsline {paragraph}{Anomaly Detection:}{26}{section*.36}
-\contentsline {paragraph}{Temporal Association Rule Discovery:}{26}{section*.37}
-\contentsline {paragraph}{Summarization (Visualization):}{26}{section*.38}
-\contentsline {paragraph}{Prediction}{27}{section*.39}
-\contentsline {paragraph}{Classification:}{27}{section*.40}
-\contentsline {paragraph}{Clustering:}{28}{section*.41}
-\contentsline {section}{\numberline {2.5}Conclusion}{34}{section.2.5}
-\contentsline {part}{III\hspace {1em}Contributions}{35}{part.3}
-\contentsline {chapter}{\numberline {3}Preprocessing of time series}{37}{chapter.3}
-\contentsline {paragraph}{Abstract: }{37}{section*.46}
-\contentsline {section}{\numberline {3.1}Introduction}{37}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Why the use of PAA can improve alignment with Dynamic Time Warping}{38}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The problem of choosing a suitable segment number for PAA}{39}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Summary of Contributions}{39}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Background and related works}{40}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Dynamic Time Warping algorithm.}{41}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Iterative Deepening Dynamic Time Warping}{41}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}FDTW: a GRASP based heuristic}{43}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1} Evaluation procedures for the compression quality}{43}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Problem definition.}{44}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Brute-force search.}{44}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4} Greedy Randomized Adaptive Search Procedures}{45}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Parameter free heuristic}{45}{subsection.3.3.5}
-\contentsline {paragraph}{1.}{45}{section*.49}
-\contentsline {paragraph}{2.}{45}{section*.50}
-\contentsline {paragraph}{3.}{45}{section*.51}
-\contentsline {paragraph}{4.}{46}{section*.52}
-\contentsline {paragraph}{}{46}{section*.53}
-\contentsline {paragraph}{Time complexity: }{46}{section*.54}
-\contentsline {paragraph}{}{46}{section*.55}
-\contentsline {paragraph}{}{46}{section*.56}
-\contentsline {paragraph}{}{46}{section*.58}
-\contentsline {paragraph}{}{48}{section*.59}
-\contentsline {paragraph}{}{48}{section*.60}
-\contentsline {section}{\numberline {3.4}Experiment and results}{48}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Case studies}{48}{subsection.3.4.1}
-\contentsline {subsubsection}{Compression}{49}{section*.61}
-\contentsline {paragraph}{}{49}{section*.62}
-\contentsline {paragraph}{}{49}{section*.63}
-\contentsline {subsubsection}{Classification}{49}{section*.65}
-\contentsline {paragraph}{}{49}{section*.66}
-\contentsline {paragraph}{}{51}{section*.67}
-\contentsline {paragraph}{}{52}{section*.68}
-\contentsline {paragraph}{}{54}{section*.69}
-\contentsline {paragraph}{}{55}{section*.72}
-\contentsline {section}{\numberline {3.5}Conclusion and perspective}{57}{section.3.5}
-\contentsline {chapter}{\numberline {4}Uncertain time series u-shapelet discovery}{59}{chapter.4}
-\contentsline {paragraph}{Abstract: }{59}{section*.76}
-\contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Review of u-shapelets}{60}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}U-shapelets algorithm for clustering Uncertain Time Series }{62}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Uncertainty and u-shapelets discovery issue}{62}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Summary of contributions}{62}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Background}{63}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Background}{63}{subsection.4.2.1}
-\contentsline {paragraph}{}{63}{section*.78}
-\contentsline {paragraph}{}{63}{section*.80}
-\contentsline {subsection}{\numberline {4.2.2}State of the art on uncertain similarity functions}{64}{subsection.4.2.2}
-\contentsline {subsubsection}{Deterministic Similarity Measures}{64}{section*.82}
-\contentsline {subsubsection}{Probabilistic Similarity Measures}{65}{section*.83}
-\contentsline {paragraph}{Uncertain Correlation}{67}{section*.84}
-\contentsline {paragraph}{Local Correlation}{67}{section*.85}
-\contentsline {section}{\numberline {4.3}Our Approach}{69}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Dissimilarity function}{69}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Scalable u-shapelets Algorithm with FOTS score}{70}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Experiments}{70}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Clustering with u-shapelets}{70}{subsection.4.4.1}
-\contentsline {paragraph}{Choosing the length $N$ of a u-shapelet : }{71}{section*.89}
-\contentsline {paragraph}{Choosing the length $w$ of the windows : }{71}{section*.90}
-\contentsline {paragraph}{Choosing the number $k$ of eigenvectors: }{71}{section*.91}
-\contentsline {subsection}{\numberline {4.4.2}Evaluation Metric}{72}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Comparison with u-shapelet}{73}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Comparison with k-Shape and USLM}{73}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Discussion}{73}{subsection.4.4.5}
-\contentsline {subsubsection}{Time complexity analysis}{74}{section*.95}
-\contentsline {section}{\numberline {4.5}Conclusion}{74}{section.4.5}
-\contentsline {chapter}{\numberline {5}SAX-P}{77}{chapter.5}
-\contentsline {paragraph}{Abstract: }{77}{section*.98}
-\contentsline {section}{\numberline {5.1}Introduction}{77}{section.5.1}
-\contentsline {section}{\numberline {5.2}SAX-P}{80}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Segmentation of cyclic time series}{81}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}From cycles to letters}{82}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Application to manual wheelchair locomotion}{84}{section.5.3}
-\contentsline {section}{\numberline {5.4}Conclusion}{86}{section.5.4}
-\contentsline {chapter}{\numberline {6}Application}{89}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{89}{section.6.1}
-\contentsline {section}{\numberline {6.2}The torsor sensor}{89}{section.6.2}
-\contentsline {section}{\numberline {6.3}Description of datasets}{90}{section.6.3}
-\contentsline {paragraph}{Length of time series:}{90}{section*.116}
-\contentsline {paragraph}{Noise in time series:}{91}{section*.118}
-\contentsline {paragraph}{Cycles in time series:}{91}{section*.120}
-\contentsline {paragraph}{Uncertainty in time series :}{91}{section*.121}
-\contentsline {section}{\numberline {6.4}Manual Wheelchair locomotion analysis}{93}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Preprocessing}{93}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Exploitation of time series of rolling chair locomotion}{93}{subsection.6.4.2}
-\contentsline {subsubsection}{The symmetry of Manual Wheelchair Locomotion}{93}{section*.123}
-\contentsline {subsubsection}{Group Manual Wheelchair users according to their motor skills}{99}{section*.125}
-\contentsline {section}{\numberline {6.5}Conclusion}{104}{section.6.5}
-\contentsline {chapter}{General conclusion}{108}{section*.140}
-\contentsline {chapter}{\numberline {A}Hellinger Based Distance for Uncertain time series}{109}{appendix.A}
-\contentsline {section}{\numberline {A.1}DUST}{109}{section.A.1}
-\contentsline {section}{\numberline {A.2}Hellinger Based Distance}{110}{section.A.2}
-\contentsline {chapter}{\numberline {B}An optimal approach for time series segmentation: Application to the supervised classification}{113}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{113}{section.B.1}
-\contentsline {section}{\numberline {B.2}Granularity of time series segments}{114}{section.B.2}
-\contentsline {subsection}{\numberline {B.2.1}Notations and definitions}{114}{subsection.B.2.1}
-\contentsline {paragraph}{Definition 1:}{114}{section*.143}
-\contentsline {paragraph}{Definition 2:}{114}{section*.144}
-\contentsline {paragraph}{Definition 3:}{115}{section*.145}
-\contentsline {subsection}{\numberline {B.2.2}Information theory and minimum number of segments}{115}{subsection.B.2.2}
-\contentsline {subsection}{\numberline {B.2.3}Notations and definitions}{115}{subsection.B.2.3}
-\contentsline {paragraph}{Definition 1:}{115}{section*.147}
-\contentsline {paragraph}{Definition 2:}{116}{section*.148}
-\contentsline {paragraph}{Definition 3:}{116}{section*.149}
-\contentsline {subsection}{\numberline {B.2.4}Minimize the squared error to choose the number of segments}{116}{subsection.B.2.4}
-\contentsline {paragraph}{}{116}{section*.150}
-\contentsline {paragraph}{}{117}{section*.151}
-\contentsline {paragraph}{Complexity of the algorithm}{117}{section*.154}
-\contentsline {subsection}{\numberline {B.2.5}Dynamic Time Warping Algorithm and comparison of compact representations}{118}{subsection.B.2.5}
-\contentsline {section}{\numberline {B.3}Results and Discussion}{119}{section.B.3}
-\contentsline {subsection}{\numberline {B.3.1}Datasets}{119}{subsection.B.3.1}
-\contentsline {subsection}{\numberline {B.3.2}Comparison of algorithm performance}{121}{subsection.B.3.2}
-\contentsline {section}{\numberline {B.4}Conclusion}{125}{section.B.4}
-\contentsline {chapter}{\numberline {C}Determination of the probability density function of Mz uncertainty}{127}{appendix.C}
-\contentsline {section}{\numberline {C.1}Ampiric probability distribution}{127}{section.C.1}
-\contentsline {paragraph}{ descriptive statistics}{127}{figure.caption.158}
-\contentsline {paragraph}{Distribution}{127}{figure.caption.160}
-\contentsline {section}{\numberline {C.2}Theoric probability distribution}{128}{section.C.2}
-\contentsline {paragraph}{Normality test}{129}{section*.161}
-\contentsline {paragraph}{Cauchy's Law Test}{129}{section*.163}
-\contentsline {paragraph}{Student's Law test}{129}{section*.165}
-\contentsline {paragraph}{Logistics law}{129}{section*.167}
-\contentsline {chapter}{\numberline {D}Training and changes on propulsion technics}{131}{appendix.D}
-\contentsline {chapter}{References}{152}{appendix*.169}
-\contentsline {chapter}{List of Figures}{155}{appendix*.170}
-\contentsline {chapter}{List of Tables}{158}{appendix*.171}
-\contentsline {chapter}{Contents}{162}{appendix*.172}
+\contentsline {section}{\numberline {1.2}Preprocessing of time series}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Denoising time series}{10}{subsection.1.2.1}
+\contentsline {paragraph}{Kernel smoothing:}{10}{section*.6}
+\contentsline {paragraph}{Polynomial Regression:}{10}{section*.7}
+\contentsline {paragraph}{Wiener-Kolmogorov Filtering of Short Stationary Sequences:}{10}{section*.8}
+\contentsline {paragraph}{Filtering in the Frequency Domain:}{10}{section*.9}
+\contentsline {paragraph}{Kalman Filter and the Smoothing Algorithm,}{10}{section*.10}
+\contentsline {subsection}{\numberline {1.2.2}Reducing uncertainty}{11}{subsection.1.2.2}
+\contentsline {paragraph}{Uncertain moving average:}{11}{section*.11}
+\contentsline {paragraph}{Z-normalization}{11}{section*.12}
+\contentsline {subsection}{\numberline {1.2.3}Dimensionality reduction}{12}{subsection.1.2.3}
+\contentsline {paragraph}{Non-data-adaptive:}{12}{section*.13}
+\contentsline {paragraph}{Data adaptive:}{12}{section*.14}
+\contentsline {paragraph}{Model based:}{12}{section*.15}
+\contentsline {section}{\numberline {1.3}Similarity Measures}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Time-Series invariances}{13}{subsection.1.3.1}
+\contentsline {paragraph}{Scaling and translation invariances:}{13}{section*.16}
+\contentsline {paragraph}{Shift invariance:}{14}{section*.17}
+\contentsline {paragraph}{Uniform scaling invariance:}{14}{section*.18}
+\contentsline {paragraph}{Occlusion invariance:}{14}{section*.19}
+\contentsline {paragraph}{Complexity invariance:}{14}{section*.20}
+\contentsline {paragraph}{}{14}{section*.21}
+\contentsline {subsection}{\numberline {1.3.2}Categories of time series similarity function}{14}{subsection.1.3.2}
+\contentsline {paragraph}{}{15}{section*.22}
+\contentsline {paragraph}{}{15}{section*.23}
+\contentsline {paragraph}{Feature Based distance:}{15}{section*.24}
+\contentsline {paragraph}{Structure Based similarity measures:}{15}{section*.25}
+\contentsline {section}{\numberline {1.4}Datamining task on time series}{16}{section.1.4}
+\contentsline {paragraph}{Indexing time series: }{16}{section*.26}
+\contentsline {paragraph}{Motif Discovery:}{16}{section*.27}
+\contentsline {paragraph}{Anomaly Detection:}{16}{section*.28}
+\contentsline {paragraph}{Temporal Association Rule Discovery:}{17}{section*.29}
+\contentsline {paragraph}{Summarization (Visualization):}{17}{section*.30}
+\contentsline {paragraph}{Prediction}{18}{section*.31}
+\contentsline {paragraph}{Classification:}{18}{section*.32}
+\contentsline {paragraph}{Clustering:}{19}{section*.33}
+\contentsline {section}{\numberline {1.5}Conclusion}{25}{section.1.5}
+\contentsline {part}{III\hspace {1em}Contributions}{27}{part.3}
+\contentsline {chapter}{\numberline {2}Preprocessing of time series}{29}{chapter.2}
+\contentsline {paragraph}{Abstract : }{29}{section*.38}
+\contentsline {section}{\numberline {2.1}Introduction}{29}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}PAA and Dynamic Time Warping}{30}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Choise of a segment number with PAA}{31}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Summary of Contributions}{31}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Background and related works}{32}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Dynamic Time Warping algorithm.}{32}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Iterative Deepening Dynamic Time Warping}{33}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}FDTW: a GRASP based heuristic}{35}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1} Evaluation procedures for the compression quality}{35}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Problem definition.}{35}{subsection.2.3.2}
+\contentsline {paragraph}{}{36}{section*.41}
+\contentsline {subsection}{\numberline {2.3.3}Brute-force search.}{36}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4} Greedy Randomized Adaptive Search Procedures}{37}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Parameter free heuristic}{37}{subsection.2.3.5}
+\contentsline {paragraph}{1.}{37}{section*.42}
+\contentsline {paragraph}{2.}{37}{section*.43}
+\contentsline {paragraph}{3.}{37}{section*.44}
+\contentsline {paragraph}{4.}{38}{section*.45}
+\contentsline {paragraph}{}{38}{section*.46}
+\contentsline {paragraph}{Time complexity: }{38}{section*.47}
+\contentsline {paragraph}{}{38}{section*.48}
+\contentsline {paragraph}{}{38}{section*.49}
+\contentsline {paragraph}{}{38}{section*.51}
+\contentsline {paragraph}{}{39}{section*.52}
+\contentsline {paragraph}{}{40}{section*.53}
+\contentsline {section}{\numberline {2.4}Experiment and results}{40}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Case studies}{40}{subsection.2.4.1}
+\contentsline {subsubsection}{Compression}{40}{section*.54}
+\contentsline {paragraph}{}{40}{section*.55}
+\contentsline {paragraph}{}{41}{section*.56}
+\contentsline {subsubsection}{Classification}{41}{section*.58}
+\contentsline {paragraph}{}{41}{section*.59}
+\contentsline {paragraph}{}{41}{section*.60}
+\contentsline {paragraph}{}{44}{section*.61}
+\contentsline {paragraph}{}{46}{section*.62}
+\contentsline {paragraph}{}{47}{section*.65}
+\contentsline {section}{\numberline {2.5}Conclusion and perspective}{49}{section.2.5}
+\contentsline {chapter}{\numberline {3}Uncertain time series u-shapelet discovery}{51}{chapter.3}
+\contentsline {paragraph}{Abstract : }{51}{section*.69}
+\contentsline {section}{\numberline {3.1}Introduction}{51}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Review of u-shapelets}{52}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}U-shapelets algorithm for clustering Uncertain Time Series }{54}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Uncertainty and u-shapelets discovery issue}{54}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Summary of contributions}{54}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Background}{55}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Background}{55}{subsection.3.2.1}
+\contentsline {paragraph}{}{55}{section*.71}
+\contentsline {paragraph}{}{55}{section*.73}
+\contentsline {subsection}{\numberline {3.2.2}State of the art on uncertain similarity functions}{56}{subsection.3.2.2}
+\contentsline {subsubsection}{Deterministic Similarity Measures}{56}{section*.75}
+\contentsline {paragraph}{}{57}{section*.76}
+\contentsline {subsubsection}{Probabilistic Similarity Measures}{60}{section*.78}
+\contentsline {paragraph}{}{61}{section*.79}
+\contentsline {paragraph}{}{62}{section*.80}
+\contentsline {section}{\numberline {3.3}FOTS}{64}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Dissimilarity function}{64}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Scalable u-shapelets Algorithm with FOTS score}{65}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Experiments}{66}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Clustering with u-shapelets}{66}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Evaluation Metrics}{67}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Comparison with u-shapelet}{67}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Comparison with k-Shape and USLM}{68}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Discussion}{68}{subsection.3.4.5}
+\contentsline {subsubsection}{Time complexity analysis}{69}{section*.87}
+\contentsline {subsubsection}{Robustness to uncertainty}{69}{section*.89}
+\contentsline {section}{\numberline {3.5}Conclusion}{71}{section.3.5}
+\contentsline {chapter}{\numberline {4}SAX-P}{73}{chapter.4}
+\contentsline {paragraph}{Abstract : }{73}{section*.92}
+\contentsline {section}{\numberline {4.1}Introduction}{73}{section.4.1}
+\contentsline {section}{\numberline {4.2}SAX-P}{76}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Segmentation of cyclic time series}{77}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}From cycles to letters}{78}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Application to manual wheelchair locomotion}{80}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Dataset description}{80}{subsection.4.3.1}
+\contentsline {paragraph}{}{81}{section*.107}
+\contentsline {paragraph}{}{82}{section*.109}
+\contentsline {subsection}{\numberline {4.3.2}The symmetry of Manual Wheelchair Locomotion}{82}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Group Manual Wheelchair users according to their motor skills}{88}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Conclusion}{93}{section.4.4}
+\contentsline {chapter}{General conclusion}{97}{section*.128}
+\contentsline {chapter}{\numberline {A}Wheelchair locomotion}{99}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction}{99}{section.A.1}
+\contentsline {section}{\numberline {A.2}Problem}{99}{section.A.2}
+\contentsline {section}{\numberline {A.3}Evaluation tools}{100}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Crank Ergometers}{100}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Roller Ergometers}{101}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Treadmill}{103}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Wheelchair simulators}{103}{subsection.A.3.4}
+\contentsline {subsection}{\numberline {A.3.5}Wheelchair Field-Ergometer}{104}{subsection.A.3.5}
+\contentsline {subsubsection}{The force and torque dynamometer}{105}{section*.134}
+\contentsline {section}{\numberline {A.4}Wheelchair time series}{107}{section.A.4}
+\contentsline {paragraph}{}{107}{section*.136}
+\contentsline {paragraph}{}{107}{section*.139}
+\contentsline {section}{\numberline {A.5}Conclusion}{108}{section.A.5}
+\contentsline {chapter}{\numberline {B}An optimal approach for time series segmentation: Application to the supervised classification}{111}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{111}{section.B.1}
+\contentsline {section}{\numberline {B.2}Granularity of time series segments}{112}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}Notations and definitions}{112}{subsection.B.2.1}
+\contentsline {paragraph}{Definition 1:}{112}{section*.141}
+\contentsline {subsection}{\numberline {B.2.2}Information theory and minimum number of segments}{113}{subsection.B.2.2}
+\contentsline {subsection}{\numberline {B.2.3}Notations and definitions}{113}{subsection.B.2.3}
+\contentsline {subsection}{\numberline {B.2.4}Minimize the squared error to choose the number of segments}{114}{subsection.B.2.4}
+\contentsline {paragraph}{}{114}{section*.143}
+\contentsline {paragraph}{}{115}{section*.144}
+\contentsline {paragraph}{Complexity of the algorithm}{115}{section*.147}
+\contentsline {subsection}{\numberline {B.2.5}Dynamic Time Warping Algorithm and comparison of compact representations}{116}{subsection.B.2.5}
+\contentsline {section}{\numberline {B.3}Results and Discussion}{117}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Datasets}{117}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Comparison of algorithm performance}{119}{subsection.B.3.2}
+\contentsline {section}{\numberline {B.4}Conclusion}{123}{section.B.4}
+\contentsline {chapter}{\numberline {C}Determination of the probability density function of uncertainty}{125}{appendix.C}
+\contentsline {section}{\numberline {C.1}Empirical probability distribution of residuals}{125}{section.C.1}
+\contentsline {paragraph}{ descriptive statistics}{125}{figure.caption.151}
+\contentsline {paragraph}{Distribution}{125}{figure.caption.153}
+\contentsline {section}{\numberline {C.2}Theorical probability distribution}{126}{section.C.2}
+\contentsline {paragraph}{Normality test}{127}{section*.154}
+\contentsline {paragraph}{Cauchy's Law Test}{127}{section*.156}
+\contentsline {paragraph}{Student's Law test:}{127}{section*.158}
+\contentsline {paragraph}{Logistics law:}{127}{section*.160}
+\contentsline {chapter}{\numberline {D}Training and changes on propulsion technics}{129}{appendix.D}
+\contentsline {chapter}{Bibliography}{150}{appendix*.162}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}}{158}{appendix*.164}
 \babel@toc {english}{}
+\contentsline {chapter}{Abstract}{159}{appendix*.164}

@@ -4,13 +4,13 @@
 
 In almost every scientific field, measurements are performed over time. These observations lead to a collection
 of organized data called time series. Today time series data are being generated at an unprecedented
-speed from almost every application domain, e.g.: 
+speed from almost every application domain, for instance: 
 
 \begin{itemize}
-\item In astronomy, telescopes scan the sky and capture light rays that are used in the study of the universe. In Large Synoptic Survey Telescope (LSST) project \cite{lsst}, telescopes will capture the electromagnetic radiation of the sky during ten years to calculate the acceleration of the expansion of the universe. This will result in an astronomical catalog of time series.
-\item In paleoecology, scientists study the evolution of living animal and plant species in the past. To do this, they extract cores from the soil and look for the presence of fossils at each depth, thus creating time series representing the growth or decline in the size of fauna and flora populations over time \cite{lonlacfouille}. 
-\item In medicine, the analysis is electrocardiogram is used to prevent heart attacks \cite{ding2011key}. Those electrocardiograms are long time series obtained by recording the electrical activity of the heart over a period.  
-\item In biomechanics, the study of human locomotion is perform using sensors that record the efforts performed and the movements of the body during the locomotion.
+\item In Astronomy, telescopes scan the sky and capture light rays that are used in the study of the universe. In Large Synoptic Survey Telescope (LSST) project \cite{lsst}, telescopes will capture the electromagnetic radiation of the sky during ten years to calculate the acceleration of the expansion of the universe. This will result in an astronomical catalog of time series.
+\item In Paleoecology, scientists study the evolution of living animal and plant species in the past. To do this, they extract cores from the soil and look for the presence of fossils at each depth, thus creating time series representing the growth or decline in the size of fauna and flora populations over time \cite{lonlacfouille}. 
+\item In Medicine, the analysis of electrocardiogram is used to prevent heart attacks \cite{ding2011key}. Those electrocardiograms are long time series obtained by recording the electrical activity of the heart over a period.  
+\item In Biomechanics, the study of human locomotion is perform using sensors that record the efforts performed and the movements of the body during the locomotion.
 \end{itemize}
 
 As a consequence, in the last decade there has been a dramatically increasing amount of interest in querying and mining such data.
@@ -21,7 +21,7 @@ As a consequence, in the last decade there has been a dramatically increasing am
 
 Time series data mining unveils numerous facets of complexity. The most prominent
 problem arise from the uncertainty contained in time series data,  the difficulty of
-defining a form of similarity measure based on human perception, and the high dimensionality of time series data. These constraints show us that three major issues are involved :
+defining a form of similarity measure based on human perception, and the high dimensionality of time series data \cite{Esling2012}. These constraints show  that three major issues are involved :
 
 
 \begin{itemize}
@@ -42,16 +42,16 @@ mathematically identical.
 The aim of our work is to propose algorithms to deal with thoses caracteristics of time series.
 
 \section*{Context of the thesis}
-This thesis apprehends these scientific questions from a data mining point of view, within the framework of the analysis of time series coming from Manual Wheelchair (MWC) locomotion. Also, even if the issues addressed are not limited to the field of biomechanics time series and concern other areas of applications, this thesis will deal with the analysis of time series coming from the wheelchair ergometer FRET-2.
+This thesis apprehends the scientific questions above from a data mining point of view, within the framework of the analysis of time series coming from Manual Wheelchair (MWC) locomotion. Also, even if the issues addressed are not limited to the field of Biomechanics time series and concern other areas of applications, this thesis will deal with the analysis of time series recorded with the wheelchair ergometer FRET-2.
 
 
-For improving the mobility of persons confined to manual wheelchairs, it is necessary to be able to assess people in their daily environment. For this purpose, a field ergometer wheelchair (FRET-1) has been designed and manufactured  \cite{dabonneville2005self}. This ergometer is equipped with  moment sensors that measures the forces applied to the handrims as well as the movement of the FRET-1 \cite{couetard2000}. It, therefore, makes it possible to measure and calculate a large number of the mechanical parameters of manual wheelchair locomotion.
+For improving the mobility of persons confined to manual wheelchairs, it is necessary to be able to assess people in their daily environment. For this purpose, a field wheelchair ergometer  (FRET-1) has been designed and manufactured  \cite{dabonneville2005self}. This ergometer is equipped with  six component dynamometers and other sensors that measures the forces applied to the handrims as well as the movement of the FRET-1 \cite{couetard2000}. It, therefore, makes it possible to measure and calculate a large number of the mechanical parameters of manual wheelchair locomotion.
 
 
-However, the time series produced by this moment sensor have specific characteristics: 
+However, the time series produced  have specific characteristics: 
 \begin{itemize}
 \item they are long because of the acquisition frequency of the sensor (between 80 and 100 Hz),
-\item they are cyclic; these cycles come from the cyclical character of the locomotion in Manual Wheelchair, which consists of a succession of push phases and ecovery (or freewheeling) phases,
+\item they are cyclic; these cycles come from the cyclical character of the locomotion in Manual Wheelchair, which consists of a succession of push phases and recovery (or freewheeling) phases,
 \item they are uncertain, this uncertainty is observed during the calibration of the sensor.
 \end{itemize}
   
@@ -63,20 +63,19 @@ Our work consists of proposing algorithms to extract relevant information from t
 
 The thesis is organised as follows:
 \begin{itemize}
-\item \textbf{Chapter\,\ref{locomotion_analysis}} presents the main issues related to manual wheelchair locomotion analysis, a literature review of physical and computer models and tools for assessing wheelchair locomotion. The objective of this chapter is to show that over the years manual wheelchair locomotion analysis tools have been upgraded and have allowed the construction of a manual field ergometer wheelchair called FRET of which data are the subject of our analysis. It also presents works from the literature conducted in the fields of biomechanics and computer science with the aim of analyzing manual wheelchair locomotion, which will enable the reader to position our work with what already exists.
+%\item \textbf{Chapter\,\ref{locomotion_analysis}} presents the main issues related to manual wheelchair locomotion analysis, a literature review of physical and computer models and tools for assessing wheelchair locomotion. The objective of this chapter is to show that over the years manual wheelchair locomotion analysis tools have been upgraded and have allowed the construction of a manual field ergometer wheelchair called FRET of which data are the subject of our analysis. It also presents works from the literature conducted in the fields of biomechanics and computer science with the aim of analyzing manual wheelchair locomotion, which will enable the reader to position our work with what already exists.
 
 
-\item \textbf{Chapter\,\ref{kdd}} explains existing models in the field of time series processing that could be useful for the analysis of  Wheelchair locomotion. Thus, chapter \ref{kdd} presents strategies for the preprocessing of time series (e.g. noise reduction, length reduction), their comparisons, their exploitation through visualization, classification, clustering or prediction.
+\item \textbf{Chapter\,\ref{kdd}} explains existing models in the field of time series processing and presents strategies for the preprocessing of time series (e.g. noise reduction, length reduction), their comparisons, their exploitation through visualization, classification, clustering or prediction.
  
  
 \item \textbf{Chapter\,\ref{fdtw}} introduces an algorithm called FDTW, which aims to reduce the length of time series while preserving the information it contains. Its operating principle is based on that of GRASP, but it is original in that it defines its global search strategy. Experiments conducted on a classification task have shown that compression does not alter classification performance. 
 
-\item \textbf{Chapter\, \ref{fots}} proposes a novel framework for uncertain time series clustering, which is based on the use of a clustering algorithm (UShapelet), and on the use of a dissimilarity function (FOTS)  the both are robust to the presence of uncertainty in time series. We tested this clustering strategy on 17 data sets from the literature, which allowed us to observe an improvement in the quality of the obtained results.
+\item \textbf{Chapter\, \ref{fots}} proposes a novel framework for uncertain time series clustering, which is based on the use of a clustering algorithm (UShapelet), and on the use of a dissimilarity function (FOTS),  both being robust to the presence of uncertainty in time series. We tested this clustering strategy on 17 data sets from the literature, which allowed us to observe an improvement in the quality of the obtained results.
 
 
-\item \textbf{Chapter\,\ref{chapter_saxp}} presents a novel symbolic representation of cyclic time series based on cycle properties, which we use for the analysis of cyclic time series issued by human locomotion. This symbolic representation  facilitates the visualization and evaluation of cyclic time series.
+\item \textbf{Chapter\,\ref{chapter_saxp}} presents a novel symbolic representation of cyclic time series based on cycle properties, which we use for the analysis of cyclic time series issued by human locomotion. This symbolic representation  facilitates the visualization and evaluation of cyclic time series. This chapter also gives an application of the proposed symbolic representation to data from manual wheelchair locomotion. The results allowed us to measure the asymmetry of wheelchair locomotion and to establish that this asymmetry decreases with years of practice. We have also observed that the propulsion capabilities of wheelchair users with similar levels of spinal cord injury may differ. These  two results highlight the importance of monitoring manual wheelchair locomotion using measurement instruments and the need of efficient methods for quickly and correctly processing this large amount of data.  
 
-\item \textbf{Chapter\,\ref{application}} gives some applications of the proposed algorithms to data from manual wheelchair locomotion. The results allowed us to measure the asymmetry of wheelchair locomotion and to establish that this asymmetry decreases with years of practice. We have also observed that the propulsion capabilities of wheelchair users with similar levels of spinal cord injury may differ. Also, wheelchair users' propulsion technique evolves, but this evolution varies according to the subject. These last two results highlight the importance of monitoring manual wheelchair locomotion using measuring instruments.  
 \end{itemize}
 
 

@@ -1,0 +1,36 @@
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \numberline {1}Knowledge discovery on time series}{\reset@font\ptcCfont 9}{chapter.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}Introduction}{\reset@font\ptcSfont 9}{section.1.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Preprocessing of time series}{\reset@font\ptcSfont 9}{section.1.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Denoising time series}{\reset@font\ptcSSfont 9}{subsection.1.2.1}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Kernel smoothing:}{\reset@font\ptcPfont 10}{section*.7}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Polynomial Regression:}{\reset@font\ptcPfont 10}{section*.8}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Wiener-Kolmogorov Filtering of Short Stationary Sequences:}{\reset@font\ptcPfont 10}{section*.9}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Filtering in the Frequency Domain:}{\reset@font\ptcPfont 10}{section*.10}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Kalman Filter and the Smoothing Algorithm,}{\reset@font\ptcPfont 10}{section*.11}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Reducing uncertainty}{\reset@font\ptcSSfont 11}{subsection.1.2.2}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Uncertain moving average:}{\reset@font\ptcPfont 11}{section*.12}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Z-normalization}{\reset@font\ptcPfont 11}{section*.13}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.3}Dimensionality reduction}{\reset@font\ptcSSfont 11}{subsection.1.2.3}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Non-data-adaptive:}{\reset@font\ptcPfont 12}{section*.14}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Data adaptive:}{\reset@font\ptcPfont 12}{section*.15}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Model based:}{\reset@font\ptcPfont 12}{section*.16}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Similarity Measures}{\reset@font\ptcSfont 12}{section.1.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Time-Series Invariances}{\reset@font\ptcSSfont 13}{subsection.1.3.1}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Scaling and translation invariances:}{\reset@font\ptcPfont 13}{section*.17}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Shift invariance:}{\reset@font\ptcPfont 13}{section*.18}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Uniform scaling invariance:}{\reset@font\ptcPfont 13}{section*.19}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Occlusion invariance:}{\reset@font\ptcPfont 13}{section*.20}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Complexity invariance:}{\reset@font\ptcPfont 14}{section*.21}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}Categories of time series similarity function}{\reset@font\ptcSSfont 14}{subsection.1.3.2}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Feature Based distance:}{\reset@font\ptcPfont 15}{section*.22}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Structure Based similarity measures:}{\reset@font\ptcPfont 15}{section*.23}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.4}Datamining task on time series}{\reset@font\ptcSfont 15}{section.1.4}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Indexing time series: }{\reset@font\ptcPfont 15}{section*.24}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Motif Discovery:}{\reset@font\ptcPfont 15}{section*.25}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Anomaly Detection:}{\reset@font\ptcPfont 16}{section*.26}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Temporal Association Rule Discovery:}{\reset@font\ptcPfont 16}{section*.27}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Summarization (Visualization):}{\reset@font\ptcPfont 16}{section*.28}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Prediction}{\reset@font\ptcPfont 17}{section*.29}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Classification:}{\reset@font\ptcPfont 17}{section*.30}}
+{\reset@font\ptcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Clustering:}{\reset@font\ptcPfont 18}{section*.31}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.5}Conclusion}{\reset@font\ptcSfont 24}{section.1.5}}

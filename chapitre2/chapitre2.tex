@@ -1,5 +1,6 @@
-\chapter[Preprocessing of time series]{Compression for a better classification with Dynamic Time Warping}
+\chapter[Preprocessing of time series]{Compression and classification with Dynamic Time Warping}
 \label{fdtw}
+%\minitoc
 
 \begin{abstract}
  Dynamic Time Warping (DTW) is a time series alignment algorithm that is often used because it
@@ -7,7 +8,7 @@
  sometimes produces pathological alignments that occur when, during the comparison of two time series
  X and Y, one data point of the time series X is compared to a large subsequence of data points of Y.
  In this chapter, we demonstrate that  compressing time series using Piecewise Aggregate Approximation
- (PAA) is a simple strategy that greatly increases the quality of the alignment with DTW This result is 
+ (PAA) is a simple strategy that greatly increases the quality of the alignment with DTW. This result is 
  particularly true for synthetic data sets.      
  \end{abstract}
 
@@ -31,7 +32,7 @@ Value Decomposition and Discrete Wavelet Transform.
 \end{itemize}
 
 
-\subsection{Why the use of PAA can improve alignment with Dynamic Time Warping}
+\subsection{PAA and Dynamic Time Warping}
 
  Time series comparison is an important task that
 can be done in two main ways.
@@ -71,7 +72,7 @@ alignments.  However, one major challenge with PAA is the choice of the number o
 consider especially with long time series.
 
 
-\subsection{The problem of choosing a suitable segment number for PAA}
+\subsection{Choise of a segment number with PAA}
 
 If the number of segments considered with PAA is too small, the resulting
 representation  is compact, but it contains less information. On the other hand, if the number of
@@ -112,7 +113,7 @@ Section \ref{sec:4} presents experimental results and comparisons to other metho
 
 \section{Background and related works}
 \label{sec:1}
-Let's recall some definitions.
+Let's recall some definitions \ref{siyouRairo}.
 
 \begin{definition}
 A \textbf{time series}
@@ -135,6 +136,7 @@ $l$ is noted $\bar{X}_{i}$ and is defined by:
 
 
 \begin{definition}
+
 Let $T$ be the set of time series. The Piecewise Aggregate Approximation (PAA) is defined as follows:
 
 \begin{eqnarray}
@@ -144,12 +146,13 @@ Let $T$ be the set of time series. The Piecewise Aggregate Approximation (PAA) i
 (X,N)\mapsto PAA(X,N) & = &
  \begin{cases}
  \begin{array}{c}
-\bar{X}_{1},\cdots,\bar{X}_{N}\:if\:N<|X|,\\
-X\:otherwise.
+\bar{X}_{k}, k \in \{i\times\frac{n}{N} + 1, i=0,\cdots , N-1\}\;if\:N<|X|\\
+X\:otherwise
 \end{array}
 \end{cases}
 \end{array}
 \end{eqnarray}
+
 \end{definition}
 
 \begin{definition}
@@ -298,8 +301,7 @@ Let $X \in d_i$ be a time series of the dataset $d_i$; we note $|X| = n$ the len
 $1NNPDTW( d_i, N)$  is the classification error of 1-NN with PDTW using $N$ segments on 
  $d_i$.
 
-\\
-Our goal is to find the number of segments that allows $PDTW$ to best align
+\paragraph{}Our goal is to find the number of segments that allows $PDTW$ to best align
 time series.  $PDTW$ gives a good alignment when its
 classification error with $1NN$ is low
 \cite{Rakthanmanon_Campana_Mueen_Batista_Westover_Zhu_Zakaria_Keogh_2012}.  Our
@@ -308,8 +310,9 @@ N)$.
 
 Formally, \textbf{ given a dataset $d_i,$ of time series that have a length n, we look for the number
 of segments $N \in \{1 \ldots n \}$ such that}
+
 \begin{eqnarray}
-1NNPDTW(d_{i},N)=\underset{1\leq\alpha\leq n}{min}\{1NNPDTW(d_i,\alpha)\}.
+\underset{1\leq N\leq n}{min}\{1NNPDTW(d_i,N)\}.
 \end{eqnarray}
 
 
@@ -319,8 +322,7 @@ The simplest way to find the value for the number of segments that minimized the
 classification error is to test all the possible values.  Obviously, this
 method is time consuming as it requires to test $n$ values to find the best one. The time complexity is:
 \begin{eqnarray}
-O(|d|^{2} \times \underset{N\in C}{\sum}{\displaystyle
-N^{2}}),\, |C|=n,
+O(|d|^{2} \times n^{3}),
 \end{eqnarray}
 
 where $C$ is the set of values for the number of segments.
@@ -437,30 +439,27 @@ different candidates during each iteration to ensure that we return a good
 local minimum. We fix the number of iterations to $k \leq \left\lfloor log(n)\right\rfloor $. At each iteration, the first candidate is $n-(number \_ of \_ iteration \,-\, 1)$.
 
 
-\paragraph{}In short, in the worst case, we test the first $N_{c}$ candidates to find the best one.
-Then, we test $\frac{2n}{N_{c}}$ other candidates to find the local minimum.
-We finally perform $nb(N_{c})\, =\, N_{c}\, +\, \frac{2n}{N_{c}}$ tests. The number of tests
+\paragraph{}In short, in the worst case, we test the first $M$ candidates to find the best one.
+Then, we test $\frac{2n}{M}$ other candidates to find the local minimum.
+We finally perform $nb(M)\, =\, M\, +\, \frac{2n}{M}$ tests. The number of tests
  to be performed is a function of the number of candidates. Hence, how many
 candidates should we consider to reduce the number of tests? The first
-derivative of $nb$ function  vanishes when $N_{c}=\sqrt{2n}$ and its second derivative is
-positive; so the minimal number of tests is obtained when the number of candidates is: 
-$N_{c}=\sqrt{2n}$. At each
+derivative of $nb$ function  vanishes when $M=\sqrt{2n}$ and its second derivative is
+positive; so the minimal number of tests is obtained when the number of candidates is : 
+$M=\sqrt{2n}$. At each
 iteration, the heuristic tests $nb(\sqrt{2n})=\sqrt{8n}$ number of segments. As we have $k$
-iterations the number of candidates tested is: $|C|=\stackrel[i=0]{k-1}{\sum}{\textstyle
-k\sqrt{8n}}$. The details of the heuristic are presented in Algorithm \ref{algo5}.
+iterations the number of candidates tested is: $|C|=k\sqrt{8n}$. The details of the heuristic are presented in Algorithm \ref{algo5}.
 
 \paragraph{Time complexity: }
 We use the training set to find the number of segments that should be considered
 with PDTW. For that purpose, we applied $1NN$ on the training set that costs
 \begin{eqnarray}
-O(|d|^{2} \times \underset{N\in C}{\sum}{\displaystyle
-N^{2}}),\, |C|= k\sqrt{8n},
+O(|d|^{2} \times n^{2}\sqrt{n}).
 \end{eqnarray}
 
 
 where $|d|^{2}$ comes from $1NN$ algorithm and
-$\underset{N\in C}{\sum}{\displaystyle N^{2}}$ comes from $PDTW$ with $N$ being one value of the
-number of segments, and  $C$ being the set of values for the number of segments. 
+$n^{2}\sqrt{n}$ comes from $PDTW$. 
 
 
 
@@ -479,7 +478,7 @@ $1NNDTW$ is always greater than or equal to $FDTW$.
 
 \begin{algorithm}[h]
 \DontPrintSemicolon
-\KwIn{training\_set, length of a time serie: n, \\ number of iterations:
+\KwIn{training\_set, length of a time serie : n, \\ number of iterations :
 nb\_rep}
 \KwOut{The number of segments to be used N \\ The accuracy associated to N}
 \SetKwBlock{Begin}{function}{end function}
@@ -493,24 +492,20 @@ nb\_rep}
     $tab\_N\_possible\_candidates \leftarrow seq(from = (n - i), to = 1, by = -l)$\;
     $nb\_candidats \leftarrow |tab\_N\_possible\_candidates|$\;
 
-    \For{$i \;in\left\lbrace 1, 2, \ldots, nb\_candidats\right\rbrace $}
+    \For{$i \;in\left\lbrace 1, 2, \ldots, nb\_candidates\right\rbrace $}
     {
       \uIf{$tab\_N[tab\_N\_possible\_candidates[i]] \; \neq  \;0$}
       {
        $tab\_N\_candidates[j] \leftarrow tab\_N\_possible\_candidates[i] $\;
+       $tab\_N[ tab\_N\_candidates[j] ] \leftarrow 0 $\;
        $j \leftarrow j + 1$
       }
 
     }
     $mat\_r \leftarrow 1NNPDTW(training\_set, tab\_N\_candidats)$ \;\tcc{$1NNPDTW$ return a matrix of couple $(N,error)$}
 
-
-     \For{$i \;in\; tab\_N\_candidates$}
-    {
-        $tab\_N[i] \leftarrow 0 $
-    }
     $min \leftarrow minimun(mat\_r) $\;\tcc{$minimum$ return the couple $(N,error)$ with the minimum error}
-    $result[[(i + 1)]]   \leftarrow localMinimun(min.N,  min.error, training\_set,
+    $result[(i + 1)]   \leftarrow localMinimun(min.N,  min.error, training\_set,
     tab\_N)$\;
       
   }
@@ -521,6 +516,7 @@ nb\_rep}
 }
 \caption{Parameter Free Dynamic Time Warping}\label{algo5}
 \end{algorithm}
+
 
 \paragraph{}Nevertheless, a heuristic does not always give the optimal value. To ensure that
 it gives a result not far from the optimal value, one approach is to
@@ -585,10 +581,10 @@ Throughout the experiments described in this chapter, FDTW performs three iterat
 
 \subsection{Case studies}
 
-PAA is widely used in temporal data mining and often as a primitive by other algorithms such as
+PAA is widely used in time series data mining and often as a primitive by other algorithms such as
 those allowing to construct a symbolic representation of time series, those allowing to index a
 time series or even those allowing to classify time series. In this section, we present some
-algorithms for which the pre-processing performed by FDTW allows to improve the final
+algorithms for which the preprocessing performed by FDTW allows to improve the final
 results.
 \subsubsection{Compression}
 
@@ -619,7 +615,7 @@ capture the main variations of the original time series (figure \ref{coffee}).
 
 \includegraphics[scale=0.23]{coffee_1_ts}\includegraphics[scale=0.23]{coffee_1_paa_88}
 
-\caption{Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series(286 data points), right:  representation using PAA with 88 segments}
+\caption{Visual comparison of two time series from the two classes of the coffee dataset. Left: the original time series (286 data points), right:  representation using PAA with 88 segments}
 
 \label{coffee}
 \end{figure}
@@ -635,17 +631,17 @@ PDTW was designed to speed up the calculation of DTW without degrading the accur
 
 
 
-\\
- \paragraph{}\textbf{Quality of the number of segments found:}   \\
+
+ \paragraph{}\textbf{Quality of the number of segments:}   \\
  A segment number $N_1$ is better than a segment number $N_2$ if the classification
  error associated with $N_1$ is smaller than that associated with $N_2$. So, to evaluate the
  quality of our heuristic FDTW, we compared its classification errors with that of IDDTW.
-  The classification error  was calculated from the results of the 3 fold cross validation 
+  The classification error  was computed from the results of the 3 fold cross validation 
   applied on the training set. IDDTW tested all the values of $N$ that were equal to a power of two and kept the one that had  a minimum
 classification error (Table \ref{error_trainingset}).
 
 
-\\
+
  \paragraph{}\textbf{Application:}  \\
 According to the announcement in \textbf{Lemma 1}, the classification error of FDTW during the learning phase (training error) is less
 than or equal to that of DTW for all the considered datasets.  We used \textbf{Wilcoxon signed rank test} with continuity
@@ -676,7 +672,8 @@ $N^{\circ}$ & \textbf{Datasets}  & \textbf{DTW} & \textbf{IDDTW} & \textbf{N} &
 
 \bottomcaption{Classification errors associated with the number of segments \textbf{N} chosen by the
 heuristics IDDTW and FDTW. When two numbers of segments $N_1$ and $N_2$ are associated with the same
-classification error, the smallest is considered}
+classification error, the smallest is considered. The classification error  is calculated based on the 3 fold cross validation   applied on the training set.}
+
 \label{error_trainingset}
 \small
 \begin{supertabular}{c|ll|ll|ll}
@@ -730,11 +727,11 @@ classification error, the smallest is considered}
 \end{center}
  
  
-\\
+
  \paragraph{}\textbf{Comparison with IDDTW:}  \\
 To evaluate the quality of FDTW, we compared its classification errors with
 that of IDDTW  and the minimal one. The minimal classification error was find by applying Brute-force search (BF) on both training set and testing set. FDTW and IDDTW used
-the training set to find the segment number $N$ with minimal training error using 3 fold cross validation, and then used this number of segments on the testing set to compute the classification error. The value of the segment number $N$ found on the training set may in some cases not be appropriate for the testing set. We speak of a  generalization error, which is due to the representativeness of the training set (Table \ref{error}).  
+the training set to find the segment number $N$ with minimal training error using 3 fold cross validation, and then used this number of segments on the testing set to compute the classification error. The value of the segment number $N$ found on the training set may in some cases not be appropriate for the testing set. It is a  generalization error, which is due to the representativeness of the training set (Table \ref{error}).  
  
 If two numbers of
 segments $N_1$ and $N_2$ are associated with the same training error, we retain the largest.
@@ -748,7 +745,7 @@ IDDTW tested all the values of $N$ that were equal to a power of two during the 
 \tablefirsthead{%
 \hline 
 
-\multicolumn{4}{|c|}{\textbf{ \cite{Bagnall}}} & \multicolumn{6}{c|}{\textbf{Our experiments}}\tabularnewline
+\multicolumn{4}{|c|}{\textbf{\cite{UCRArchive}}} & \multicolumn{6}{c|}{\textbf{Our experiments}}\tabularnewline
 \hline 
 $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} & \textbf{N(}$\ell$\textbf{)} & \textbf{IDDTW} & \textbf{N(}$\ell$\textbf{)} & \textbf{FDTW} & \textbf{N(}$\ell$\textbf{)}\tabularnewline
  & \textbf{Eucli } & \textbf{DTW} & \textbf{DTW (r)}  & \textbf{force } &  &  &  &  & \tabularnewline
@@ -760,7 +757,7 @@ $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} 
 \multicolumn{10}{|l|}{\small\sl continued from previous page}\\
 \hline 
 
-\multicolumn{4}{|c|}{\textbf{\cite{Bagnall}}} &
+\multicolumn{4}{|c|}{\textbf{\cite{UCRArchive}}} &
 \multicolumn{6}{c|}{\textbf{Our experiments}}\tabularnewline
 \hline 
 $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} & \textbf{N(}$\ell$\textbf{)} & \textbf{IDDTW} & \textbf{N(}$\ell$\textbf{)} & \textbf{FDTW} & \textbf{N(}$\ell$\textbf{)}\tabularnewline
@@ -775,104 +772,206 @@ $N^{\circ}$  & \textbf{1NN } & \textbf{1NN } & \textbf{1-NN }  & \textbf{Brute} 
 \tablelasttail{\hline}
 
 
-\bottomcaption{ Comparison of generalization errors obtained with selected methods: the overall smallest error is indicated in \textbf{italic} digits; the smallest error between IDDTW and FDTW is indicated in \textbf{bold} digits.  \textbf{N }is the number of segments selected
-and $\ell$ is the number of data points in a segment $(l = \lfloor\frac{n}{N}\rfloor)$ }
+\bottomcaption{Comparison of generalization errors. In \textbf{italics}, the smallest generalization
+error. In \textbf{bold}, the smallest generalization error between IDDTW and FDTW. \textbf{N }is the number of segments selected
+and $\ell$ is the number of data points in a segment $(l = \lfloor\frac{n}{N}\rfloor)$. The generalization error  is computed on the testing set. Note : DTW (r) is a constraint version of DTW where the number of consecutive data points that can be compared to a single point during the warping is bounded.  r represents the size of the warping windows}
 
 \label{error}
 \small
 \begin{supertabular}{|p{0.15cm}|p{1cm}ll|ll|ll|ll|}
 1 & 0.369 & 0.310 & 0.242 (6)  & 0.262 & 251(1) & \textbf{0.268} & 256(1) &
 \textbf{0.268} & 258(1)\tabularnewline 
+
+
 2 & 0.389 & 0.396 & 0.391 (3)  & 0.379 & 162(1) & 0.432 & 128(1) & \textbf{0.414}
 & 143(1)\tabularnewline 
+
+
 3 & 0.333 & 0.367 & 0.333 (0)  & 0.233 & 286(2) & \textbf{0.3} & 8(59) & 0.367 &
 94(5)\tabularnewline 
-4 & 0.267 & 0.267 & 0.233 (1)  & 0.183 & 52(11) &  \textbf{0.367 } & 8(72) &
-\textbf{0.367} & 377(1)\tabularnewline 
-5 & 0.148 & 0.003 & 0.004 (11)  & \emph{0} & 118(1) & 0.003 & 128(1) &
+
+
+
+
+4 & 0.425 & 0.274 & 0.288 (5)  & \emph{0.192} & 150(2) & \textbf{0.301} & 64(5) &
+\textbf{0.301} & 170(2)\tabularnewline 
+
+
+
+
+5 & 0.26 & 0.25 & 0.253 (5)  & 0.233 & 27(2) &  \textbf{0.283}  & 2(40) &
+\textbf{0.283} & 385(2)\tabularnewline 
+
+
+
+
+
+
+
+6 & 0.148 & 0.003 & 0.004 (11)  & \emph{0} & 118(1) & 0.003 & 128(1) &
 \textbf{\emph{0.001}} & 128(1)\tabularnewline 
-6 & 0.000 & 0.000 & 0.000 (0)  & \emph{0} & 13(22) & \textbf{\emph{0}} & 64(4) &
+
+
+7 & 0.000 & 0.000 & 0.000 (0)  & \emph{0} & 13(22) & \textbf{\emph{0}} & 64(4) &
 \textbf{\emph{0.000}} & 286(1)\tabularnewline 
-7 & 0.423 & 0.246 & 0.228 (10)  & 0.228 & 142(2) & \textbf{0.256} & 256(1) &
+
+
+8 & 0.423 & 0.246 & 0.228 (10)  & 0.228 & 142(2) & \textbf{0.256} & 256(1) &
 0.269 & 84(4)\tabularnewline 
-8 & 0.433 & 0.256 & 0.238 (17)  & 0.231 & 271(1) & \textbf{0.241} & 256(1) &
+
+
+9 & 0.433 & 0.256 & 0.238 (17)  & 0.231 & 271(1) & \textbf{0.241} & 256(1) &
 0.244 & 294(1)\tabularnewline 
-9 & 0.413 & 0.246 & 0.254 (5)  & 0.221 & 249(1) & \textbf{0.223} & 256(1) & 0.233
+
+
+10 & 0.413 & 0.246 & 0.254 (5)  & 0.221 & 249(1) & \textbf{0.223} & 256(1) & 0.233
 & 276(1)\tabularnewline 
-10 & 0.218 & 0.208 & 0.228 (1)  & 0.2 & 78(1) &  0.225  & 16(5) & \textbf{0.223} &
+
+
+11 & 0.218 & 0.208 & 0.228 (1)  & 0.2 & 78(1) &  0.225  & 16(5) & \textbf{0.223} &
 80(1)\tabularnewline 
-11 & 0.273 & 0.29 & 0.272 (0)  & \emph{0.263} & 35(2) &  0.288  & 16(5) &
+
+
+12 & 0.273 & 0.29 & 0.272 (0)  & \emph{0.263} & 35(2) &  0.288  & 16(5) &
 \textbf{0.278} & 80(1)\tabularnewline 
-12 & 0.326 & 0.258 & 0.258 (22)  &\emph{0.198} & 176(2) & \textbf{ 0.258}  & 512(1) &
+
+
+13 & 0.326 & 0.258 & 0.258 (22)  &\emph{0.198} & 176(2) & \textbf{ 0.258}  & 512(1) &
 0.276 & 101(5)\tabularnewline 
-13 & 0.120 & 0.230 & 0.120 (0)  & 0.13 & 38(3) & 0.19 & 8(12) & \textbf{0.180} &
+
+
+14 & 0.120 & 0.230 & 0.120 (0)  & 0.13 & 38(3) & 0.19 & 8(12) & \textbf{0.180} &
 11(9)\tabularnewline 
-14 & 0.203 & 0.232 & 0.203 (0)  & 0.117 & 11(12) & 0.289 & 32(4) & \textbf{0.117}
+
+
+15 & 0.203 & 0.232 & 0.203 (0)  & 0.117 & 11(12) & 0.289 & 32(4) & \textbf{0.117}
 & 11(12)\tabularnewline 
-15 & 0.286 & 0.192 & 0.192 (3)  & 0.091 & 79(2) & 0.194 & 128(1) & \textbf{0.148}
+
+
+16 & 0.286 & 0.192 & 0.192 (3)  & 0.091 & 79(2) & 0.194 & 128(1) & \textbf{0.148}
 & 99(1)\tabularnewline 
-16 & 0.216 & 0.170 & 0.114 (2)  & 0.08 & 107(3) & 0.352 & 32(11) & \textbf{0.102}
+
+
+17 & 0.216 & 0.170 & 0.114 (2)  & 0.08 & 107(3) & 0.352 & 32(11) & \textbf{0.102}
 & 140(3)\tabularnewline 
-17 & 0.217 & 0.177 & 0.154(4)  & 0.154 & 149(3) & 0.257 & 16(29) & \textbf{0.177} &
+
+
+18 & 0.217 & 0.177 & 0.154(4)  & 0.154 & 149(3) & 0.257 & 16(29) & \textbf{0.177} &
 27(17)\tabularnewline 
-18 & 0.087 & 0.093 & 0.087 (0)  & 0.02 & 38(4) & 0.073 & 32(5) & \textbf{0.020} &
+
+
+19 & 0.087 & 0.093 & 0.087 (0)  & 0.02 & 38(4) & 0.073 & 32(5) & \textbf{0.020} &
 38(4)\tabularnewline 
-19 & 0.4 & 0.533 & 0.400 (0)  & 0.343 & 21(20) & \textbf{ 0.026}  & 32(13) & 0.432
+
+
+20 & 0.4 & 0.533 & 0.400 (0)  & 0.343 & 21(20) & \textbf{ 0.026}  & 32(13) & 0.432
 & 32(13)\tabularnewline 
-20 & 0.630 & 0.623 & 0.588 (2)  & 0.549 & 328(3) & \textbf{0.588} & 64(17) &
+
+
+21 & 0.630 & 0.623 & 0.588 (2)  & 0.549 & 328(3) & \textbf{0.588} & 64(17) &
 0.594 & 948(1)\tabularnewline 
-21 & 0.658 & 0.616 & 0.613 (14)  & 0.578 & 1770(1) & 0.627 & 64(29) &
+
+
+22 & 0.658 & 0.616 & 0.613 (14)  & 0.578 & 1770(1) & 0.627 & 64(29) &
 \textbf{0.622} & 171(11)\tabularnewline 
-22 & 0.045 & 0.050 & 0.045 (0)  & 0.033 & 20(1) & 0.043 & 8(3) & \textbf{0.033} &
+
+
+23 & 0.045 & 0.050 & 0.045 (0)  & 0.033 & 20(1) & 0.043 & 8(3) & \textbf{0.033} &
 24(1)\tabularnewline 
-23 & 0.246 & 0.131 & 0.131 (6)  &  \emph{0.082} & 70(9) & 0.246 & 16(40) &
-\textbf{0.180} & 524(1)\tabularnewline 
-24 & 0.425 & 0.274 & 0.288 (5)  & \emph{0.192} & 150(2) & \textbf{0.301} & 64(5) &
-\textbf{0.301} & 51(6)\tabularnewline 
-25 & 0.316 & 0.263 & 0.253 (20)  & 0.255 & 95(1) & \textbf{0.271} & 64(2) & 0.280
-& 34(3)\tabularnewline 
-26 & 0.26 & 0.25 & 0.253 (5)  & 0.233 & 27(2) &  \textbf{0.283}  & 2(40) &
-\textbf{0.283} & 2(40)\tabularnewline 
+
+
+24 & 0.133 & 0.167 & 0.133 (0)  & 0.1 & 191(3) & 0.167 & 32(18) & \textbf{0.100}
+& 234(2)\tabularnewline 
+
+
+25 & 0.267 & 0.267 & 0.233 (1)  & 0.183 & 52(11) &  \textbf{0.367 } & 8(72) &
+\textbf{0.367} & 377(1)\tabularnewline 
+
+
+26 & 0.038 & 0 & 0.000 (6)  & \emph{0} & 35(4) & \textbf{ }\textbf{\emph{0}}\textbf{ }
+& 128(1) & \textbf{\emph{0}} & 135(1)\tabularnewline 
+
+
 27 & 0.439 & 0.416 & 0.419 (2)  & \emph{0.398} & 27(2) & \textbf{ 0.414 } & 32(2) &
 0.416 & 80(1)\tabularnewline 
+
+
 28 & 0.121 & 0.165 & 0.134 (1)  & 0.135 & 14(6) & 0.197 & 16(5) & \textbf{0.165} &
 84(31)\tabularnewline 
-29 & 0.133 & 0.167 & 0.133 (0)  & 0.1 & 191(3) & 0.167 & 32(18) & \textbf{0.100}
-& 234(2)\tabularnewline 
+
+
+29 & 0.246 & 0.131 & 0.131 (6)  &  \emph{0.082} & 70(9) & 0.246 & 16(40) &
+\textbf{0.180} & 524(1)\tabularnewline 
+
+
 30 & 0.479 & 0.409 & 0.388 (7)  & 0.364 & 31(14) & \textbf{0.372} & 32(13) &
 0.409 & 35(12)\tabularnewline 
-31 & 0.038 & 0 & 0.000 (6)  & \emph{0} & 35(4) & \textbf{ }\textbf{\emph{0}}\textbf{ }
-& 128(1) & \textbf{\emph{0}} & 135(1)\tabularnewline 
+
+
+31 & 0.316 & 0.263 & 0.253 (20)  & 0.255 & 95(1) & \textbf{0.271} & 64(2) & 0.280
+& 34(3)\tabularnewline 
+
+
 32 & 0.292 & 0.263 & 0.263 (6)  & 0.24 & 75(1) &  \textbf{0.288 } & 4(20) &
 \textbf{0.288} & 4(20)\tabularnewline 
+
+
 33 & 0.461 & 0.35 & 0.300 (3)  & 0.083 & 54(9) &  0.239  & 64(7) & \textbf{0.122} &
 48(10)\tabularnewline 
+
+
 34 & 0.305 & 0.275 & 0.305 (0)  & 0.206 & 37(2) & \textbf{0.208} & 16(4) & 0.304 &
 26(3)\tabularnewline 
+
+
 35 & 0.141 & 0.169 & 0.141 (0)  & 0.14 & 5(13) & 0.197 & 16(4) & \textbf{0.178} &
 45(1)\tabularnewline 
+
+
 36 & 0.211 & 0.208 & 0.154 (2)  & 0.165 & 59(2) & \textbf{0.195} & 64(2) & 0.208
 & 55(2)\tabularnewline 
+
+
 37 & 0.100 & 0.050 & 0.062 (8)  & 0.044 & 376(1) & \textbf{0.059} &
 32(12) & 0.060 & 34(12)\tabularnewline 
+
+
 38 & 0.120 & 0.007 & 0.017 (6)  & 0.007 & 60(1) & 0.437 & 2(30) & \textbf{0.007}
 & 60(1)\tabularnewline 
+
+
 39 & 0.240 & 0.000 & 0.010 (3)  & \emph{0} & 47(6) & \textbf{\emph{0}} &
 64(4) & \textbf{\emph{0}} & 275(1)\tabularnewline 
+
+
 40 & 0.090 & 0.000 & 0.002 (4)  & \emph{0} & 21(6) & \textbf{\emph{0}} &
 64(2) & \textbf{\emph{0}} & 128(1)\tabularnewline 
+
+
 41 & 0.253 & 0.096 & 0.132 (5)  & 0.045 & 55(1) & 0.073 & 32(3) & 0.112 &
 70(1)\tabularnewline 
+
+
 42 & 0.005 & 0.020 & 0.005 (1)  & 0.007 & 109(1) & 0.013 & 8(19) & \textbf{0.008} &
 95(2)\tabularnewline 
+
+
 43 & 0.389 & 0.426 & 0.389 (0)  & 0.204 & 3(78) &  0.463  & 20(11) &
 \textbf{0.37} & 128(1)\tabularnewline 
+
+
 44 & 0.382 & 0.351 & 0.252 (8)  & 0.337 & 133(2) & 0.365 & 64(4) & \textbf{0.343} &
 135(2)\tabularnewline 
+
+
 45 & 0.170 & 0.164 & 0.155 (2)  & 0.149 & 117(4) & 0.158 & 128(3) &
 \textbf{0.154} & 384(1)\tabularnewline
+
+
 \hline 
 $\overline{X}$  & 0.268 & 0.227 & 0.242 &  0.175 &  & 0.232 &  & 0.214 & \tabularnewline
+
+
 \hline 
 \end{supertabular}
 \end{center}
@@ -930,7 +1029,7 @@ the Brute-force search algorithm, FDTW and IDDTW. }
 
 
 
-\\
+
  \paragraph{}\textbf{Comparison with other classification algorithms:}  \\
 To evaluate the quality of FDTW, we compared its classification errors (generalization error) with that of 35 other classification algorithms \cite{bagnall2016great} of the literature on 84 datasets of UCR archive{{}}.
  The performances of the algorithms are compared using 
@@ -985,7 +1084,13 @@ on this dataset is 83.44\% with TSBF algorithm; FDTW outperforms this result and
 
 \section{Conclusion and perspective}
 \label{sec:5}
-This chapter deals with the problem of choosing an appropriate number of segments to compress time series with PAA in order to improve the alignment with DTW. In this aim, we proposed a parameter Free heuristic named FDTW, wich approximates the optimal number of segments to use. The experiments showed that FDTW increased the quality of alignment of time series especially on synthetic datasets where DTW associated with PAA performed better than any other variant of DTW on a classification task. FDTW was rank 3/37 behind two ensemble classification algorithms COTE and EE. This algorithm allows reducing the storage space and the processing time of time series while increasing the quality of the alignment of DTW. As a perspective, the problem we have dealt with in this chapter could be modeled as a multi-objective optimization problem where one objective function would be compression and the other the classification of time series. 
+This chapter deals with the problem of choosing an appropriate number of segments to compress time series with PAA in order to improve the alignment with DTW. In this aim, we proposed a parameter Free heuristic named FDTW, wich approximates the optimal number of segments to use. The experiments showed that,  FDTW increased the quality of alignment of time series especially on synthetic datasets where DTW associated with PAA performed better than any other variant of DTW on a classification task. FDTW was rank 3/37 behind two ensemble classification algorithms COTE and EE. In general, FDTW is faster than Brute force search but run lower than IDDTW. However, FDTW gives a better result than IDDTW on classification task. FDTW also allows reducing the storage space and the processing time of time series while increasing the quality of the alignment of DTW.
+
+
+ As a perspective, the problem we have dealt with in this chapter could be modeled as a multi-objective optimization problem where one objective function would be compression and the other the classification of time series. 
+ 
+ 
+Another crucial aspect of time series knowledge discovery is the comparison of time series especially when those time series are uncertain. This aspect will be discussed more in-depth in the next chapter.
 
 
 %In the next chapter, we will introduce a novel dissimilarity function adapted to the comparison of uncertain time series.
@@ -993,18 +1098,20 @@ This chapter deals with the problem of choosing an appropriate number of segment
 
 \begin{table}[ht]
 \centering
-\begin{tabular}{|l|}
+\begin{tabular}{|p{15cm}|}
 
 \hline
 \rowcolor{LavenderBlush}
 Key points\\
-$\bullet$ We proposed a heuristic for time series compression with Piecewise Aggregate\\ Approximation for classification purpose. \\
+$\bullet$ We proposed a heuristic for time series compression with Piecewise Aggregate  Approximation for classification purpose. \\
 \\
-$\bullet$ We experimentally showed that in addition to reducing the length and the processing\\ time of time series, compression can improve the classification of time series.\\ 
+$\bullet$ We experimentally showed that in addition to reducing the length and the   processing time of time series, compression can improve the classification of   time series. 
+\\
 \\
 Communications:\\
-$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter Free Piecewise Dynamic\\ Time Warping. ROADEF, France, Febuary 2017\\
-$-$  Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter free piecewise\\ dynamic time warping for time series classification. \textit{Time Series} \\ \textit{workshop at International Conference on Machine Learning}, Sydney, Australia, August 2017\\
+$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter Free Piecewise Dynamic  Time Warping. ROADEF, France, Febuary 2017\\
+$-$  Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Parameter free piecewise Dynamic Time Warping for time series classification. Time Series workshop at International Conference on Machine Learning, Sydney, Australia, August 2017\\
+$-$ Siyou Fotso VS, Mephu Nguifo E, Vaslin Ph. Grasp heuristic for time series compression with piecewise aggregate approximation, Journal RAIRO : Operations Research, accepted. In press.\\
 \hline
 \end{tabular}
 \end{table}

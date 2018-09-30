@@ -1,5 +1,6 @@
 \chapter[Uncertain time series u-shapelet discovery]{Frobenius correlation based u-shapelets discovery for time series clustering}
 \label{fots}
+%\minitoc
 
 \begin{abstract}
 An unsupervised shapelet (u-shapelet) is a sub-sequence of a time series used for clustering a time series dataset. The purpose of this chapter  is to discover u-shapelets on uncertain time series. To achieve this goal, we propose a dissimilarity score robust to uncertainty called FOTS whose computation is based on the eigenvector decomposition and the comparison of the autocorrelation matrices of the time series. This score is robust to the presence of uncertainty; it is not very sensitive to transient changes; it allows capturing complex relationships between time series such as oscillations and trends, and it is also well adapted to the comparison of short time series. The FOTS score has been  used with the Scalable Unsupervised Shapelet Discovery algorithm for the clustering of 17 datasets, and it has shown a substantial improvement in the quality of  clustering with respect to the Rand Index. This work defines a novel framework for  clustering of uncertain time series.
@@ -20,7 +21,7 @@ Several recent studies have focused on the processing of uncertainty in data min
 \subsection{Review of u-shapelets}
 
 
-Let us consider a data set consisting of 6 time series corresponding to two birds' calls: 3 time series corresponding to \textcolor{green}{Olive-sided Flycatcher} (green)and three time series corresponding to calls of \textcolor{blue}{White-crowned Sparrow} (blue). When these time series are classified using Euclidean distance as a measure of dissimilarity  the groups obtained are not homogeneous (Fig. \ref{US} left); in other words, it's not possible to recognize the bird from its calls. However, if  characteristic sub-sequences (u-shapelets) are considered  to classify time series, we obtain more homogeneous groups than with Euclidean distance (Fig. \ref{US} right).
+Let us consider a data set consisting of 6 time series corresponding to two birds' calls: 3 time series corresponding to \textcolor{green}{Olive-sided Flycatcher} (green) and three time series corresponding to calls of \textcolor{blue}{White-crowned Sparrow} (blue). When these time series are classified using Euclidean distance as a measure of dissimilarity  the groups obtained are not homogeneous (Fig. \ref{US} left); in other words, it's not possible to recognize the bird from its calls. However, if  characteristic sub-sequences (u-shapelets) are considered  to classify time series, we obtain more homogeneous groups than with Euclidean distance (Fig. \ref{US} right).
   
  \begin{figure}[h]
   \centering
@@ -212,7 +213,165 @@ is then defined as follows:
 DUST(X,Y)=\sqrt{\stackrel[i=1]{n}{\sum}dust(X_{i},Y_{i})^{^{2}}}.
 \end{eqnarray} 
 
-During this work, we introduced a deterministic distance for the comparison of uncertain time series. This distance has useful properties but gives only average results when used for a classification task(Appendix \ref{helinger}). The problem with the deterministic uncertain distances like $DUST$ is that their expression varies as a function of the probability distribution of uncertainty,  and the probability distribution of the uncertainty is not always available in time series datasets.
+
+%----------------------------------------------
+%----------------------------------------------
+
+
+The disadvantage of DUST is that it  breaks the triangle inequality for small distances. Triangular inequality is a desirable property of dissimilarity functions because it makes it possible to speed-up the comparison of time series. For example, for density based clustering two time series A and B are considered similar if the distance between them is less than $\epsilon$. Thus, if the sum of the distances d (A, B) and d (B, C) is less than $\epsilon$, we deduce that the distance d (A, C) is also without calculating it. The triangular inequality is also used for the exact indexing of time series \cite{keogh2001locally}.
+
+
+To remedy this, we introduce a new deterministic distance function based on the
+Hellinger distance that evaluate the dissimilarity between uncertain time series and respects triangular inequality.
+
+\paragraph{}\textbf{Hellinger Based Distance}
+To evaluate the similarity between two probability distributions, we can measure the area of intersection between these two probability distributions (Figure \ref{Bhattacharyya}) . If the area of this intersection is zero, then the probability distributions are disjoint, if it is 1 then the probability distributions are identical. The area of this intersection can be calculated using the Bhattacharyya coefficient (B) \cite{patra2015new}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{images/bhattacharyya}
+\caption{Bhattacharyya}
+\label{Bhattacharyya}
+
+\end{figure}
+
+The \textbf{Hellinger} distance, based on the use of the Bhattacharyya coefficient, allows to measure the dissimilarity between two probability distributions. It is defined as follows:
+
+\begin{definition}
+The Hellinger distance between two  probability measures  $P$ and $Q$ that are absolutely continuous relative to some $\sigma$-finite measure $\mu$ on a measurable space $(x,\beta)$ is defined
+by the formula:
+\begin{eqnarray}
+H(P,Q)=\{2[1-B(P,Q)]\}^{\frac{1}{2}},
+\end{eqnarray}
+where
+\begin{eqnarray}
+B(P,Q)=\int\sqrt{\frac{dP}{d\mu}}\sqrt{\frac{dQ}{d\mu}}d\mu.
+\end{eqnarray}
+\end{definition}
+
+\begin{theorem}
+\label{hellinger}
+The Hellinger distance satisfy the triangle inequality\\ \cite{ibragimov2013statistical}.
+\end{theorem}
+
+Based on Hellinger distance we define the HBD distance (Hellinger Based Distance) which measures the dissimilarity between two uncertain time series:
+
+\begin{definition}
+The distance between uncertain time series $X=<X_1, \ldots,X_n>$ and $Y=<Y_1, \ldots,Y_n>$ under
+Hellinger Based Distance is then defined as follows:
+\begin{eqnarray}
+HBD(X,Y)=\sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}}}.
+\end{eqnarray} 
+\end{definition}
+
+\begin{theorem}
+HBD distance satisfy the triangle inequality.
+\end{theorem}
+
+\begin{proof}
+Let $X=<X_1, \ldots,X_n>$, $Y=<Y_1, \ldots,Y_n>$, $Z=<Z_1, \ldots,Z_n>$ be three uncertain time series, we want to proof that
+
+\begin{eqnarray}
+\sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}}}
++
+\sqrt{\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}}}
+\geq
+\sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Z_{i})^{^{2}}}.
+\end{eqnarray} 
+
+
+First, let us show that:
+\begin{eqnarray}
+\left( \sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} }\right)
+\times
+\left( \sqrt{\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}}} \right)
+\geq
+\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})H(Y_{i},Z_{i})
+\label{eq1}
+\end{eqnarray}
+by squaring the two members of the inequality (\ref{eq1}) we obtain
+
+\begin{eqnarray}
+\left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} \right)
+\times
+\left( \stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}} \right)
+\geq
+\left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})H(Y_{i},Z_{i}) \right)^2
+\end{eqnarray}
+
+\begin{eqnarray}
+i.e.
+\left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} \right)
+\times
+\left( \stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}} \right) \\
+-
+\left( \stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})H(Y_{i},Z_{i}) \right)^2
+\geq
+0
+\label{eq2}
+\end{eqnarray}
+by developing and reducing the expression(\ref{eq2}), we obtain
+
+\begin{eqnarray}
+i.e.
+\underset{i,j\epsilon\{1,...,k\}\,and\,i\neq j}{\sum}\left(H(X_{i},Y_{i})-H(Y_{j},Z_{j})\right)^{2}
+\geq
+0
+\end{eqnarray}
+This shows that the inequality (\ref{eq1}) is true.
+Let us now show that HBD satisfies the triangular inequality : 
+according to Theorem \ref{hellinger}, 
+\begin{eqnarray}
+H(X_{i},Y_{i})+H(Y_{i},Z_{i})\geq H(X_{i},Z_{i})
+\end{eqnarray}
+By squaring the two members of the inequality, we obtain
+\begin{eqnarray}
+H(X_{i},Y_{i})^2+H(Y_{i},Z_{i})^2 + 2H(X_i, Y_i)H(Y_i, Z_i)\geq
+H(X_{i},Z_{i})^2.
+\end{eqnarray}
+
+\begin{eqnarray}
+i.e.
+\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^2+\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^2
++ 2\stackrel[i=1]{n}{\sum}H(X_i, Y_i)H(Y_i, Z_i) \\ \geq
+\stackrel[i=1]{n}{\sum}H(X_{i},Z_{i})^2.
+\end{eqnarray}
+
+according to inequality \ref{eq1}, we obtain
+\begin{eqnarray}
+\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^2+\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^2 \\
++ 2\left( \sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} }\right)
+\times
+\left( \sqrt{\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}}} \right)
+\geq
+\stackrel[i=1]{n}{\sum}H(X_{i},Z_{i})^2.
+\end{eqnarray}
+
+\begin{eqnarray}
+i.e.
+\left( \sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} }
++
+\sqrt{\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}}} \right)^2
+\geq
+\stackrel[i=1]{n}{\sum}H(X_{i},Z_{i})^2.
+\end{eqnarray}
+
+\begin{eqnarray}
+i.e.
+ \sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Y_{i})^{^{2}} }
++
+\sqrt{\stackrel[i=1]{n}{\sum}H(Y_{i},Z_{i})^{^{2}}}
+\geq
+\sqrt{\stackrel[i=1]{n}{\sum}H(X_{i},Z_{i})^2}.
+\end{eqnarray}
+This is what had to be demonstrated
+\end{proof}
+
+%----------------------------------
+%----------------------------------
+
+
+In general, the problem with the deterministic uncertain distances like $DUST$ or $HBD$ is that their expression varies as a function of the probability distribution of uncertainty,  and the probability distribution of the uncertainty is not always available in time series datasets.
 
 
 \subsubsection{Probabilistic Similarity Measures}
@@ -243,8 +402,7 @@ Pr(d(X,Y)_{norm}\leq\epsilon).
 
 A major disadvantage of PROUD is its inadequacy for comparing time series of small lengths like u-shapelets. Indeed, the calculation of the probability that the PROUD distance is less than a value is based on the assumption that PROUD distance follows \textbf{asymptotically} a normal distribution.  Thus, this probability will be all the more accurate as the compared time series are long (i.e. contain more than 30 data points).
 
-\\
-\textbf{PROUDS}\cite{Orang2015} is an enhanced version of PROUD, which suppose that random variables coming from time series are independent and
+\paragraph{}\textbf{PROUDS}\cite{Orang2015} is an enhanced version of PROUD, which suppose that random variables coming from time series are independent and
 identically distributed. 
 
 
@@ -271,8 +429,7 @@ For the same reasons as PROUD, PROUDS is not suitable for the comparison of shor
  if $X_{i},X_{i+1},...,X_{i+M}$ are dependent (correlated) and the
 variables $X_{i}$ and $X_{i+M+1}$ are independent. However, the $M$-dependent assumption could make PROUDS writing more complex and its use more difficult because of the choice of the parameter $M$. 
 
-\\
-\textbf{Uncertain Correlation} \cite{Orang2017}: 
+\paragraph{}\textbf{Uncertain Correlation} \cite{Orang2017}: 
 Correlation analysis techniques are useful for feature selection in uncertain time series data. Indeed, correlation indicates the degree of dependency of a feature on other features. Using this information, redundant features can be identified. The same strategy can be useful for  u-shapelet discovery.  Uncertain
 correlation is defined as follows : 
 
@@ -367,7 +524,7 @@ robust to the presence of uncertainty.
 
 
 
-\section{Frobenius cOrrelation for uncertain Time series u-Shapelet discovery (FOTS)}
+\section[FOTS]{Frobenius cOrrelation for uncertain Time series u-Shapelet discovery (FOTS)}
 \subsection{Dissimilarity function}
 
 The LoCo similarity function defined on two multivariate time series $X$ and $Y$ approximately corresponds  to the absolute value of the cosine of the angle formed by the eigenspaces of $X$ and $Y$ ($|cos(\alpha)|$). A straightforward idea would be to use the $sin(\alpha)$ or $\alpha$-value as a dissimilarity function but this approach does not work so well, because the sine and the angle are not discriminant enough for eigenvector comparison for clustering purpose. We thus proposed a new dissimilarity measure named Frobenius cOrrelation for uncertain Time series u-Shapeletdiscovery (FOTS) and based on the following definition (Definition. \ref{FOTS}): 
@@ -424,8 +581,8 @@ Euclidean distance. To remedy this, we propose to use the FOTS score instead of
 a simple Euclidean distance when calculating the $gap$ in the Scalable u-shapelet algorithm.
 
 \begin{itemize}
-\item Algorithm  \ref{algo1} presents how we compute the orderline using FOTS score,
-\item Algorithm \ref{algo2} calculates the orderline and sorts the time series according to their proximity to the u-shapelet candidate (line 2 and 3). A u-shapelet is considered present in a time series if its distance to it is less than or equal to a given threshold. Thus, algorithm select thresholds to build a cluster $Da$ whose size varies between $lb$ and $ub$ (line 5).  The algorithm then searches among the selected thresholds the one that has a maximum $gap$ (line 6 to 11).
+\item Algorithm  \ref{algo_order} presents how we compute the orderline using FOTS score,
+\item Algorithm \ref{algoGap} calculates the orderline and sorts the time series according to their proximity to the u-shapelet candidate (line 2 and 3). A u-shapelet is considered present in a time series if its distance to it is less than or equal to a given threshold. Thus, algorithm select thresholds to build a cluster $Da$ whose size varies between $lb$ and $ub$ (line 5).  The algorithm then searches among the selected thresholds the one that has a maximum $gap$ (line 6 to 11).
 \end{itemize}
 
   
@@ -458,7 +615,7 @@ dataset}
 
 }
 \caption{ComputeOrderline}
-\label{algo1}
+\label{algo_order}
 \end{algorithm}
 
 
@@ -500,7 +657,7 @@ lb, ub : lower/upper bound of reasonable number of time series in cluster}
 
 }
 \caption{ComputeGap}
-\label{algo2}
+\label{algoGap}
 \end{algorithm}
 
 \section[Experiments]{Experimental Evaluation}
@@ -537,7 +694,7 @@ Rand\,Index = (A+B)/(A+B+C+D).
 \end{eqnarray}    
 
 \subsection{Comparison with u-shapelet}
-Similarly to \cite{dallachiesa}, we tested FOTS-SUSh on 17 real world datasets coming from UCR archive \cite{UCRArchive} and representing a wide range of application domains. The training and testing sets have been joined to obtained bigger datasets. Table \ref{datasets} present detailed information about tested datasets.
+Similarly to \cite{dallachiesa}, we tested FOTS-SUSh on 17 real world datasets coming from UCR archive \cite{UCRArchive} and representing a wide range of application domains\footnote{In this preliminary work, we evaluated the performance of FOTS on 17 datasets, ongoing executions will provide results on the 85 datasets in the UCR database.}. The training and testing sets have been joined to obtained bigger datasets. Table \ref{datasets} present detailed information about tested datasets.
 
 
 
@@ -633,25 +790,43 @@ distance. The FOTS-SUSh improves the results of time series clustering because t
 \label{timecomparison}
 \end{figure}
 
+\subsubsection{Robustness to uncertainty}
+In order to assess the robustness of FOTS to the presence of uncertainty, we selected two time series from the ItalyPowerDemand dataset and compared them using the Euclidean Distance on the one hand and the FOTS score on the other. We then added a white noise that follows a normal distribution of zero mean and 0.1 variance to each of the time series. Then, we recomputed the Euclidean Distance and the FOTS score between the two time series. The absolute value of the difference between the distance obtained with the non-noise time series and that obtained with the noisy time series and called error. We observe that when the variance associated with white noise increases, the error associated with Euclidean Distance increases, but the error associated with the FOTS score remains almost constant and close to zero (Fig. \ref{timecomparison22}). This shows the robustness of the FOTS score to the presence of uncertainty in the data. Note: In this experiment, noisy time series are considered uncertain time series.
+
+\begin{figure}[h]
+\centering
+ \includegraphics[scale=0.80]{images/noisy_time_series}
+\caption{Sensitivity of Euclidean Distance and FOTS to the presence of uncertainty.}
+\label{timecomparison22}
+\end{figure}
 
 
 \section[Conclusion]{Conclusion and Future Work}
-The purpose of this chapter was to discover u-shapelets on uncertain time series. In that aim, we have proposed a dissimilarity score (FOTS) adapted to the comparison of short time series, of which computation is based on the comparison of the eigenvector of the autocorrelation matrices of the time series. This score is robust to the presence of uncertainty, it is not very sensitive to transient changes, and it allows capturing complex relationships between time series such as oscillations and trends. The FOTS score was used with the Scalable Unsupervised Shapelet Discovery algorithm for clustering 17 literature datasets and it has shown  an improvement in the quality of clustering evaluated using the Rand Index.  By combining the benefits of the u-shapelets algorithm, which reduces the adverse effects of uncertainty, and the benefits of the FOTS score, which is robust to the presence of uncertainty, chapter has defined a framework for clustering uncertain time series. As a perspective to this work, we plan to use the FOTS score for fuzzy clustering of uncertain time series. Another important aspect of time series coming from wheelchair locomotion is that they are cyclic, and the analysis of this movement is based on those cycles. The next chapter explains how we have captured this important feature.
+The purpose of this chapter was to discover u-shapelets on uncertain time series. In that aim, we have proposed a dissimilarity score (FOTS) adapted to the comparison of short time series, of which computation is based on the comparison of the eigenvector of the autocorrelation matrices of the time series. This score is robust in the presence of uncertainty, it is not very sensitive to transient changes, and it allows capturing complex relationships between time series such as oscillations and trends. 
+
+
+The FOTS score was used with the Scalable Unsupervised Shapelet Discovery algorithm for clustering 17 literature datasets and show that FOTS-SUShapelet consumes more time than UShapelet, but has better performances regarding clustering Rand Index. FOTS-SUSh defines a new framework for clustering uncertain time series because it combines the benefits of the u-shapelets algorithm, which reduces the adverse effects of uncertainty, and the benefits of the FOTS score, which is robust to the presence of uncertainty. 
+
+As a perspective to this work, we plan to use the FOTS score for fuzzy clustering of uncertain time series. 
+
+
+ Another important aspect of time series coming from wheelchair locomotion is that they are cyclic, and the analysis of this movement is based on those cycles. The next chapter explains how we have captured this important feature.
 
 
 \begin{table}[ht]
 \centering
-\begin{tabular}{|l|}
+\begin{tabular}{|p{15cm}|}
 
 \hline
 \rowcolor{LavenderBlush}
 Key points\\
-$\bullet$ We proposed a correlation-based measure of dissimilarity that captures\\ time series properties and is robust to the presence of uncertainties. \\
+$\bullet$ We proposed a correlation-based measure of dissimilarity that captures time series properties and is robust to the presence of uncertainties. \\
 \\
-$\bullet$We experimentally showed that this measure of dissimilarity improves \\the quality of clustering with UShapelets.\\ 
+$\bullet$We experimentally showed that this measure of dissimilarity improves the quality of clustering with UShapelets.\\ 
 \\
 Communications :\\
-$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Découverte d'u-shpalet\\ sur des séries temporelles incertaines à partir de correlation Frobenius. Rencontres des Jeunes\\ Chercheurs en Intelligence Artificielle (RJCIA 2018), Nancy, France, July 2018\\
+$-$ Siyou Fotso VS, Mephu-Nguifo E, Vaslin Ph. Découverte d'u-shpalet sur des séries temporelles incertaines à partir de correlation Frobenius. Rencontres des Jeunes Chercheurs en Intelligence Artificielle (RJCIA 2018), Nancy, France, July 2018\\
+$-$ Siyou Fotso VS, Mephu Nguifo E, Vaslin Ph. Frobenius correlation based u-shapelets discovery for time series clustering., Pattern Recognition (submitted)\\
 \hline
 \end{tabular}
 \end{table}

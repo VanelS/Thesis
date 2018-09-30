@@ -116,6 +116,13 @@ Buttkus, B. (2012).
 \newblock {\em Spectral analysis and filter theory in applied geophysics}.
 \newblock Springer Science \& Business Media.
 
+\bibitem[Calandriello, 2017]{calandriello}
+Calandriello, D. (2017).
+\newblock {\em {Efficient Sequential Learning in Structured and Constrained
+  Environments}}.
+\newblock Theses, {Inria Lille Nord Europe - Laboratoire CRIStAL -
+  Universit{\'e} de Lille}.
+
 \bibitem[Camerra et~al., 2010]{camerra2010isax}
 Camerra, A., Palpanas, T., Shieh, J., and Keogh, E. (2010).
 \newblock isax 2.0: Indexing and mining one billion time series.
@@ -236,6 +243,11 @@ De~Saint~Remy, N. (2005).
 Deng, H., Runger, G., Tuv, E., and Vladimir, M. (2013).
 \newblock A time series forest for classification and feature extraction.
 \newblock {\em Information Sciences}, 239:142--153.
+
+\bibitem[Desroches et~al., 2010]{desroches2010expression}
+Desroches, G., Ch{\`e}ze, L., and Dumas, R. (2010).
+\newblock Expression of joint moment in the joint coordinate system.
+\newblock {\em Journal of biomechanical engineering}, 132(11):114503.
 
 \bibitem[Devillard, 1999]{devillard1999wheelchair}
 Devillard, X. (1999).
@@ -448,8 +460,8 @@ Keogh, E. and Kasetty, S. (2003b).
   Empirical Demonstration}.
 \newblock {\em Data Mining and Knowledge Discovery}, 7(4):349--371.
 
-\bibitem[Keogh and Ratanamahatana, ]{Keogh2004}
-Keogh, E. and Ratanamahatana, C.~A.
+\bibitem[Keogh and Ratanamahatana, 2004]{Keogh2004}
+Keogh, E. and Ratanamahatana, C.~A. (2004).
 \newblock {Exact indexing of dynamic time warping}.
 \newblock 7(3):358--386.
 
@@ -487,6 +499,12 @@ Kulig, K., Newsam, C.~J., Mulroy, S.~J., Rao, S., Gronley, J.~K., Bontrager,
 \newblock The effect of level of spinal cord injury on shoulder joint kinetics
   during manual wheelchair propulsion.
 \newblock {\em Clinical biomechanics}, 16(9):744--751.
+
+\bibitem[Kumar et~al., 2002]{kumar2002clustering}
+Kumar, M., Patel, N.~R., and Woo, J. (2002).
+\newblock Clustering seasonality patterns in the presence of errors.
+\newblock In {\em Proceedings of the eighth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 557--563. ACM.
 
 \bibitem[Langbein et~al., 1993]{langbein1993calibration}
 Langbein, W., Robinson, C., Kynast, L., and Fehr, L. (1993).
@@ -817,6 +835,13 @@ Sakoe, H. and Chiba, S. (1978).
 \newblock {\em IEEE transactions on acoustics, speech, and signal processing},
   26(1):43--49.
 
+\bibitem[Salles et~al., 2017]{salles2017two}
+Salles, T., Rocha, L., Mour{\~a}o, F., Gon{\c{c}}alves, M., Viegas, F., and
+  Meira~Jr, W. (2017).
+\newblock A two-stage machine learning approach for temporally-robust text
+  classification.
+\newblock {\em Information Systems}, 69:40--58.
+
 \bibitem[{Salvador} and {Chan}, 2007]{salvador2007toward}
 {Salvador}, S. and {Chan}, P. (2007).
 \newblock Toward accurate dynamic time warping in linear time and space.
@@ -997,6 +1022,19 @@ Wu, D., Singh, A., Agrawal, D., {El Abbadi}, A., and Smith, T.~R. (1996).
   Information and knowledge management - CIKM '96}, pages 11--18, New York, New
   York, USA. ACM Press.
 
+\bibitem[Yagoubi et~al., 2018]{yagoubi2018parcorr}
+Yagoubi, D.~E., Akbarinia, R., Kolev, B., Levchenko, O., Masseglia, F.,
+  Valduriez, P., and Shasha, D. (2018).
+\newblock Parcorr: efficient parallel methods to identify similar time series
+  pairs across sliding windows.
+\newblock {\em Data Mining and Knowledge Discovery}, 32(5):1481--1507.
+
+\bibitem[Yagoubi et~al., 2017]{yagoubi2017radiussketch}
+Yagoubi, D.~E., Akbarinia, R., Masseglia, F., and Shasha, D. (2017).
+\newblock Radiussketch: Massively distributed indexing of time series.
+\newblock In {\em Data Science and Advanced Analytics (DSAA), 2017 IEEE
+  International Conference on}, pages 262--271. IEEE.
+
 \bibitem[Yeh et~al., 2009]{yeh2009proud}
 Yeh, M.-Y., Wu, K.-L., Yu, P.~S., and Chen, M.-S. (2009).
 \newblock Proud: a probabilistic approach to processing similarity queries over
@@ -1020,6 +1058,11 @@ Zakaria, J., Mueen, A., and Keogh, E. (2012).
 \newblock Clustering time series using unsupervised-shapelets.
 \newblock In {\em Data Mining (ICDM), 2012 IEEE 12th International Conference
   on}, pages 785--794. IEEE.
+
+\bibitem[Zeitouni and Taher, ]{zeitouniselect}
+Zeitouni, K. and Taher, Y.
+\newblock Select: Scalable learning and classification of multi-variate
+  time-series in iot.
 
 \bibitem[Zhang et~al., 2016]{zhang2016unsupervised}
 Zhang, Q., Wu, J., Yang, H., Tian, Y., and Zhang, C. (2016).

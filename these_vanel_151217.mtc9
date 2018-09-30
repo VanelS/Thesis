@@ -1,0 +1,20 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B.1}Introduction}{\reset@font\mtcSfont 107}{section.B.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B.2}Granularity of time series segments}{\reset@font\mtcSfont 108}{section.B.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2.1}Notations and definitions}{\reset@font\mtcSSfont 108}{subsection.B.2.1}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Definition 1:}{\reset@font\mtcPfont 108}{section*.138}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Definition 2:}{\reset@font\mtcPfont 108}{section*.139}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Definition 3:}{\reset@font\mtcPfont 109}{section*.140}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2.2}Information theory and minimum number of segments}{\reset@font\mtcSSfont 109}{subsection.B.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2.3}Notations and definitions}{\reset@font\mtcSSfont 109}{subsection.B.2.3}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Definition 1:}{\reset@font\mtcPfont 109}{section*.142}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Definition 2:}{\reset@font\mtcPfont 110}{section*.143}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Definition 3:}{\reset@font\mtcPfont 110}{section*.144}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2.4}Minimize the squared error to choose the number of segments}{\reset@font\mtcSSfont 110}{subsection.B.2.4}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode }{\reset@font\mtcPfont 110}{section*.145}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode }{\reset@font\mtcPfont 111}{section*.146}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Complexity of the algorithm}{\reset@font\mtcPfont 111}{section*.149}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.2.5}Dynamic Time Warping Algorithm and comparison of compact representations}{\reset@font\mtcSSfont 112}{subsection.B.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B.3}Results and Discussion}{\reset@font\mtcSfont 113}{section.B.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.3.1}Datasets}{\reset@font\mtcSSfont 113}{subsection.B.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {B.3.2}Comparison of algorithm performance}{\reset@font\mtcSSfont 115}{subsection.B.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {B.4}Conclusion}{\reset@font\mtcSfont 119}{section.B.4}}

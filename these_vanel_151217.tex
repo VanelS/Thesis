@@ -2,6 +2,9 @@
 \input{preambule/preambule}
 
 \begin{document}
+%\dominitoc
+%\onehalfspacing
+%\doparttoc
 
 \frontmatter% début des pages liminaires
 \pagestyle{front}%style des en-têtes pour cette partie
@@ -9,24 +12,33 @@
 \thispagestyle{empty}%pour la page de garde toute blanche
 \input{page-de-couverture/page-de-titre}%no comment !
 %\input{resume/resume}%no comment !
-\input{dedicaces/dedicaces}%no comment !
-\addcontentsline{toc}{chapter}{Dedications}
-\input{remerciements/remerciements}%no comment !
-\addcontentsline{toc}{chapter}{Acknowledgment}
-\shorttableofcontents{Summary}{0}%sommaire avec uniquement les chapitres
-\addcontentsline{toc}{chapter}{Summary}%ajout du sommaire dans le sommaire !
+%\input{dedicaces/dedicaces}%no comment !
+%\addcontentsline{toc}{chapter}{Dedications}
+%\input{remerciements/remerciements}%no comment !
+%\addcontentsline{toc}{chapter}{Acknowledgment}
+
+%-----------------------------
+%\shorttableofcontents{Summary}{0}%sommaire avec uniquement les chapitres
+\tableofcontents%table des matières plus complète
+%\addcontentsline{toc}{chapter}{Summary}%ajout du sommaire dans le sommaire !
+%\addcontentsline{toc}{chapter}{Contents}%ajout de la table des matières dans la table des matières !
+%-----------------------------
+
+
 \mainmatter% corps du document
 \pagestyle{main}%style des en-têtes pour cette partie
-\part{General Introduction}
+\part{General introduction}
+
 \input{introduction/introduction}
-\addcontentsline{toc}{chapter}{General introduction}
+
 \part{Background and related works}
+%\addcontentsline{toc}{chapter}{Geneks}
 \input{chapitre1/chapitre1}
 \part{Contributions}
 \input{chapitre2/chapitre2}
 \input{chapitre3/chapitre3}
 \input{chapitre4/chapitre4}
-\input{chapitre5/chapitre5}
+%\input{chapitre5/chapitre5}
 \input{conclusion/conclusion}
 \addcontentsline{toc}{chapter}{General conclusion}
 \cleardoublepage% le corps du document est terminé
@@ -48,13 +60,16 @@
 %\bibliographystyle{named}
 \bibliographystyle{apalike}
 \bibliography{bibliographie/biblio}
-\addcontentsline{toc}{chapter}{References}
+\addcontentsline{toc}{chapter}{Bibliography}
 \listoffigures
-\addcontentsline{toc}{chapter}{List of Figures}
+%\addcontentsline{toc}{chapter}{List of Figures}
 \listoftables
-\addcontentsline{toc}{chapter}{List of Tables}
-\tableofcontents%table des matières plus complète
-\addcontentsline{toc}{chapter}{Contents}%ajout de la table des matières dans la table des matières !
-%
+%\addcontentsline{toc}{chapter}{List of Tables}
+
+%----------------------------
+%table des matières
+%----------------------------
+
 \input{page-de-couverture/quatrieme-de-couv}
+
 \end{document}
