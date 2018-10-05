@@ -3,12 +3,12 @@ The style file: apalike.bst
 Database file #1: bibliographie/biblio.bib
 I was expecting a `,' or a `}'---line 127 of file bibliographie/biblio.bib
  :   
- :   journaltitle = {1st SIAM International Conference on Data Mining},
+ :   journal = {1st SIAM International Conference on Data Mining},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 147 of file bibliographie/biblio.bib
  :   
- :   journaltitle = {Information Sciences},
+ :   journal = {Information Sciences},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 225 of file bibliographie/biblio.bib
@@ -28,13 +28,17 @@ I was expecting a `,' or a `}'---line 401 of file bibliographie/biblio.bib
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 423 of file bibliographie/biblio.bib
  :   
- :   journaltitle = {Journal of Hydrology},
+ :   journal = {Journal of Hydrology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Rakthanmanon2012's extra "year" field
 --line 968 of file bibliographie/biblio.bib
+Warning--I'm ignoring Rakthanmanon2012's extra "journal" field
+--line 972 of file bibliographie/biblio.bib
 Warning--I'm ignoring Keogh2001a's extra "year" field
 --line 987 of file bibliographie/biblio.bib
+Warning--I'm ignoring Keogh2001a's extra "journal" field
+--line 991 of file bibliographie/biblio.bib
 Warning--I'm ignoring lin2003symbolic's extra "year" field
 --line 1008 of file bibliographie/biblio.bib
 I was expecting a `,' or a `}'---line 1008 of file bibliographie/biblio.bib
@@ -44,6 +48,8 @@ I was expecting a `,' or a `}'---line 1008 of file bibliographie/biblio.bib
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring sun2014improvement's extra "year" field
 --line 1040 of file bibliographie/biblio.bib
+Warning--I'm ignoring sun2014improvement's extra "journal" field
+--line 1043 of file bibliographie/biblio.bib
 Repeated entry---line 1139 of file bibliographie/biblio.bib
  : @inproceedings{senin2014grammarviz
  :                                   ,
@@ -210,34 +216,13 @@ Repeated entry---line 2693 of file bibliographie/biblio.bib
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in lsst
 Warning--to sort, need author or key in SACR-FRM
-Warning--empty journal in bagnall2016great
-Warning--empty journal in batista2014cid
-Warning--empty journal in Bhatia1993
-Warning--empty journal in candan2012sdtw
-Warning--empty journal in dallachiesa
 Warning--empty journal in Remy2005
 Warning--can't use both volume and number fields in hofmann2017probabilistic
-Warning--empty journal in ibarra1975fast
-Warning--empty journal in itakura1975minimum
-Warning--empty journal in jeong2011weighted
 Warning--empty journal in Kate2016
-Warning--empty journal in keogh2001locally
 Warning--empty journal in Keogh2004
-Warning--empty journal in lkhagva2006extended
 Warning--can't use both author and editor fields in Malinowski2013
 Warning--can't use both volume and number fields in Malinowski2013
-Warning--empty journal in MyersRabinerRosenberg1980
-Warning--empty journal in Orang2017
-Warning--empty journal in patra2015new
-Warning--empty journal in rand1971objective
 Warning--empty publisher in Ratanamahatana_Keogh_2004
-Warning--empty journal in Rehfeld2014
-Warning--empty journal in Rizvandi2013
 Warning--empty journal in Sauret2010
-Warning--empty journal in Wang2015
-Warning--empty journal in wang2013experimental
 Warning--empty booktitle in yi2000fast
-Warning--empty year in zeitouniselect
-Warning--empty journal in zeitouniselect
-Warning--empty journal in zhao2016shapedtw
 (There were 48 error messages)

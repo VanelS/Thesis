@@ -59,12 +59,12 @@ Bagnall, A., Keogh, E., Lines, J., Bostrom, A., and Large, J. (2016a).
 Bagnall, A., Lines, J., Bostrom, A., Large, J., and Keogh, E. (2016b).
 \newblock The great time series classification bake off: a review and
   experimental evaluation of recent algorithmic advances.
-\newblock pages 1--55.
+\newblock {\em Data Mining and Knowledge Discovery}, pages 1--55.
 
 \bibitem[Batista et~al., 2014]{batista2014cid}
 Batista, G.~E., Keogh, E.~J., Tataw, O.~M., and De~Souza, V.~M. (2014).
 \newblock Cid: an efficient complexity-invariant distance for time series.
-\newblock 28(3):634--669.
+\newblock {\em Data Mining and Knowledge Discovery}, 28(3):634--669.
 
 \bibitem[Batista et~al., 2011]{batista2011complexity}
 Batista, G.~E., Wang, X., and Keogh, E.~J. (2011).
@@ -98,7 +98,7 @@ Bergh, U., Kanstrup, I., and Ekblom, B. (1976).
 \bibitem[Bhatia and Bhattacharyya, 1993]{Bhatia1993}
 Bhatia, R. and Bhattacharyya, T. (1993).
 \newblock {A generalization of the Hoffman-Wielandt theorem}.
-\newblock 179:11--17.
+\newblock {\em Linear Algebra and its Applications}, 179:11--17.
 
 \bibitem[Brattg{\aa}rd et~al., 1970]{brattgaard1970energy}
 Brattg{\aa}rd, S., Grimby, G., and H{\"o}{\"o}k, O. (1970).
@@ -133,7 +133,7 @@ Camerra, A., Palpanas, T., Shieh, J., and Keogh, E. (2010).
 Candan, K.~S., Rossini, R., Wang, X., and Sapino, M.~L. (2012).
 \newblock sdtw: computing dtw distances using locally relevant constraints
   based on salient feature alignments.
-\newblock 5(11):1519--1530.
+\newblock {\em VLDB Endowment}, 5(11):1519--1530.
 
 \bibitem[Chan and Fu, 1999a]{chan1999efficient}
 Chan, K.-P. and Fu, A. W.-C. (1999a).
@@ -219,7 +219,7 @@ Dabonneville, M., Kauffmann, P., Vaslin, P., De~Saint~Remy, N., Cou{\'e}tard,
 \bibitem[Dallachiesa et~al., 2012]{dallachiesa}
 Dallachiesa, M., Nushi, B., Mirylenka, K., and Palpanas, T. (2012).
 \newblock Uncertain time-series similarity: return to the basics.
-\newblock 5(11):1662--1673.
+\newblock {\em Proceedings of the VLDB Endowment}, 5(11):1662--1673.
 
 \bibitem[Das et~al., 1997]{das1997finding}
 Das, G., Gunopulos, D., and Mannila, H. (1997).
@@ -383,7 +383,7 @@ Hwang, J., Kozawa, Y., Amagasa, T., and Kitagawa, H. (2014).
 Ibarra, O.~H. and Kim, C.~E. (1975).
 \newblock Fast approximation algorithms for the knapsack and sum of subset
   problems.
-\newblock 22(4):463--468.
+\newblock {\em Journal of the ACM (JACM)}, 22(4):463--468.
 
 \bibitem[Ibragimov and Has'~minskii, 2013]{ibragimov2013statistical}
 Ibragimov, I.~A. and Has'~minskii, R.~Z. (2013).
@@ -393,12 +393,13 @@ Ibragimov, I.~A. and Has'~minskii, R.~Z. (2013).
 \bibitem[Itakura, 1975]{itakura1975minimum}
 Itakura, F. (1975).
 \newblock Minimum prediction residual principle applied to speech recognition.
-\newblock 23(1):67--72.
+\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  23(1):67--72.
 
 \bibitem[Jeong et~al., 2011]{jeong2011weighted}
 Jeong, Y.-S., Jeong, M.~K., and Omitaomu, O.~A. (2011).
 \newblock Weighted dynamic time warping for time series classification.
-\newblock 44(9):2231--2240.
+\newblock {\em Pattern Recognition}, 44(9):2231--2240.
 
 \bibitem[Johnson et~al., 2004]{johnson2004sport}
 Johnson, B., Mushett, C., Richter, K., and Peacock, G. (2004).
@@ -446,7 +447,7 @@ Keogh, E., Chakrabarti, K., Pazzani, M., and Mehrotra, S. (2001b).
 Keogh, E., Chakrabarti, K., Pazzani, M., and Mehrotra, S. (2001c).
 \newblock Locally adaptive dimensionality reduction for indexing large time
   series databases.
-\newblock 30(2):151--162.
+\newblock {\em ACM SIGMOD Record}, 30(2):151--162.
 
 \bibitem[Keogh and Kasetty, 2003a]{keogh2003need}
 Keogh, E. and Kasetty, S. (2003a).
@@ -486,6 +487,11 @@ Kerk, J.~K., Clifford, P.~S., Snyder, A.~C., Prieto, T.~E., O'hagan, K.~P.,
   Schot, P.~K., Myklebust, J.~B., and Myklebust, B.~M. (1995).
 \newblock Effect of an abdominal binder during wheelchair exercise.
 \newblock {\em Medicine and science in sports and exercise}, 27(6):913--919.
+
+\bibitem[Kharrat et~al., 2008]{kharrat2008clustering}
+Kharrat, A., Popa, I.~S., Zeitouni, K., and Faiz, S. (2008).
+\newblock Clustering algorithm for network constraint trajectories.
+\newblock In {\em Headway in Spatial Data Handling}, pages 631--647. Springer.
 
 \bibitem[Kriegel et~al., 2011]{kriegel2011density}
 Kriegel, H.-P., Kr{\"o}ger, P., Sander, J., and Zimek, A. (2011).
@@ -565,7 +571,7 @@ Lkhagva, B. and Kawagoe, K. (2006).
 Lkhagva, B., Suzuki, Y., and Kawagoe, K. (2006).
 \newblock Extended sax: Extension of symbolic aggregate approximation for
   financial time series data representation.
-\newblock 7.
+\newblock {\em DEWS2006 4A-i8}, 7.
 
 \bibitem[Longin et~al., 2005]{longin2005elastic}
 Longin, J., Vasilis, M., Qiang, W., Rolf, L., Chotirat, A., and Keogh, E.
@@ -652,7 +658,8 @@ Myers, C., Rabiner, L., and Rosenberg, A. (1980a).
 Myers, C., Rabiner, L.~R., and Rosenberg, A.~E. (1980b).
 \newblock Performance tradeoffs in dynamic time warping algorithms for isolated
   word recognition.
-\newblock 28(6):623--635.
+\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  28(6):623--635.
 
 \bibitem[Needs and The, 2016]{Needs2016}
 Needs, W. and The, I. (2016).
@@ -684,7 +691,7 @@ Orang, M. and Shiri, N. (2015).
 \bibitem[Orang and Shiri, 2017]{Orang2017}
 Orang, M. and Shiri, N. (2017).
 \newblock {Correlation analysis techniques for uncertain time series}.
-\newblock 50(1):79--116.
+\newblock {\em Knowledge and Information Systems}, 50(1):79--116.
 
 \bibitem[Pan and Chen, 1999]{pan1999complexity}
 Pan, V.~Y. and Chen, Z.~Q. (1999).
@@ -720,7 +727,7 @@ Parsons, L., Haque, E., and Liu, H. (2004).
 Patra, B.~K., Launonen, R., Ollikainen, V., and Nandi, S. (2015).
 \newblock A new similarity measure using bhattacharyya coefficient for
   collaborative filtering in sparse data.
-\newblock 82:163--177.
+\newblock {\em Knowledge-Based Systems}, 82:163--177.
 
 \bibitem[Patterson and Draper, 1997]{patterson1997selected}
 Patterson, P. and Draper, S. (1997).
@@ -787,7 +794,8 @@ Ralanamahatana, C.~A., Lin, J., Gunopulos, D., Keogh, E., Vlachos, M., and Das,
 \bibitem[Rand, 1971]{rand1971objective}
 Rand, W.~M. (1971).
 \newblock Objective criteria for the evaluation of clustering methods.
-\newblock 66(336):846--850.
+\newblock {\em Journal of the American Statistical association},
+  66(336):846--850.
 
 \bibitem[Rani and Sikka, 2012]{rani2012recent}
 Rani, S. and Sikka, G. (2012).
@@ -802,13 +810,14 @@ Ratanamahatana, C.~A. and Keogh, E. (2004).
 \bibitem[Rehfeld and Kurths, 2014]{Rehfeld2014}
 Rehfeld, K. and Kurths, J. (2014).
 \newblock {Similarity estimators for irregular and age-uncertain time series}.
-\newblock 10(1):107--122.
+\newblock {\em Climate of the Past}, 10(1):107--122.
 
 \bibitem[Rizvandi et~al., 2013]{Rizvandi2013}
 Rizvandi, N.~B., Taheri, J., Moraveji, R., and Zomaya, A.~Y. (2013).
 \newblock {A study on using uncertain time series matching algorithms for
   MapReduce applications}.
-\newblock 25(12):1699--1718.
+\newblock {\em Concurrency and Computation: Practice and Experience},
+  25(12):1699--1718.
 
 \bibitem[Roddick and Spiliopoulou, 2002]{roddick2002survey}
 Roddick, J.~F. and Spiliopoulou, M. (2002).
@@ -895,6 +904,12 @@ Siyou~Fotso, V.~S., Mephu~Nguifo, E., and Vaslin, P. (2015).
 Siyou~Fotso, V.~S., Mephu~Nguifo, E., and Vaslin, P. (2016).
 \newblock Comparison of classification algorithms to fdtw.
 \newblock \url{http://fc.isima.fr/~siyou/fdtw}.
+
+\bibitem[Siyou~Fotso et~al., 2018]{siyouRairo}
+Siyou~Fotso, V.~S., Mephu~Nguifo, E., and Vaslin, P. (2018).
+\newblock Grasp heuristic for time series compression with piecewise aggregate
+  approximation.
+\newblock {\em RAIRO}, page In Press.
 
 \bibitem[Stefan et~al., 2013]{stefan2013move}
 Stefan, A., Athitsos, V., and Das, G. (2013).
@@ -989,14 +1004,14 @@ Wand, M.~P. and Jones, M.~C. (1994).
 \bibitem[Wang et~al., 2015]{Wang2015}
 Wang, W., Liu, G., and Liu, D. (2015).
 \newblock {Chebyshev Similarity Match between Uncertain Time Series}.
-\newblock 2015:1--13.
+\newblock {\em Mathematical Problems in Engineering}, 2015:1--13.
 
 \bibitem[Wang et~al., 2013]{wang2013experimental}
 Wang, X., Mueen, A., Ding, H., Trajcevski, G., Scheuermann, P., and Keogh, E.
   (2013).
 \newblock Experimental comparison of representation methods and distance
   measures for time series data.
-\newblock 26(2):275--309.
+\newblock {\em Data Mining and Knowledge Discovery}, 26(2):275--309.
 
 \bibitem[Wang and Zhang, 2013]{wang2013nonnegative}
 Wang, Y.-X. and Zhang, Y.-J. (2013).
@@ -1059,11 +1074,6 @@ Zakaria, J., Mueen, A., and Keogh, E. (2012).
 \newblock In {\em Data Mining (ICDM), 2012 IEEE 12th International Conference
   on}, pages 785--794. IEEE.
 
-\bibitem[Zeitouni and Taher, ]{zeitouniselect}
-Zeitouni, K. and Taher, Y.
-\newblock Select: Scalable learning and classification of multi-variate
-  time-series in iot.
-
 \bibitem[Zhang et~al., 2016]{zhang2016unsupervised}
 Zhang, Q., Wu, J., Yang, H., Tian, Y., and Zhang, C. (2016).
 \newblock Unsupervised feature learning from time series.
@@ -1077,5 +1087,6 @@ Zhang, Z., Tang, P., and Duan, R. (2015).
 \bibitem[Zhao and Itti, 2016]{zhao2016shapedtw}
 Zhao, J. and Itti, L. (2016).
 \newblock shapedtw: shape dynamic time warping.
+\newblock {\em arXiv preprint arXiv:1606.01601}.
 
 \end{thebibliography}

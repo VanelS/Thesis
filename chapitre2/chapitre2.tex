@@ -113,7 +113,7 @@ Section \ref{sec:4} presents experimental results and comparisons to other metho
 
 \section{Background and related works}
 \label{sec:1}
-Let's recall some definitions \ref{siyouRairo}.
+Let's recall some definitions.
 
 \begin{definition}
 A \textbf{time series}
@@ -160,7 +160,7 @@ Let $d\subseteq T$ be a subset of time series,
 $N\in\mathbb{N}^{*},\:PAAset(d,N)=\{PAA(X,N),\:\forall X\in d\}.$
 \end{definition}
 
-\subsection{Dynamic Time Warping algorithm.}
+\subsection{Dynamic Time Warping algorithm}
 DTW \cite{sakoe1978dynamic} is an algorithm of time series alignment
 algorithm that  performs a non-linear alignment while
 minimizing the distance between two time series. To align two time series: 
@@ -246,7 +246,7 @@ In this way, IDDTW finds the number of segments that best approximates DTW and s
 \section{FDTW: a GRASP based heuristic}
 \label{sec:3}
 
-We propose a  heuristic named parameter Free piecewise DTW (FDTW) based on Greedy Randomized Adapted Search Procedure that deals with all the limitations of IDDTW: it considers all the possible values for the number of segments, it is parameter-free and it finds a number of segments for PDTW based on the quality of  the time series alignment, namely the error rate for classification task. The next section introduces FDTW.
+We propose a  heuristic named parameter Free piecewise DTW (FDTW) \cite{siyouRairo} based on Greedy Randomized Adapted Search Procedure that deals with all the limitations of IDDTW: it considers all the possible values for the number of segments, it is parameter-free and it finds a number of segments for PDTW based on the quality of  the time series alignment, namely the error rate for classification task. The next section introduces FDTW.
 
 \subsection{ Evaluation procedures for the compression quality}
 Before explaining how to evaluate the quality of time series compression, we
@@ -267,7 +267,7 @@ when the time series keep their characteristic shape despite compression.
 
 
 
-\subsection{Problem definition.}
+\subsection{Problem definition}
 
 Let $D = \{d_i\}$ be a set of datasets composed of time series. We note
 $|d_i|$ the number of time series of the dataset $d_i$.
@@ -316,7 +316,7 @@ of segments $N \in \{1 \ldots n \}$ such that}
 \end{eqnarray}
 
 
-\subsection{Brute-force search.}
+\subsection{Brute-force search}
 
 The simplest way to find the value for the number of segments that minimized the
 classification error is to test all the possible values.  Obviously, this

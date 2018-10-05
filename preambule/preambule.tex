@@ -56,13 +56,19 @@
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}%pour un document en français
 \usepackage{listings}%pour insérer du code source
-\usepackage{hyperref}%rend actif les liens, références croisées, toc…
+\usepackage[backref=page]{hyperref}%rend actif les liens, références croisées, toc…
                \hypersetup{colorlinks,%
                citecolor=blue,%
                filecolor=blue,%
                linkcolor=blue,%
                urlcolor=blue}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%biblio%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+    \ifcase #1 (Not cited.)%
+    \or        (Cited on page~#2.)%
+    \else      (Cited on pages~#2.)%
+    \fi}
 %\usepackage[stype=named]{biblatex}
 %\addbibresource{bibliographie/biblio.bib}% pour indiquer où se trouve notre .bib
 %\usepackage{csquotes}% pour la gestion des guillemets français.

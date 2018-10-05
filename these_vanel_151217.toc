@@ -48,13 +48,13 @@
 \contentsline {subsection}{\numberline {2.1.2}Choise of a segment number with PAA}{31}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Summary of Contributions}{31}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Background and related works}{32}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Dynamic Time Warping algorithm.}{32}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Dynamic Time Warping algorithm}{32}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Iterative Deepening Dynamic Time Warping}{33}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}FDTW: a GRASP based heuristic}{35}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1} Evaluation procedures for the compression quality}{35}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Problem definition.}{35}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Problem definition}{35}{subsection.2.3.2}
 \contentsline {paragraph}{}{36}{section*.41}
-\contentsline {subsection}{\numberline {2.3.3}Brute-force search.}{36}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Brute-force search}{36}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4} Greedy Randomized Adaptive Search Procedures}{37}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Parameter free heuristic}{37}{subsection.2.3.5}
 \contentsline {paragraph}{1.}{37}{section*.42}
@@ -134,9 +134,9 @@
 \contentsline {subsection}{\numberline {A.3.5}Wheelchair Field-Ergometer}{104}{subsection.A.3.5}
 \contentsline {subsubsection}{The force and torque dynamometer}{105}{section*.134}
 \contentsline {section}{\numberline {A.4}Wheelchair time series}{107}{section.A.4}
-\contentsline {paragraph}{}{107}{section*.136}
-\contentsline {paragraph}{}{107}{section*.139}
-\contentsline {section}{\numberline {A.5}Conclusion}{108}{section.A.5}
+\contentsline {paragraph}{}{108}{section*.136}
+\contentsline {paragraph}{}{108}{section*.139}
+\contentsline {section}{\numberline {A.5}Conclusion}{109}{section.A.5}
 \contentsline {chapter}{\numberline {B}An optimal approach for time series segmentation: Application to the supervised classification}{111}{appendix.B}
 \contentsline {section}{\numberline {B.1}Introduction}{111}{section.B.1}
 \contentsline {section}{\numberline {B.2}Granularity of time series segments}{112}{section.B.2}
@@ -163,7 +163,7 @@
 \contentsline {paragraph}{Student's Law test:}{127}{section*.158}
 \contentsline {paragraph}{Logistics law:}{127}{section*.160}
 \contentsline {chapter}{\numberline {D}Training and changes on propulsion technics}{129}{appendix.D}
-\contentsline {chapter}{Bibliography}{150}{appendix*.162}
-\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}}{158}{appendix*.164}
+\contentsline {chapter}{Bibliography}{152}{appendix*.162}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}}{160}{appendix*.164}
 \babel@toc {english}{}
-\contentsline {chapter}{Abstract}{159}{appendix*.164}
+\contentsline {chapter}{Abstract}{161}{appendix*.164}
